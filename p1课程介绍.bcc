@@ -1,0 +1,81 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 0.96,
+            "to": 4.88,
+            "location": 2,
+            "content": "无论订阅没有的各位, 大家好"
+        },
+        {
+            "from": 4.88,
+            "to": 12,
+            "location": 2,
+            "content": "我在做一门新的作为Yew.rs的课程"
+        },
+        {
+            "from": 12,
+            "to": 16.56,
+            "location": 2,
+            "content": "为了保证即便你不是前端开发人员"
+        },
+        {
+            "from": 16.56,
+            "to": 19.28,
+            "location": 2,
+            "content": "你也可以用纯粹的rust来开发前端应用"
+        },
+        {
+            "from": 19.28,
+            "to": 25.92,
+            "location": 2,
+            "content": "你不需要写哪怕一行JS"
+        },
+        {
+            "from": 25.92,
+            "to": 31.84,
+            "location": 2,
+            "content": "你也可以拥有类似vue和react类似的开发体验"
+        },
+        {
+            "from": 31.84,
+            "to": 37.2,
+            "location": 2,
+            "content": "我会在早上8点9点左右在老鼠台做这方面的直播"
+        },
+        {
+            "from": 37.2,
+            "to": 43.44,
+            "location": 2,
+            "content": "在老鼠台做这方面的直播一直到中午12点"
+        },
+        {
+            "from": 43.44,
+            "to": 48.64,
+            "location": 2,
+            "content": "如果你想来看这个社区课程(创造? 没听清)"
+        },
+        {
+            "from": 48.64,
+            "to": 53.84,
+            "location": 2,
+            "content": "而且在油管"
+        },
+        {
+            "from": 53.84,
+            "to": 59.12,
+            "location": 2,
+            "content": "我也会保留一份录播视频(支持原作者了)"
+        },
+        {
+            "from": 59.12,
+            "to": 63.52,
+            "location": 2,
+            "content": "吹逼结束, 开始上课!"
+        }
+    ]
+}

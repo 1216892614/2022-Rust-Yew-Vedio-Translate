@@ -1,0 +1,417 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 3.36,
+            "to": 9.36,
+            "location": 2,
+            "content": "欢迎来到对Yew.rs课程的说明"
+        },
+        {
+            "from": 9.36,
+            "to": 14.16,
+            "location": 2,
+            "content": "我对课程涉及的内容和"
+        },
+        {
+            "from": 14.16,
+            "to": 19.92,
+            "location": 2,
+            "content": "我们要干的事情进行一个快速的绍的介"
+        },
+        {
+            "from": 19.92,
+            "to": 24.32,
+            "location": 2,
+            "content": "这个列表是我们这个课程所有内容的介绍"
+        },
+        {
+            "from": 24.32,
+            "to": 27.92,
+            "location": 2,
+            "content": "在报告的视频介绍里"
+        },
+        {
+            "from": 27.92,
+            "to": 31.28,
+            "location": 2,
+            "content": "我们会串联所有我们之后的视频"
+        },
+        {
+            "from": 31.28,
+            "to": 35.6,
+            "location": 2,
+            "content": "你可以获得这个介绍或者就单看这个视频来略懂其他视频"
+        },
+        {
+            "from": 35.6,
+            "to": 40.48,
+            "location": 2,
+            "content": "这样你就可以方便的无论是"
+        },
+        {
+            "from": 40.48,
+            "to": 44.96,
+            "location": 2,
+            "content": "进行一个统一的看还是跳到想看的视频"
+        },
+        {
+            "from": 44.96,
+            "to": 50.8,
+            "location": 2,
+            "content": "如果去油管看录播还有炫酷的时间条可以来回拖"
+        },
+        {
+            "from": 50.8,
+            "to": 58.16,
+            "location": 2,
+            "content": "简单来说Yew.rs就是一个"
+        },
+        {
+            "from": 58.16,
+            "to": 64.16,
+            "location": 2,
+            "content": "如Vue.js, React, Angular一样的"
+        },
+        {
+            "from": 64.16,
+            "to": 66.96,
+            "location": 2,
+            "content": "写前端的好东西"
+        },
+        {
+            "from": 66.96,
+            "to": 71.28,
+            "location": 2,
+            "content": "而且呀, 你可以用Rust来代替JS/TS"
+        },
+        {
+            "from": 71.28,
+            "to": 74.72,
+            "location": 2,
+            "content": "它会打包成为wasm,"
+        },
+        {
+            "from": 74.72,
+            "to": 79.68,
+            "location": 2,
+            "content": "然后在浏览器上跑的就像react"
+        },
+        {
+            "from": 79.68,
+            "to": 84.72,
+            "location": 2,
+            "content": "还不需要写一行JS(草, 什么怨念"
+        },
+        {
+            "from": 84.72,
+            "to": 88.64,
+            "location": 2,
+            "content": "这是好是坏却决于你(老板)对JS的态度, 但是既然你已经在这里了"
+        },
+        {
+            "from": 88.64,
+            "to": 93.76,
+            "location": 2,
+            "content": "就说明你不是爱上了Rust就是准备爱上Rust"
+        },
+        {
+            "from": 93.76,
+            "to": 99.2,
+            "location": 2,
+            "content": "或者打算用Rust造点有趣的东(lun)西(zi)"
+        },
+        {
+            "from": 99.2,
+            "to": 101.68,
+            "location": 2,
+            "content": "So, 你会在这门课程得到什么呢?"
+        },
+        {
+            "from": 101.68,
+            "to": 105.92,
+            "location": 2,
+            "content": "首先你会学到和快速开始Yew.rs有关的一切"
+        },
+        {
+            "from": 107.76,
+            "to": 111.68,
+            "location": 2,
+            "content": "我是说你会学到如何创建组件,"
+        },
+        {
+            "from": 111.68,
+            "to": 116.16,
+            "location": 2,
+            "content": "如我们所见"
+        },
+        {
+            "from": 116.16,
+            "to": 120.08,
+            "location": 2,
+            "content": "你会学到如何为组件写CSS"
+        },
+        {
+            "from": 120.32,
+            "to": 124.48,
+            "location": 2,
+            "content": "我们会限制css作用在组件范围"
+        },
+        {
+            "from": 124.48,
+            "to": 129.44,
+            "location": 2,
+            "content": "还有如何在组件间传递prop参数并更新状态"
+        },
+        {
+            "from": 129.44,
+            "to": 134.8,
+            "location": 2,
+            "content": "我们会写hooks函数,"
+        },
+        {
+            "from": 134.8,
+            "to": 140.4,
+            "location": 2,
+            "content": "这是一个我更喜欢的基于react风格而不是vue用于处理聚合组件的方式"
+        },
+        {
+            "from": 140.4,
+            "to": 144.88,
+            "location": 2,
+            "content": "我们还会说两个状态(生命周期?)管理器"
+        },
+        {
+            "from": 144.88,
+            "to": 149.84,
+            "location": 2,
+            "content": "分别是 Yewdux 和 Bounce"
+        },
+        {
+            "from": 149.84,
+            "to": 153.12,
+            "location": 2,
+            "content": "couple more in a community right now but"
+        },
+        {
+            "from": 153.12,
+            "to": 157.92,
+            "location": 2,
+            "content": "so far and the ones that i'm uh i'm"
+        },
+        {
+            "from": 157.92,
+            "to": 161.12,
+            "location": 2,
+            "content": "and then of course we're gonna have a"
+        },
+        {
+            "from": 161.12,
+            "to": 166.24,
+            "location": 2,
+            "content": "bringing everything together to create a"
+        },
+        {
+            "from": 166.24,
+            "to": 170.24,
+            "location": 2,
+            "content": "have a back end already written for you"
+        },
+        {
+            "from": 170.24,
+            "to": 175.36,
+            "location": 2,
+            "content": "you can just you can hit it actually"
+        },
+        {
+            "from": 175.36,
+            "to": 179.04,
+            "location": 2,
+            "content": "on learning uws"
+        },
+        {
+            "from": 179.76,
+            "to": 181.6,
+            "location": 2,
+            "content": "now"
+        },
+        {
+            "from": 181.6,
+            "to": 186.48,
+            "location": 2,
+            "content": "is this course not like what what isn't"
+        },
+        {
+            "from": 186.48,
+            "to": 191.28,
+            "location": 2,
+            "content": "introduction to russ so if you don't"
+        },
+        {
+            "from": 191.28,
+            "to": 196.4,
+            "location": 2,
+            "content": "i can't recommend this course right now"
+        },
+        {
+            "from": 196.4,
+            "to": 201.6,
+            "location": 2,
+            "content": "bit of experience with rust and that"
+        },
+        {
+            "from": 201.6,
+            "to": 206.4,
+            "location": 2,
+            "content": "which i'm going to link in the the"
+        },
+        {
+            "from": 206.4,
+            "to": 210.96,
+            "location": 2,
+            "content": "and just a few chapters into it and i"
+        },
+        {
+            "from": 210.96,
+            "to": 215.28,
+            "location": 2,
+            "content": "if you take it in parallel with the book"
+        },
+        {
+            "from": 215.28,
+            "to": 218.24,
+            "location": 2,
+            "content": "and if"
+        },
+        {
+            "from": 218.24,
+            "to": 223.6,
+            "location": 2,
+            "content": "rest for a while that's probably best"
+        },
+        {
+            "from": 223.6,
+            "to": 227.36,
+            "location": 2,
+            "content": "it or anything just a little tiny bit of"
+        },
+        {
+            "from": 227.36,
+            "to": 232.08,
+            "location": 2,
+            "content": "this is also not going to be an"
+        },
+        {
+            "from": 232.08,
+            "to": 236.88,
+            "location": 2,
+            "content": "you've never"
+        },
+        {
+            "from": 236.88,
+            "to": 241.68,
+            "location": 2,
+            "content": "or if you've only used something like"
+        },
+        {
+            "from": 241.68,
+            "to": 246.32,
+            "location": 2,
+            "content": "manipulation there might be a little bit"
+        },
+        {
+            "from": 246.32,
+            "to": 251.12,
+            "location": 2,
+            "content": "development you know using a front-end"
+        },
+        {
+            "from": 251.12,
+            "to": 255.52,
+            "location": 2,
+            "content": "than the old-school style development"
+        },
+        {
+            "from": 255.52,
+            "to": 261.2,
+            "location": 2,
+            "content": "into exactly what those differences are"
+        },
+        {
+            "from": 261.2,
+            "to": 267.2,
+            "location": 2,
+            "content": "other front-end framework skills"
+        },
+        {
+            "from": 267.2,
+            "to": 270.88,
+            "location": 2,
+            "content": "there's going to be a little bit of css"
+        },
+        {
+            "from": 270.88,
+            "to": 275.84,
+            "location": 2,
+            "content": "really here to teach it itself but more"
+        },
+        {
+            "from": 275.84,
+            "to": 280.24,
+            "location": 2,
+            "content": "to our components"
+        },
+        {
+            "from": 280.24,
+            "to": 284,
+            "location": 2,
+            "content": "really quickly um"
+        },
+        {
+            "from": 284,
+            "to": 288,
+            "location": 2,
+            "content": "be best if you're at least a junior"
+        },
+        {
+            "from": 288,
+            "to": 291.76,
+            "location": 2,
+            "content": "have about a year"
+        },
+        {
+            "from": 291.76,
+            "to": 294.72,
+            "location": 2,
+            "content": "workplace"
+        },
+        {
+            "from": 294.72,
+            "to": 300.88,
+            "location": 2,
+            "content": "skills buff your resume"
+        },
+        {
+            "from": 300.88,
+            "to": 306.48,
+            "location": 2,
+            "content": "and you want to build something with"
+        },
+        {
+            "from": 306.64,
+            "to": 309.84,
+            "location": 2,
+            "content": "so with that"
+        },
+        {
+            "from": 309.84,
+            "to": 314.92,
+            "location": 2,
+            "content": "look forward to seeing you in a course"
+        }
+    ]
+}
