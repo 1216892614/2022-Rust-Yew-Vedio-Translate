@@ -159,7 +159,7 @@
             "from": 120.32,
             "to": 124.48,
             "location": 2,
-            "content": "我们会限制css作用在组件范围"
+            "content": "我们会限制(scoped)css作用在组件范围"
         },
         {
             "from": 124.48,
@@ -195,223 +195,223 @@
             "from": 149.84,
             "to": 153.12,
             "location": 2,
-            "content": "couple more in a community right now but"
+            "content": "我很高兴还有一些其他更多的管理器"
         },
         {
             "from": 153.12,
             "to": 157.92,
             "location": 2,
-            "content": "so far and the ones that i'm uh i'm"
+            "content": "但是目前我只关注了这两个"
         },
         {
             "from": 157.92,
             "to": 161.12,
             "location": 2,
-            "content": "and then of course we're gonna have a"
+            "content": "以及在最后我们会有一个终极大项目"
         },
         {
             "from": 161.12,
             "to": 166.24,
             "location": 2,
-            "content": "bringing everything together to create a"
+            "content": "我们会用所有知识在完整的工作流里做完一个App"
         },
         {
             "from": 166.24,
             "to": 170.24,
             "location": 2,
-            "content": "have a back end already written for you"
+            "content": "我会提供一份已经写完的后端给你, 所以你完全不需要担心这方面"
         },
         {
             "from": 170.24,
             "to": 175.36,
             "location": 2,
-            "content": "you can just you can hit it actually"
+            "content": "你可以直接上手"
         },
         {
             "from": 175.36,
             "to": 179.04,
             "location": 2,
-            "content": "on learning uws"
+            "content": "专心在yew.rs上"
         },
         {
             "from": 179.76,
             "to": 181.6,
             "location": 2,
-            "content": "now"
+            "content": "Now!"
         },
         {
             "from": 181.6,
             "to": 186.48,
             "location": 2,
-            "content": "is this course not like what what isn't"
+            "content": "我们要说说这个课程不是什么"
         },
         {
             "from": 186.48,
             "to": 191.28,
             "location": 2,
-            "content": "introduction to russ so if you don't"
+            "content": "首先我们的课程不管没学过rust人的死活"
         },
         {
             "from": 191.28,
             "to": 196.4,
             "location": 2,
-            "content": "i can't recommend this course right now"
+            "content": "这里是rust语法的地盘, 你来这里做什么?"
         },
         {
             "from": 196.4,
             "to": 201.6,
             "location": 2,
-            "content": "bit of experience with rust and that"
+            "content": "这里不欢迎不懂一点语法的小辣鸡!(附和: 这里不欢迎你)"
         },
         {
             "from": 201.6,
             "to": 206.4,
             "location": 2,
-            "content": "which i'm going to link in the the"
+            "content": "看看the book(<Rust 程序设计语言>绝赞开源中!)"
         },
         {
             "from": 206.4,
             "to": 210.96,
             "location": 2,
-            "content": "and just a few chapters into it and i"
+            "content": "只需要几章, 你就可以重新找回自信, 焕发人生第二春"
         },
         {
             "from": 210.96,
             "to": 215.28,
             "location": 2,
-            "content": "if you take it in parallel with the book"
+            "content": "我想如果你同时看这个课程和the book应该也没什么问题"
         },
         {
             "from": 215.28,
             "to": 218.24,
             "location": 2,
-            "content": "and if"
+            "content": "如果...你已经和rust工作了一段时间"
         },
         {
             "from": 218.24,
             "to": 223.6,
             "location": 2,
-            "content": "rest for a while that's probably best"
+            "content": "那恐怕是再好不过了, 我的亲爱的!"
         },
         {
             "from": 223.6,
             "to": 227.36,
             "location": 2,
-            "content": "it or anything just a little tiny bit of"
+            "content": "当然了, 你并不需要8年工作经验什么的, 只要一点点经验就行"
         },
         {
             "from": 227.36,
             "to": 232.08,
             "location": 2,
-            "content": "this is also not going to be an"
+            "content": "同时, 这也不会是你进入web开发世界的新大门"
         },
         {
             "from": 232.08,
             "to": 236.88,
             "location": 2,
-            "content": "you've never"
+            "content": "如果你没有写过如何Web应用,"
         },
         {
             "from": 236.88,
             "to": 241.68,
             "location": 2,
-            "content": "or if you've only used something like"
+            "content": "或者只用过类似JQuery之类的做过一些玩具"
         },
         {
             "from": 241.68,
             "to": 246.32,
             "location": 2,
-            "content": "manipulation there might be a little bit"
+            "content": "这门课程会对你来说也许有些困难."
         },
         {
             "from": 246.32,
             "to": 251.12,
             "location": 2,
-            "content": "development you know using a front-end"
+            "content": "因为最流行的组件式框架, 比如react"
         },
         {
             "from": 251.12,
             "to": 255.52,
             "location": 2,
-            "content": "than the old-school style development"
+            "content": "和古早时代的JQuery有很大不同"
         },
         {
             "from": 255.52,
             "to": 261.2,
             "location": 2,
-            "content": "into exactly what those differences are"
+            "content": "我们不会花时间帮你适应两者的天壤之别"
         },
         {
             "from": 261.2,
             "to": 267.2,
             "location": 2,
-            "content": "other front-end framework skills"
+            "content": "我们默认你掌握了react或者其他框架的使用技巧"
         },
         {
             "from": 267.2,
             "to": 270.88,
             "location": 2,
-            "content": "there's going to be a little bit of css"
+            "content": "还有一件事, 我们不会教你css"
         },
         {
             "from": 270.88,
             "to": 275.84,
             "location": 2,
-            "content": "really here to teach it itself but more"
+            "content": "我们会在课程里面用到一点css, 但这不是我们要教的"
         },
         {
             "from": 275.84,
             "to": 280.24,
             "location": 2,
-            "content": "to our components"
+            "content": "我们只会介绍为我们的组件应用css相关事情"
         },
         {
             "from": 280.24,
             "to": 284,
             "location": 2,
-            "content": "really quickly um"
+            "content": "在这个快速(realy?)的介绍之后"
         },
         {
             "from": 284,
             "to": 288,
             "location": 2,
-            "content": "be best if you're at least a junior"
+            "content": "我希望这门课程会可以帮助你"
         },
         {
             "from": 288,
             "to": 291.76,
             "location": 2,
-            "content": "have about a year"
+            "content": "在这一年里"
         },
         {
             "from": 291.76,
             "to": 294.72,
             "location": 2,
-            "content": "workplace"
+            "content": "在工作空间提升自我"
         },
         {
             "from": 294.72,
             "to": 300.88,
             "location": 2,
-            "content": "skills buff your resume"
+            "content": "详实你的简历, 改变你的形象(没听清?"
         },
         {
             "from": 300.88,
             "to": 306.48,
             "location": 2,
-            "content": "and you want to build something with"
+            "content": "而且在web上用rust搞点什么大事情"
         },
         {
             "from": 306.64,
             "to": 309.84,
             "location": 2,
-            "content": "so with that"
+            "content": "就这些, 谢谢收看"
         },
         {
             "from": 309.84,
             "to": 314.92,
             "location": 2,
-            "content": "look forward to seeing you in a course"
+            "content": "我们会在接下来的课程里继续相见!"
         }
     ]
 }
