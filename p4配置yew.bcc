@@ -9,109 +9,109 @@
             "from": 3.28,
             "to": 6.64,
             "location": 2,
-            "content": "one of the first steps we need to go"
+            "content": "在开始正式教学前还有一件事"
         },
         {
             "from": 6.64,
             "to": 10.56,
             "location": 2,
-            "content": "proper is to get our environment set up"
+            "content": "就是为yew.rs配置开发环境"
         },
         {
             "from": 10.56,
             "to": 15.92,
             "location": 2,
-            "content": "you development uh well if you don't"
+            "content": "如果你还没有rust基础开发包(万能的cargo"
         },
         {
             "from": 15.92,
             "to": 19.52,
             "location": 2,
-            "content": "highly recommend that well we start"
+            "content": "我强烈推荐我们就从这里开始"
         },
         {
             "from": 19.52,
             "to": 23.76,
             "location": 2,
-            "content": "so we're going to come over here to"
+            "content": "首先我们打开rust的官网"
         },
         {
             "from": 23.76,
             "to": 28.4,
             "location": 2,
-            "content": "and just click on get started"
+            "content": "快速点一下get started, 它应该会自动检测你当前的系统"
         },
         {
             "from": 28.4,
             "to": 32.72,
             "location": 2,
-            "content": "you're on right now and give you the"
+            "content": "然后给你一行命令来快速安装rust环境"
         },
         {
             "from": 32.72,
             "to": 36.96,
             "location": 2,
-            "content": "going so in this case i'm on a windows"
+            "content": "我用的是Windows环境, "
         },
         {
             "from": 36.96,
             "to": 42.48,
             "location": 2,
-            "content": "right now and it's suggesting that i use"
+            "content": "于是它建议我用wsl2\n(字幕君的建议也是wsl2 + Windows Terminal + vscode"
         },
         {
             "from": 42.48,
             "to": 48.8,
             "location": 2,
-            "content": "a download link for windows itself i do"
+            "content": "它同样也有下载链接来在原生环境安装\n(不推荐原生安装的核心原因是原生需要msvc\n(为了写rust再装个VS多少有点犯不上"
         },
         {
             "from": 48.8,
             "to": 53.04,
             "location": 2,
-            "content": "access you know if you have a 64-bit\n00:00:50,960 --> 00:00:55,1000\nmachine\n\n23"
+            "content": "如果你是64电脑, 请下64为install"
         },
         {
             "from": 53.04,
             "to": 57.6,
             "location": 2,
-            "content": "uh if for some reason you're planning on"
+            "content": "如果因为某种神秘原因你要在其他的系统上写rust"
         },
         {
             "from": 57.6,
             "to": 63.12,
             "location": 2,
-            "content": "for example you're running this on a"
+            "content": "比如用串口在你最喜欢的树莓派上coding"
         },
         {
             "from": 63.12,
             "to": 66.16,
             "location": 2,
-            "content": "another computer and you're running"
+            "content": "或者ssh远程连接另一台电脑"
         },
         {
             "from": 66.16,
             "to": 70.72,
             "location": 2,
-            "content": "you can click on this link right here"
+            "content": "你就可以点击这个链接"
         },
         {
             "from": 70.72,
             "to": 76.88,
             "location": 2,
-            "content": "that will take you to"
+            "content": "他就会带你来到the book\n(搜索<Rust 程序设计语言>可以找到中文版本"
         },
         {
             "from": 76.88,
             "to": 81.6,
             "location": 2,
-            "content": "find where they are"
+            "content": "然后我们就可以找到一个神奇的列表"
         },
         {
             "from": 81.6,
             "to": 86.4,
             "location": 2,
-            "content": "here is a list of all of them that you"
+            "content": "在里面激情寻找你的系统环境吧"
         },
         {
             "from": 86.4,
