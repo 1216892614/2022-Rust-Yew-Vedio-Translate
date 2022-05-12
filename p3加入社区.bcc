@@ -1,0 +1,69 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 5.44,
+            "to": 10.72,
+            "location": 2,
+            "content": "before we begin i want to introduce you"
+        },
+        {
+            "from": 10.72,
+            "to": 14.56,
+            "location": 2,
+            "content": "discord server that you can join and if"
+        },
+        {
+            "from": 14.56,
+            "to": 18.4,
+            "location": 2,
+            "content": "taking this course or you're running"
+        },
+        {
+            "from": 18.4,
+            "to": 21.84,
+            "location": 2,
+            "content": "know post some"
+        },
+        {
+            "from": 21.84,
+            "to": 25.2,
+            "location": 2,
+            "content": "uh there"
+        },
+        {
+            "from": 25.2,
+            "to": 30.32,
+            "location": 2,
+            "content": "down below in the video description here"
+        },
+        {
+            "from": 30.32,
+            "to": 36.8,
+            "location": 2,
+            "content": "best place to get help on this specific"
+        },
+        {
+            "from": 36.8,
+            "to": 41.68,
+            "location": 2,
+            "content": "there we could also help link you to"
+        },
+        {
+            "from": 41.68,
+            "to": 46.72,
+            "location": 2,
+            "content": "other slacks or or twitter people that"
+        },
+        {
+            "from": 46.72,
+            "to": 51.84,
+            "location": 2,
+            "content": "it's outside of the scope of this course"
+        }
+    ]
+}
