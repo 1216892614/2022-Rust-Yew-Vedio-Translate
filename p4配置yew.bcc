@@ -1,0 +1,345 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 3.28,
+            "to": 6.64,
+            "location": 2,
+            "content": "one of the first steps we need to go"
+        },
+        {
+            "from": 6.64,
+            "to": 10.56,
+            "location": 2,
+            "content": "proper is to get our environment set up"
+        },
+        {
+            "from": 10.56,
+            "to": 15.92,
+            "location": 2,
+            "content": "you development uh well if you don't"
+        },
+        {
+            "from": 15.92,
+            "to": 19.52,
+            "location": 2,
+            "content": "highly recommend that well we start"
+        },
+        {
+            "from": 19.52,
+            "to": 23.76,
+            "location": 2,
+            "content": "so we're going to come over here to"
+        },
+        {
+            "from": 23.76,
+            "to": 28.4,
+            "location": 2,
+            "content": "and just click on get started"
+        },
+        {
+            "from": 28.4,
+            "to": 32.72,
+            "location": 2,
+            "content": "you're on right now and give you the"
+        },
+        {
+            "from": 32.72,
+            "to": 36.96,
+            "location": 2,
+            "content": "going so in this case i'm on a windows"
+        },
+        {
+            "from": 36.96,
+            "to": 42.48,
+            "location": 2,
+            "content": "right now and it's suggesting that i use"
+        },
+        {
+            "from": 42.48,
+            "to": 48.8,
+            "location": 2,
+            "content": "a download link for windows itself i do"
+        },
+        {
+            "from": 48.8,
+            "to": 53.04,
+            "location": 2,
+            "content": "access you know if you have a 64-bit\n00:00:50,960 --> 00:00:55,1000\nmachine\n\n23"
+        },
+        {
+            "from": 53.04,
+            "to": 57.6,
+            "location": 2,
+            "content": "uh if for some reason you're planning on"
+        },
+        {
+            "from": 57.6,
+            "to": 63.12,
+            "location": 2,
+            "content": "for example you're running this on a"
+        },
+        {
+            "from": 63.12,
+            "to": 66.16,
+            "location": 2,
+            "content": "another computer and you're running"
+        },
+        {
+            "from": 66.16,
+            "to": 70.72,
+            "location": 2,
+            "content": "you can click on this link right here"
+        },
+        {
+            "from": 70.72,
+            "to": 76.88,
+            "location": 2,
+            "content": "that will take you to"
+        },
+        {
+            "from": 76.88,
+            "to": 81.6,
+            "location": 2,
+            "content": "find where they are"
+        },
+        {
+            "from": 81.6,
+            "to": 86.4,
+            "location": 2,
+            "content": "here is a list of all of them that you"
+        },
+        {
+            "from": 86.4,
+            "to": 91.52,
+            "location": 2,
+            "content": "on any unix like system you should be"
+        },
+        {
+            "from": 91.52,
+            "to": 96.16,
+            "location": 2,
+            "content": "rest up going"
+        },
+        {
+            "from": 96.16,
+            "to": 101.76,
+            "location": 2,
+            "content": "case that you need it uh for pretty much"
+        },
+        {
+            "from": 101.76,
+            "to": 108.56,
+            "location": 2,
+            "content": "uh if you just have um rust c itself i"
+        },
+        {
+            "from": 108.56,
+            "to": 113.36,
+            "location": 2,
+            "content": "follow along um a lot of the commands"
+        },
+        {
+            "from": 113.36,
+            "to": 116.4,
+            "location": 2,
+            "content": "comes with rest app"
+        },
+        {
+            "from": 118.96,
+            "to": 122.32,
+            "location": 2,
+            "content": "as for"
+        },
+        {
+            "from": 122.32,
+            "to": 125.76,
+            "location": 2,
+            "content": "editor of choice that i'm using for this"
+        },
+        {
+            "from": 125.76,
+            "to": 129.04,
+            "location": 2,
+            "content": "and of course you can use whatever"
+        },
+        {
+            "from": 129.04,
+            "to": 132.56,
+            "location": 2,
+            "content": "follow along"
+        },
+        {
+            "from": 132.56,
+            "to": 135.52,
+            "location": 2,
+            "content": "i'm going to be using the following"
+        },
+        {
+            "from": 135.52,
+            "to": 140.32,
+            "location": 2,
+            "content": "so i have better tummle better tamil is"
+        },
+        {
+            "from": 140.32,
+            "to": 146.48,
+            "location": 2,
+            "content": "our crates.tamil our cargo.tamil file uh"
+        },
+        {
+            "from": 146.48,
+            "to": 150.56,
+            "location": 2,
+            "content": "makes things lined up a little bit nicer"
+        },
+        {
+            "from": 150.56,
+            "to": 153.12,
+            "location": 2,
+            "content": "tone"
+        },
+        {
+            "from": 153.12,
+            "to": 158.24,
+            "location": 2,
+            "content": "i'm also going to be using the crates"
+        },
+        {
+            "from": 158.24,
+            "to": 164.56,
+            "location": 2,
+            "content": "of a well a crate that we're installing"
+        },
+        {
+            "from": 169.28,
+            "to": 173.12,
+            "location": 2,
+            "content": "rust analyzer is"
+        },
+        {
+            "from": 173.12,
+            "to": 177.44,
+            "location": 2,
+            "content": "extensions that we can possibly have"
+        },
+        {
+            "from": 177.44,
+            "to": 184.08,
+            "location": 2,
+            "content": "crate a language extension so it's going"
+        },
+        {
+            "from": 184.08,
+            "to": 188.8,
+            "location": 2,
+            "content": "set up and and aligned properly uh it's"
+        },
+        {
+            "from": 188.8,
+            "to": 192.88,
+            "location": 2,
+            "content": "checking it include"
+        },
+        {
+            "from": 192.88,
+            "to": 197.12,
+            "location": 2,
+            "content": "shows us what the variables what a"
+        },
+        {
+            "from": 197.12,
+            "to": 201.2,
+            "location": 2,
+            "content": "it's our it's our language server uh it"
+        },
+        {
+            "from": 201.2,
+            "to": 203.68,
+            "location": 2,
+            "content": "server with um"
+        },
+        {
+            "from": 203.68,
+            "to": 207.44,
+            "location": 2,
+            "content": "uh i believe that almost everybody in"
+        },
+        {
+            "from": 207.44,
+            "to": 212.64,
+            "location": 2,
+            "content": "breast analyzer these days and"
+        },
+        {
+            "from": 212.64,
+            "to": 218.24,
+            "location": 2,
+            "content": "just the rust"
+        },
+        {
+            "from": 219.84,
+            "to": 227.84,
+            "location": 2,
+            "content": "um and then finally i do have a"
+        },
+        {
+            "from": 227.84,
+            "to": 231.6,
+            "location": 2,
+            "content": "project part of the course we're going"
+        },
+        {
+            "from": 231.6,
+            "to": 235.28,
+            "location": 2,
+            "content": "explore around a little bit thunder"
+        },
+        {
+            "from": 235.28,
+            "to": 240,
+            "location": 2,
+            "content": "similar to postman if you've ever seen"
+        },
+        {
+            "from": 240,
+            "to": 244.56,
+            "location": 2,
+            "content": "inside of vs code that allows us to"
+        },
+        {
+            "from": 244.56,
+            "to": 247.84,
+            "location": 2,
+            "content": "requests and sort of like just see"
+        },
+        {
+            "from": 247.84,
+            "to": 252.16,
+            "location": 2,
+            "content": "it's only going to be used just sort of"
+        },
+        {
+            "from": 252.16,
+            "to": 256.72,
+            "location": 2,
+            "content": "that way we can then go and implement"
+        },
+        {
+            "from": 256.72,
+            "to": 261.36,
+            "location": 2,
+            "content": "anyways that's everything we need to get"
+        },
+        {
+            "from": 261.36,
+            "to": 265.28,
+            "location": 2,
+            "content": "you have everything up in there that"
+        }
+    ]
+}
