@@ -1,0 +1,159 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 4.64,
+            "to": 8.08,
+            "location": 2,
+            "content": "在所有新课程前我都会干一件事情"
+        },
+        {
+            "from": 8.08,
+            "to": 12.96,
+            "location": 2,
+            "content": "就是设完成一个简单的 Hello World"
+        },
+        {
+            "from": 12.96,
+            "to": 17.84,
+            "location": 2,
+            "content": "这是为了保证所有工具链设置得当, 保证一切都正常运行"
+        },
+        {
+            "from": 17.84,
+            "to": 22.32,
+            "location": 2,
+            "content": "因为谁都不想课上一半出问题了"
+        },
+        {
+            "from": 22.32,
+            "to": 25.92,
+            "location": 2,
+            "content": "结果发现问题出在 rust 都没办法编译之类的事情上"
+        },
+        {
+            "from": 25.92,
+            "to": 32.08,
+            "location": 2,
+            "content": "工具问题那种事情不要啊, 观众, 你也不想rust都编译不了吧"
+        },
+        {
+            "from": 32.08,
+            "to": 36.24,
+            "location": 2,
+            "content": "So! 我要向你展示我的配置,"
+        },
+        {
+            "from": 36.24,
+            "to": 43.04,
+            "location": 2,
+            "content": "我在用最新最新版本的rustc"
+        },
+        {
+            "from": 43.04,
+            "to": 47.24,
+            "location": 2,
+            "content": "也就是rust 1.59.0(是stable而不是nightly)"
+        },
+        {
+            "from": 48.88,
+            "to": 53.52,
+            "location": 2,
+            "content": "我现在在课程(lessons)目录的根目录"
+        },
+        {
+            "from": 53.52,
+            "to": 58.56,
+            "location": 2,
+            "content": "在这里面我会通过复制上一节课的代码为每一期课程设置单独的文件夹"
+        },
+        {
+            "from": 58.56,
+            "to": 63.2,
+            "location": 2,
+            "content": "对于你,"
+        },
+        {
+            "from": 63.2,
+            "to": 67.12,
+            "location": 2,
+            "content": "我的建议是从 hello world 开始写,"
+        },
+        {
+            "from": 67.12,
+            "to": 71.6,
+            "location": 2,
+            "content": "一个文件夹一直写到最后的项目就行"
+        },
+        {
+            "from": 71.6,
+            "to": 76.24,
+            "location": 2,
+            "content": "So, 我们一起来新建一个 hello world"
+        },
+        {
+            "from": 76.24,
+            "to": 80.96,
+            "location": 2,
+            "content": "在lessons文件夹下运行<argo new hello_world_in_rust>\n(我会用尖括号来表示shell命令\n(这个课程使用的shell是windows 下的power shell"
+        },
+        {
+            "from": 80.96,
+            "to": 87,
+            "location": 2,
+            "content": "这行命令创建了一个项目目录, 我们的 hello world 就在其中"
+        },
+        {
+            "from": 87.52,
+            "to": 91.84,
+            "location": 2,
+            "content": "我们运行<cd ./hello_world_in_rust>来进入其中"
+        },
+        {
+            "from": 91.84,
+            "to": 99.16,
+            "location": 2,
+            "content": "我要用<code .>来用vscode 打开这个文件夹"
+        },
+        {
+            "from": 103.6,
+            "to": 109.44,
+            "location": 2,
+            "content": "um...我们现在就得到了一个非常基本的hello world"
+        },
+        {
+            "from": 109.44,
+            "to": 113.04,
+            "location": 2,
+            "content": "我们短小的cargo.toml文件"
+        },
+        {
+            "from": 113.04,
+            "to": 117.68,
+            "location": 2,
+            "content": "就好像一个空白画布等待我们随意涂鸦"
+        },
+        {
+            "from": 117.68,
+            "to": 122.24,
+            "location": 2,
+            "content": "使用<cargo run>可以跑一下这个小程序, 看看一切是不是如我们所料\n(兄啊, 你都安装了 rust-analyzer 了, 直接点一下run或者用vscode命令不好吗"
+        },
+        {
+            "from": 123.84,
+            "to": 127.92,
+            "location": 2,
+            "content": "如我们所料, 下一节课我们要用yew来做个 hello world"
+        },
+        {
+            "from": 127.92,
+            "to": 133.88,
+            "location": 2,
+            "content": "下节课见"
+        }
+    ]
+}

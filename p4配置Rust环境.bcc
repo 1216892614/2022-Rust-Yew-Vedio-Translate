@@ -117,229 +117,229 @@
             "from": 86.4,
             "to": 91.52,
             "location": 2,
-            "content": "on any unix like system you should be"
+            "content": "如果你是如何unix系的系统(MacOS, linux什么的, Android什么的)"
         },
         {
             "from": 91.52,
             "to": 96.16,
             "location": 2,
-            "content": "rest up going"
+            "content": "按理说, 你都可以用这个命令来安装"
         },
         {
             "from": 96.16,
             "to": 101.76,
             "location": 2,
-            "content": "case that you need it uh for pretty much"
+            "content": "当然, 他们为你准备了几乎所有的硬件解决方案"
         },
         {
             "from": 101.76,
             "to": 108.56,
             "location": 2,
-            "content": "uh if you just have um rust c itself i"
+            "content": "同时对于那些只安装了rustc(基于LLVM的rust编译器)的人\n你们可能会比较难以跟上我们的课程"
         },
         {
             "from": 108.56,
             "to": 113.36,
             "location": 2,
-            "content": "follow along um a lot of the commands"
+            "content": "因为我们会大量用到用cargo(Rust的打包项目管理, 类似于webpack或者cmake)"
         },
         {
             "from": 113.36,
             "to": 116.4,
             "location": 2,
-            "content": "comes with rest app"
+            "content": "和rustup(Rust的依赖管理, 类似于pip或者npm)"
         },
         {
             "from": 118.96,
             "to": 122.32,
             "location": 2,
-            "content": "as for"
+            "content": "关于vscode,"
         },
         {
             "from": 122.32,
             "to": 125.76,
             "location": 2,
-            "content": "editor of choice that i'm using for this"
+            "content": "我会在这门课程里主要使用它作为编辑器"
         },
         {
             "from": 125.76,
             "to": 129.04,
             "location": 2,
-            "content": "and of course you can use whatever"
+            "content": "当然你可以用任何你喜欢的编辑器\n(新人还是推荐vscode + rust-analyzer插件\n(功能一步到位, 非常方便"
         },
         {
             "from": 129.04,
             "to": 132.56,
             "location": 2,
-            "content": "follow along"
+            "content": "但是如果你想跟着教程一步一步来,"
         },
         {
             "from": 132.56,
             "to": 135.52,
             "location": 2,
-            "content": "i'm going to be using the following"
+            "content": "我会用一下这些插件"
         },
         {
             "from": 135.52,
             "to": 140.32,
             "location": 2,
-            "content": "so i have better tummle better tamil is"
+            "content": "插件1: Better TOML\n(这个插件我不推荐, 它并不支持绝大多数的TOML文件高级语法\n(TOML support for vscode 和 Even Better TOML都是更好的选择 "
         },
         {
             "from": 140.32,
             "to": 146.48,
             "location": 2,
-            "content": "our crates.tamil our cargo.tamil file uh"
+            "content": "这个插件可以给你的Cargo.toml染上炫酷的颜色"
         },
         {
             "from": 146.48,
             "to": 150.56,
             "location": 2,
-            "content": "makes things lined up a little bit nicer"
+            "content": "还可以帮它格式化和纠错"
         },
         {
             "from": 150.56,
             "to": 153.12,
             "location": 2,
-            "content": "tone"
+            "content": "这样你就不用孤零零的看着单调的白字了"
         },
         {
             "from": 153.12,
             "to": 158.24,
             "location": 2,
-            "content": "i'm also going to be using the crates"
+            "content": "插件2: Crates\n(这个插件可有可无其实, 是否使用建议看看自己的网络状况\n(网络不行的兄弟没必要为了几个的小勾而折腾半天"
         },
         {
             "from": 158.24,
             "to": 164.56,
             "location": 2,
-            "content": "of a well a crate that we're installing"
+            "content": "这个插件可以展示你使用的crate(rust里的package, jar或者之类的东西)\n在Crate.io上的情况和版本\n(但是安装情况你可以看命令行, 仓库可以直接网页访问, 反而是插件没法换源"
         },
         {
             "from": 169.28,
             "to": 173.12,
             "location": 2,
-            "content": "rust analyzer is"
+            "content": "插件3:rust-analyzer\n(注意是rust-analyzer而不是Rust, 这两个插件留一个\n(rust-analyzer目前在功能上吊打Rust官方插件, 极其nb"
         },
         {
             "from": 173.12,
             "to": 177.44,
             "location": 2,
-            "content": "extensions that we can possibly have"
+            "content": "这是目前最好用的Rust扩展"
         },
         {
             "from": 177.44,
             "to": 184.08,
             "location": 2,
-            "content": "crate a language extension so it's going"
+            "content": "我们也用它作为我们的Rust语言扩展"
         },
         {
             "from": 184.08,
             "to": 188.8,
             "location": 2,
-            "content": "set up and and aligned properly uh it's"
+            "content": "帮助我们代码初始化, 格式化"
         },
         {
             "from": 188.8,
             "to": 192.88,
             "location": 2,
-            "content": "checking it include"
+            "content": "它会检查我们的代码,"
         },
         {
             "from": 192.88,
             "to": 197.12,
             "location": 2,
-            "content": "shows us what the variables what a"
+            "content": "展示我们的变量类型"
         },
         {
             "from": 197.12,
             "to": 201.2,
             "location": 2,
-            "content": "it's our it's our language server uh it"
+            "content": "是我们的语言服务器支持\n(具体参考LSP相关内容\n(这里的LSP可是正经东西啊"
         },
         {
             "from": 201.2,
             "to": 203.68,
             "location": 2,
-            "content": "server with um"
+            "content": "当初始时他需要设置语言服务器(按照提示下载"
         },
         {
             "from": 203.68,
             "to": 207.44,
             "location": 2,
-            "content": "uh i believe that almost everybody in"
+            "content": "我相信几乎每个rust社区的人"
         },
         {
             "from": 207.44,
             "to": 212.64,
             "location": 2,
-            "content": "breast analyzer these days and"
+            "content": "如今都用rust-analyzer作为他们的语言服务器支持"
         },
         {
             "from": 212.64,
             "to": 218.24,
             "location": 2,
-            "content": "just the rust"
+            "content": "我无法想象回到那个只有初始Rust语言服务器的日子"
         },
         {
             "from": 219.84,
             "to": 227.84,
             "location": 2,
-            "content": "um and then finally i do have a"
+            "content": "插件4: Thunder Client 是一个API初始化设置工具"
         },
         {
             "from": 227.84,
             "to": 231.6,
             "location": 2,
-            "content": "project part of the course we're going"
+            "content": "它会用于这门课程的某个阶段"
         },
         {
             "from": 231.6,
             "to": 235.28,
             "location": 2,
-            "content": "explore around a little bit thunder"
+            "content": "我们会到时候研究一下 Thunder Client"
         },
         {
             "from": 235.28,
             "to": 240,
             "location": 2,
-            "content": "similar to postman if you've ever seen"
+            "content": "如果你用过Postman之类的设计工具, Thunder Client和它很像"
         },
         {
             "from": 240,
             "to": 244.56,
             "location": 2,
-            "content": "inside of vs code that allows us to"
+            "content": "只是 Thunder Client 在VScode里,"
         },
         {
             "from": 244.56,
             "to": 247.84,
             "location": 2,
-            "content": "requests and sort of like just see"
+            "content": "我们只会用它来请求post和getapi"
         },
         {
             "from": 247.84,
             "to": 252.16,
             "location": 2,
-            "content": "it's only going to be used just sort of"
+            "content": "然后来看看API请求了什么"
         },
         {
             "from": 252.16,
             "to": 256.72,
             "location": 2,
-            "content": "that way we can then go and implement"
+            "content": "我们就可以把他们使用和实现在代码里"
         },
         {
             "from": 256.72,
             "to": 261.36,
             "location": 2,
-            "content": "anyways that's everything we need to get"
+            "content": "总而言之, 这就是我们开始Rust之旅需要的所有东西"
         },
         {
             "from": 261.36,
             "to": 265.28,
             "location": 2,
-            "content": "you have everything up in there that"
+            "content": "我们下个视频见"
         }
     ]
 }
