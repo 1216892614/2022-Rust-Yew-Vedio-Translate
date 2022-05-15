@@ -1,0 +1,717 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 3.52,
+            "to": 7.44,
+            "location": 2,
+            "content": "终于, 我们要跑点什么web程序到浏览器里了!"
+        },
+        {
+            "from": 7.44,
+            "to": 12.8,
+            "location": 2,
+            "content": "在这个视频我们要用yew app, yew 组件搞一个 hello world"
+        },
+        {
+            "from": 12.8,
+            "to": 19.6,
+            "location": 2,
+            "content": "开始, 我们先来到 yew 的主页"
+        },
+        {
+            "from": 19.6,
+            "to": 24.72,
+            "location": 2,
+            "content": "我们点开Docs, yew官方现在还没有很好的指引\n(我有翻译完这个视频后去翻官方文档的打算的,\n(但是感觉官方文档的含金量有限, 而且我是懒狗"
+        },
+        {
+            "from": 24.72,
+            "to": 29.04,
+            "location": 2,
+            "content": "我们会在开始的时候先跟随这个文档指引"
+        },
+        {
+            "from": 29.04,
+            "to": 34.16,
+            "location": 2,
+            "content": "我可能会制作自己的引导教程. 看文档的Project setup"
+        },
+        {
+            "from": 34.16,
+            "to": 37.52,
+            "location": 2,
+            "content": "这里展示了我们需要安装的东西"
+        },
+        {
+            "from": 37.52,
+            "to": 42.56,
+            "location": 2,
+            "content": "首先我们要下载rust up编译目标"
+        },
+        {
+            "from": 42.56,
+            "to": 45.28,
+            "location": 2,
+            "content": "它的包名叫wasm32-unknown-unknow, 你只需要复制它"
+        },
+        {
+            "from": 45.28,
+            "to": 49.76,
+            "location": 2,
+            "content": "来到你的命令行, 运行"
+        },
+        {
+            "from": 49.76,
+            "to": 54.24,
+            "location": 2,
+            "content": "只要你安装了最新版本的rust"
+        },
+        {
+            "from": 54.24,
+            "to": 57.28,
+            "location": 2,
+            "content": ", 所有的过程都会自动进行\n(此乃谎言, 修改rustup源很重要, 字节和清华源都很好用"
+        },
+        {
+            "from": 57.28,
+            "to": 63.6,
+            "location": 2,
+            "content": "我已经抢先一步进行了安装, 就不再安装了"
+        },
+        {
+            "from": 64.4,
+            "to": 67.44,
+            "location": 2,
+            "content": "我们还会为这个项目使用trunk\n(wasm-pack实际更加合适, 但是学习的角度讲trunk真的很方便"
+        },
+        {
+            "from": 67.44,
+            "to": 72.24,
+            "location": 2,
+            "content": "trunk 是一个很好的 CLI"
+        },
+        {
+            "from": 72.24,
+            "to": 76.72,
+            "location": 2,
+            "content": "trunk 可以很方便的创建creat App, react App"
+        },
+        {
+            "from": 76.72,
+            "to": 82.56,
+            "location": 2,
+            "content": "Angular Cli 或者 Vue Cli,"
+        },
+        {
+            "from": 82.56,
+            "to": 86.96,
+            "location": 2,
+            "content": "它让我们可以方便的从未打包项目(?没听清)运行App应用"
+        },
+        {
+            "from": 86.96,
+            "to": 92.32,
+            "location": 2,
+            "content": "So, 我们运行<Cargo install trunk>"
+        },
+        {
+            "from": 93.2,
+            "to": 99.04,
+            "location": 2,
+            "content": "我早已经安装了 trunk,"
+        },
+        {
+            "from": 99.04,
+            "to": 103.28,
+            "location": 2,
+            "content": "运行一下只是为了避免你没有安装"
+        },
+        {
+            "from": 103.28,
+            "to": 109.52,
+            "location": 2,
+            "content": "装完这些东西以后, 我们要来设置一下你的代码了\n(不知道是不是因为zsh的原因, 我之前安装的时候还要重新设置环境变量"
+        },
+        {
+            "from": 109.52,
+            "to": 113.28,
+            "location": 2,
+            "content": "我们来到 crates.io (rustup 的主仓库官网) 搜索一下yew"
+        },
+        {
+            "from": 113.28,
+            "to": 119.24,
+            "location": 2,
+            "content": "查看一下yew.rs这个crate的最新版本,v0.19.3"
+        },
+        {
+            "from": 119.24,
+            "to": 126.96,
+            "location": 2,
+            "content": "如果你看到版本到了0.20,"
+        },
+        {
+            "from": 126.96,
+            "to": 129.92,
+            "location": 2,
+            "content": "你的版本可能不太适合这个课程\n(我翻译的时间还是v0.19.3"
+        },
+        {
+            "from": 129.92,
+            "to": 134.4,
+            "location": 2,
+            "content": "如果你出现了什么问题"
+        },
+        {
+            "from": 134.4,
+            "to": 139.68,
+            "location": 2,
+            "content": "请先看看版本号对不对"
+        },
+        {
+            "from": 139.68,
+            "to": 143.48,
+            "location": 2,
+            "content": "让我们回到cargo.toml, 添加上yew"
+        },
+        {
+            "from": 146.72,
+            "to": 151.08,
+            "location": 2,
+            "content": "绿色的勾和版本补全是之前讲的crates插件\n(安装了也没有的兄弟大概率是网络问题\n(不过少个勾和版本补全问题不大"
+        },
+        {
+            "from": 151.52,
+            "to": 155.36,
+            "location": 2,
+            "content": "这个插件帮我们检查了crate名称,"
+        },
+        {
+            "from": 155.36,
+            "to": 158.16,
+            "location": 2,
+            "content": "让我们知道了仓库里的可用版本"
+        },
+        {
+            "from": 158.8,
+            "to": 163.36,
+            "location": 2,
+            "content": "在我保存了配置以后, rust-analyzer 自动帮我们安装了依赖"
+        },
+        {
+            "from": 163.36,
+            "to": 168.4,
+            "location": 2,
+            "content": "在 rust-analyzer 初始化之前我们还不能干事\n(此乃谎言, 对于换源了的各位, 手动build才是正道\n(先<rm -rf ~/.cargo/.package-cache>干掉rust-analyzer缓存\n(然后进行一个<cargo build>\n(最后重启vscode"
+        },
+        {
+            "from": 168.4,
+            "to": 171.84,
+            "location": 2,
+            "content": "现在看来它弄完了,"
+        },
+        {
+            "from": 174.32,
+            "to": 177.04,
+            "location": 2,
+            "content": "um...我们现在要干的第一件事情"
+        },
+        {
+            "from": 177.04,
+            "to": 183.28,
+            "location": 2,
+            "content": "就是使用yew的prelude模块. 在我第一次写yew的代码的时候"
+        },
+        {
+            "from": 183.28,
+            "to": 188.4,
+            "location": 2,
+            "content": "我并没有直接导入一整个prelude模块, 我一般不会这么做"
+        },
+        {
+            "from": 188.4,
+            "to": 192.56,
+            "location": 2,
+            "content": "但是, 要use的东西实在是太多了"
+        },
+        {
+            "from": 192.56,
+            "to": 197.52,
+            "location": 2,
+            "content": "而我基本上就是弄上一个很多行的use代码"
+        },
+        {
+            "from": 197.52,
+            "to": 202.32,
+            "location": 2,
+            "content": "像这样直接导入一整个模块开始会简单方便很多"
+        },
+        {
+            "from": 202.32,
+            "to": 206.24,
+            "location": 2,
+            "content": "当然, 你也可以选择不这么做, 那也没问题"
+        },
+        {
+            "from": 206.24,
+            "to": 210.8,
+            "location": 2,
+            "content": "我们`use yew::prelude::*`导入模块下所有东西"
+        },
+        {
+            "from": 210.84,
+            "to": 215.52,
+            "location": 2,
+            "content": "我们要来创建我们的第一个组件"
+        },
+        {
+            "from": 215.52,
+            "to": 220.32,
+            "location": 2,
+            "content": "这很像在react里创建root组件"
+        },
+        {
+            "from": 220.32,
+            "to": 226.68,
+            "location": 2,
+            "content": "我们把它命名为App"
+        },
+        {
+            "from": 228.16,
+            "to": 232.32,
+            "location": 2,
+            "content": "它接收0个参数, 返回1个`Html`"
+        },
+        {
+            "from": 232.32,
+            "to": 240.36,
+            "location": 2,
+            "content": "html是`yew::prelude`提供的一个struct"
+        },
+        {
+            "from": 240.8,
+            "to": 242.56,
+            "location": 2,
+            "content": "以及"
+        },
+        {
+            "from": 242.56,
+            "to": 245.84,
+            "location": 2,
+            "content": "并且在prelude里, 还有一个宏"
+        },
+        {
+            "from": 245.84,
+            "to": 251.52,
+            "location": 2,
+            "content": "叫作`html!{}`"
+        },
+        {
+            "from": 251.52,
+            "to": 256.48,
+            "location": 2,
+            "content": "这个宏允许我们在rust里写html"
+        },
+        {
+            "from": 256.48,
+            "to": 260.96,
+            "location": 2,
+            "content": "这个精巧的宏是我最喜欢的东西之一"
+        },
+        {
+            "from": 260.96,
+            "to": 266.24,
+            "location": 2,
+            "content": "因为这提供了和react一样的运行方式\n(不用找了, 我翻译为止找了各种方法, 但是这玩意就是没有编辑器支持\n(想要自动补全的只能在rust全局加上HTML补全"
+        },
+        {
+            "from": 266.24,
+            "to": 273.12,
+            "location": 2,
+            "content": "uh...我们来写个h1标签, 然后闭合这个h1标签"
+        },
+        {
+            "from": 273.12,
+            "to": 277.84,
+            "location": 2,
+            "content": "这个html!宏和jsx之类的东西有几点不一样"
+        },
+        {
+            "from": 277.84,
+            "to": 283.68,
+            "location": 2,
+            "content": "我不能直接在这里写hello world"
+        },
+        {
+            "from": 283.68,
+            "to": 287.6,
+            "location": 2,
+            "content": "不幸的是它是真的不懂我要干什么"
+        },
+        {
+            "from": 287.6,
+            "to": 293.44,
+            "location": 2,
+            "content": "这个变量或者之类的东西是不能被识别的"
+        },
+        {
+            "from": 293.44,
+            "to": 296.32,
+            "location": 2,
+            "content": "So"
+        },
+        {
+            "from": 296.32,
+            "to": 301.68,
+            "location": 2,
+            "content": "我们用花括号吧这玩意包起来,"
+        },
+        {
+            "from": 301.68,
+            "to": 306.96,
+            "location": 2,
+            "content": "然后丢一个`&str`到这个标签, 这个节点里"
+        },
+        {
+            "from": 306.96,
+            "to": 311.28,
+            "location": 2,
+            "content": "就好像把想要的什么转换成为相应的类型"
+        },
+        {
+            "from": 311.28,
+            "to": 315.04,
+            "location": 2,
+            "content": "Now"
+        },
+        {
+            "from": 315.04,
+            "to": 319.6,
+            "location": 2,
+            "content": "我们已经有了一个App函数, 但这还算不上一个组件, 这只是一个返回Html的函数罢了"
+        },
+        {
+            "from": 319.6,
+            "to": 324.24,
+            "location": 2,
+            "content": "为了把它变成一个组件"
+        },
+        {
+            "from": 324.24,
+            "to": 326.72,
+            "location": 2,
+            "content": "我们要用一个`yew::prelude`提供的宏"
+        },
+        {
+            "from": 327.44,
+            "to": 332,
+            "location": 2,
+            "content": "它叫做`#[function_component()]`"
+        },
+        {
+            "from": 332,
+            "to": 335.68,
+            "location": 2,
+            "content": "会作用于函数上"
+        },
+        {
+            "from": 335.68,
+            "to": 341.04,
+            "location": 2,
+            "content": "我把这个组件命名为 App, 这里写上组件的名字"
+        },
+        {
+            "from": 341.04,
+            "to": 344.48,
+            "location": 2,
+            "content": "这里的名字和上面的名字差不多, 但是都是小写"
+        },
+        {
+            "from": 344.48,
+            "to": 349.68,
+            "location": 2,
+            "content": "thing but you know all lowercase"
+        },
+        {
+            "from": 349.68,
+            "to": 356.16,
+            "location": 2,
+            "content": "is we're going to create a struct named"
+        },
+        {
+            "from": 356.16,
+            "to": 361.44,
+            "location": 2,
+            "content": "to run you know this component so it's"
+        },
+        {
+            "from": 361.44,
+            "to": 368.96,
+            "location": 2,
+            "content": "the html that's rendered out"
+        },
+        {
+            "from": 368.96,
+            "to": 375.2,
+            "location": 2,
+            "content": "our app make sure that it's running and"
+        },
+        {
+            "from": 375.2,
+            "to": 379.44,
+            "location": 2,
+            "content": "start app"
+        },
+        {
+            "from": 379.44,
+            "to": 384,
+            "location": 2,
+            "content": "instead we just tell it we use turbofist"
+        },
+        {
+            "from": 384,
+            "to": 387.28,
+            "location": 2,
+            "content": "we're running this app"
+        },
+        {
+            "from": 387.76,
+            "to": 391.68,
+            "location": 2,
+            "content": "so i'm going to hit save"
+        },
+        {
+            "from": 391.68,
+            "to": 395.68,
+            "location": 2,
+            "content": "see if we get this running properly and"
+        },
+        {
+            "from": 395.68,
+            "to": 398,
+            "location": 2,
+            "content": "going to do"
+        },
+        {
+            "from": 398,
+            "to": 400.4,
+            "location": 2,
+            "content": "serve"
+        },
+        {
+            "from": 402,
+            "to": 407.12,
+            "location": 2,
+            "content": "oh um i almost forgot well actually i"
+        },
+        {
+            "from": 407.12,
+            "to": 413.76,
+            "location": 2,
+            "content": "missing an index.html file"
+        },
+        {
+            "from": 413.76,
+            "to": 418.8,
+            "location": 2,
+            "content": "the root of the project so let's go"
+        },
+        {
+            "from": 419.92,
+            "to": 423.6,
+            "location": 2,
+            "content": "it doesn't need to be anything special"
+        },
+        {
+            "from": 423.6,
+            "to": 427.04,
+            "location": 2,
+            "content": "the"
+        },
+        {
+            "from": 427.04,
+            "to": 432,
+            "location": 2,
+            "content": "to me as part of um i think this was"
+        },
+        {
+            "from": 432,
+            "to": 434.8,
+            "location": 2,
+            "content": "autocomplete here"
+        },
+        {
+            "from": 434.8,
+            "to": 439.2,
+            "location": 2,
+            "content": "hello"
+        },
+        {
+            "from": 440.8,
+            "to": 445.52,
+            "location": 2,
+            "content": "having that is is enough"
+        },
+        {
+            "from": 445.52,
+            "to": 448.72,
+            "location": 2,
+            "content": "serve"
+        },
+        {
+            "from": 448.72,
+            "to": 454.48,
+            "location": 2,
+            "content": "it's going to start serving it at"
+        },
+        {
+            "from": 454.48,
+            "to": 457.2,
+            "location": 2,
+            "content": "all right let's head over to our browser"
+        },
+        {
+            "from": 457.2,
+            "to": 463.52,
+            "location": 2,
+            "content": "hit localhost port 8080 and we see our"
+        },
+        {
+            "from": 463.52,
+            "to": 470.24,
+            "location": 2,
+            "content": "uh now i know a lot of people don't like"
+        },
+        {
+            "from": 470.24,
+            "to": 474,
+            "location": 2,
+            "content": "over their videos so i'm gonna go ahead"
+        },
+        {
+            "from": 474,
+            "to": 478.72,
+            "location": 2,
+            "content": "do a little bit of an update to this"
+        },
+        {
+            "from": 478.72,
+            "to": 483.04,
+            "location": 2,
+            "content": "i'm going to add in a little bit of a"
+        },
+        {
+            "from": 483.36,
+            "to": 487.92,
+            "location": 2,
+            "content": "to make the background to make the"
+        },
+        {
+            "from": 488.32,
+            "to": 491.36,
+            "location": 2,
+            "content": "so let's see this is going to be"
+        },
+        {
+            "from": 491.36,
+            "to": 496.56,
+            "location": 2,
+            "content": "maybe like the body also"
+        },
+        {
+            "from": 496.56,
+            "to": 500.4,
+            "location": 2,
+            "content": "it's gonna go"
+        },
+        {
+            "from": 501.84,
+            "to": 507.92,
+            "location": 2,
+            "content": "um did you i didn't hit refresh"
+        },
+        {
+            "from": 507.92,
+            "to": 513.28,
+            "location": 2,
+            "content": "detects changes in that index.html file"
+        },
+        {
+            "from": 513.28,
+            "to": 517.6,
+            "location": 2,
+            "content": "and when you save them it will recompile"
+        },
+        {
+            "from": 517.6,
+            "to": 521.12,
+            "location": 2,
+            "content": "compilation problems"
+        },
+        {
+            "from": 521.12,
+            "to": 526.08,
+            "location": 2,
+            "content": "browser which is really nice"
+        },
+        {
+            "from": 526.08,
+            "to": 530.48,
+            "location": 2,
+            "content": "components a little bit later"
+        },
+        {
+            "from": 530.48,
+            "to": 537.28,
+            "location": 2,
+            "content": "uh hello world visible i'm going to come"
+        },
+        {
+            "from": 537.52,
+            "to": 541.04,
+            "location": 2,
+            "content": "color"
+        },
+        {
+            "from": 542.64,
+            "to": 546.96,
+            "location": 2,
+            "content": "and that way we can at least see that"
+        },
+        {
+            "from": 546.96,
+            "to": 552.32,
+            "location": 2,
+            "content": "global css at least for the color uh"
+        },
+        {
+            "from": 552.32,
+            "to": 555.84,
+            "location": 2,
+            "content": "make that make that a better practice"
+        },
+        {
+            "from": 555.84,
+            "to": 561.6,
+            "location": 2,
+            "content": "what we did was we set ourselves up a"
+        },
+        {
+            "from": 561.6,
+            "to": 565.68,
+            "location": 2,
+            "content": "code running in the browser"
+        },
+        {
+            "from": 565.68,
+            "to": 570.04,
+            "location": 2,
+            "content": "i'll see you in the next video bye"
+        }
+    ]
+}
