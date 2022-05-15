@@ -429,289 +429,289 @@
             "from": 341.04,
             "to": 344.48,
             "location": 2,
-            "content": "这里的名字和上面的名字差不多, 但是都是小写"
+            "content": "这里的名字和上面的名字差不多"
         },
         {
             "from": 344.48,
             "to": 349.68,
             "location": 2,
-            "content": "thing but you know all lowercase"
+            "content": ", 但是都是小写"
         },
         {
             "from": 349.68,
             "to": 356.16,
             "location": 2,
-            "content": "is we're going to create a struct named"
+            "content": "这个宏会创建一个App struct"
         },
         {
             "from": 356.16,
             "to": 361.44,
             "location": 2,
-            "content": "to run you know this component so it's"
+            "content": "那里面会有运行这个组件所需要的,"
         },
         {
             "from": 361.44,
             "to": 368.96,
             "location": 2,
-            "content": "the html that's rendered out"
+            "content": "比如html视图渲染支持"
         },
         {
             "from": 368.96,
             "to": 375.2,
             "location": 2,
-            "content": "our app make sure that it's running and"
+            "content": "最后, 我们来启动这个APP, 确保这个组件可以运行加载"
         },
         {
             "from": 375.2,
             "to": 379.44,
             "location": 2,
-            "content": "start app"
+            "content": "`yew::star_app()`. `yew::prelude`已经完成了组件注册,"
         },
         {
             "from": 379.44,
             "to": 384,
             "location": 2,
-            "content": "instead we just tell it we use turbofist"
+            "content": "我们只需要告诉它我们要运行的是APP"
         },
         {
             "from": 384,
             "to": 387.28,
             "location": 2,
-            "content": "we're running this app"
+            "content": "启动app"
         },
         {
             "from": 387.76,
             "to": 391.68,
             "location": 2,
-            "content": "so i'm going to hit save"
+            "content": "进行一个存的保, 然后我们来尝试启动它"
         },
         {
             "from": 391.68,
             "to": 395.68,
             "location": 2,
-            "content": "see if we get this running properly and"
+            "content": "看看我们能不能让它正常运行,"
         },
         {
             "from": 395.68,
             "to": 398,
             "location": 2,
-            "content": "going to do"
+            "content": "回到命令行"
         },
         {
             "from": 398,
             "to": 400.4,
             "location": 2,
-            "content": "serve"
+            "content": "运行<trunk server>"
         },
         {
             "from": 402,
             "to": 407.12,
             "location": 2,
-            "content": "oh um i almost forgot well actually i"
+            "content": "额, 我忘记了一件事情"
         },
         {
             "from": 407.12,
             "to": 413.76,
             "location": 2,
-            "content": "missing an index.html file"
+            "content": "我忘记创建 index.html 文件了"
         },
         {
             "from": 413.76,
             "to": 418.8,
             "location": 2,
-            "content": "the root of the project so let's go"
+            "content": "我们创建一个空的 index.html 文件到项目根目录,\n现在进行一个急速的创建"
         },
         {
             "from": 419.92,
             "to": 423.6,
             "location": 2,
-            "content": "it doesn't need to be anything special"
+            "content": "它没什么特别要注意的"
         },
         {
             "from": 423.6,
             "to": 427.04,
             "location": 2,
-            "content": "the"
+            "content": "我就用一下`html:5`代码段"
         },
         {
             "from": 427.04,
             "to": 432,
             "location": 2,
-            "content": "to me as part of um i think this was"
+            "content": "(不知所言)"
         },
         {
             "from": 432,
             "to": 434.8,
             "location": 2,
-            "content": "autocomplete here"
+            "content": "让vscode自动完成它"
         },
         {
             "from": 434.8,
             "to": 439.2,
             "location": 2,
-            "content": "hello"
+            "content": "输入`hello world in yew`, 没什么别的要做的"
         },
         {
             "from": 440.8,
             "to": 445.52,
             "location": 2,
-            "content": "having that is is enough"
+            "content": "这些就够了, 再试一遍"
         },
         {
             "from": 445.52,
             "to": 448.72,
             "location": 2,
-            "content": "serve"
+            "content": "运行<trunk server>, 它会编译我们的项目"
         },
         {
             "from": 448.72,
             "to": 454.48,
             "location": 2,
-            "content": "it's going to start serving it at"
+            "content": "还会启动一个 localhost:8080 服务器"
         },
         {
             "from": 454.48,
             "to": 457.2,
             "location": 2,
-            "content": "all right let's head over to our browser"
+            "content": "让我们看到浏览器地址栏"
         },
         {
             "from": 457.2,
             "to": 463.52,
             "location": 2,
-            "content": "hit localhost port 8080 and we see our"
+            "content": "输入 localhost:8080 我们就看到我们的 hello world 了"
         },
         {
             "from": 463.52,
             "to": 470.24,
             "location": 2,
-            "content": "uh now i know a lot of people don't like"
+            "content": "我知道很多人不喜欢视频突然一片白"
         },
         {
             "from": 470.24,
             "to": 474,
             "location": 2,
-            "content": "over their videos so i'm gonna go ahead"
+            "content": "晃瞎狗眼"
         },
         {
             "from": 474,
             "to": 478.72,
             "location": 2,
-            "content": "do a little bit of an update to this"
+            "content": "所以我要对 index.html 进行一点小修改"
         },
         {
             "from": 478.72,
             "to": 483.04,
             "location": 2,
-            "content": "i'm going to add in a little bit of a"
+            "content": "我要增加一个样式标签"
         },
         {
             "from": 483.36,
             "to": 487.92,
             "location": 2,
-            "content": "to make the background to make the"
+            "content": "来让背景颜色变黑"
         },
         {
             "from": 488.32,
             "to": 491.36,
             "location": 2,
-            "content": "so let's see this is going to be"
+            "content": "我们要修改 html 应该还有 body"
         },
         {
             "from": 491.36,
             "to": 496.56,
             "location": 2,
-            "content": "maybe like the body also"
+            "content": "把 background-color 设置为 black"
         },
         {
             "from": 496.56,
             "to": 500.4,
             "location": 2,
-            "content": "it's gonna go"
+            "content": "走一个"
         },
         {
             "from": 501.84,
             "to": 507.92,
             "location": 2,
-            "content": "um did you i didn't hit refresh"
+            "content": "我并没有刷新, trunk 自动为我刷新了"
         },
         {
             "from": 507.92,
             "to": 513.28,
             "location": 2,
-            "content": "detects changes in that index.html file"
+            "content": "所有你对 index.html 和代码的修改"
         },
         {
             "from": 513.28,
             "to": 517.6,
             "location": 2,
-            "content": "and when you save them it will recompile"
+            "content": "都会在保存后自动应用在页面上"
         },
         {
             "from": 517.6,
             "to": 521.12,
             "location": 2,
-            "content": "compilation problems"
+            "content": "只要他们没有编译问题"
         },
         {
             "from": 521.12,
             "to": 526.08,
             "location": 2,
-            "content": "browser which is really nice"
+            "content": "都会在浏览器上应用, 这一点我觉得蛮好"
         },
         {
             "from": 526.08,
             "to": 530.48,
             "location": 2,
-            "content": "components a little bit later"
+            "content": "我们把css样式改动的有点过了"
         },
         {
             "from": 530.48,
             "to": 537.28,
             "location": 2,
-            "content": "uh hello world visible i'm going to come"
+            "content": "为了保证我们的 hello world 可见, 我们回到这里"
         },
         {
             "from": 537.52,
             "to": 541.04,
             "location": 2,
-            "content": "color"
+            "content": "把 color 设置为 white"
         },
         {
             "from": 542.64,
             "to": 546.96,
             "location": 2,
-            "content": "and that way we can at least see that"
+            "content": "这样我们就可以至少看到字了"
         },
         {
             "from": 546.96,
             "to": 552.32,
             "location": 2,
-            "content": "global css at least for the color uh"
+            "content": "我们的改变都是在全局css上的, 但是再晚点"
         },
         {
             "from": 552.32,
             "to": 555.84,
             "location": 2,
-            "content": "make that make that a better practice"
+            "content": "我们会再至少修改一下color, 把它实现的更好"
         },
         {
             "from": 555.84,
             "to": 561.6,
             "location": 2,
-            "content": "what we did was we set ourselves up a"
+            "content": "我们刚刚用 yew.rs 完成了一个 hello world"
         },
         {
             "from": 561.6,
             "to": 565.68,
             "location": 2,
-            "content": "code running in the browser"
+            "content": "把rust代码运行在了浏览器里"
         },
         {
             "from": 565.68,
             "to": 570.04,
             "location": 2,
-            "content": "i'll see you in the next video bye"
+            "content": "蟹蟹观看, 我们下个视频见"
         }
     ]
 }
