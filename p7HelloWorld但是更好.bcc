@@ -1,0 +1,339 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 4.16,
+            "to": 9.28,
+            "location": 2,
+            "content": "在我们的 main.rs 里现在已经有了一个 hello world"
+        },
+        {
+            "from": 9.28,
+            "to": 14.16,
+            "location": 2,
+            "content": "uh..现在让我们吧东西都放到新的文件夹里吧"
+        },
+        {
+            "from": 14.16,
+            "to": 19.36,
+            "location": 2,
+            "content": "这样当你出现一点问题时你就不至于回到起点"
+        },
+        {
+            "from": 19.36,
+            "to": 22.64,
+            "location": 2,
+            "content": "我们会分组件式的开发"
+        },
+        {
+            "from": 22.64,
+            "to": 27.28,
+            "location": 2,
+            "content": "而组件的最好的一点就是所有的东西都是独立的"
+        },
+        {
+            "from": 27.28,
+            "to": 32.8,
+            "location": 2,
+            "content": "So 我打算把 App 组件移动到 lib.rs 文件来实现这一点"
+        },
+        {
+            "from": 32.8,
+            "to": 37.36,
+            "location": 2,
+            "content": "这个文件目前还不存在, 我们要改变这一点"
+        },
+        {
+            "from": 37.36,
+            "to": 41.24,
+            "location": 2,
+            "content": "让我们来创建一个 lib.rs"
+        },
+        {
+            "from": 41.52,
+            "to": 44.96,
+            "location": 2,
+            "content": "我们回到 main,"
+        },
+        {
+            "from": 44.96,
+            "to": 47.67,
+            "location": 2,
+            "content": "然后对这里进行一个切的剪"
+        },
+        {
+            "from": 47.67,
+            "to": 50.76,
+            "location": 2,
+            "content": "uh.."
+        },
+        {
+            "from": 51.2,
+            "to": 55.52,
+            "location": 2,
+            "content": "剪你的切, 粘你的贴"
+        },
+        {
+            "from": 55.52,
+            "to": 59.84,
+            "location": 2,
+            "content": "当然, 我们现在要在这里"
+        },
+        {
+            "from": 59.84,
+            "to": 62.8,
+            "location": 2,
+            "content": "引入`yew::prelude::*`"
+        },
+        {
+            "from": 67.92,
+            "to": 73.52,
+            "location": 2,
+            "content": "我们还要 pub 这个函数,"
+        },
+        {
+            "from": 73.52,
+            "to": 77.6,
+            "location": 2,
+            "content": "让我们可以在 main 里获取这个函数"
+        },
+        {
+            "from": 79.28,
+            "to": 85.12,
+            "location": 2,
+            "content": "差不多就是这样了"
+        },
+        {
+            "from": 85.12,
+            "to": 90.48,
+            "location": 2,
+            "content": "我们并不是很需要在main里引入`yew::prelude::*`"
+        },
+        {
+            "from": 90.48,
+            "to": 95.76,
+            "location": 2,
+            "content": "因为我们只要使用 crate 本体就行了"
+        },
+        {
+            "from": 95.76,
+            "to": 100.64,
+            "location": 2,
+            "content": "现在我们需要引入一些 App 组件"
+        },
+        {
+            "from": 100.64,
+            "to": 103.52,
+            "location": 2,
+            "content": "我在Windows系统上,"
+        },
+        {
+            "from": 103.52,
+            "to": 108.4,
+            "location": 2,
+            "content": "所以我用[Ctrl+.]来进行快速修复,"
+        },
+        {
+            "from": 112.88,
+            "to": 118.16,
+            "location": 2,
+            "content": "rust-analyzer 和 vscode 会引入我们的完整 crate"
+        },
+        {
+            "from": 118.16,
+            "to": 123.68,
+            "location": 2,
+            "content": "进行一个存的包(其实自动保存了), 回到命令行, 来跑一下..."
+        },
+        {
+            "from": 126,
+            "to": 129.24,
+            "location": 2,
+            "content": "我们的 App"
+        },
+        {
+            "from": 129.92,
+            "to": 134.96,
+            "location": 2,
+            "content": "我们的 App 跑在...我们回到浏览器"
+        },
+        {
+            "from": 135.04,
+            "to": 138.56,
+            "location": 2,
+            "content": "一切都很完美, 我想要确保"
+        },
+        {
+            "from": 138.56,
+            "to": 142.48,
+            "location": 2,
+            "content": "一切都被移动到了正确的位置"
+        },
+        {
+            "from": 142.48,
+            "to": 146.08,
+            "location": 2,
+            "content": "分一个左半屏"
+        },
+        {
+            "from": 146.48,
+            "to": 149.04,
+            "location": 2,
+            "content": "让我们加一个明显的记号"
+        },
+        {
+            "from": 149.04,
+            "to": 152.88,
+            "location": 2,
+            "content": "敲入几个惊叹号, 保存一下"
+        },
+        {
+            "from": 154.84,
+            "to": 162.4,
+            "location": 2,
+            "content": "重新构建了吗? 我看到了"
+        },
+        {
+            "from": 164.08,
+            "to": 169.44,
+            "location": 2,
+            "content": "我对浏览器使用了刷新, 效果显著!"
+        },
+        {
+            "from": 169.44,
+            "to": 174.96,
+            "location": 2,
+            "content": "一切都是这么完美, 现在看起来就更像是一个项目体系了"
+        },
+        {
+            "from": 174.96,
+            "to": 179.92,
+            "location": 2,
+            "content": "现在如果我们想要开始准备迎接完全的体系结构"
+        },
+        {
+            "from": 179.92,
+            "to": 183.44,
+            "location": 2,
+            "content": "我们可以在这里添加一些目录结构"
+        },
+        {
+            "from": 183.44,
+            "to": 188.88,
+            "location": 2,
+            "content": "um...我想为所有的组件创建一个 components 文件夹"
+        },
+        {
+            "from": 192.64,
+            "to": 195.84,
+            "location": 2,
+            "content": "在我们完成了一些组件后,"
+        },
+        {
+            "from": 195.84,
+            "to": 199.52,
+            "location": 2,
+            "content": "我们就把它们都丢进来"
+        },
+        {
+            "from": 199.52,
+            "to": 204.08,
+            "location": 2,
+            "content": "在这里面我想要一些 atomic(原子的,不可分的) 结构"
+        },
+        {
+            "from": 204.08,
+            "to": 209.36,
+            "location": 2,
+            "content": "um, 然后..."
+        },
+        {
+            "from": 209.36,
+            "to": 215.84,
+            "location": 2,
+            "content": "um...我要在里面创建 atoms(原子), molecules(分子), "
+        },
+        {
+            "from": 221.28,
+            "to": 225.28,
+            "location": 2,
+            "content": "还有 organisms(有机物) (草, 这个起名, 转业老哥?"
+        },
+        {
+            "from": 225.76,
+            "to": 229.84,
+            "location": 2,
+            "content": "uh, 只要你觉得有道理, 随便起点什么名字"
+        },
+        {
+            "from": 229.84,
+            "to": 234.48,
+            "location": 2,
+            "content": "对我来说, 按钮什么的小玩意我会丢到 /atoms 里"
+        },
+        {
+            "from": 234.48,
+            "to": 238,
+            "location": 2,
+            "content": "双按钮和文本行这种简单的组合我大概会放到 /molecules 里"
+        },
+        {
+            "from": 238,
+            "to": 242.56,
+            "location": 2,
+            "content": "/organisms 是用来装, 额..."
+        },
+        {
+            "from": 242.56,
+            "to": 245.68,
+            "location": 2,
+            "content": "工具栏, 额, 或者"
+        },
+        {
+            "from": 245.68,
+            "to": 250.56,
+            "location": 2,
+            "content": "许多不同组件组合在一起来达成某种目的的东西"
+        },
+        {
+            "from": 250.56,
+            "to": 254,
+            "location": 2,
+            "content": "um"
+        },
+        {
+            "from": 254,
+            "to": 259.12,
+            "location": 2,
+            "content": "我们可以把一整个页面丢到 pages 里"
+        },
+        {
+            "from": 259.12,
+            "to": 261.6,
+            "location": 2,
+            "content": "创建一个 pages"
+        },
+        {
+            "from": 261.6,
+            "to": 264.96,
+            "location": 2,
+            "content": "在我们深入之前这看起来挺好"
+        },
+        {
+            "from": 264.96,
+            "to": 272.8,
+            "location": 2,
+            "content": "这是我们的大概的结构"
+        },
+        {
+            "from": 272.8,
+            "to": 278.28,
+            "location": 2,
+            "content": "蟹蟹茄子, 下个视频见"
+        }
+    ]
+}

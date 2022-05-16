@@ -1,0 +1,603 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 3.6,
+            "to": 8.48,
+            "location": 2,
+            "content": "now that we have our hello world uh"
+        },
+        {
+            "from": 8.48,
+            "to": 12.4,
+            "location": 2,
+            "content": "take a little bit of a break and uh"
+        },
+        {
+            "from": 12.4,
+            "to": 17.6,
+            "location": 2,
+            "content": "console because when we're working in"
+        },
+        {
+            "from": 17.6,
+            "to": 22.08,
+            "location": 2,
+            "content": "here with rust uh there's gonna be a"
+        },
+        {
+            "from": 22.08,
+            "to": 26.64,
+            "location": 2,
+            "content": "and sort of understand what we have and"
+        },
+        {
+            "from": 26.64,
+            "to": 31.04,
+            "location": 2,
+            "content": "uh if we try to do a log in our code"
+        },
+        {
+            "from": 31.04,
+            "to": 35.44,
+            "location": 2,
+            "content": "uh so if i try to do just like a print"
+        },
+        {
+            "from": 35.44,
+            "to": 40.4,
+            "location": 2,
+            "content": "here unfortunately um it's not going to"
+        },
+        {
+            "from": 40.4,
+            "to": 45.92,
+            "location": 2,
+            "content": "if i go to my server"
+        },
+        {
+            "from": 45.92,
+            "to": 49.68,
+            "location": 2,
+            "content": "run time here nothing is going to happen"
+        },
+        {
+            "from": 49.68,
+            "to": 53.68,
+            "location": 2,
+            "content": "because it's running"
+        },
+        {
+            "from": 53.68,
+            "to": 56.56,
+            "location": 2,
+            "content": "isn't something that runs in a browser"
+        },
+        {
+            "from": 56.56,
+            "to": 62,
+            "location": 2,
+            "content": "not actually do anything"
+        },
+        {
+            "from": 62,
+            "to": 66,
+            "location": 2,
+            "content": "console.log"
+        },
+        {
+            "from": 66,
+            "to": 70.16,
+            "location": 2,
+            "content": "let's um let's actually sort of get that"
+        },
+        {
+            "from": 70.16,
+            "to": 75.2,
+            "location": 2,
+            "content": "going to be using a tool a crate called"
+        },
+        {
+            "from": 75.2,
+            "to": 81.2,
+            "location": 2,
+            "content": "ourselves so in our cargo.tummle we're"
+        },
+        {
+            "from": 84.32,
+            "to": 87.6,
+            "location": 2,
+            "content": "and uh we're going to take the latest"
+        },
+        {
+            "from": 87.6,
+            "to": 91.76,
+            "location": 2,
+            "content": "i'm going to let rust analyzer um sort"
+        },
+        {
+            "from": 91.76,
+            "to": 94.8,
+            "location": 2,
+            "content": "figure everything out uh analyze"
+        },
+        {
+            "from": 94.8,
+            "to": 98.84,
+            "location": 2,
+            "content": "and when it's ready"
+        },
+        {
+            "from": 98.84,
+            "to": 105.04,
+            "location": 2,
+            "content": "uh create a new variable so let's say"
+        },
+        {
+            "from": 105.04,
+            "to": 108.64,
+            "location": 2,
+            "content": "let name"
+        },
+        {
+            "from": 108.64,
+            "to": 112.8,
+            "location": 2,
+            "content": "rooks"
+        },
+        {
+            "from": 112.8,
+            "to": 117.92,
+            "location": 2,
+            "content": "know did i set that variable name"
+        },
+        {
+            "from": 117.92,
+            "to": 122.72,
+            "location": 2,
+            "content": "here that there is now a log macro from"
+        },
+        {
+            "from": 122.72,
+            "to": 128.4,
+            "location": 2,
+            "content": "when i pull that in glue now gives us"
+        },
+        {
+            "from": 128.4,
+            "to": 132.4,
+            "location": 2,
+            "content": "there are many many things that glue"
+        },
+        {
+            "from": 133.76,
+            "to": 140.56,
+            "location": 2,
+            "content": "we can now use this as if it were just"
+        },
+        {
+            "from": 141.44,
+            "to": 147.76,
+            "location": 2,
+            "content": "and when we come back to here we can see"
+        },
+        {
+            "from": 150.16,
+            "to": 153.84,
+            "location": 2,
+            "content": "um we can all there's many other ways"
+        },
+        {
+            "from": 153.84,
+            "to": 159.6,
+            "location": 2,
+            "content": "though i could put in multiple things"
+        },
+        {
+            "from": 159.6,
+            "to": 164.64,
+            "location": 2,
+            "content": "like a function with an unlimited number"
+        },
+        {
+            "from": 164.64,
+            "to": 168.84,
+            "location": 2,
+            "content": "my name is"
+        },
+        {
+            "from": 172.72,
+            "to": 177.28,
+            "location": 2,
+            "content": "and that logs out as well"
+        },
+        {
+            "from": 177.28,
+            "to": 181.36,
+            "location": 2,
+            "content": "primitive types of values that we could"
+        },
+        {
+            "from": 181.36,
+            "to": 186.24,
+            "location": 2,
+            "content": "strings"
+        },
+        {
+            "from": 186.24,
+            "to": 189.44,
+            "location": 2,
+            "content": "and that's because they have to make"
+        },
+        {
+            "from": 189.44,
+            "to": 193.6,
+            "location": 2,
+            "content": "um or at least more primitive values"
+        },
+        {
+            "from": 193.6,
+            "to": 197.12,
+            "location": 2,
+            "content": "so what would happen if we did have an"
+        },
+        {
+            "from": 197.12,
+            "to": 203.6,
+            "location": 2,
+            "content": "really quickly so we'll do um"
+        },
+        {
+            "from": 203.6,
+            "to": 209.12,
+            "location": 2,
+            "content": "uh we're going to just call it data for"
+        },
+        {
+            "from": 210.56,
+            "to": 216.08,
+            "location": 2,
+            "content": "we'll have a username"
+        },
+        {
+            "from": 216.08,
+            "to": 219.68,
+            "location": 2,
+            "content": "let's just do like a favorite language"
+        },
+        {
+            "from": 221.76,
+            "to": 225.56,
+            "location": 2,
+            "content": "which is also a string"
+        },
+        {
+            "from": 226.72,
+            "to": 232.08,
+            "location": 2,
+            "content": "i'm going to now"
+        },
+        {
+            "from": 232.08,
+            "to": 235.2,
+            "location": 2,
+            "content": "my"
+        },
+        {
+            "from": 235.2,
+            "to": 238,
+            "location": 2,
+            "content": "equals"
+        },
+        {
+            "from": 238.16,
+            "to": 245.68,
+            "location": 2,
+            "content": "my object"
+        },
+        {
+            "from": 245.68,
+            "to": 249.68,
+            "location": 2,
+            "content": "no not type name"
+        },
+        {
+            "from": 249.68,
+            "to": 253.76,
+            "location": 2,
+            "content": "need to to own this to turn it into a"
+        },
+        {
+            "from": 253.76,
+            "to": 256.8,
+            "location": 2,
+            "content": "and favorite language"
+        },
+        {
+            "from": 257.36,
+            "to": 261.76,
+            "location": 2,
+            "content": "we're just going to say"
+        },
+        {
+            "from": 261.76,
+            "to": 264.4,
+            "location": 2,
+            "content": "into a string"
+        },
+        {
+            "from": 264.48,
+            "to": 270.56,
+            "location": 2,
+            "content": "now if i were to attempt to"
+        },
+        {
+            "from": 270.56,
+            "to": 275.92,
+            "location": 2,
+            "content": "and add in my object"
+        },
+        {
+            "from": 275.92,
+            "to": 280.16,
+            "location": 2,
+            "content": "say"
+        },
+        {
+            "from": 280.16,
+            "to": 282.96,
+            "location": 2,
+            "content": "into a js"
+        },
+        {
+            "from": 282.96,
+            "to": 288,
+            "location": 2,
+            "content": "we just don't know how to do that"
+        },
+        {
+            "from": 288,
+            "to": 294.8,
+            "location": 2,
+            "content": "some kind of string but that also"
+        },
+        {
+            "from": 294.8,
+            "to": 300.08,
+            "location": 2,
+            "content": "there is a thing that helps us do that"
+        },
+        {
+            "from": 300.08,
+            "to": 304.16,
+            "location": 2,
+            "content": "serializing"
+        },
+        {
+            "from": 304.16,
+            "to": 307.76,
+            "location": 2,
+            "content": "want"
+        },
+        {
+            "from": 307.76,
+            "to": 312.48,
+            "location": 2,
+            "content": "example json is what we're looking for"
+        },
+        {
+            "from": 312.48,
+            "to": 317.28,
+            "location": 2,
+            "content": "for our yeah two crates for this"
+        },
+        {
+            "from": 317.28,
+            "to": 321.28,
+            "location": 2,
+            "content": "and surday json"
+        },
+        {
+            "from": 322.72,
+            "to": 327.76,
+            "location": 2,
+            "content": "i'm just going to go ahead and grab the"
+        },
+        {
+            "from": 330.8,
+            "to": 336.68,
+            "location": 2,
+            "content": "we're going to let rust analyzer"
+        },
+        {
+            "from": 339.28,
+            "to": 343.92,
+            "location": 2,
+            "content": "great and now for this struct we need to"
+        },
+        {
+            "from": 343.92,
+            "to": 346.88,
+            "location": 2,
+            "content": "we're going to derive"
+        },
+        {
+            "from": 346.88,
+            "to": 352,
+            "location": 2,
+            "content": "want serialize"
+        },
+        {
+            "from": 352,
+            "to": 356,
+            "location": 2,
+            "content": "serialize on there whenever i put a"
+        },
+        {
+            "from": 356,
+            "to": 360.96,
+            "location": 2,
+            "content": "something from a string back into a"
+        },
+        {
+            "from": 360.96,
+            "to": 364.72,
+            "location": 2,
+            "content": "but uh i just i"
+        },
+        {
+            "from": 364.72,
+            "to": 368.32,
+            "location": 2,
+            "content": "it"
+        },
+        {
+            "from": 368.32,
+            "to": 373.12,
+            "location": 2,
+            "content": "error because it can't it doesn't know"
+        },
+        {
+            "from": 373.12,
+            "to": 378.16,
+            "location": 2,
+            "content": "this is where certain json comes in"
+        },
+        {
+            "from": 378.16,
+            "to": 382.08,
+            "location": 2,
+            "content": "i want surday"
+        },
+        {
+            "from": 382.08,
+            "to": 386.64,
+            "location": 2,
+            "content": "uh we're going to do a two string i have"
+        },
+        {
+            "from": 386.64,
+            "to": 389.28,
+            "location": 2,
+            "content": "two string pretty"
+        },
+        {
+            "from": 389.28,
+            "to": 394.92,
+            "location": 2,
+            "content": "we're going to put a reference to the my"
+        },
+        {
+            "from": 403.68,
+            "to": 408.72,
+            "location": 2,
+            "content": "uh let's see convert from"
+        },
+        {
+            "from": 408.72,
+            "to": 413.28,
+            "location": 2,
+            "content": "string both have results which means"
+        },
+        {
+            "from": 413.28,
+            "to": 418.56,
+            "location": 2,
+            "content": "its own we're going to have to return a"
+        },
+        {
+            "from": 418.56,
+            "to": 425.04,
+            "location": 2,
+            "content": "this required return of an html i can't"
+        },
+        {
+            "from": 425.04,
+            "to": 431.04,
+            "location": 2,
+            "content": "error nicely now i suppose that i can"
+        },
+        {
+            "from": 431.04,
+            "to": 436.72,
+            "location": 2,
+            "content": "you know if let okay"
+        },
+        {
+            "from": 436.72,
+            "to": 440.4,
+            "location": 2,
+            "content": "then handle it"
+        },
+        {
+            "from": 440.4,
+            "to": 445.44,
+            "location": 2,
+            "content": "the easy way and unwrap it uh"
+        },
+        {
+            "from": 445.44,
+            "to": 450.48,
+            "location": 2,
+            "content": "unwraps being just used in in front end"
+        },
+        {
+            "from": 450.48,
+            "to": 454.8,
+            "location": 2,
+            "content": "maybe that will change in the future"
+        },
+        {
+            "from": 454.8,
+            "to": 458.24,
+            "location": 2,
+            "content": "to accept that"
+        },
+        {
+            "from": 458.24,
+            "to": 462.64,
+            "location": 2,
+            "content": "look and we see"
+        },
+        {
+            "from": 462.64,
+            "to": 467.36,
+            "location": 2,
+            "content": "here and it's very nice and"
+        },
+        {
+            "from": 467.36,
+            "to": 470.4,
+            "location": 2,
+            "content": "makes it a little bit easier to read and"
+        },
+        {
+            "from": 470.4,
+            "to": 474.4,
+            "location": 2,
+            "content": "anyways hopefully this will help you in"
+        },
+        {
+            "from": 474.4,
+            "to": 480,
+            "location": 2,
+            "content": "working with u.r.s and any other front"
+        },
+        {
+            "from": 480,
+            "to": 484.08,
+            "location": 2,
+            "content": "with pretty much everything"
+        },
+        {
+            "from": 484.08,
+            "to": 488.84,
+            "location": 2,
+            "content": "will see you in the next video bye"
+        }
+    ]
+}
