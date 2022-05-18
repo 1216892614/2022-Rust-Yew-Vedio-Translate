@@ -9,319 +9,301 @@
             "from": 4.72,
             "to": 11.44,
             "location": 2,
-            "content": "let's talk about getting http or http"
+            "content": "我们来聊聊在Rust里整点http, 啊不对, html"
         },
         {
             "from": 11.44,
             "to": 16.88,
             "location": 2,
-            "content": "uh to find the documentation for the"
+            "content": "uh...为了找到 html 或者说,额,模板语法的文档"
         },
         {
             "from": 16.88,
             "to": 24.88,
             "location": 2,
-            "content": "uh template language uh we can go to"
+            "content": "我们可以到 Concepts->HTML"
         },
         {
             "from": 24.88,
             "to": 29.44,
             "location": 2,
-            "content": "and it has everything that we need to"
+            "content": "于是我们就有了在 rust 里写 html 的一切"
         },
         {
             "from": 29.44,
             "to": 36.32,
             "location": 2,
-            "content": "rust this is similar to jsx but there"
+            "content": "这很像 jsx, 但是又有些关键的不同"
         },
         {
             "from": 36.48,
             "to": 39.6,
             "location": 2,
-            "content": "so um"
+            "content": "So, um... 其中一个巨大的区别是"
         },
         {
             "from": 39.6,
             "to": 44.48,
             "location": 2,
-            "content": "our code"
+            "content": "先回到我们的代码"
         },
         {
             "from": 44.48,
             "to": 50.96,
             "location": 2,
-            "content": "html is we can use the class keyword"
+            "content": "jsx 和这个 html 的一个巨大区别就是, 我们可以用 `class` 关键字"
         },
         {
             "from": 50.96,
             "to": 54.4,
             "location": 2,
-            "content": "just class"
+            "content": "所以当我想用class的时候, 我可以直接`class = \"\"`,"
         },
         {
             "from": 54.4,
             "to": 58.24,
             "location": 2,
-            "content": "something in here this is the same with"
+            "content": "直接丢点什么到这里面, 这就好像任何 properties(DOM属性)"
         },
         {
             "from": 58.24,
             "to": 62.56,
             "location": 2,
-            "content": "that you want to add in if you just want"
+            "content": "你可以把任何 attributes(Rust 的变常量) 丢进来,\n你想要口口(没听清)就放口口(没听清)"
         },
         {
             "from": 62.56,
             "to": 68.96,
             "location": 2,
-            "content": "you want a class just add add a class"
+            "content": "你想放 class 就放 class, 这都可以正常运行"
         },
         {
             "from": 68.96,
             "to": 74.08,
             "location": 2,
-            "content": "jsx you can't use class keyword because"
+            "content": "jsx 受限于 Javascript 的`class`关键字无法使用 class"
         },
         {
             "from": 74.08,
             "to": 78.56,
             "location": 2,
-            "content": "not so much in rust which is really"
+            "content": "rust 就没有这些局限, 这很棒"
         },
         {
             "from": 78.56,
             "to": 83.44,
             "location": 2,
-            "content": "so for example let's take a look at"
+            "content": "So, 例如, 我们来看看, 保存一下"
         },
         {
             "from": 83.44,
             "to": 86.48,
             "location": 2,
-            "content": "let's go"
+            "content": "看看这里的代码"
         },
         {
             "from": 86.48,
             "to": 91.84,
             "location": 2,
-            "content": "we have this h1 hello world"
+            "content": "我们有这个 h1 hello world"
         },
         {
             "from": 91.84,
             "to": 95.2,
             "location": 2,
-            "content": "title"
+            "content": "我们要为它增加一个 class, 试试 title, 保存"
         },
         {
             "from": 95.2,
             "to": 99.68,
             "location": 2,
-            "content": "and now we see that we just have that"
+            "content": "现在我们就看到了我们的 title 样式"
         },
         {
             "from": 99.68,
             "to": 104.4,
             "location": 2,
-            "content": "add attributes if i wanted this to be"
+            "content": "增加一个特性(attribute)很容易, 如果我想让这个变成可编程的"
         },
         {
             "from": 104.4,
             "to": 108.4,
             "location": 2,
-            "content": "here"
+            "content": "我可以在这里放一个变量(valuable)"
         },
         {
             "from": 108.4,
-            "to": 110.88,
-            "location": 2,
-            "content": "let"
-        },
-        {
-            "from": 111.6,
-            "to": 114.64,
-            "location": 2,
-            "content": "class"
-        },
-        {
-            "from": 114.64,
             "to": 116.88,
             "location": 2,
-            "content": "my"
+            "content": "`let class = \"my_title\"`"
         },
         {
             "from": 117.84,
             "to": 120.72,
             "location": 2,
-            "content": "we'll do my title"
+            "content": "我们用`my_title`"
         },
         {
             "from": 121.92,
             "to": 126.4,
             "location": 2,
-            "content": "just to make a little bit different"
+            "content": "来制造一点不一样, 就像我们为 hello world 做的那样"
         },
         {
             "from": 126.4,
             "to": 131.84,
             "location": 2,
-            "content": "world we're going to use the open and"
+            "content": "我们用花括号把 class 包起来"
         },
         {
             "from": 134.32,
             "to": 138.24,
             "location": 2,
-            "content": "inside of here because otherwise it"
+            "content": "我不能直接把变量丢到这里, 因为其他的东西都是 html 语法的一部分"
         },
         {
             "from": 138.24,
             "to": 142.32,
             "location": 2,
-            "content": "it's like a key"
+            "content": "他们就好像关键字, 特性之类的东西"
         },
         {
             "from": 142.32,
             "to": 149.68,
             "location": 2,
-            "content": "we have to use the curly bracket"
+            "content": "我们必须使用花括号, 现在我们就看到了 my_title 样式"
         },
         {
             "from": 149.68,
             "to": 154.96,
             "location": 2,
-            "content": "other really helpful things in here"
+            "content": "还有其他很有用的东西"
         },
         {
             "from": 154.96,
             "to": 159.44,
             "location": 2,
-            "content": "level"
+            "content": "有时我们想用多主节点"
         },
         {
             "from": 159.44,
             "to": 165.68,
             "location": 2,
-            "content": "like okay we have our h1 and then i want"
+            "content": "比如我们现在有一个h1, 我想要一个 p 标签"
         },
         {
             "from": 169.52,
             "to": 173.6,
             "location": 2,
-            "content": "and i want to just say"
+            "content": "我们在这里写上"
         },
         {
             "from": 173.6,
             "to": 177.68,
             "location": 2,
-            "content": "hi there"
+            "content": "`{\"Hi there!\"}`"
         },
         {
             "from": 177.68,
             "to": 181.92,
             "location": 2,
-            "content": "only have one element at the root level"
+            "content": "这里会报错, 因为我们只能在主层级下有一个元素"
         },
         {
             "from": 181.92,
             "to": 185.44,
             "location": 2,
-            "content": "called a fragment"
+            "content": "为了解决这个问题, 我们要用所谓的片段(fragment)"
         },
         {
             "from": 185.44,
             "to": 189.04,
             "location": 2,
-            "content": "have an open and close what looks like a"
+            "content": "也就是我们要写一个好像是标签的东西,"
         },
         {
             "from": 189.04,
             "to": 193.76,
             "location": 2,
-            "content": "but it has nothing inside of it"
+            "content": "但是里面什么都没有"
         },
         {
             "from": 193.76,
             "to": 198.64,
             "location": 2,
-            "content": "normal tag though"
+            "content": "就像一般的标签一样, 我们也要关闭它, 现在就行了"
         },
         {
             "from": 198.64,
             "to": 201.44,
             "location": 2,
-            "content": "um\n00:03:19,840 --> 00:03:23,1000\nwhen we come back and we inspect our\n\n81"
+            "content": "um...回来看看代码,"
         },
         {
             "from": 201.44,
             "to": 206.4,
             "location": 2,
-            "content": "code the h1 and p are still children"
+            "content": "h1 和 p 现在都是还是 body 的子标签"
         },
         {
             "from": 206.4,
             "to": 210.88,
             "location": 2,
-            "content": "which means it's not including any like"
+            "content": "也就是说, 在中间没有任何像 div 之类的标签来包裹"
         },
         {
             "from": 210.88,
             "to": 216.32,
             "location": 2,
-            "content": "this in for us this fragment is truly"
+            "content": "片段功能可以让我们真正的在一个层级上放多个主节点"
         },
         {
             "from": 216.32,
             "to": 220.48,
             "location": 2,
-            "content": "and exactly where you expect them to be"
+            "content": "而且让他们像我们希望的那样存在, 这正是我们想要的"
         },
         {
             "from": 220.48,
             "to": 225.36,
             "location": 2,
-            "content": "then keep this in mind but also please"
+            "content": "记住这个功能, 但是也记得,"
         },
         {
             "from": 225.36,
-            "to": 230.56,
-            "location": 2,
-            "content": "um to real divs real tags so you can't"
-        },
-        {
-            "from": 230.56,
             "to": 232.88,
             "location": 2,
-            "content": "with them"
+            "content": "你并不能像 div 或者其他标签那样为它添加属性什么的"
         },
         {
             "from": 233.12,
             "to": 236.96,
             "location": 2,
-            "content": "let's see if we take a look at our"
+            "content": "我们回来看看文档"
         },
         {
             "from": 236.96,
             "to": 240.8,
             "location": 2,
-            "content": "i don't necessarily if there's anything"
-        },
-        {
-            "from": 240.8,
-            "to": 243.2,
-            "location": 2,
-            "content": "about"
+            "content": "这里应该没什么别的值得在这期视频讨论的了"
         },
         {
             "from": 243.2,
             "to": 246.88,
             "location": 2,
-            "content": "but"
+            "content": "但是"
         },
         {
             "from": 246.88,
             "to": 251.04,
             "location": 2,
-            "content": "uh getting going through some lists and"
+            "content": "uh...我们会在下期视频聊聊 列表(Lists)之类的有意思的东西"
+        },
+        {
+            "from": 251.713043,
+            "to": 256.71304299999997,
+            "location": 2,
+            "content": "蟹蟹观看, 下期再见"
         }
     ]
 }

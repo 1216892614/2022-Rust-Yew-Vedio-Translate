@@ -1,0 +1,471 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 5.6,
+            "to": 11.84,
+            "location": 2,
+            "content": "it can be important for us to be able to"
+        },
+        {
+            "from": 11.84,
+            "to": 15.28,
+            "location": 2,
+            "content": "our html"
+        },
+        {
+            "from": 15.28,
+            "to": 20.32,
+            "location": 2,
+            "content": "want to do something like okay"
+        },
+        {
+            "from": 20.32,
+            "to": 24.64,
+            "location": 2,
+            "content": "the um the items that have"
+        },
+        {
+            "from": 24.64,
+            "to": 30.48,
+            "location": 2,
+            "content": "are checked um or i just want to like"
+        },
+        {
+            "from": 30.48,
+            "to": 33.84,
+            "location": 2,
+            "content": "one thing or the state zap the other"
+        },
+        {
+            "from": 33.84,
+            "to": 39.2,
+            "location": 2,
+            "content": "i can't show it based on that but we can"
+        },
+        {
+            "from": 39.2,
+            "to": 44.64,
+            "location": 2,
+            "content": "to find the iploc documentation it is in"
+        },
+        {
+            "from": 44.64,
+            "to": 48.56,
+            "location": 2,
+            "content": "html introduction at the very bottom"
+        },
+        {
+            "from": 48.56,
+            "to": 52.48,
+            "location": 2,
+            "content": "there's the if blocks and there's"
+        },
+        {
+            "from": 52.48,
+            "to": 56.72,
+            "location": 2,
+            "content": "we have access to if"
+        },
+        {
+            "from": 56.72,
+            "to": 62.56,
+            "location": 2,
+            "content": "rest if let and if let else let's uh"
+        },
+        {
+            "from": 62.56,
+            "to": 67.04,
+            "location": 2,
+            "content": "these"
+        },
+        {
+            "from": 67.04,
+            "to": 71.6,
+            "location": 2,
+            "content": "class my title"
+        },
+        {
+            "from": 71.6,
+            "to": 74.56,
+            "location": 2,
+            "content": "simple"
+        },
+        {
+            "from": 74.56,
+            "to": 80.64,
+            "location": 2,
+            "content": "so all of this stuff happens outside of"
+        },
+        {
+            "from": 80.64,
+            "to": 83.52,
+            "location": 2,
+            "content": "do if\n00:01:22,159 --> 00:01:25,1000\nclass\n\n35"
+        },
+        {
+            "from": 83.52,
+            "to": 90.32,
+            "location": 2,
+            "content": "equals"
+        },
+        {
+            "from": 96.16,
+            "to": 99.76,
+            "location": 2,
+            "content": "close the tag there"
+        },
+        {
+            "from": 99.76,
+            "to": 103.92,
+            "location": 2,
+            "content": "whatever this is in here"
+        },
+        {
+            "from": 103.92,
+            "to": 107.36,
+            "location": 2,
+            "content": "this class is what's inside of this"
+        },
+        {
+            "from": 107.36,
+            "to": 111.52,
+            "location": 2,
+            "content": "uh any of the normal conditional rules"
+        },
+        {
+            "from": 111.52,
+            "to": 118.88,
+            "location": 2,
+            "content": "for numbers uh basically anything that"
+        },
+        {
+            "from": 119.04,
+            "to": 124.16,
+            "location": 2,
+            "content": "let's go take a look and we've lost our"
+        },
+        {
+            "from": 124.16,
+            "to": 129.44,
+            "location": 2,
+            "content": "update this back to titles again"
+        },
+        {
+            "from": 129.44,
+            "to": 135.04,
+            "location": 2,
+            "content": "and we get hi there okay excellent"
+        },
+        {
+            "from": 135.04,
+            "to": 139.76,
+            "location": 2,
+            "content": "if we want to do an else it's just as"
+        },
+        {
+            "from": 139.76,
+            "to": 143.84,
+            "location": 2,
+            "content": "and"
+        },
+        {
+            "from": 143.84,
+            "to": 147.92,
+            "location": 2,
+            "content": "call at this point in time anything to"
+        },
+        {
+            "from": 147.92,
+            "to": 153.28,
+            "location": 2,
+            "content": "just do another p tag"
+        },
+        {
+            "from": 153.28,
+            "to": 156.48,
+            "location": 2,
+            "content": "i'm"
+        },
+        {
+            "from": 156.48,
+            "to": 158.96,
+            "location": 2,
+            "content": "titles"
+        },
+        {
+            "from": 159.76,
+            "to": 164.4,
+            "location": 2,
+            "content": "uh okay so"
+        },
+        {
+            "from": 164.4,
+            "to": 168.4,
+            "location": 2,
+            "content": "so we're going to get this i'm not a"
+        },
+        {
+            "from": 168.4,
+            "to": 173.76,
+            "location": 2,
+            "content": "okay great"
+        },
+        {
+            "from": 173.76,
+            "to": 180,
+            "location": 2,
+            "content": "going to be allow us to grab data out of"
+        },
+        {
+            "from": 180.48,
+            "to": 186.08,
+            "location": 2,
+            "content": "um an enum like an option for example we"
+        },
+        {
+            "from": 186.08,
+            "to": 190.8,
+            "location": 2,
+            "content": "result let's do an option for this one"
+        },
+        {
+            "from": 190.8,
+            "to": 197.28,
+            "location": 2,
+            "content": "we're going to say let"
+        },
+        {
+            "from": 197.28,
+            "to": 202.32,
+            "location": 2,
+            "content": "so that this is going to be the the well"
+        },
+        {
+            "from": 202.32,
+            "to": 209.36,
+            "location": 2,
+            "content": "and we're just going to throw in"
+        },
+        {
+            "from": 209.92,
+            "to": 214.4,
+            "location": 2,
+            "content": "so obviously this could be something or"
+        },
+        {
+            "from": 214.4,
+            "to": 217.84,
+            "location": 2,
+            "content": "let's throw another"
+        },
+        {
+            "from": 217.84,
+            "to": 220.24,
+            "location": 2,
+            "content": "let"
+        },
+        {
+            "from": 220.64,
+            "to": 223.76,
+            "location": 2,
+            "content": "sum"
+        },
+        {
+            "from": 223.76,
+            "to": 226.76,
+            "location": 2,
+            "content": "out"
+        },
+        {
+            "from": 228.68,
+            "to": 233.92,
+            "location": 2,
+            "content": "equals this message"
+        },
+        {
+            "from": 233.92,
+            "to": 238,
+            "location": 2,
+            "content": "it so we can just do another p tag here"
+        },
+        {
+            "from": 238,
+            "to": 241.84,
+            "location": 2,
+            "content": "we'll just have our message"
+        },
+        {
+            "from": 242.72,
+            "to": 248.48,
+            "location": 2,
+            "content": "notice i have to put that message inside"
+        },
+        {
+            "from": 251.44,
+            "to": 256.48,
+            "location": 2,
+            "content": "all right so if this is something we're"
+        },
+        {
+            "from": 256.48,
+            "to": 261.52,
+            "location": 2,
+            "content": "display it"
+        },
+        {
+            "from": 261.52,
+            "to": 264.56,
+            "location": 2,
+            "content": "now"
+        },
+        {
+            "from": 264.56,
+            "to": 271.52,
+            "location": 2,
+            "content": "else here so this is if it's a none"
+        },
+        {
+            "from": 273.04,
+            "to": 275.84,
+            "location": 2,
+            "content": "uh"
+        },
+        {
+            "from": 275.84,
+            "to": 280.24,
+            "location": 2,
+            "content": "messages to see today"
+        },
+        {
+            "from": 281.04,
+            "to": 286.88,
+            "location": 2,
+            "content": "okay uh now let's uh turn this into a"
+        },
+        {
+            "from": 296.72,
+            "to": 301.76,
+            "location": 2,
+            "content": "doesn't know what type that could"
+        },
+        {
+            "from": 301.76,
+            "to": 306.32,
+            "location": 2,
+            "content": "sum so it knows like hey this is always"
+        },
+        {
+            "from": 306.32,
+            "to": 312.16,
+            "location": 2,
+            "content": "it's not completely sure here so i'm"
+        },
+        {
+            "from": 312.16,
+            "to": 315.6,
+            "location": 2,
+            "content": "manual type so we're just going to say"
+        },
+        {
+            "from": 315.6,
+            "to": 319.44,
+            "location": 2,
+            "content": "with a type let's just say"
+        },
+        {
+            "from": 319.92,
+            "to": 322.32,
+            "location": 2,
+            "content": "stir"
+        },
+        {
+            "from": 323.2,
+            "to": 327.36,
+            "location": 2,
+            "content": "that makes it happy i'm gonna come back"
+        },
+        {
+            "from": 327.36,
+            "to": 333.12,
+            "location": 2,
+            "content": "no messages to see today"
+        },
+        {
+            "from": 333.12,
+            "to": 337.36,
+            "location": 2,
+            "content": "these are how we're gonna create uh"
+        },
+        {
+            "from": 337.36,
+            "to": 342.96,
+            "location": 2,
+            "content": "what to render and what not to render"
+        },
+        {
+            "from": 342.96,
+            "to": 348.4,
+            "location": 2,
+            "content": "are actually making them not appear"
+        },
+        {
+            "from": 348.4,
+            "to": 352.16,
+            "location": 2,
+            "content": "it's not like they're just hidden from"
+        },
+        {
+            "from": 352.16,
+            "to": 354.72,
+            "location": 2,
+            "content": "know at all"
+        },
+        {
+            "from": 354.96,
+            "to": 360.16,
+            "location": 2,
+            "content": "and then it can get a little bit messy"
+        },
+        {
+            "from": 360.16,
+            "to": 364.16,
+            "location": 2,
+            "content": "my recommendation if you do find"
+        },
+        {
+            "from": 364.16,
+            "to": 369.28,
+            "location": 2,
+            "content": "and then with just like lots of uh"
+        },
+        {
+            "from": 369.28,
+            "to": 375.12,
+            "location": 2,
+            "content": "there create separate components and you"
+        },
+        {
+            "from": 375.12,
+            "to": 378.72,
+            "location": 2,
+            "content": "those components instead of a bunch of"
+        },
+        {
+            "from": 378.72,
+            "to": 381.52,
+            "location": 2,
+            "content": "i i think it will help make it a little"
+        },
+        {
+            "from": 381.52,
+            "to": 388.12,
+            "location": 2,
+            "content": "anyways thank you so much for watching"
+        }
+    ]
+}
