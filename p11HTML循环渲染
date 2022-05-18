@@ -1,0 +1,819 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 4.88,
+            "to": 10.32,
+            "location": 2,
+            "content": "we've gone over if statements in html"
+        },
+        {
+            "from": 10.32,
+            "to": 15.28,
+            "location": 2,
+            "content": "know dynamically create or choose what"
+        },
+        {
+            "from": 15.28,
+            "to": 19.84,
+            "location": 2,
+            "content": "that can be really helpful for us and"
+        },
+        {
+            "from": 19.84,
+            "to": 25.12,
+            "location": 2,
+            "content": "have an array or vector"
+        },
+        {
+            "from": 25.12,
+            "to": 30.16,
+            "location": 2,
+            "content": "our api and we want to display that out"
+        },
+        {
+            "from": 30.16,
+            "to": 35.84,
+            "location": 2,
+            "content": "we have a list"
+        },
+        {
+            "from": 35.84,
+            "to": 40.24,
+            "location": 2,
+            "content": "down here in html"
+        },
+        {
+            "from": 40.24,
+            "to": 44.8,
+            "location": 2,
+            "content": "and it shows a couple ways that we can"
+        },
+        {
+            "from": 44.8,
+            "to": 46.8,
+            "location": 2,
+            "content": "use"
+        },
+        {
+            "from": 46.8,
+            "to": 50.48,
+            "location": 2,
+            "content": "basically display just like a list of"
+        },
+        {
+            "from": 50.48,
+            "to": 53.52,
+            "location": 2,
+            "content": "now this dot this documentation here is"
+        },
+        {
+            "from": 53.52,
+            "to": 56.88,
+            "location": 2,
+            "content": "might be a little bit confusing we're"
+        },
+        {
+            "from": 56.88,
+            "to": 63.04,
+            "location": 2,
+            "content": "off in a demo really quickly"
+        },
+        {
+            "from": 63.04,
+            "to": 70.84,
+            "location": 2,
+            "content": "have our items which is a vector"
+        },
+        {
+            "from": 70.84,
+            "to": 75.92,
+            "location": 2,
+            "content": "or uh just something that just that you"
+        },
+        {
+            "from": 75.92,
+            "to": 82.88,
+            "location": 2,
+            "content": "let's uh let's take a look at that"
+        },
+        {
+            "from": 82.88,
+            "to": 88,
+            "location": 2,
+            "content": "create a new thing let's just call this"
+        },
+        {
+            "from": 88,
+            "to": 93.6,
+            "location": 2,
+            "content": "tests like you know a to do system so"
+        },
+        {
+            "from": 93.6,
+            "to": 97.92,
+            "location": 2,
+            "content": "we'll make a brand new vector here"
+        },
+        {
+            "from": 97.92,
+            "to": 101.44,
+            "location": 2,
+            "content": "them so"
+        },
+        {
+            "from": 101.44,
+            "to": 107.84,
+            "location": 2,
+            "content": "uh first one will maybe be like record"
+        },
+        {
+            "from": 109.2,
+            "to": 112.56,
+            "location": 2,
+            "content": "um then i'm gonna"
+        },
+        {
+            "from": 112.64,
+            "to": 116.96,
+            "location": 2,
+            "content": "want to do something like grocery"
+        },
+        {
+            "from": 116.96,
+            "to": 122.32,
+            "location": 2,
+            "content": "and then maybe something like um"
+        },
+        {
+            "from": 122.32,
+            "to": 126.48,
+            "location": 2,
+            "content": "zilby uh"
+        },
+        {
+            "from": 126.48,
+            "to": 131.92,
+            "location": 2,
+            "content": "before zilby is our our stream cat"
+        },
+        {
+            "from": 131.92,
+            "to": 136.8,
+            "location": 2,
+            "content": "second so i can't show him off but"
+        },
+        {
+            "from": 136.8,
+            "to": 139.92,
+            "location": 2,
+            "content": "one of the videos"
+        },
+        {
+            "from": 139.92,
+            "to": 147.68,
+            "location": 2,
+            "content": "i have this vector here if i just create"
+        },
+        {
+            "from": 147.68,
+            "to": 151.84,
+            "location": 2,
+            "content": "let's do a"
+        },
+        {
+            "from": 153.76,
+            "to": 158.72,
+            "location": 2,
+            "content": "and i just want to sort of put these in"
+        },
+        {
+            "from": 158.72,
+            "to": 162.08,
+            "location": 2,
+            "content": "going to try"
+        },
+        {
+            "from": 162.08,
+            "to": 165.84,
+            "location": 2,
+            "content": "throw tassin just like this"
+        },
+        {
+            "from": 166.64,
+            "to": 170.24,
+            "location": 2,
+            "content": "if we"
+        },
+        {
+            "from": 170.24,
+            "to": 174.72,
+            "location": 2,
+            "content": "they're displaying here"
+        },
+        {
+            "from": 174.72,
+            "to": 183.04,
+            "location": 2,
+            "content": "plain text there's no li around them"
+        },
+        {
+            "from": 183.04,
+            "to": 187.68,
+            "location": 2,
+            "content": "i do this for the first one here for"
+        },
+        {
+            "from": 190.48,
+            "to": 195.44,
+            "location": 2,
+            "content": "it compiles and it works but this li"
+        },
+        {
+            "from": 195.44,
+            "to": 198.4,
+            "location": 2,
+            "content": "because this is just a string literal we"
+        },
+        {
+            "from": 198.4,
+            "to": 202.96,
+            "location": 2,
+            "content": "we're just"
+        },
+        {
+            "from": 202.96,
+            "to": 206.48,
+            "location": 2,
+            "content": "text because it doesn't know that it's"
+        },
+        {
+            "from": 206.48,
+            "to": 211.12,
+            "location": 2,
+            "content": "so we have to do something slightly"
+        },
+        {
+            "from": 211.6,
+            "to": 214.88,
+            "location": 2,
+            "content": "we have to convert this"
+        },
+        {
+            "from": 214.88,
+            "to": 219.92,
+            "location": 2,
+            "content": "actual just html"
+        },
+        {
+            "from": 219.92,
+            "to": 224.84,
+            "location": 2,
+            "content": "this manually here"
+        },
+        {
+            "from": 224.84,
+            "to": 228.24,
+            "location": 2,
+            "content": "html bang"
+        },
+        {
+            "from": 228.48,
+            "to": 236.4,
+            "location": 2,
+            "content": "and then we want an li"
+        },
+        {
+            "from": 236.56,
+            "to": 241.2,
+            "location": 2,
+            "content": "brackets and then quotes"
+        },
+        {
+            "from": 241.2,
+            "to": 246.96,
+            "location": 2,
+            "content": "okay all we need to do is this exact"
+        },
+        {
+            "from": 246.96,
+            "to": 250.4,
+            "location": 2,
+            "content": "so then u"
+        },
+        {
+            "from": 250.4,
+            "to": 252.84,
+            "location": 2,
+            "content": "open"
+        },
+        {
+            "from": 252.84,
+            "to": 256.56,
+            "location": 2,
+            "content": "bracket uh"
+        },
+        {
+            "from": 256.96,
+            "to": 259.2,
+            "location": 2,
+            "content": "i"
+        },
+        {
+            "from": 263.2,
+            "to": 266.2,
+            "location": 2,
+            "content": "closed"
+        },
+        {
+            "from": 268.88,
+            "to": 272.08,
+            "location": 2,
+            "content": "oh and i forgot to close the bracket"
+        },
+        {
+            "from": 272.08,
+            "to": 275.88,
+            "location": 2,
+            "content": "and final one"
+        },
+        {
+            "from": 284.4,
+            "to": 286.56,
+            "location": 2,
+            "content": "to you"
+        },
+        {
+            "from": 286.56,
+            "to": 289.6,
+            "location": 2,
+            "content": "you"
+        },
+        {
+            "from": 290.08,
+            "to": 292.56,
+            "location": 2,
+            "content": "close you"
+        },
+        {
+            "from": 292.72,
+            "to": 296.92,
+            "location": 2,
+            "content": "uh oh you need to be closed"
+        },
+        {
+            "from": 297.6,
+            "to": 299.68,
+            "location": 2,
+            "content": "captioning not"
+        },
+        {
+            "from": 309.2,
+            "to": 313.28,
+            "location": 2,
+            "content": "a full available like this is exactly"
+        },
+        {
+            "from": 313.28,
+            "to": 321.68,
+            "location": 2,
+            "content": "rendering the uh the tags as um"
+        },
+        {
+            "from": 322.64,
+            "to": 329.44,
+            "location": 2,
+            "content": "okay but um"
+        },
+        {
+            "from": 329.44,
+            "to": 334.56,
+            "location": 2,
+            "content": "from our apis and uh the this is not a"
+        },
+        {
+            "from": 334.56,
+            "to": 340.08,
+            "location": 2,
+            "content": "sending you know having our api be aware"
+        },
+        {
+            "from": 340.08,
+            "to": 345.04,
+            "location": 2,
+            "content": "sending html let's not do that"
+        },
+        {
+            "from": 345.04,
+            "to": 349.12,
+            "location": 2,
+            "content": "i'm going to go ahead and revert this so"
+        },
+        {
+            "from": 350.16,
+            "to": 353.84,
+            "location": 2,
+            "content": "take you all off"
+        },
+        {
+            "from": 357.84,
+            "to": 361.12,
+            "location": 2,
+            "content": "okay"
+        },
+        {
+            "from": 361.12,
+            "to": 366.8,
+            "location": 2,
+            "content": "stirs for for our tas"
+        },
+        {
+            "from": 366.8,
+            "to": 369.92,
+            "location": 2,
+            "content": "i am going to"
+        },
+        {
+            "from": 370.48,
+            "to": 373.6,
+            "location": 2,
+            "content": "right down here"
+        },
+        {
+            "from": 374.08,
+            "to": 378.56,
+            "location": 2,
+            "content": "let's see where our tasks are"
+        },
+        {
+            "from": 378.56,
+            "to": 382.64,
+            "location": 2,
+            "content": "going to turn it into an iterator now"
+        },
+        {
+            "from": 382.64,
+            "to": 386.48,
+            "location": 2,
+            "content": "because that allows me to have access to"
+        },
+        {
+            "from": 386.48,
+            "to": 391.12,
+            "location": 2,
+            "content": "so map takes a closure function which is"
+        },
+        {
+            "from": 391.12,
+            "to": 394.96,
+            "location": 2,
+            "content": "and i'm going to return something else"
+        },
+        {
+            "from": 394.96,
+            "to": 401.12,
+            "location": 2,
+            "content": "or map it from one type of value to"
+        },
+        {
+            "from": 401.12,
+            "to": 406.16,
+            "location": 2,
+            "content": "well in this case i want to now return"
+        },
+        {
+            "from": 406.56,
+            "to": 410.72,
+            "location": 2,
+            "content": "with an la tag"
+        },
+        {
+            "from": 410.72,
+            "to": 416.48,
+            "location": 2,
+            "content": "i want to throw the task"
+        },
+        {
+            "from": 416.48,
+            "to": 422.64,
+            "location": 2,
+            "content": "okay great now after the map we need to"
+        },
+        {
+            "from": 422.64,
+            "to": 426.88,
+            "location": 2,
+            "content": "and i need to tell it exactly what type"
+        },
+        {
+            "from": 426.88,
+            "to": 431.76,
+            "location": 2,
+            "content": "html now and that should be it this is"
+        },
+        {
+            "from": 431.76,
+            "to": 436.56,
+            "location": 2,
+            "content": "going to give us"
+        },
+        {
+            "from": 436.56,
+            "to": 439.28,
+            "location": 2,
+            "content": "to"
+        },
+        {
+            "from": 439.28,
+            "to": 447.12,
+            "location": 2,
+            "content": "uh the list items as actual list items"
+        },
+        {
+            "from": 447.12,
+            "to": 451.12,
+            "location": 2,
+            "content": "not great to look at because there's a"
+        },
+        {
+            "from": 451.12,
+            "to": 454.4,
+            "location": 2,
+            "content": "doing something very simple and if"
+        },
+        {
+            "from": 454.4,
+            "to": 460,
+            "location": 2,
+            "content": "in li tags this may end up becoming"
+        },
+        {
+            "from": 460,
+            "to": 463.52,
+            "location": 2,
+            "content": "so i would suggest"
+        },
+        {
+            "from": 463.52,
+            "to": 466.96,
+            "location": 2,
+            "content": "function"
+        },
+        {
+            "from": 466.96,
+            "to": 470.8,
+            "location": 2,
+            "content": "let's name this"
+        },
+        {
+            "from": 470.8,
+            "to": 476.96,
+            "location": 2,
+            "content": "wrap li like wrap wrap something in a"
+        },
+        {
+            "from": 477.44,
+            "to": 481.2,
+            "location": 2,
+            "content": "to to li"
+        },
+        {
+            "from": 481.2,
+            "to": 488.32,
+            "location": 2,
+            "content": "not exactly sure how i want to to put"
+        },
+        {
+            "from": 489.44,
+            "to": 491.6,
+            "location": 2,
+            "content": "list"
+        },
+        {
+            "from": 491.6,
+            "to": 498.8,
+            "location": 2,
+            "content": "list to html uh naming things is hard"
+        },
+        {
+            "from": 498.8,
+            "to": 503.92,
+            "location": 2,
+            "content": "something so we're going to take in the"
+        },
+        {
+            "from": 503.92,
+            "to": 511.2,
+            "location": 2,
+            "content": "of in this case it's uh it stirs"
+        },
+        {
+            "from": 511.2,
+            "to": 515.76,
+            "location": 2,
+            "content": "uh you could put whatever you feel like"
+        },
+        {
+            "from": 515.76,
+            "to": 520.56,
+            "location": 2,
+            "content": "dynamically implementing like a string"
+        },
+        {
+            "from": 520.56,
+            "to": 525.28,
+            "location": 2,
+            "content": "it does need to be like one specific"
+        },
+        {
+            "from": 525.28,
+            "to": 529.84,
+            "location": 2,
+            "content": "which is beyond the scope of this"
+        },
+        {
+            "from": 529.84,
+            "to": 535.92,
+            "location": 2,
+            "content": "and we are going to return"
+        },
+        {
+            "from": 535.92,
+            "to": 540.16,
+            "location": 2,
+            "content": "vector with html inside"
+        },
+        {
+            "from": 540.56,
+            "to": 545.84,
+            "location": 2,
+            "content": "uh we can now re-implement this down"
+        },
+        {
+            "from": 545.84,
+            "to": 550.64,
+            "location": 2,
+            "content": "or we're going to get the iter off of it"
+        },
+        {
+            "from": 550.64,
+            "to": 554.64,
+            "location": 2,
+            "content": "gonna take this function with the"
+        },
+        {
+            "from": 554.64,
+            "to": 558.24,
+            "location": 2,
+            "content": "an item whatever that means uh we're"
+        },
+        {
+            "from": 558.24,
+            "to": 563.32,
+            "location": 2,
+            "content": "in this case"
+        },
+        {
+            "from": 563.76,
+            "to": 567.2,
+            "location": 2,
+            "content": "wrap this in an li"
+        },
+        {
+            "from": 571.68,
+            "to": 575.6,
+            "location": 2,
+            "content": "we're going to put the item in here if"
+        },
+        {
+            "from": 575.6,
+            "to": 579.76,
+            "location": 2,
+            "content": "format it add something else add like a"
+        },
+        {
+            "from": 579.76,
+            "to": 583.44,
+            "location": 2,
+            "content": "money values"
+        },
+        {
+            "from": 583.44,
+            "to": 587.2,
+            "location": 2,
+            "content": "have everything in rust right here"
+        },
+        {
+            "from": 587.2,
+            "to": 591.84,
+            "location": 2,
+            "content": "uh let's see then"
+        },
+        {
+            "from": 591.84,
+            "to": 597.12,
+            "location": 2,
+            "content": "done"
+        },
+        {
+            "from": 600.16,
+            "to": 604.8,
+            "location": 2,
+            "content": "and i'm going to semicolon so it's auto"
+        },
+        {
+            "from": 604.8,
+            "to": 609.12,
+            "location": 2,
+            "content": "this one i don't need to tell it what"
+        },
+        {
+            "from": 609.12,
+            "to": 616.08,
+            "location": 2,
+            "content": "here it it it's very easy for it to know"
+        },
+        {
+            "from": 616.08,
+            "to": 621.44,
+            "location": 2,
+            "content": "with this list"
+        },
+        {
+            "from": 624.56,
+            "to": 627.84,
+            "location": 2,
+            "content": "and what are you upset about"
+        },
+        {
+            "from": 631.04,
+            "to": 637.6,
+            "location": 2,
+            "content": "uh it doesn't implement display"
+        },
+        {
+            "from": 637.6,
+            "to": 643.68,
+            "location": 2,
+            "content": "send what it is so this is going to be"
+        },
+        {
+            "from": 643.68,
+            "to": 647.84,
+            "location": 2,
+            "content": "kind of kind of helpful for me to call"
+        },
+        {
+            "from": 647.84,
+            "to": 654.4,
+            "location": 2,
+            "content": "there we go so let's uh come back to"
+        },
+        {
+            "from": 654.4,
+            "to": 656.56,
+            "location": 2,
+            "content": "so"
+        },
+        {
+            "from": 656.56,
+            "to": 660.8,
+            "location": 2,
+            "content": "this sort of method"
+        },
+        {
+            "from": 660.8,
+            "to": 665.04,
+            "location": 2,
+            "content": "make it uh"
+        },
+        {
+            "from": 665.04,
+            "to": 670.88,
+            "location": 2,
+            "content": "um not like just huge long mega lines"
+        },
+        {
+            "from": 670.88,
+            "to": 676.32,
+            "location": 2,
+            "content": "html to sort of confuse confuse things"
+        },
+        {
+            "from": 676.32,
+            "to": 680.48,
+            "location": 2,
+            "content": "anyways thank you so much for watching"
+        },
+        {
+            "from": 680.48,
+            "to": 684.6,
+            "location": 2,
+            "content": "you in the next video bye"
+        }
+    ]
+}
