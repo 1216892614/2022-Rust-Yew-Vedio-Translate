@@ -1,0 +1,327 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 4.72,
+            "to": 11.44,
+            "location": 2,
+            "content": "let's talk about getting http or http"
+        },
+        {
+            "from": 11.44,
+            "to": 16.88,
+            "location": 2,
+            "content": "uh to find the documentation for the"
+        },
+        {
+            "from": 16.88,
+            "to": 24.88,
+            "location": 2,
+            "content": "uh template language uh we can go to"
+        },
+        {
+            "from": 24.88,
+            "to": 29.44,
+            "location": 2,
+            "content": "and it has everything that we need to"
+        },
+        {
+            "from": 29.44,
+            "to": 36.32,
+            "location": 2,
+            "content": "rust this is similar to jsx but there"
+        },
+        {
+            "from": 36.48,
+            "to": 39.6,
+            "location": 2,
+            "content": "so um"
+        },
+        {
+            "from": 39.6,
+            "to": 44.48,
+            "location": 2,
+            "content": "our code"
+        },
+        {
+            "from": 44.48,
+            "to": 50.96,
+            "location": 2,
+            "content": "html is we can use the class keyword"
+        },
+        {
+            "from": 50.96,
+            "to": 54.4,
+            "location": 2,
+            "content": "just class"
+        },
+        {
+            "from": 54.4,
+            "to": 58.24,
+            "location": 2,
+            "content": "something in here this is the same with"
+        },
+        {
+            "from": 58.24,
+            "to": 62.56,
+            "location": 2,
+            "content": "that you want to add in if you just want"
+        },
+        {
+            "from": 62.56,
+            "to": 68.96,
+            "location": 2,
+            "content": "you want a class just add add a class"
+        },
+        {
+            "from": 68.96,
+            "to": 74.08,
+            "location": 2,
+            "content": "jsx you can't use class keyword because"
+        },
+        {
+            "from": 74.08,
+            "to": 78.56,
+            "location": 2,
+            "content": "not so much in rust which is really"
+        },
+        {
+            "from": 78.56,
+            "to": 83.44,
+            "location": 2,
+            "content": "so for example let's take a look at"
+        },
+        {
+            "from": 83.44,
+            "to": 86.48,
+            "location": 2,
+            "content": "let's go"
+        },
+        {
+            "from": 86.48,
+            "to": 91.84,
+            "location": 2,
+            "content": "we have this h1 hello world"
+        },
+        {
+            "from": 91.84,
+            "to": 95.2,
+            "location": 2,
+            "content": "title"
+        },
+        {
+            "from": 95.2,
+            "to": 99.68,
+            "location": 2,
+            "content": "and now we see that we just have that"
+        },
+        {
+            "from": 99.68,
+            "to": 104.4,
+            "location": 2,
+            "content": "add attributes if i wanted this to be"
+        },
+        {
+            "from": 104.4,
+            "to": 108.4,
+            "location": 2,
+            "content": "here"
+        },
+        {
+            "from": 108.4,
+            "to": 110.88,
+            "location": 2,
+            "content": "let"
+        },
+        {
+            "from": 111.6,
+            "to": 114.64,
+            "location": 2,
+            "content": "class"
+        },
+        {
+            "from": 114.64,
+            "to": 116.88,
+            "location": 2,
+            "content": "my"
+        },
+        {
+            "from": 117.84,
+            "to": 120.72,
+            "location": 2,
+            "content": "we'll do my title"
+        },
+        {
+            "from": 121.92,
+            "to": 126.4,
+            "location": 2,
+            "content": "just to make a little bit different"
+        },
+        {
+            "from": 126.4,
+            "to": 131.84,
+            "location": 2,
+            "content": "world we're going to use the open and"
+        },
+        {
+            "from": 134.32,
+            "to": 138.24,
+            "location": 2,
+            "content": "inside of here because otherwise it"
+        },
+        {
+            "from": 138.24,
+            "to": 142.32,
+            "location": 2,
+            "content": "it's like a key"
+        },
+        {
+            "from": 142.32,
+            "to": 149.68,
+            "location": 2,
+            "content": "we have to use the curly bracket"
+        },
+        {
+            "from": 149.68,
+            "to": 154.96,
+            "location": 2,
+            "content": "other really helpful things in here"
+        },
+        {
+            "from": 154.96,
+            "to": 159.44,
+            "location": 2,
+            "content": "level"
+        },
+        {
+            "from": 159.44,
+            "to": 165.68,
+            "location": 2,
+            "content": "like okay we have our h1 and then i want"
+        },
+        {
+            "from": 169.52,
+            "to": 173.6,
+            "location": 2,
+            "content": "and i want to just say"
+        },
+        {
+            "from": 173.6,
+            "to": 177.68,
+            "location": 2,
+            "content": "hi there"
+        },
+        {
+            "from": 177.68,
+            "to": 181.92,
+            "location": 2,
+            "content": "only have one element at the root level"
+        },
+        {
+            "from": 181.92,
+            "to": 185.44,
+            "location": 2,
+            "content": "called a fragment"
+        },
+        {
+            "from": 185.44,
+            "to": 189.04,
+            "location": 2,
+            "content": "have an open and close what looks like a"
+        },
+        {
+            "from": 189.04,
+            "to": 193.76,
+            "location": 2,
+            "content": "but it has nothing inside of it"
+        },
+        {
+            "from": 193.76,
+            "to": 198.64,
+            "location": 2,
+            "content": "normal tag though"
+        },
+        {
+            "from": 198.64,
+            "to": 201.44,
+            "location": 2,
+            "content": "um\n00:03:19,840 --> 00:03:23,1000\nwhen we come back and we inspect our\n\n81"
+        },
+        {
+            "from": 201.44,
+            "to": 206.4,
+            "location": 2,
+            "content": "code the h1 and p are still children"
+        },
+        {
+            "from": 206.4,
+            "to": 210.88,
+            "location": 2,
+            "content": "which means it's not including any like"
+        },
+        {
+            "from": 210.88,
+            "to": 216.32,
+            "location": 2,
+            "content": "this in for us this fragment is truly"
+        },
+        {
+            "from": 216.32,
+            "to": 220.48,
+            "location": 2,
+            "content": "and exactly where you expect them to be"
+        },
+        {
+            "from": 220.48,
+            "to": 225.36,
+            "location": 2,
+            "content": "then keep this in mind but also please"
+        },
+        {
+            "from": 225.36,
+            "to": 230.56,
+            "location": 2,
+            "content": "um to real divs real tags so you can't"
+        },
+        {
+            "from": 230.56,
+            "to": 232.88,
+            "location": 2,
+            "content": "with them"
+        },
+        {
+            "from": 233.12,
+            "to": 236.96,
+            "location": 2,
+            "content": "let's see if we take a look at our"
+        },
+        {
+            "from": 236.96,
+            "to": 240.8,
+            "location": 2,
+            "content": "i don't necessarily if there's anything"
+        },
+        {
+            "from": 240.8,
+            "to": 243.2,
+            "location": 2,
+            "content": "about"
+        },
+        {
+            "from": 243.2,
+            "to": 246.88,
+            "location": 2,
+            "content": "but"
+        },
+        {
+            "from": 246.88,
+            "to": 251.04,
+            "location": 2,
+            "content": "uh getting going through some lists and"
+        }
+    ]
+}
