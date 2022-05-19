@@ -9,715 +9,685 @@
             "from": 5.12,
             "to": 10.08,
             "location": 2,
-            "content": "it's great that we have a hello world"
+            "content": "这个用 yew 制作的 Hello World 组件超酷的"
         },
         {
             "from": 10.08,
             "to": 14.4,
             "location": 2,
-            "content": "its own library and we have a better"
+            "content": "我们还有很好的体系结构"
         },
         {
             "from": 14.4,
             "to": 17.6,
             "location": 2,
-            "content": "but"
+            "content": "但, 这玩意真™的丑"
         },
         {
             "from": 17.6,
             "to": 22.72,
             "location": 2,
-            "content": "it we are going to want styles at some"
+            "content": "我们打算用样式装饰一下我们的App"
         },
         {
             "from": 22.72,
             "to": 28.16,
             "location": 2,
-            "content": "to do that we need to pull in some kind"
+            "content": "为此, 创建一些 css"
         },
         {
             "from": 28.16,
             "to": 32.08,
             "location": 2,
-            "content": "let's go take a look at the"
+            "content": "我们看回到 yew 文档"
         },
         {
             "from": 32.08,
             "to": 37.44,
             "location": 2,
-            "content": "have a section talking about css however"
+            "content": "这里确实有一部分是在讲 css 的"
         },
         {
             "from": 37.44,
             "to": 43.68,
             "location": 2,
-            "content": "nothing really set up for it yet so we"
+            "content": "可是在现在yew的主版本, 这里真的没什么东西是完成的"
         },
         {
             "from": 43.68,
             "to": 48.96,
             "location": 2,
-            "content": "and in css we'll notice there's a big"
+            "content": "看向下面的 More -> CSS, 一个巨大的 <TODO> 摆在这里"
         },
         {
             "from": 48.96,
             "to": 52.24,
             "location": 2,
-            "content": "documentation"
+            "content": "我现在看的是 V0.19.0 版本的文档,"
         },
         {
             "from": 52.24,
             "to": 56.16,
             "location": 2,
-            "content": "css stuff built in in the future but for"
+            "content": "这些css特性可能会在未来实现, 但是现在"
         },
         {
             "from": 56.16,
             "to": 60.8,
             "location": 2,
-            "content": "it's not here so they have some"
+            "content": "这里什么特性都没有, 但是还是给你我们一些建议"
         },
         {
             "from": 60.8,
             "to": 64.72,
             "location": 2,
-            "content": "what i've ultimately settled on and what"
+            "content": "我最后敲定的打算教方案在这里"
         },
         {
             "from": 64.72,
             "to": 69.92,
             "location": 2,
-            "content": "course here is something called stylist"
+            "content": "它被称之为 stylist 点击连接"
         },
         {
             "from": 69.92,
             "to": 73.84,
             "location": 2,
-            "content": "on over to the stylist repository"
+            "content": "跳转到 stylist 的仓库"
         },
         {
             "from": 75.04,
             "to": 81.2,
             "location": 2,
-            "content": "so what stylist allows us to do is use a"
+            "content": "stylist 允许我们在我们的 Rust 代码里"
         },
         {
             "from": 81.2,
             "to": 86.4,
             "location": 2,
-            "content": "to write styles directly inside of"
+            "content": "用 css 宏, 来编写 css 样式"
         },
         {
             "from": 86.4,
             "to": 91.6,
             "location": 2,
-            "content": "this is going to be very similar to what"
+            "content": "这和 vue.js 很像"
         },
         {
             "from": 91.6,
             "to": 98.64,
             "location": 2,
-            "content": "styles the javascript and the html all"
+            "content": "样式, JS/TS, Html 都写在一个文件里"
         },
         {
             "from": 98.64,
             "to": 104.72,
             "location": 2,
-            "content": "have that in in our code here"
+            "content": "我们现在就会在我们的代码里这么写"
         },
         {
             "from": 104.72,
             "to": 109.2,
             "location": 2,
-            "content": "similar to react where we have maybe"
+            "content": "我们也可以像 react 一样"
         },
         {
             "from": 109.2,
             "to": 113.52,
             "location": 2,
-            "content": "pull in and then apply to our rest and"
+            "content": "那样弄一个 style.css 来引入并应用在 Rust 里\n我们会在未来的视频里介绍"
         },
         {
             "from": 113.52,
             "to": 118,
             "location": 2,
-            "content": "video for right now we're going to use"
+            "content": "现在, 我们用 stylist 这样的内联 css 样式"
         },
         {
             "from": 118,
             "to": 122.24,
             "location": 2,
-            "content": "stylist suggests"
+            "content": "作为开始"
         },
         {
             "from": 122.24,
             "to": 127.32,
             "location": 2,
-            "content": "and bring in the latest version of"
+            "content": "我们引入最新版本的 stylist"
         },
         {
             "from": 140.72,
             "to": 144.32,
             "location": 2,
-            "content": "we always get a little bit of those"
+            "content": "我们有时候会在保存时得到一些小错误"
         },
         {
             "from": 144.32,
             "to": 148.72,
             "location": 2,
-            "content": "especially as it's parsing as i'm"
+            "content": "尤其是在对刚引入的 crate 进行语法分析的时候"
         },
         {
             "from": 148.72,
             "to": 152.72,
             "location": 2,
-            "content": "have you know little tiny bits of errors"
+            "content": "这些小错误基本上都会"
         },
         {
             "from": 152.72,
             "to": 156.96,
             "location": 2,
-            "content": "as it doesn't error out after you finish"
+            "content": "在进行完分析按下保存的时候消失"
         },
         {
             "from": 156.96,
             "to": 161.84,
             "location": 2,
-            "content": "so rest analyzer is bringing in stylus"
+            "content": "现在 Rust-Analyzer 安装并解析了 stylist"
         },
         {
             "from": 161.84,
             "to": 166.08,
             "location": 2,
-            "content": "we're going to open up our main library"
+            "content": "我们打开我们的 `lib.rs`, 我们要在这里创建我们的样式"
         },
         {
             "from": 166.08,
             "to": 170.8,
             "location": 2,
-            "content": "here now the first thing we need to do"
+            "content": "首先我们要把 function_component 变成 styled_component"
         },
         {
             "from": 170.8,
             "to": 174.48,
             "location": 2,
-            "content": "to a styled component so we're going to"
-        },
-        {
-            "from": 174.48,
-            "to": 177.04,
-            "location": 2,
-            "content": "stylus"
+            "content": "我们要引入 stylist"
         },
         {
             "from": 180.72,
             "to": 186.24,
             "location": 2,
-            "content": "let's see where oh i'm just going to use"
+            "content": "算了, 我们还是用 Rust-Analyzer 的自动引入吧"
         },
         {
             "from": 186.24,
             "to": 190.56,
             "location": 2,
-            "content": "so this is a style"
+            "content": "这里写成 style"
         },
         {
             "from": 193.68,
             "to": 198.56,
             "location": 2,
-            "content": "it actually has it written down here"
+            "content": "它应该就写在这儿,\nOh, 是`stylist::yew::styled_component`"
         },
         {
             "from": 198.56,
             "to": 202.72,
             "location": 2,
-            "content": "styled components that's what it is"
+            "content": "原来是这样啊"
         },
         {
             "from": 202.72,
             "to": 207.68,
             "location": 2,
-            "content": "use stylus"
+            "content": "`use stylist::yew::...`"
         },
         {
             "from": 208.56,
             "to": 211.76,
             "location": 2,
-            "content": "if it's not finding things when i'm"
+            "content": "如果找不到我想引入的东西"
         },
         {
             "from": 211.76,
             "to": 216.8,
             "location": 2,
-            "content": "possible that it's behind a feature"
+            "content": "很有可能是因为我们没有安装相应的特性"
         },
         {
             "from": 216.8,
             "to": 220.72,
             "location": 2,
-            "content": "want to go find like what features are"
+            "content": "如果我们想看看有什么特性是我们可用的"
         },
         {
             "from": 220.72,
             "to": 224.72,
             "location": 2,
-            "content": "let's actually go take a look at the"
+            "content": "我们直接开对 stylist 的文档进行一个瞧"
         },
         {
             "from": 224.72,
             "to": 227.84,
             "location": 2,
-            "content": "go find"
+            "content": "查找 yew"
         },
         {
             "from": 227.92,
             "to": 230.8,
             "location": 2,
-            "content": "uh you"
-        },
-        {
-            "from": 230.8,
-            "to": 233.2,
-            "location": 2,
-            "content": "page"
+            "content": "在刚刚的页面我好像看到了"
         },
         {
             "from": 236.24,
             "to": 241.04,
             "location": 2,
-            "content": "but here this is supported on create"
+            "content": "这只对 yew 特性开放"
         },
         {
             "from": 241.04,
             "to": 245.92,
             "location": 2,
-            "content": "to activate the u feature"
+            "content": "我们必须激活 yew 特性, 回到 Toml"
         },
         {
             "from": 245.92,
             "to": 248.64,
             "location": 2,
-            "content": "we're going to use a different style"
+            "content": "我们要用一种不同的格式引入"
         },
         {
             "from": 248.64,
             "to": 252.28,
             "location": 2,
-            "content": "where we're going to say"
+            "content": "我们要写"
         },
         {
             "from": 255.68,
             "to": 259.28,
             "location": 2,
-            "content": "version"
+            "content": "这个是版本"
         },
         {
             "from": 261.92,
             "to": 266,
             "location": 2,
-            "content": "equals an array and you"
+            "content": "特性定义为一个包含 yew 的列表"
         },
         {
             "from": 267.44,
-            "to": 272.88,
-            "location": 2,
-            "content": "rest analyzer is going to update and now"
-        },
-        {
-            "from": 272.88,
             "to": 275.6,
             "location": 2,
-            "content": "style su"
+            "content": "rust-analyzer 开始运行更新, 现在我们应该可以引入`stylist::yew`了"
         },
         {
             "from": 276.24,
             "to": 281.52,
             "location": 2,
-            "content": "let's try this again so stylist"
+            "content": "重来, `stylist::yew::styled_component`"
         },
         {
             "from": 283.6,
             "to": 288.48,
             "location": 2,
-            "content": "and we're going to update this to styled"
+            "content": "然后我们要把这里改为 styled_component"
         },
         {
             "from": 289.52,
             "to": 294.64,
             "location": 2,
-            "content": "and this is going to be the same app"
+            "content": "这还是同样的 App"
         },
         {
             "from": 294.64,
             "to": 298.96,
             "location": 2,
-            "content": "function component that we have from you"
+            "content": "这和 function_component 没什么区别, 只不过"
         },
         {
             "from": 298.96,
             "to": 303.04,
             "location": 2,
-            "content": "allow us to use the style macros"
+            "content": "允许我们使用样式宏了"
         },
         {
             "from": 303.44,
             "to": 308.84,
             "location": 2,
-            "content": "inside of here we want to create our"
+            "content": "在这里我想创建我们的样式"
         },
         {
             "from": 314.32,
             "to": 320.24,
             "location": 2,
-            "content": "uh i'm pulling in the style also from"
+            "content": "uh, 我同样从 stylist 这里引入 style! 宏"
         },
         {
             "from": 322,
             "to": 325.04,
             "location": 2,
-            "content": "and inside of here we're going to create"
+            "content": "而在这里, 我们要创建一些"
         },
         {
             "from": 325.04,
             "to": 329.6,
             "location": 2,
-            "content": "um"
+            "content": "um...一些用来定义样式的字符串"
         },
         {
             "from": 329.6,
-            "to": 332.4,
-            "location": 2,
-            "content": "we're going to use a"
-        },
-        {
-            "from": 332.4,
             "to": 336.84,
             "location": 2,
-            "content": "uh pound"
+            "content": "在这里写 `r#\"\"#`"
         },
         {
             "from": 336.84,
             "to": 340.64,
             "location": 2,
-            "content": "then end like that"
+            "content": "像这样闭合它"
         },
         {
             "from": 343.28,
             "to": 348.16,
             "location": 2,
-            "content": "actually i don't need the end semicolon"
+            "content": "事实上我并不需要一个分号结尾, 这可以让我写一段 String"
         },
         {
             "from": 348.16,
             "to": 352.96,
             "location": 2,
-            "content": "so this"
+            "content": "这就是一种在 Rust 里"
         },
         {
             "from": 352.96,
             "to": 356.88,
             "location": 2,
-            "content": "just create stirs that are multi-line"
+            "content": "创建多行无转义文本的方法"
         },
         {
             "from": 356.88,
             "to": 360.56,
             "location": 2,
-            "content": "it's it's pretty nice"
+            "content": "看起来不错, 那么接下来我们怎么办?"
         },
         {
             "from": 360.56,
             "to": 364.8,
             "location": 2,
-            "content": "want to style this we want to duplicate"
+            "content": "我们想要复制我们已有的样式到这里"
         },
         {
             "from": 364.8,
             "to": 371.92,
             "location": 2,
-            "content": "have this color white"
+            "content": "我们在这里有一个`color:white`"
         },
         {
             "from": 372.16,
             "to": 375.6,
             "location": 2,
-            "content": "to be"
+            "content": "我们也把这里的 color 变成 white"
         },
         {
             "from": 379.92,
             "to": 383.28,
             "location": 2,
-            "content": "now i want to apply this"
+            "content": "现在我像把这个应用在html里"
         },
         {
             "from": 383.28,
             "to": 388.8,
             "location": 2,
-            "content": "to this html so we're going to use"
+            "content": "写一个 class"
         },
         {
             "from": 391.28,
             "to": 396.48,
             "location": 2,
-            "content": "equals"
+            "content": "等于号"
         },
         {
             "from": 396.48,
             "to": 403.04,
             "location": 2,
-            "content": "we have our choice like i i need to i"
+            "content": "我们有个选择, 我们可以直接把style 应用成 stylesheet"
         },
         {
             "from": 404.32,
             "to": 408.56,
             "location": 2,
-            "content": "and"
+            "content": "然后"
         },
         {
             "from": 408.56,
             "to": 414.48,
             "location": 2,
-            "content": "status error is not okay so you oh i see"
+            "content": "得到了一个错误, Oh, 我知道为什么了"
         },
         {
             "from": 414.48,
             "to": 417.28,
             "location": 2,
-            "content": "unwrap on this"
+            "content": "写个`.unwrap()`"
         },
         {
             "from": 417.76,
             "to": 423.04,
             "location": 2,
-            "content": "that's gonna give us a style here for"
+            "content": "这里的 stylesheet 会给我们一个样式"
         },
         {
             "from": 423.04,
             "to": 428.8,
             "location": 2,
-            "content": "i'm not getting any errors"
+            "content": "没有错误了"
         },
         {
             "from": 429.84,
             "to": 434.8,
             "location": 2,
-            "content": "when i run my code"
+            "content": "运行代码, 这里还是白色的字"
         },
         {
             "from": 434.8,
             "to": 439.04,
             "location": 2,
-            "content": "also at the same time"
+            "content": "但同时, html 的 color 还是 white"
         },
         {
             "from": 439.04,
             "to": 444.16,
             "location": 2,
-            "content": "white so we're going to delete that"
+            "content": "我们直接删除"
         },
         {
             "from": 444.16,
             "to": 448.16,
             "location": 2,
-            "content": "that this is"
+            "content": "来保证这里的样式是我们需要的"
         },
         {
             "from": 448.16,
             "to": 454,
             "location": 2,
-            "content": "expect it to let's change this from\n00:07:30,319 --> 00:07:33,1000\nwhite to something like orange\n\n166"
+            "content": "我们来把 white 变成 orange"
         },
         {
             "from": 457.6,
             "to": 461.36,
             "location": 2,
-            "content": "and there we go okay so it actually is"
+            "content": "okay, 它已经应用了样式"
         },
         {
             "from": 461.36,
             "to": 465.84,
             "location": 2,
-            "content": "happening behind the scenes because this"
+            "content": "让我们来理解一下这背后发生了什么,"
         },
         {
             "from": 465.84,
             "to": 469.28,
             "location": 2,
-            "content": "strange the way it's working"
+            "content": "这样的效果可能看起来有点奇怪"
         },
         {
             "from": 471.36,
             "to": 475.4,
             "location": 2,
-            "content": "so to begin with"
+            "content": "首先,"
         },
         {
             "from": 478.56,
             "to": 481.2,
             "location": 2,
-            "content": "in the head"
+            "content": "在 <head>"
         },
         {
             "from": 482.96,
             "to": 487.44,
             "location": 2,
-            "content": "we're getting a"
+            "content": "我们可以看到我们自己创造的样式"
         },
         {
             "from": 487.44,
             "to": 493.36,
             "location": 2,
-            "content": "created manually"
+            "content": "还有一个样式"
         },
         {
             "from": 493.36,
             "to": 497.44,
             "location": 2,
-            "content": "down here"
+            "content": "在下面这里, 我们可以看到这个 style 标签"
         },
         {
             "from": 497.44,
             "to": 500.4,
             "location": 2,
-            "content": "style"
+            "content": "叫 data-style, stylist 开头,"
         },
         {
             "from": 500.4,
             "to": 505.52,
             "location": 2,
-            "content": "random"
+            "content": "后面就是一些随机字符"
         },
         {
             "from": 505.68,
             "to": 511.68,
             "location": 2,
-            "content": "and it's now linking this dot stylist"
+            "content": "它连接了这个 .stylist class"
         },
         {
             "from": 511.68,
             "to": 515.2,
             "location": 2,
-            "content": "the same string"
+            "content": "用同样的编号创建了一个同样的 class"
         },
         {
             "from": 515.2,
             "to": 519.44,
             "location": 2,
-            "content": "our styles get applied"
+            "content": "这就是我们样式生效的地方, 在下面这里"
         },
         {
             "from": 519.44,
             "to": 524.08,
             "location": 2,
-            "content": "our h1 tag"
+            "content": "我们的 h1 标签获取应用了这个class"
         },
         {
             "from": 524.08,
-            "to": 528.88,
-            "location": 2,
-            "content": "notice i just put color orange here i"
-        },
-        {
-            "from": 528.88,
             "to": 530.72,
             "location": 2,
-            "content": "anything"
+            "content": "你可以发现我就是放了一个 `color: orange,` 在这里\n我并没有放任何的标签提示什么的"
         },
         {
             "from": 530.72,
             "to": 534.16,
             "location": 2,
-            "content": "can be a little bit disconcerting"
+            "content": "这可能看起来挺怪的"
         },
         {
             "from": 534.16,
             "to": 537.92,
             "location": 2,
-            "content": "little bit more nested what if i want to"
+            "content": "因为如果我有更复杂的嵌套结构"
         },
         {
             "from": 537.92,
             "to": 543.6,
             "location": 2,
-            "content": "what if i want to have maybe like a"
+            "content": "如果我想...如果我创建了一个 <div>"
         },
         {
             "from": 545.36,
             "to": 550.16,
             "location": 2,
-            "content": "i want to have our h1 as something in"
+            "content": "我把我们的 h1 或者类似的东西放到这里"
         },
         {
             "from": 550.16,
             "to": 555.12,
             "location": 2,
-            "content": "a p tag"
+            "content": "比如一个 p 标签"
         },
         {
             "from": 560.08,
             "to": 563.4,
             "location": 2,
-            "content": "more text"
+            "content": "里面放上更多文本"
         },
         {
             "from": 565.68,
             "to": 568.88,
             "location": 2,
-            "content": "more text goes here"
+            "content": "在这里写上 \"more text\""
         },
         {
             "from": 570.56,
             "to": 575.44,
             "location": 2,
-            "content": "now let's say i want to have a color"
+            "content": "现在我想让 h1 保持橙色"
         },
         {
             "from": 575.44,
             "to": 581.2,
             "location": 2,
-            "content": "and then i want white for the p tag well"
+            "content": "让 p 标签变成白色, 我可能会在这里写"
         },
         {
             "from": 581.2,
             "to": 586.24,
             "location": 2,
-            "content": "putting this inside of all h1s"
+            "content": "把所有的 h1 都声明为"
         },
         {
             "from": 588,
             "to": 593.52,
             "location": 2,
-            "content": "have this color orange"
+            "content": "文字颜色为橘色"
         },
         {
             "from": 593.52,
             "to": 597.28,
             "location": 2,
-            "content": "to have color"
+            "content": "所有的 p 标签都是白色"
         },
         {
             "from": 597.28,
             "to": 601.92,
             "location": 2,
-            "content": "this is valid css"
+            "content": "这是语法正确的 css"
         },
         {
             "from": 601.92,
             "to": 605.2,
             "location": 2,
-            "content": "head"
+            "content": "如果我们看到 <head>, 我们就有了"
         },
         {
             "from": 605.2,
             "to": 610.16,
             "location": 2,
-            "content": "h1 color orange"
+            "content": "橘色的 h1 和白色的 p"
         },
         {
             "from": 610.16,
             "to": 612.72,
             "location": 2,
-            "content": "that's great"
+            "content": "这挺好的"
         },
         {
             "from": 613.84,
@@ -727,99 +697,75 @@
         },
         {
             "from": 615.68,
-            "to": 620.32,
-            "location": 2,
-            "content": "my class i now need to move this"
-        },
-        {
-            "from": 621.36,
             "to": 623.76,
             "location": 2,
-            "content": "up here"
+            "content": "先让我把 class 移动到这里"
         },
         {
             "from": 625.84,
             "to": 631.52,
             "location": 2,
-            "content": "now if we come back to our css"
+            "content": "现在我们回到页面"
         },
         {
             "from": 631.52,
             "to": 638.08,
             "location": 2,
-            "content": "our title orange"
+            "content": "橘色的标题和白色的文本"
         },
         {
             "from": 638.08,
             "to": 642.32,
             "location": 2,
-            "content": "um this is this is going to be the"
-        },
-        {
-            "from": 642.32,
-            "to": 646.96,
-            "location": 2,
-            "content": "our classes"
+            "content": "um, 这是我更喜欢的创建 classes 的方法"
         },
         {
             "from": 646.96,
             "to": 652.32,
             "location": 2,
-            "content": "container that we're going to add the"
+            "content": "我们会为容器编写应用样式"
         },
         {
             "from": 652.32,
             "to": 657.84,
             "location": 2,
-            "content": "then have everything underneath it to"
+            "content": "这样里面的东西就都可以应用上了,\n为了让 <div> 自己应用样式"
         },
         {
             "from": 657.84,
             "to": 664.08,
             "location": 2,
-            "content": "we would have to add in something else"
+            "content": "我们必须增加些其他东西"
         },
         {
             "from": 664.08,
-            "to": 667.6,
-            "location": 2,
-            "content": "not"
-        },
-        {
-            "from": 667.6,
             "to": 672.16,
             "location": 2,
-            "content": "inside of"
+            "content": "即便是在css里, 这看起来也挺罕见的"
         },
         {
             "from": 672.16,
             "to": 677.92,
             "location": 2,
-            "content": "valid css that you can move between"
+            "content": "这些都是正确的 css 语法, 你可以在不同项目之间使用它们, 即便是来自 yew 项目"
         },
         {
             "from": 677.92,
             "to": 683.92,
             "location": 2,
-            "content": "projects and it'll just work the way you"
+            "content": "它会按照你期待的方式生效\n(鬼扯, css 从来不按我想的方式生效"
         },
         {
             "from": 684.24,
             "to": 689.6,
             "location": 2,
-            "content": "and that is an introduction and getting"
-        },
-        {
-            "from": 689.6,
-            "to": 693.6,
-            "location": 2,
-            "content": "if"
+            "content": "这期视频就是关于 stylist 的介绍和快速开始"
         },
         {
             "from": 693.6,
             "to": 697.72,
             "location": 2,
-            "content": "will see you in the next video bye"
+            "content": "蟹蟹观看, yew.rs 道, 堂堂连载!"
         }
     ]
 }
