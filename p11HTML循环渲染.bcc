@@ -9,415 +9,355 @@
             "from": 4.88,
             "to": 10.32,
             "location": 2,
-            "content": "we've gone over if statements in html"
+            "content": "我们刚刚搞定的 if 表达式"
         },
         {
             "from": 10.32,
             "to": 15.28,
             "location": 2,
-            "content": "know dynamically create or choose what"
+            "content": "但是还有一种很有用的方法," 
         },
         {
             "from": 15.28,
             "to": 19.84,
             "location": 2,
-            "content": "that can be really helpful for us and"
+            "content": "可以动态的创建或过滤我们需要的 DOM, 它就是 Loop"
         },
         {
             "from": 19.84,
             "to": 25.12,
             "location": 2,
-            "content": "have an array or vector"
+            "content": "当我们从 API 获得一个列表或者 Vector 的时候"
         },
         {
             "from": 25.12,
             "to": 30.16,
             "location": 2,
-            "content": "our api and we want to display that out"
+            "content": "想展示他们, 我们就会常常用到一种方法"
         },
         {
             "from": 30.16,
             "to": 35.84,
             "location": 2,
-            "content": "we have a list"
+            "content": "那就是 列表(List), 列表的文档在这里"
         },
         {
             "from": 35.84,
             "to": 40.24,
             "location": 2,
-            "content": "down here in html"
+            "content": "查看 HTML -> List"
         },
         {
             "from": 40.24,
-            "to": 44.8,
-            "location": 2,
-            "content": "and it shows a couple ways that we can"
-        },
-        {
-            "from": 44.8,
             "to": 46.8,
             "location": 2,
-            "content": "use"
+            "content": "这里展示了几种"
         },
         {
             "from": 46.8,
             "to": 50.48,
             "location": 2,
-            "content": "basically display just like a list of"
+            "content": "我们可以用来列出展示的方法"
         },
         {
             "from": 50.48,
             "to": 53.52,
             "location": 2,
-            "content": "now this dot this documentation here is"
+            "content": "这里这个文档"
         },
         {
             "from": 53.52,
             "to": 56.88,
             "location": 2,
-            "content": "might be a little bit confusing we're"
+            "content": "看起来有些难以理解"
         },
         {
             "from": 56.88,
             "to": 63.04,
             "location": 2,
-            "content": "off in a demo really quickly"
+            "content": "我会快速的解释一下这个 demo"
         },
         {
             "from": 63.04,
-            "to": 70.84,
-            "location": 2,
-            "content": "have our items which is a vector"
-        },
-        {
-            "from": 70.84,
             "to": 75.92,
             "location": 2,
-            "content": "or uh just something that just that you"
+            "content": "这里的核心概念是这里有一个装了很多 html 项\n或者就是一些实现了 Display trait的东西的Vector"
         },
         {
             "from": 75.92,
             "to": 82.88,
             "location": 2,
-            "content": "let's uh let's take a look at that"
+            "content": "让我们来看看, 回到我们的代码,"
         },
         {
             "from": 82.88,
             "to": 88,
             "location": 2,
-            "content": "create a new thing let's just call this"
+            "content": "新建一个变量, 我们叫它...task?"
         },
         {
             "from": 88,
             "to": 93.6,
             "location": 2,
-            "content": "tests like you know a to do system so"
+            "content": "就像是一个经典的 TODO"
         },
         {
             "from": 93.6,
             "to": 97.92,
             "location": 2,
-            "content": "we'll make a brand new vector here"
+            "content": "我们创建一个全新的 Vector, 我要在里面放上些字符串"
         },
         {
             "from": 97.92,
             "to": 101.44,
             "location": 2,
-            "content": "them so"
+            "content": "(艰难取名环节)"
         },
         {
             "from": 101.44,
             "to": 107.84,
             "location": 2,
-            "content": "uh first one will maybe be like record"
+            "content": "uh...第一个就叫 record ... video吧"
         },
         {
             "from": 109.2,
             "to": 112.56,
             "location": 2,
-            "content": "um then i'm gonna"
+            "content": "然后..."
         },
         {
             "from": 112.64,
             "to": 116.96,
             "location": 2,
-            "content": "want to do something like grocery"
+            "content": "不如就叫 grocery shopping"
         },
         {
             "from": 116.96,
             "to": 122.32,
             "location": 2,
-            "content": "and then maybe something like um"
+            "content": "最后要不然就是, 额...pet Xilbe"
         },
         {
             "from": 122.32,
             "to": 126.48,
             "location": 2,
-            "content": "zilby uh"
+            "content": "uh...如果你没看过我之前的视频"
         },
         {
             "from": 126.48,
             "to": 131.92,
             "location": 2,
-            "content": "before zilby is our our stream cat"
+            "content": "Xilbe 是我的猫博主,"
         },
         {
             "from": 131.92,
             "to": 136.8,
             "location": 2,
-            "content": "second so i can't show him off but"
+            "content": " 虽然它现在不在这里, 但是我可以晚点秀一下"
         },
         {
             "from": 136.8,
             "to": 139.92,
             "location": 2,
-            "content": "one of the videos"
+            "content": "在视频里穿插一个小惊喜"
         },
         {
             "from": 139.92,
             "to": 147.68,
             "location": 2,
-            "content": "i have this vector here if i just create"
+            "content": "我们现在有了一个 Vector, 我们来创建一个列表吧"
         },
         {
             "from": 147.68,
             "to": 151.84,
             "location": 2,
-            "content": "let's do a"
+            "content": "我们创建一个无序列表"
         },
         {
             "from": 153.76,
             "to": 158.72,
             "location": 2,
-            "content": "and i just want to sort of put these in"
+            "content": "接下来放点东西进去"
         },
         {
             "from": 158.72,
             "to": 162.08,
             "location": 2,
-            "content": "going to try"
+            "content": "我们要干的第一件事情就是"
         },
         {
             "from": 162.08,
             "to": 165.84,
             "location": 2,
-            "content": "throw tassin just like this"
+            "content": "像这样吧 task 丢进去"
         },
         {
             "from": 166.64,
             "to": 170.24,
             "location": 2,
-            "content": "if we"
+            "content": "回到浏览器, 我们就可以看到"
         },
         {
             "from": 170.24,
             "to": 174.72,
             "location": 2,
-            "content": "they're displaying here"
+            "content": "那些待办已经展示在这里了"
         },
         {
             "from": 174.72,
             "to": 183.04,
             "location": 2,
-            "content": "plain text there's no li around them"
+            "content": "但是他们现在只是无格式的文本, 我不能只是简单的加上`<li>`"
         },
         {
             "from": 183.04,
             "to": 187.68,
             "location": 2,
-            "content": "i do this for the first one here for"
+            "content": "我先简单的在第一个上这么做一下"
         },
         {
             "from": 190.48,
             "to": 195.44,
             "location": 2,
-            "content": "it compiles and it works but this li"
+            "content": "编译成功了, 但是这些 `<li>` 并没有识别成html"
         },
         {
             "from": 195.44,
             "to": 198.4,
             "location": 2,
-            "content": "because this is just a string literal we"
+            "content": "因为这不过是字符串文本"
         },
         {
             "from": 198.4,
             "to": 202.96,
             "location": 2,
-            "content": "we're just"
+            "content": "我们不过是...你懂的"
         },
         {
             "from": 202.96,
             "to": 206.48,
             "location": 2,
-            "content": "text because it doesn't know that it's"
+            "content": "它并不知道这玩意是 Html"
         },
         {
             "from": 206.48,
             "to": 211.12,
             "location": 2,
-            "content": "so we have to do something slightly"
+            "content": "所以我们要做点不一样的事情"
         },
         {
             "from": 211.6,
             "to": 214.88,
             "location": 2,
-            "content": "we have to convert this"
+            "content": "我们必须用 `html!{}`"
         },
         {
             "from": 214.88,
             "to": 219.92,
             "location": 2,
-            "content": "actual just html"
+            "content": "来包裹它, okay,"
         },
         {
             "from": 219.92,
             "to": 224.84,
             "location": 2,
-            "content": "this manually here"
+            "content": "我们来把它变成列表吧"
         },
         {
             "from": 224.84,
             "to": 228.24,
             "location": 2,
-            "content": "html bang"
+            "content": "写上`html!{`"
         },
         {
             "from": 228.48,
             "to": 236.4,
             "location": 2,
-            "content": "and then we want an li"
+            "content": "接着是一个`<li>`, 这些东西要"
         },
         {
             "from": 236.56,
             "to": 241.2,
             "location": 2,
-            "content": "brackets and then quotes"
+            "content": "包上花括号和引号, 然后闭合 li 标签"
         },
         {
             "from": 241.2,
             "to": 246.96,
             "location": 2,
-            "content": "okay all we need to do is this exact"
+            "content": "okay, 这就是我们要为每一项做的事情"
         },
         {
             "from": 246.96,
-            "to": 250.4,
-            "location": 2,
-            "content": "so then u"
-        },
-        {
-            "from": 250.4,
-            "to": 252.84,
-            "location": 2,
-            "content": "open"
-        },
-        {
-            "from": 252.84,
-            "to": 256.56,
-            "location": 2,
-            "content": "bracket uh"
-        },
-        {
-            "from": 256.96,
-            "to": 259.2,
-            "location": 2,
-            "content": "i"
-        },
-        {
-            "from": 263.2,
             "to": 266.2,
             "location": 2,
-            "content": "closed"
+            "content": "(少女 coding 中...)"
         },
         {
             "from": 268.88,
             "to": 272.08,
             "location": 2,
-            "content": "oh and i forgot to close the bracket"
+            "content": "Oh, 我忘记闭合这个花括号了"
         },
         {
-            "from": 272.08,
-            "to": 275.88,
-            "location": 2,
-            "content": "and final one"
-        },
-        {
-            "from": 284.4,
-            "to": 286.56,
-            "location": 2,
-            "content": "to you"
-        },
-        {
-            "from": 286.56,
-            "to": 289.6,
-            "location": 2,
-            "content": "you"
-        },
-        {
-            "from": 290.08,
-            "to": 292.56,
-            "location": 2,
-            "content": "close you"
-        },
-        {
-            "from": 292.72,
+            "from": 272.09,
             "to": 296.92,
             "location": 2,
-            "content": "uh oh you need to be closed"
+            "content": "(少女 coding 中...)"
         },
         {
             "from": 297.6,
-            "to": 299.68,
+            "to": 309.2,
             "location": 2,
-            "content": "captioning not"
+            "content": "好的, 现在我们有了一个装满了 Html 标签的 Vector,\n我不需要再改动任何东西, 现在"
         },
         {
             "from": 309.2,
             "to": 313.28,
             "location": 2,
-            "content": "a full available like this is exactly"
+            "content": "这里就有一个我们心心念念的列表了"
         },
         {
             "from": 313.28,
             "to": 321.68,
             "location": 2,
-            "content": "rendering the uh the tags as um"
+            "content": "一个完整的 li 标签被渲染出来了"
         },
         {
             "from": 322.64,
             "to": 329.44,
             "location": 2,
-            "content": "okay but um"
+            "content": "okay, 但是正常情况下我们的 API 给我们的不是Html"
         },
         {
             "from": 329.44,
             "to": 334.56,
             "location": 2,
-            "content": "from our apis and uh the this is not a"
+            "content": "不会有后端会对你说:"
         },
         {
             "from": 334.56,
             "to": 340.08,
             "location": 2,
-            "content": "sending you know having our api be aware"
+            "content": "\"大兄弟, 你要显示点东西? 我发你点 Html 标签如何?\""
         },
         {
             "from": 340.08,
             "to": 345.04,
             "location": 2,
-            "content": "sending html let's not do that"
+            "content": "别了吧, 实际上"
         },
         {
             "from": 345.04,
             "to": 349.12,
             "location": 2,
-            "content": "i'm going to go ahead and revert this so"
+            "content": "我们先把这里改回来"
         },
         {
             "from": 350.16,
             "to": 353.84,
             "location": 2,
-            "content": "take you all off"
+            "content": "(少女 coding 中...)"
         },
         {
             "from": 357.84,
@@ -429,391 +369,343 @@
             "from": 361.12,
             "to": 366.8,
             "location": 2,
-            "content": "stirs for for our tas"
-        },
-        {
-            "from": 366.8,
-            "to": 369.92,
-            "location": 2,
-            "content": "i am going to"
+            "content": "我们回到了一堆字符串"
         },
         {
             "from": 370.48,
             "to": 373.6,
             "location": 2,
-            "content": "right down here"
+            "content": "到这里"
         },
         {
             "from": 374.08,
             "to": 378.56,
             "location": 2,
-            "content": "let's see where our tasks are"
+            "content": "找找我的 tasks"
         },
         {
             "from": 378.56,
             "to": 382.64,
             "location": 2,
-            "content": "going to turn it into an iterator now"
+            "content": "我们接上我们的 tasks, 把它变成迭代器"
         },
         {
             "from": 382.64,
             "to": 386.48,
             "location": 2,
-            "content": "because that allows me to have access to"
+            "content": "我要这么做的原因是因为我可以对他进行一个`.map()`"
         },
         {
             "from": 386.48,
             "to": 391.12,
             "location": 2,
-            "content": "so map takes a closure function which is"
+            "content": "`.map()`接收一个包含 task 参数的闭包"
         },
         {
             "from": 391.12,
             "to": 394.96,
             "location": 2,
-            "content": "and i'm going to return something else"
+            "content": "通过闭包返回值"
         },
         {
             "from": 394.96,
             "to": 401.12,
             "location": 2,
-            "content": "or map it from one type of value to"
+            "content": "来把迭代项转换或者映射为另外的东西"
         },
         {
             "from": 401.12,
             "to": 406.16,
             "location": 2,
-            "content": "well in this case i want to now return"
+            "content": "这里, 我想要返回一个"
         },
         {
             "from": 406.56,
             "to": 410.72,
             "location": 2,
-            "content": "with an la tag"
+            "content": "有 li 标签的 Html, 在标签里"
         },
         {
             "from": 410.72,
             "to": 416.48,
             "location": 2,
-            "content": "i want to throw the task"
+            "content": "我打算放上 task, 然后闭合标签"
         },
         {
             "from": 416.48,
             "to": 422.64,
             "location": 2,
-            "content": "okay great now after the map we need to"
+            "content": "okay, 在`.map()`后我们要`.collect()`"
         },
         {
             "from": 422.64,
             "to": 426.88,
             "location": 2,
-            "content": "and i need to tell it exactly what type"
+            "content": "我们还要告诉它我们最后需要的结果的确切类型`::<Html>`"
         },
         {
             "from": 426.88,
             "to": 431.76,
             "location": 2,
-            "content": "html now and that should be it this is"
+            "content": "就是这些, 这也会给我们返回一个列表"
         },
         {
             "from": 431.76,
-            "to": 436.56,
-            "location": 2,
-            "content": "going to give us"
-        },
-        {
-            "from": 436.56,
             "to": 439.28,
             "location": 2,
-            "content": "to"
+            "content": "来显示这些, um,"
         },
         {
             "from": 439.28,
             "to": 447.12,
             "location": 2,
-            "content": "uh the list items as actual list items"
+            "content": "列表项, 就好像真实 DOM 的列表一样"
         },
         {
             "from": 447.12,
             "to": 451.12,
             "location": 2,
-            "content": "not great to look at because there's a"
+            "content": "这看起来不太好阅读, 因为即使我们要做的事情很简单"
         },
         {
             "from": 451.12,
             "to": 454.4,
             "location": 2,
-            "content": "doing something very simple and if"
+            "content": "但是这里还是用了很多的方法, 如果你"
         },
         {
             "from": 454.4,
             "to": 460,
             "location": 2,
-            "content": "in li tags this may end up becoming"
+            "content": "打算不单纯就像这样显示一个 li 的话, 这里就会变得有很多繁杂的代码"
         },
         {
             "from": 460,
             "to": 463.52,
             "location": 2,
-            "content": "so i would suggest"
-        },
-        {
-            "from": 463.52,
-            "to": 466.96,
-            "location": 2,
-            "content": "function"
+            "content": "我的建议是, 把这玩意单独放到一个函数里"
         },
         {
             "from": 466.96,
             "to": 470.8,
             "location": 2,
-            "content": "let's name this"
+            "content": "我们创建一个, 额"
         },
         {
             "from": 470.8,
             "to": 476.96,
             "location": 2,
-            "content": "wrap li like wrap wrap something in a"
+            "content": "`wrap_li`? 就像是把什么东西封装在 li 里一样"
         },
         {
             "from": 477.44,
             "to": 481.2,
             "location": 2,
-            "content": "to to li"
+            "content": "要不然叫`to_li`"
         },
         {
             "from": 481.2,
             "to": 488.32,
             "location": 2,
-            "content": "not exactly sure how i want to to put"
+            "content": "想想我想要这个函数干什么"
         },
         {
             "from": 489.44,
-            "to": 491.6,
-            "location": 2,
-            "content": "list"
-        },
-        {
-            "from": 491.6,
             "to": 498.8,
             "location": 2,
-            "content": "list to html uh naming things is hard"
+            "content": "就叫你`list_to_html`吧, 起名字好难啊"
         },
         {
             "from": 498.8,
             "to": 503.92,
             "location": 2,
-            "content": "something so we're going to take in the"
+            "content": "我们要接收点什么, 我们要接受一个 Vector"
         },
         {
             "from": 503.92,
             "to": 511.2,
             "location": 2,
-            "content": "of in this case it's uh it stirs"
+            "content": "这里的泛型我们定义为`<&str>`, 这里你可以自由发挥"
         },
         {
             "from": 511.2,
             "to": 515.76,
             "location": 2,
-            "content": "uh you could put whatever you feel like"
+            "content": "你是自由的"
         },
         {
             "from": 515.76,
             "to": 520.56,
             "location": 2,
-            "content": "dynamically implementing like a string"
+            "content": "写点动态实现的类型像 String 都可以"
         },
         {
             "from": 520.56,
             "to": 525.28,
             "location": 2,
-            "content": "it does need to be like one specific"
+            "content": "这并不需要是某种定好的类型"
         },
         {
             "from": 525.28,
             "to": 529.84,
             "location": 2,
-            "content": "which is beyond the scope of this"
+            "content": "要超越思路的禁锢啊(什么鬼, 那为什么不用泛型?"
         },
         {
             "from": 529.84,
             "to": 535.92,
             "location": 2,
-            "content": "and we are going to return"
+            "content": "我们要返回 Html"
         },
         {
             "from": 535.92,
             "to": 540.16,
             "location": 2,
-            "content": "vector with html inside"
+            "content": "也就是一个装了 Html 的 Vector"
         },
         {
             "from": 540.56,
             "to": 545.84,
             "location": 2,
-            "content": "uh we can now re-implement this down"
+            "content": "uh, 我们要重新在下面实现一边"
         },
         {
             "from": 545.84,
-            "to": 550.64,
+            "to": 571.68,
             "location": 2,
-            "content": "or we're going to get the iter off of it"
-        },
-        {
-            "from": 550.64,
-            "to": 554.64,
-            "location": 2,
-            "content": "gonna take this function with the"
-        },
-        {
-            "from": 554.64,
-            "to": 558.24,
-            "location": 2,
-            "content": "an item whatever that means uh we're"
-        },
-        {
-            "from": 558.24,
-            "to": 563.32,
-            "location": 2,
-            "content": "in this case"
-        },
-        {
-            "from": 563.76,
-            "to": 567.2,
-            "location": 2,
-            "content": "wrap this in an li"
+            "content": "(少女 coding 中...)"
         },
         {
             "from": 571.68,
             "to": 575.6,
             "location": 2,
-            "content": "we're going to put the item in here if"
+            "content": "我们把 item 放进来"
         },
         {
             "from": 575.6,
             "to": 579.76,
             "location": 2,
-            "content": "format it add something else add like a"
+            "content": "如果我们想要格式化它, 加点什么东西, 像货币符号"
         },
         {
             "from": 579.76,
             "to": 583.44,
             "location": 2,
-            "content": "money values"
+            "content": "变成金额, 我们都可以通过`.map()`实现"
         },
         {
             "from": 583.44,
             "to": 587.2,
             "location": 2,
-            "content": "have everything in rust right here"
+            "content": "rust除了不能生孩子什么都能干"
         },
         {
             "from": 587.2,
             "to": 591.84,
             "location": 2,
-            "content": "uh let's see then"
+            "content": "uh...我想想"
         },
         {
             "from": 591.84,
             "to": 597.12,
             "location": 2,
-            "content": "done"
+            "content": "就是这些, 现在我们要`.collect()`"
         },
         {
             "from": 600.16,
             "to": 604.8,
             "location": 2,
-            "content": "and i'm going to semicolon so it's auto"
+            "content": "我标记了返回值, 所以它进行了自动推断"
         },
         {
             "from": 604.8,
             "to": 609.12,
             "location": 2,
-            "content": "this one i don't need to tell it what"
+            "content": "一般我们确实也不需要告诉它我们的类型需求"
         },
         {
             "from": 609.12,
             "to": 616.08,
             "location": 2,
-            "content": "here it it it's very easy for it to know"
+            "content": "因为有像这样的上下文会很方便的告诉它,\n现在我们把这一堆东西"
         },
         {
             "from": 616.08,
             "to": 621.44,
             "location": 2,
-            "content": "with this list"
+            "content": "替换成`list_to_html()`"
         },
         {
             "from": 624.56,
             "to": 627.84,
             "location": 2,
-            "content": "and what are you upset about"
+            "content": "发生甚么事了(你的函数变值了???"
         },
         {
             "from": 631.04,
             "to": 637.6,
             "location": 2,
-            "content": "uh it doesn't implement display"
+            "content": "uh...啊, 原来我要传参啊"
         },
         {
             "from": 637.6,
             "to": 643.68,
             "location": 2,
-            "content": "send what it is so this is going to be"
+            "content": "这里就是 tasks"
         },
         {
             "from": 643.68,
             "to": 647.84,
             "location": 2,
-            "content": "kind of kind of helpful for me to call"
+            "content": "用函数调用代替那一堆东西还挺有用"
         },
         {
             "from": 647.84,
             "to": 654.4,
             "location": 2,
-            "content": "there we go so let's uh come back to"
+            "content": "Okay, 回到浏览器, 我们又看到了我们亲爱的列表"
         },
         {
             "from": 654.4,
             "to": 656.56,
             "location": 2,
-            "content": "so"
+            "content": "So"
         },
         {
             "from": 656.56,
             "to": 660.8,
             "location": 2,
-            "content": "this sort of method"
+            "content": "我挺喜欢这样短小的方法"
         },
         {
             "from": 660.8,
             "to": 665.04,
             "location": 2,
-            "content": "make it uh"
+            "content": "很有用, 易于阅读"
         },
         {
             "from": 665.04,
             "to": 670.88,
             "location": 2,
-            "content": "um not like just huge long mega lines"
+            "content": "而且不至于一写一大坨\n(Keep it simple and stupid"
         },
         {
             "from": 670.88,
             "to": 676.32,
             "location": 2,
-            "content": "html to sort of confuse confuse things"
+            "content": "而且没有写在 `html!{}` 里, 不会带来困惑"
         },
         {
             "from": 676.32,
             "to": 680.48,
             "location": 2,
-            "content": "anyways thank you so much for watching"
+            "content": "蟹蟹观看"
         },
         {
             "from": 680.48,
             "to": 684.6,
             "location": 2,
-            "content": "you in the next video bye"
+            "content": "yew.rs 道, 堂堂连载!"
         }
     ]
 }

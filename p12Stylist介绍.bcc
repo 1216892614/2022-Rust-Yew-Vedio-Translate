@@ -1,0 +1,825 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 5.12,
+            "to": 10.08,
+            "location": 2,
+            "content": "it's great that we have a hello world"
+        },
+        {
+            "from": 10.08,
+            "to": 14.4,
+            "location": 2,
+            "content": "its own library and we have a better"
+        },
+        {
+            "from": 14.4,
+            "to": 17.6,
+            "location": 2,
+            "content": "but"
+        },
+        {
+            "from": 17.6,
+            "to": 22.72,
+            "location": 2,
+            "content": "it we are going to want styles at some"
+        },
+        {
+            "from": 22.72,
+            "to": 28.16,
+            "location": 2,
+            "content": "to do that we need to pull in some kind"
+        },
+        {
+            "from": 28.16,
+            "to": 32.08,
+            "location": 2,
+            "content": "let's go take a look at the"
+        },
+        {
+            "from": 32.08,
+            "to": 37.44,
+            "location": 2,
+            "content": "have a section talking about css however"
+        },
+        {
+            "from": 37.44,
+            "to": 43.68,
+            "location": 2,
+            "content": "nothing really set up for it yet so we"
+        },
+        {
+            "from": 43.68,
+            "to": 48.96,
+            "location": 2,
+            "content": "and in css we'll notice there's a big"
+        },
+        {
+            "from": 48.96,
+            "to": 52.24,
+            "location": 2,
+            "content": "documentation"
+        },
+        {
+            "from": 52.24,
+            "to": 56.16,
+            "location": 2,
+            "content": "css stuff built in in the future but for"
+        },
+        {
+            "from": 56.16,
+            "to": 60.8,
+            "location": 2,
+            "content": "it's not here so they have some"
+        },
+        {
+            "from": 60.8,
+            "to": 64.72,
+            "location": 2,
+            "content": "what i've ultimately settled on and what"
+        },
+        {
+            "from": 64.72,
+            "to": 69.92,
+            "location": 2,
+            "content": "course here is something called stylist"
+        },
+        {
+            "from": 69.92,
+            "to": 73.84,
+            "location": 2,
+            "content": "on over to the stylist repository"
+        },
+        {
+            "from": 75.04,
+            "to": 81.2,
+            "location": 2,
+            "content": "so what stylist allows us to do is use a"
+        },
+        {
+            "from": 81.2,
+            "to": 86.4,
+            "location": 2,
+            "content": "to write styles directly inside of"
+        },
+        {
+            "from": 86.4,
+            "to": 91.6,
+            "location": 2,
+            "content": "this is going to be very similar to what"
+        },
+        {
+            "from": 91.6,
+            "to": 98.64,
+            "location": 2,
+            "content": "styles the javascript and the html all"
+        },
+        {
+            "from": 98.64,
+            "to": 104.72,
+            "location": 2,
+            "content": "have that in in our code here"
+        },
+        {
+            "from": 104.72,
+            "to": 109.2,
+            "location": 2,
+            "content": "similar to react where we have maybe"
+        },
+        {
+            "from": 109.2,
+            "to": 113.52,
+            "location": 2,
+            "content": "pull in and then apply to our rest and"
+        },
+        {
+            "from": 113.52,
+            "to": 118,
+            "location": 2,
+            "content": "video for right now we're going to use"
+        },
+        {
+            "from": 118,
+            "to": 122.24,
+            "location": 2,
+            "content": "stylist suggests"
+        },
+        {
+            "from": 122.24,
+            "to": 127.32,
+            "location": 2,
+            "content": "and bring in the latest version of"
+        },
+        {
+            "from": 140.72,
+            "to": 144.32,
+            "location": 2,
+            "content": "we always get a little bit of those"
+        },
+        {
+            "from": 144.32,
+            "to": 148.72,
+            "location": 2,
+            "content": "especially as it's parsing as i'm"
+        },
+        {
+            "from": 148.72,
+            "to": 152.72,
+            "location": 2,
+            "content": "have you know little tiny bits of errors"
+        },
+        {
+            "from": 152.72,
+            "to": 156.96,
+            "location": 2,
+            "content": "as it doesn't error out after you finish"
+        },
+        {
+            "from": 156.96,
+            "to": 161.84,
+            "location": 2,
+            "content": "so rest analyzer is bringing in stylus"
+        },
+        {
+            "from": 161.84,
+            "to": 166.08,
+            "location": 2,
+            "content": "we're going to open up our main library"
+        },
+        {
+            "from": 166.08,
+            "to": 170.8,
+            "location": 2,
+            "content": "here now the first thing we need to do"
+        },
+        {
+            "from": 170.8,
+            "to": 174.48,
+            "location": 2,
+            "content": "to a styled component so we're going to"
+        },
+        {
+            "from": 174.48,
+            "to": 177.04,
+            "location": 2,
+            "content": "stylus"
+        },
+        {
+            "from": 180.72,
+            "to": 186.24,
+            "location": 2,
+            "content": "let's see where oh i'm just going to use"
+        },
+        {
+            "from": 186.24,
+            "to": 190.56,
+            "location": 2,
+            "content": "so this is a style"
+        },
+        {
+            "from": 193.68,
+            "to": 198.56,
+            "location": 2,
+            "content": "it actually has it written down here"
+        },
+        {
+            "from": 198.56,
+            "to": 202.72,
+            "location": 2,
+            "content": "styled components that's what it is"
+        },
+        {
+            "from": 202.72,
+            "to": 207.68,
+            "location": 2,
+            "content": "use stylus"
+        },
+        {
+            "from": 208.56,
+            "to": 211.76,
+            "location": 2,
+            "content": "if it's not finding things when i'm"
+        },
+        {
+            "from": 211.76,
+            "to": 216.8,
+            "location": 2,
+            "content": "possible that it's behind a feature"
+        },
+        {
+            "from": 216.8,
+            "to": 220.72,
+            "location": 2,
+            "content": "want to go find like what features are"
+        },
+        {
+            "from": 220.72,
+            "to": 224.72,
+            "location": 2,
+            "content": "let's actually go take a look at the"
+        },
+        {
+            "from": 224.72,
+            "to": 227.84,
+            "location": 2,
+            "content": "go find"
+        },
+        {
+            "from": 227.92,
+            "to": 230.8,
+            "location": 2,
+            "content": "uh you"
+        },
+        {
+            "from": 230.8,
+            "to": 233.2,
+            "location": 2,
+            "content": "page"
+        },
+        {
+            "from": 236.24,
+            "to": 241.04,
+            "location": 2,
+            "content": "but here this is supported on create"
+        },
+        {
+            "from": 241.04,
+            "to": 245.92,
+            "location": 2,
+            "content": "to activate the u feature"
+        },
+        {
+            "from": 245.92,
+            "to": 248.64,
+            "location": 2,
+            "content": "we're going to use a different style"
+        },
+        {
+            "from": 248.64,
+            "to": 252.28,
+            "location": 2,
+            "content": "where we're going to say"
+        },
+        {
+            "from": 255.68,
+            "to": 259.28,
+            "location": 2,
+            "content": "version"
+        },
+        {
+            "from": 261.92,
+            "to": 266,
+            "location": 2,
+            "content": "equals an array and you"
+        },
+        {
+            "from": 267.44,
+            "to": 272.88,
+            "location": 2,
+            "content": "rest analyzer is going to update and now"
+        },
+        {
+            "from": 272.88,
+            "to": 275.6,
+            "location": 2,
+            "content": "style su"
+        },
+        {
+            "from": 276.24,
+            "to": 281.52,
+            "location": 2,
+            "content": "let's try this again so stylist"
+        },
+        {
+            "from": 283.6,
+            "to": 288.48,
+            "location": 2,
+            "content": "and we're going to update this to styled"
+        },
+        {
+            "from": 289.52,
+            "to": 294.64,
+            "location": 2,
+            "content": "and this is going to be the same app"
+        },
+        {
+            "from": 294.64,
+            "to": 298.96,
+            "location": 2,
+            "content": "function component that we have from you"
+        },
+        {
+            "from": 298.96,
+            "to": 303.04,
+            "location": 2,
+            "content": "allow us to use the style macros"
+        },
+        {
+            "from": 303.44,
+            "to": 308.84,
+            "location": 2,
+            "content": "inside of here we want to create our"
+        },
+        {
+            "from": 314.32,
+            "to": 320.24,
+            "location": 2,
+            "content": "uh i'm pulling in the style also from"
+        },
+        {
+            "from": 322,
+            "to": 325.04,
+            "location": 2,
+            "content": "and inside of here we're going to create"
+        },
+        {
+            "from": 325.04,
+            "to": 329.6,
+            "location": 2,
+            "content": "um"
+        },
+        {
+            "from": 329.6,
+            "to": 332.4,
+            "location": 2,
+            "content": "we're going to use a"
+        },
+        {
+            "from": 332.4,
+            "to": 336.84,
+            "location": 2,
+            "content": "uh pound"
+        },
+        {
+            "from": 336.84,
+            "to": 340.64,
+            "location": 2,
+            "content": "then end like that"
+        },
+        {
+            "from": 343.28,
+            "to": 348.16,
+            "location": 2,
+            "content": "actually i don't need the end semicolon"
+        },
+        {
+            "from": 348.16,
+            "to": 352.96,
+            "location": 2,
+            "content": "so this"
+        },
+        {
+            "from": 352.96,
+            "to": 356.88,
+            "location": 2,
+            "content": "just create stirs that are multi-line"
+        },
+        {
+            "from": 356.88,
+            "to": 360.56,
+            "location": 2,
+            "content": "it's it's pretty nice"
+        },
+        {
+            "from": 360.56,
+            "to": 364.8,
+            "location": 2,
+            "content": "want to style this we want to duplicate"
+        },
+        {
+            "from": 364.8,
+            "to": 371.92,
+            "location": 2,
+            "content": "have this color white"
+        },
+        {
+            "from": 372.16,
+            "to": 375.6,
+            "location": 2,
+            "content": "to be"
+        },
+        {
+            "from": 379.92,
+            "to": 383.28,
+            "location": 2,
+            "content": "now i want to apply this"
+        },
+        {
+            "from": 383.28,
+            "to": 388.8,
+            "location": 2,
+            "content": "to this html so we're going to use"
+        },
+        {
+            "from": 391.28,
+            "to": 396.48,
+            "location": 2,
+            "content": "equals"
+        },
+        {
+            "from": 396.48,
+            "to": 403.04,
+            "location": 2,
+            "content": "we have our choice like i i need to i"
+        },
+        {
+            "from": 404.32,
+            "to": 408.56,
+            "location": 2,
+            "content": "and"
+        },
+        {
+            "from": 408.56,
+            "to": 414.48,
+            "location": 2,
+            "content": "status error is not okay so you oh i see"
+        },
+        {
+            "from": 414.48,
+            "to": 417.28,
+            "location": 2,
+            "content": "unwrap on this"
+        },
+        {
+            "from": 417.76,
+            "to": 423.04,
+            "location": 2,
+            "content": "that's gonna give us a style here for"
+        },
+        {
+            "from": 423.04,
+            "to": 428.8,
+            "location": 2,
+            "content": "i'm not getting any errors"
+        },
+        {
+            "from": 429.84,
+            "to": 434.8,
+            "location": 2,
+            "content": "when i run my code"
+        },
+        {
+            "from": 434.8,
+            "to": 439.04,
+            "location": 2,
+            "content": "also at the same time"
+        },
+        {
+            "from": 439.04,
+            "to": 444.16,
+            "location": 2,
+            "content": "white so we're going to delete that"
+        },
+        {
+            "from": 444.16,
+            "to": 448.16,
+            "location": 2,
+            "content": "that this is"
+        },
+        {
+            "from": 448.16,
+            "to": 454,
+            "location": 2,
+            "content": "expect it to let's change this from\n00:07:30,319 --> 00:07:33,1000\nwhite to something like orange\n\n166"
+        },
+        {
+            "from": 457.6,
+            "to": 461.36,
+            "location": 2,
+            "content": "and there we go okay so it actually is"
+        },
+        {
+            "from": 461.36,
+            "to": 465.84,
+            "location": 2,
+            "content": "happening behind the scenes because this"
+        },
+        {
+            "from": 465.84,
+            "to": 469.28,
+            "location": 2,
+            "content": "strange the way it's working"
+        },
+        {
+            "from": 471.36,
+            "to": 475.4,
+            "location": 2,
+            "content": "so to begin with"
+        },
+        {
+            "from": 478.56,
+            "to": 481.2,
+            "location": 2,
+            "content": "in the head"
+        },
+        {
+            "from": 482.96,
+            "to": 487.44,
+            "location": 2,
+            "content": "we're getting a"
+        },
+        {
+            "from": 487.44,
+            "to": 493.36,
+            "location": 2,
+            "content": "created manually"
+        },
+        {
+            "from": 493.36,
+            "to": 497.44,
+            "location": 2,
+            "content": "down here"
+        },
+        {
+            "from": 497.44,
+            "to": 500.4,
+            "location": 2,
+            "content": "style"
+        },
+        {
+            "from": 500.4,
+            "to": 505.52,
+            "location": 2,
+            "content": "random"
+        },
+        {
+            "from": 505.68,
+            "to": 511.68,
+            "location": 2,
+            "content": "and it's now linking this dot stylist"
+        },
+        {
+            "from": 511.68,
+            "to": 515.2,
+            "location": 2,
+            "content": "the same string"
+        },
+        {
+            "from": 515.2,
+            "to": 519.44,
+            "location": 2,
+            "content": "our styles get applied"
+        },
+        {
+            "from": 519.44,
+            "to": 524.08,
+            "location": 2,
+            "content": "our h1 tag"
+        },
+        {
+            "from": 524.08,
+            "to": 528.88,
+            "location": 2,
+            "content": "notice i just put color orange here i"
+        },
+        {
+            "from": 528.88,
+            "to": 530.72,
+            "location": 2,
+            "content": "anything"
+        },
+        {
+            "from": 530.72,
+            "to": 534.16,
+            "location": 2,
+            "content": "can be a little bit disconcerting"
+        },
+        {
+            "from": 534.16,
+            "to": 537.92,
+            "location": 2,
+            "content": "little bit more nested what if i want to"
+        },
+        {
+            "from": 537.92,
+            "to": 543.6,
+            "location": 2,
+            "content": "what if i want to have maybe like a"
+        },
+        {
+            "from": 545.36,
+            "to": 550.16,
+            "location": 2,
+            "content": "i want to have our h1 as something in"
+        },
+        {
+            "from": 550.16,
+            "to": 555.12,
+            "location": 2,
+            "content": "a p tag"
+        },
+        {
+            "from": 560.08,
+            "to": 563.4,
+            "location": 2,
+            "content": "more text"
+        },
+        {
+            "from": 565.68,
+            "to": 568.88,
+            "location": 2,
+            "content": "more text goes here"
+        },
+        {
+            "from": 570.56,
+            "to": 575.44,
+            "location": 2,
+            "content": "now let's say i want to have a color"
+        },
+        {
+            "from": 575.44,
+            "to": 581.2,
+            "location": 2,
+            "content": "and then i want white for the p tag well"
+        },
+        {
+            "from": 581.2,
+            "to": 586.24,
+            "location": 2,
+            "content": "putting this inside of all h1s"
+        },
+        {
+            "from": 588,
+            "to": 593.52,
+            "location": 2,
+            "content": "have this color orange"
+        },
+        {
+            "from": 593.52,
+            "to": 597.28,
+            "location": 2,
+            "content": "to have color"
+        },
+        {
+            "from": 597.28,
+            "to": 601.92,
+            "location": 2,
+            "content": "this is valid css"
+        },
+        {
+            "from": 601.92,
+            "to": 605.2,
+            "location": 2,
+            "content": "head"
+        },
+        {
+            "from": 605.2,
+            "to": 610.16,
+            "location": 2,
+            "content": "h1 color orange"
+        },
+        {
+            "from": 610.16,
+            "to": 612.72,
+            "location": 2,
+            "content": "that's great"
+        },
+        {
+            "from": 613.84,
+            "to": 615.68,
+            "location": 2,
+            "content": "um"
+        },
+        {
+            "from": 615.68,
+            "to": 620.32,
+            "location": 2,
+            "content": "my class i now need to move this"
+        },
+        {
+            "from": 621.36,
+            "to": 623.76,
+            "location": 2,
+            "content": "up here"
+        },
+        {
+            "from": 625.84,
+            "to": 631.52,
+            "location": 2,
+            "content": "now if we come back to our css"
+        },
+        {
+            "from": 631.52,
+            "to": 638.08,
+            "location": 2,
+            "content": "our title orange"
+        },
+        {
+            "from": 638.08,
+            "to": 642.32,
+            "location": 2,
+            "content": "um this is this is going to be the"
+        },
+        {
+            "from": 642.32,
+            "to": 646.96,
+            "location": 2,
+            "content": "our classes"
+        },
+        {
+            "from": 646.96,
+            "to": 652.32,
+            "location": 2,
+            "content": "container that we're going to add the"
+        },
+        {
+            "from": 652.32,
+            "to": 657.84,
+            "location": 2,
+            "content": "then have everything underneath it to"
+        },
+        {
+            "from": 657.84,
+            "to": 664.08,
+            "location": 2,
+            "content": "we would have to add in something else"
+        },
+        {
+            "from": 664.08,
+            "to": 667.6,
+            "location": 2,
+            "content": "not"
+        },
+        {
+            "from": 667.6,
+            "to": 672.16,
+            "location": 2,
+            "content": "inside of"
+        },
+        {
+            "from": 672.16,
+            "to": 677.92,
+            "location": 2,
+            "content": "valid css that you can move between"
+        },
+        {
+            "from": 677.92,
+            "to": 683.92,
+            "location": 2,
+            "content": "projects and it'll just work the way you"
+        },
+        {
+            "from": 684.24,
+            "to": 689.6,
+            "location": 2,
+            "content": "and that is an introduction and getting"
+        },
+        {
+            "from": 689.6,
+            "to": 693.6,
+            "location": 2,
+            "content": "if"
+        },
+        {
+            "from": 693.6,
+            "to": 697.72,
+            "location": 2,
+            "content": "will see you in the next video bye"
+        }
+    ]
+}
