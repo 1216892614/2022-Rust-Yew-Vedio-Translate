@@ -1,0 +1,615 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 5.2,
+            "to": 9.84,
+            "location": 2,
+            "content": "现在, 我们该多创建几个组件"
+        },
+        {
+            "from": 9.84,
+            "to": 14,
+            "location": 2,
+            "content": "然后在他们之间传递一些参数了"
+        },
+        {
+            "from": 14,
+            "to": 17.36,
+            "location": 2,
+            "content": "我们现在已经有 App 组件了, 但是还没有任何可以传递的参数"
+        },
+        {
+            "from": 17.36,
+            "to": 22.8,
+            "location": 2,
+            "content": "虽然我们可以随便传点什么, 但是那就不太合理了"
+        },
+        {
+            "from": 22.8,
+            "to": 26.32,
+            "location": 2,
+            "content": "如果我们尝试拆分一些组件出来会更加合理"
+        },
+        {
+            "from": 26.32,
+            "to": 30.8,
+            "location": 2,
+            "content": "比方说我们来试着把这个 h1 拆分成一个标题组件"
+        },
+        {
+            "from": 30.8,
+            "to": 35.76,
+            "location": 2,
+            "content": "这样我们就可以在各种地方使用它了"
+        },
+        {
+            "from": 35.76,
+            "to": 39.76,
+            "location": 2,
+            "content": "我们想要统一样式, 这就是为什么我们要创建可复用的组件"
+        },
+        {
+            "from": 39.76,
+            "to": 44.24,
+            "location": 2,
+            "content": "看到我们的 atoms 文件夹, 新建一个文件夹"
+        },
+        {
+            "from": 44.24,
+            "to": 47.2,
+            "location": 2,
+            "content": "它就叫作..."
+        },
+        {
+            "from": 47.2,
+            "to": 50.16,
+            "location": 2,
+            "content": "不然叫 main_title.rs"
+        },
+        {
+            "from": 50.56,
+            "to": 55.52,
+            "location": 2,
+            "content": "如果我像在这个文件夹里创建一个文件"
+        },
+        {
+            "from": 55.52,
+            "to": 62.32,
+            "location": 2,
+            "content": "我还必须得创建一个 mod.rs 来整理这些模块"
+        },
+        {
+            "from": 62.32,
+            "to": 65.92,
+            "location": 2,
+            "content": "写一个`pub mod main_title;`"
+        },
+        {
+            "from": 65.92,
+            "to": 73.52,
+            "location": 2,
+            "content": "而在我们的主库文件, "
+        },
+        {
+            "from": 73.52,
+            "to": 75.92,
+            "location": 2,
+            "content": "mod"
+        },
+        {
+            "from": 76.32,
+            "to": 82.16,
+            "location": 2,
+            "content": "components"
+        },
+        {
+            "from": 82.16,
+            "to": 86.72,
+            "location": 2,
+            "content": "okay, 我在这里也需要一个 mod"
+        },
+        {
+            "from": 86.72,
+            "to": 94.96,
+            "location": 2,
+            "content": "这里要写`pub mod atoms;`"
+        },
+        {
+            "from": 94.96,
+            "to": 101.12,
+            "location": 2,
+            "content": "这就一路把 main_title.rs 引入到库入口里了"
+        },
+        {
+            "from": 101.12,
+            "to": 105.84,
+            "location": 2,
+            "content": "下面我们来专门为 h1 标签创建一个组件"
+        },
+        {
+            "from": 110.48,
+            "to": 113.68,
+            "location": 2,
+            "content": "um, 我不是很想为这个组件编写样式"
+        },
+        {
+            "from": 113.68,
+            "to": 117.6,
+            "location": 2,
+            "content": "我觉得这不是很必要"
+        },
+        {
+            "from": 117.6,
+            "to": 120.88,
+            "location": 2,
+            "content": "我们已经学完了样式部分,"
+        },
+        {
+            "from": 120.88,
+            "to": 124.88,
+            "location": 2,
+            "content": "今天我们就专注于参数传递"
+        },
+        {
+            "from": 124.88,
+            "to": 130.24,
+            "location": 2,
+            "content": "yew::prelude::*"
+        },
+        {
+            "from": 130.24,
+            "to": 134.88,
+            "location": 2,
+            "content": "function this is gonna be a main title"
+        },
+        {
+            "from": 136.8,
+            "to": 140.92,
+            "location": 2,
+            "content": "you're gonna return html"
+        },
+        {
+            "from": 143.2,
+            "to": 148.08,
+            "location": 2,
+            "content": "uh you're going to use the function"
+        },
+        {
+            "from": 148.08,
+            "to": 150.4,
+            "location": 2,
+            "content": "title"
+        },
+        {
+            "from": 152.96,
+            "to": 158.88,
+            "location": 2,
+            "content": "and"
+        },
+        {
+            "from": 165.52,
+            "to": 171.24,
+            "location": 2,
+            "content": "so if we want something like just a"
+        },
+        {
+            "from": 172.96,
+            "to": 176.88,
+            "location": 2,
+            "content": "let's uh head back into the library and"
+        },
+        {
+            "from": 176.88,
+            "to": 181.84,
+            "location": 2,
+            "content": "going to be hello world without the"
+        },
+        {
+            "from": 182,
+            "to": 186.08,
+            "location": 2,
+            "content": "now i do have to pull that in so we're"
+        },
+        {
+            "from": 186.08,
+            "to": 189.92,
+            "location": 2,
+            "content": "uh"
+        },
+        {
+            "from": 193.36,
+            "to": 197.52,
+            "location": 2,
+            "content": "we're going to use a use"
+        },
+        {
+            "from": 197.52,
+            "to": 200.16,
+            "location": 2,
+            "content": "atoms"
+        },
+        {
+            "from": 200.16,
+            "to": 204.48,
+            "location": 2,
+            "content": "main title"
+        },
+        {
+            "from": 204.48,
+            "to": 207.04,
+            "location": 2,
+            "content": "main title"
+        },
+        {
+            "from": 207.68,
+            "to": 212.8,
+            "location": 2,
+            "content": "i'm going to use that slash at the end"
+        },
+        {
+            "from": 212.8,
+            "to": 216.64,
+            "location": 2,
+            "content": "use like the double of them with you"
+        },
+        {
+            "from": 216.64,
+            "to": 220.8,
+            "location": 2,
+            "content": "one thing"
+        },
+        {
+            "from": 220.8,
+            "to": 226.56,
+            "location": 2,
+            "content": "we head back over here we see hello"
+        },
+        {
+            "from": 226.56,
+            "to": 229.2,
+            "location": 2,
+            "content": "okay"
+        },
+        {
+            "from": 229.2,
+            "to": 233.04,
+            "location": 2,
+            "content": "still affecting"
+        },
+        {
+            "from": 233.04,
+            "to": 238.4,
+            "location": 2,
+            "content": "this h1 tag so that is something to be"
+        },
+        {
+            "from": 238.4,
+            "to": 242.72,
+            "location": 2,
+            "content": "component but then there's components"
+        },
+        {
+            "from": 242.72,
+            "to": 245.6,
+            "location": 2,
+            "content": "be affected"
+        },
+        {
+            "from": 246.72,
+            "to": 251.12,
+            "location": 2,
+            "content": "okay so"
+        },
+        {
+            "from": 251.12,
+            "to": 255.36,
+            "location": 2,
+            "content": "it's not hello world but just whatever"
+        },
+        {
+            "from": 255.36,
+            "to": 259.84,
+            "location": 2,
+            "content": "specific component we want to make it a"
+        },
+        {
+            "from": 259.84,
+            "to": 264.32,
+            "location": 2,
+            "content": "in react i would use a property so"
+        },
+        {
+            "from": 264.32,
+            "to": 267.2,
+            "location": 2,
+            "content": "maybe title"
+        },
+        {
+            "from": 267.2,
+            "to": 273.04,
+            "location": 2,
+            "content": "and then just have some text like um"
+        },
+        {
+            "from": 274.8,
+            "to": 280.24,
+            "location": 2,
+            "content": "now when i do this it's saying hey\n00:04:36,720 --> 00:04:41,1000\nthere's no field title on type open\n\n106"
+        },
+        {
+            "from": 280.24,
+            "to": 284.64,
+            "location": 2,
+            "content": "close parenthesis like basically there"
+        },
+        {
+            "from": 284.64,
+            "to": 288.8,
+            "location": 2,
+            "content": "is well now where rest starts helping us"
+        },
+        {
+            "from": 288.8,
+            "to": 292.08,
+            "location": 2,
+            "content": "system of rust"
+        },
+        {
+            "from": 292.08,
+            "to": 297.52,
+            "location": 2,
+            "content": "right now we don't have any defined so"
+        },
+        {
+            "from": 297.52,
+            "to": 303.44,
+            "location": 2,
+            "content": "some properties for us which we're going"
+        },
+        {
+            "from": 303.44,
+            "to": 308,
+            "location": 2,
+            "content": "so to that we need to create a struct"
+        },
+        {
+            "from": 308,
+            "to": 314.4,
+            "location": 2,
+            "content": "pub struct uh"
+        },
+        {
+            "from": 314.4,
+            "to": 316.72,
+            "location": 2,
+            "content": "um"
+        },
+        {
+            "from": 316.96,
+            "to": 320.24,
+            "location": 2,
+            "content": "props"
+        },
+        {
+            "from": 320.24,
+            "to": 327.44,
+            "location": 2,
+            "content": "see we want to have i think we call it"
+        },
+        {
+            "from": 328.32,
+            "to": 331.2,
+            "location": 2,
+            "content": "and we can then"
+        },
+        {
+            "from": 331.68,
+            "to": 336.24,
+            "location": 2,
+            "content": "props"
+        },
+        {
+            "from": 337.52,
+            "to": 341.76,
+            "location": 2,
+            "content": "now you're going to yell at us because"
+        },
+        {
+            "from": 341.76,
+            "to": 344.64,
+            "location": 2,
+            "content": "uh"
+        },
+        {
+            "from": 344.64,
+            "to": 349.44,
+            "location": 2,
+            "content": "expected reference to a properties type"
+        },
+        {
+            "from": 349.44,
+            "to": 353.04,
+            "location": 2,
+            "content": "to be a reference to"
+        },
+        {
+            "from": 353.04,
+            "to": 357.76,
+            "location": 2,
+            "content": "be"
+        },
+        {
+            "from": 359.68,
+            "to": 364.4,
+            "location": 2,
+            "content": "provided to us by you"
+        },
+        {
+            "from": 364.4,
+            "to": 370.08,
+            "location": 2,
+            "content": "so we can just derive"
+        },
+        {
+            "from": 370.96,
+            "to": 377.96,
+            "location": 2,
+            "content": "now in order to derive properties it"
+        },
+        {
+            "from": 380,
+            "to": 385.52,
+            "location": 2,
+            "content": "at that point we have no errors so"
+        },
+        {
+            "from": 385.52,
+            "to": 390.64,
+            "location": 2,
+            "content": "um if i leave this out and don't have"
+        },
+        {
+            "from": 390.64,
+            "to": 395.84,
+            "location": 2,
+            "content": "it's actually going to yell at us"
+        },
+        {
+            "from": 395.84,
+            "to": 400.32,
+            "location": 2,
+            "content": "if i want to make this optional i would"
+        },
+        {
+            "from": 400.32,
+            "to": 403.04,
+            "location": 2,
+            "content": "option type"
+        },
+        {
+            "from": 406.24,
+            "to": 411.12,
+            "location": 2,
+            "content": "at this point"
+        },
+        {
+            "from": 411.12,
+            "to": 414.08,
+            "location": 2,
+            "content": "title equals"
+        },
+        {
+            "from": 416.72,
+            "to": 422.64,
+            "location": 2,
+            "content": "and this is also perfectly fine"
+        },
+        {
+            "from": 422.64,
+            "to": 427.12,
+            "location": 2,
+            "content": "always want a title we always want that"
+        },
+        {
+            "from": 427.12,
+            "to": 431.68,
+            "location": 2,
+            "content": "option that just makes it i just need to"
+        },
+        {
+            "from": 431.68,
+            "to": 434.24,
+            "location": 2,
+            "content": "somewhere else"
+        },
+        {
+            "from": 434.24,
+            "to": 437.68,
+            "location": 2,
+            "content": "we're gonna know that we have it which"
+        },
+        {
+            "from": 437.68,
+            "to": 440.88,
+            "location": 2,
+            "content": "at this point"
+        },
+        {
+            "from": 440.88,
+            "to": 445.12,
+            "location": 2,
+            "content": "instead of"
+        },
+        {
+            "from": 445.12,
+            "to": 451.76,
+            "location": 2,
+            "content": "put in props dot title"
+        },
+        {
+            "from": 451.76,
+            "to": 455.04,
+            "location": 2,
+            "content": "to"
+        },
+        {
+            "from": 456.16,
+            "to": 461.44,
+            "location": 2,
+            "content": "and that now means we have a high there"
+        },
+        {
+            "from": 462.24,
+            "to": 467.84,
+            "location": 2,
+            "content": "so in our live.rs"
+        },
+        {
+            "from": 467.84,
+            "to": 471.28,
+            "location": 2,
+            "content": "changes to this"
+        },
+        {
+            "from": 471.28,
+            "to": 476.96,
+            "location": 2,
+            "content": "for this specific uh main title it'll"
+        },
+        {
+            "from": 476.96,
+            "to": 482.88,
+            "location": 2,
+            "content": "pass properties into child components"
+        },
+        {
+            "from": 482.88,
+            "to": 487.68,
+            "location": 2,
+            "content": "customizable i can now use this main"
+        },
+        {
+            "from": 487.68,
+            "to": 493.52,
+            "location": 2,
+            "content": "change depending upon what that page is"
+        },
+        {
+            "from": 493.52,
+            "to": 497.6,
+            "location": 2,
+            "content": "based development"
+        },
+        {
+            "from": 497.6,
+            "to": 503.32,
+            "location": 2,
+            "content": "thank you for watching and i will see"
+        }
+    ]
+}
