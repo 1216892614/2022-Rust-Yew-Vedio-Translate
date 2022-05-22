@@ -1,0 +1,453 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 3.6,
+            "to": 9.6,
+            "location": 2,
+            "content": "有时我们需要从外部文件加载 css 文件"
+        },
+        {
+            "from": 9.6,
+            "to": 12.48,
+            "location": 2,
+            "content": "这样做的很大一个原因"
+        },
+        {
+            "from": 12.48,
+            "to": 17.28,
+            "location": 2,
+            "content": "是为了从你的编辑器获得更好的补全"
+        },
+        {
+            "from": 17.28,
+            "to": 23.52,
+            "location": 2,
+            "content": "看到这里, 一个橘色的 h1 标签样式,"
+        },
+        {
+            "from": 23.52,
+            "to": 27.2,
+            "location": 2,
+            "content": "你的编辑器完全不知道该怎么识别他们,\n它不知道这些是样式"
+        },
+        {
+            "from": 27.2,
+            "to": 30.08,
+            "location": 2,
+            "content": "不会来给他们染上漂亮的颜色"
+        },
+        {
+            "from": 30.08,
+            "to": 35.04,
+            "location": 2,
+            "content": "不知道启用自动补全"
+        },
+        {
+            "from": 35.04,
+            "to": 40.4,
+            "location": 2,
+            "content": "也许一个单独的 css 文件会更好"
+        },
+        {
+            "from": 40.4,
+            "to": 43.6,
+            "location": 2,
+            "content": "让我们来新建一个 main.css"
+        },
+        {
+            "from": 47.52,
+            "to": 51.68,
+            "location": 2,
+            "content": "我现在把它放到我们的源代码文件夹里"
+        },
+        {
+            "from": 51.68,
+            "to": 55.92,
+            "location": 2,
+            "content": "现在我打算"
+        },
+        {
+            "from": 55.92,
+            "to": 59.92,
+            "location": 2,
+            "content": "为 h1 设置一个颜色"
+        },
+        {
+            "from": 66.8,
+            "to": 71.6,
+            "location": 2,
+            "content": "设置一个水青色"
+        },
+        {
+            "from": 71.6,
+            "to": 77.12,
+            "location": 2,
+            "content": "通配符, 把所有的字体设置为"
+        },
+        {
+            "from": 80.56,
+            "to": 84,
+            "location": 2,
+            "content": "100px"
+        },
+        {
+            "from": 84,
+            "to": 87.36,
+            "location": 2,
+            "content": "很棒"
+        },
+        {
+            "from": 87.36,
+            "to": 91.76,
+            "location": 2,
+            "content": "这应该可以运行"
+        },
+        {
+            "from": 91.76,
+            "to": 96.16,
+            "location": 2,
+            "content": "p 标签现在是红色的, 我们把它设置成绿色"
+        },
+        {
+            "from": 99.28,
+            "to": 104.16,
+            "location": 2,
+            "content": "现在有三件我们想修改的东西"
+        },
+        {
+            "from": 104.16,
+            "to": 107.84,
+            "location": 2,
+            "content": "有 vscode 的帮助很棒"
+        },
+        {
+            "from": 107.84,
+            "to": 110.4,
+            "location": 2,
+            "content": "我们现在回到我们的组件"
+        },
+        {
+            "from": 110.4,
+            "to": 114.88,
+            "location": 2,
+            "content": "我现在不能直接加载它们到 index.html"
+        },
+        {
+            "from": 114.88,
+            "to": 119.2,
+            "location": 2,
+            "content": "这是因为这些东西在浏览器的运行时产生作用"
+        },
+        {
+            "from": 119.2,
+            "to": 124.08,
+            "location": 2,
+            "content": "所以如果我尝试加载些文件什么的"
+        },
+        {
+            "from": 124.08,
+            "to": 128.48,
+            "location": 2,
+            "content": "那会是浏览器直接加载"
+        },
+        {
+            "from": 128.48,
+            "to": 133.12,
+            "location": 2,
+            "content": "是有一些专门的方法来帮助浏览器直接加载css"
+        },
+        {
+            "from": 133.12,
+            "to": 136.8,
+            "location": 2,
+            "content": "但我们不希望这样做, 我们想在编译时完成加载"
+        },
+        {
+            "from": 141.12,
+            "to": 147.6,
+            "location": 2,
+            "content": "我们声明一个常量`STYLE`"
+        },
+        {
+            "from": 150.16,
+            "to": 154.84,
+            "location": 2,
+            "content": "还是叫`STYLE_FILE`吧, 这是一个字符串切片"
+        },
+        {
+            "from": 154.84,
+            "to": 161.52,
+            "location": 2,
+            "content": "是一个静态生命周期切片, 浏览器会告诉我们它到底是什么"
+        },
+        {
+            "from": 161.52,
+            "to": 165.76,
+            "location": 2,
+            "content": "我们要用一个核心库宏"
+        },
+        {
+            "from": 165.76,
+            "to": 170.72,
+            "location": 2,
+            "content": "叫`include_str!()`"
+        },
+        {
+            "from": 170.72,
+            "to": 177.4,
+            "location": 2,
+            "content": "我们要告诉它 main.css 位置"
+        },
+        {
+            "from": 177.76,
+            "to": 182.8,
+            "location": 2,
+            "content": "`include_str!()`宏会选择当前目录下的的文本文件"
+        },
+        {
+            "from": 182.8,
+            "to": 187.76,
+            "location": 2,
+            "content": "引入他们作为字符串"
+        },
+        {
+            "from": 187.76,
+            "to": 192.16,
+            "location": 2,
+            "content": "比如我们现在要创建一个原子级(atomic)组件到 atoms 文件夹,\n那么 main.css 也必须创建在atom"
+        },
+        {
+            "from": 192.16,
+            "to": 200.8,
+            "location": 2,
+            "content": "这导致我们必须单独为每个, 哪怕是按钮这样的组件创建文件夹"
+        },
+        {
+            "from": 200.8,
+            "to": 206.64,
+            "location": 2,
+            "content": "在文件夹里我们要单独放上 HTML, JavaScript, 样式"
+        },
+        {
+            "from": 206.64,
+            "to": 211.52,
+            "location": 2,
+            "content": "他们都在单独的文件里"
+        },
+        {
+            "from": 211.52,
+            "to": 216.64,
+            "location": 2,
+            "content": "这很像没有内置 CSS 到 JS"
+        },
+        {
+            "from": 216.64,
+            "to": 222,
+            "location": 2,
+            "content": "的 React 的工作方式"
+        },
+        {
+            "from": 222,
+            "to": 224.8,
+            "location": 2,
+            "content": "okay, 现在我们引入了外部文本"
+        },
+        {
+            "from": 224.8,
+            "to": 230.08,
+            "location": 2,
+            "content": "但是外部文本还没有被 yew.rs 使用"
+        },
+        {
+            "from": 230.08,
+            "to": 234.4,
+            "location": 2,
+            "content": "现在让我们来更新代码逻辑"
+        },
+        {
+            "from": 234.4,
+            "to": 239.76,
+            "location": 2,
+            "content": "我们现在并不能像宏这样直接使用样式,\n因为现在的样式都还是硬编码的"
+        },
+        {
+            "from": 239.76,
+            "to": 244.72,
+            "location": 2,
+            "content": "我们现在把文本传给 stylist"
+        },
+        {
+            "from": 244.72,
+            "to": 251.36,
+            "location": 2,
+            "content": "stylist 会传出样式"
+        },
+        {
+            "from": 251.44,
+            "to": 254.96,
+            "location": 2,
+            "content": "stylist"
+        },
+        {
+            "from": 254.96,
+            "to": 258.96,
+            "location": 2,
+            "content": "oh, 报错了"
+        },
+        {
+            "from": 258.96,
+            "to": 262.88,
+            "location": 2,
+            "content": "如果像刚刚那样你也报错了, 试试多用自动补全"
+        },
+        {
+            "from": 262.88,
+            "to": 266.24,
+            "location": 2,
+            "content": "再来一遍,"
+        },
+        {
+            "from": 266.24,
+            "to": 271.84,
+            "location": 2,
+            "content": "`new()`一个样式, 传入`STYLE_FIRE`"
+        },
+        {
+            "from": 271.84,
+            "to": 274.8,
+            "location": 2,
+            "content": "返回的是一个 Result 枚举, 进行一个开箱"
+        },
+        {
+            "from": 275.36,
+            "to": 279.6,
+            "location": 2,
+            "content": "现在我们获取的是 Style"
+        },
+        {
+            "from": 279.6,
+            "to": 283.6,
+            "location": 2,
+            "content": "这样我们就可以为应用 class 了"
+        },
+        {
+            "from": 283.6,
+            "to": 288.48,
+            "location": 2,
+            "content": "我们现在移除 p 标签上的样式, 改为..."
+        },
+        {
+            "from": 288.48,
+            "to": 292.56,
+            "location": 2,
+            "content": "啊, 上面已经有了, 现在回到浏览器"
+        },
+        {
+            "from": 292.56,
+            "to": 296.8,
+            "location": 2,
+            "content": "我们可以看到各种大号文字, 亮蓝色的 h1 和绿色的 p 标签"
+        },
+        {
+            "from": 296.8,
+            "to": 301.28,
+            "location": 2,
+            "content": "看来已经应用更新了"
+        },
+        {
+            "from": 301.28,
+            "to": 307.12,
+            "location": 2,
+            "content": "现在我们来试试再次修改"
+        },
+        {
+            "from": 307.12,
+            "to": 310.8,
+            "location": 2,
+            "content": "比如改成黄绿色"
+        },
+        {
+            "from": 310.8,
+            "to": 313.76,
+            "location": 2,
+            "content": "进行一个保存"
+        },
+        {
+            "from": 314.24,
+            "to": 318.24,
+            "location": 2,
+            "content": "我每刷新就自动更新了"
+        },
+        {
+            "from": 318.24,
+            "to": 330.16,
+            "location": 2,
+            "content": "trunk 检查到了文件修改, 更新了显示, 因为样式文件被引入了 Rust"
+        },
+        {
+            "from": 330.16,
+            "to": 336.24,
+            "location": 2,
+            "content": "这就是另一种创建样式, 还可以从浏览器(编辑器吧?)获得点帮助的方法"
+        },
+        {
+            "from": 336.24,
+            "to": 341.68,
+            "location": 2,
+            "content": "对于我们课程来说, 我当然更喜欢组件里内嵌样式的方法"
+        },
+        {
+            "from": 345.84,
+            "to": 350.72,
+            "location": 2,
+            "content": "分离样式文件显的有些过于复杂"
+        },
+        {
+            "from": 350.72,
+            "to": 356.16,
+            "location": 2,
+            "content": "但是它可能更加适合你"
+        },
+        {
+            "from": 356.16,
+            "to": 361.12,
+            "location": 2,
+            "content": "我经常会用浏览器的开发工具来检查样式"
+        },
+        {
+            "from": 361.12,
+            "to": 365.84,
+            "location": 2,
+            "content": "就在这里, 例如(没听清)"
+        },
+        {
+            "from": 365.84,
+            "to": 369.84,
+            "location": 2,
+            "content": "我可以很清晰的看到我需要什么, 我可以把它复制回代码"
+        },
+        {
+            "from": 369.84,
+            "to": 373.84,
+            "location": 2,
+            "content": "我并不是那么怀念编辑器支持"
+        },
+        {
+            "from": 373.84,
+            "to": 376.8,
+            "location": 2,
+            "content": "um"
+        },
+        {
+            "from": 376.8,
+            "to": 381.8,
+            "location": 2,
+            "content": "蟹蟹观看, yew.rs 道, 堂堂连载!"
+        }
+    ]
+}

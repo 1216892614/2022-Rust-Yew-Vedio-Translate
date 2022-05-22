@@ -1,0 +1,135 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 4.32,
+            "to": 9.6,
+            "location": 2,
+            "content": "行内样式是一种快速应用样式的方法"
+        },
+        {
+            "from": 9.6,
+            "to": 19.28,
+            "location": 2,
+            "content": "用了它, 你不需要用复杂的样式表来写一堆东西"
+        },
+        {
+            "from": 19.28,
+            "to": 25.68,
+            "location": 2,
+            "content": "我们来修改一下 p 标签的样式"
+        },
+        {
+            "from": 25.68,
+            "to": 29.76,
+            "location": 2,
+            "content": "也许同时把字体放大一点"
+        },
+        {
+            "from": 29.76,
+            "to": 32.88,
+            "location": 2,
+            "content": "我们删掉这些东西"
+        },
+        {
+            "from": 32.88,
+            "to": 37.68,
+            "location": 2,
+            "content": "首先这里要写一个 class"
+        },
+        {
+            "from": 37.68,
+            "to": 41.6,
+            "location": 2,
+            "content": "在标签这里要用花括号"
+        },
+        {
+            "from": 41.6,
+            "to": 46.56,
+            "location": 2,
+            "content": "现在我们可以直接在这里使用 css! 宏"
+        },
+        {
+            "from": 46.56,
+            "to": 53.04,
+            "location": 2,
+            "content": "我们不需要使用多行文本标记,\n因为我们不打算写多行 css"
+        },
+        {
+            "from": 53.04,
+            "to": 57.68,
+            "location": 2,
+            "content": "我们就写, 额...就写一行"
+        },
+        {
+            "from": 57.68,
+            "to": 73.56,
+            "location": 2,
+            "content": "(少女 coding...中)"
+        },
+        {
+            "from": 73.84,
+            "to": 79.2,
+            "location": 2,
+            "content": "保存一下, 回到浏览器就可以看到"
+        },
+        {
+            "from": 79.2,
+            "to": 86.16,
+            "location": 2,
+            "content": "75px 红色的 p 标签"
+        },
+        {
+            "from": 86.16,
+            "to": 89.92,
+            "location": 2,
+            "content": "在 DOM 上就和之前发生的事情一样"
+        },
+        {
+            "from": 89.92,
+            "to": 94.4,
+            "location": 2,
+            "content": "样式被创建好放到 <head>, p 标签只有一个 class"
+        },
+        {
+            "from": 94.4,
+            "to": 99.12,
+            "location": 2,
+            "content": "标签里并没有真正的样式"
+        },
+        {
+            "from": 99.12,
+            "to": 104.96,
+            "location": 2,
+            "content": "就好像我们编写的(没听清) HTML"
+        },
+        {
+            "from": 104.96,
+            "to": 110,
+            "location": 2,
+            "content": "这是一个不错的练习"
+        },
+        {
+            "from": 110,
+            "to": 116.08,
+            "location": 2,
+            "content": "我经常用这种方法来应用样式"
+        },
+        {
+            "from": 116.08,
+            "to": 120.24,
+            "location": 2,
+            "content": "我也经常用这种样式段(style sheet)来编辑整个的样式"
+        },
+        {
+            "from": 120.24,
+            "to": 125.04,
+            "location": 2,
+            "content": "蟹蟹观看, yew.rs 道, 堂堂连载!"
+        }
+    ]
+}
