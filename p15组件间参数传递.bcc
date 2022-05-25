@@ -165,139 +165,109 @@
             "from": 130.24,
             "to": 134.88,
             "location": 2,
-            "content": "function this is gonna be a main title"
+            "content": "创建 pub 函数 main_title"
         },
         {
             "from": 136.8,
             "to": 140.92,
             "location": 2,
-            "content": "you're gonna return html"
+            "content": "返回 Html"
         },
         {
             "from": 143.2,
-            "to": 148.08,
-            "location": 2,
-            "content": "uh you're going to use the function"
-        },
-        {
-            "from": 148.08,
             "to": 150.4,
             "location": 2,
-            "content": "title"
+            "content": "实现这个函数作为组件, 名字叫 MainTitle"
         },
         {
             "from": 152.96,
             "to": 158.88,
             "location": 2,
-            "content": "and"
+            "content": "这里面就只放一个 h1 tag"
         },
         {
             "from": 165.52,
             "to": 171.24,
             "location": 2,
-            "content": "so if we want something like just a"
+            "content": "先只写一个 hello world"
         },
         {
             "from": 172.96,
             "to": 176.88,
             "location": 2,
-            "content": "let's uh head back into the library and"
+            "content": "我们回到 lib.rs, 确保我们引入它"
         },
         {
             "from": 176.88,
             "to": 181.84,
             "location": 2,
-            "content": "going to be hello world without the"
+            "content": "这会是一个不需要额外声明的 hello world"
         },
         {
             "from": 182,
             "to": 186.08,
             "location": 2,
-            "content": "now i do have to pull that in so we're"
+            "content": "现在我们引入它"
         },
         {
             "from": 186.08,
             "to": 189.92,
             "location": 2,
-            "content": "uh"
+            "content": "uh..在模块引入之后"
         },
         {
             "from": 193.36,
-            "to": 197.52,
-            "location": 2,
-            "content": "we're going to use a use"
-        },
-        {
-            "from": 197.52,
-            "to": 200.16,
-            "location": 2,
-            "content": "atoms"
-        },
-        {
-            "from": 200.16,
             "to": 204.48,
             "location": 2,
-            "content": "main title"
+            "content": "`use components::atoms::main_title::MainTitle`"
         },
         {
             "from": 204.48,
             "to": 207.04,
             "location": 2,
-            "content": "main title"
+            "content": "然后我们要让它作用在这里 MainTitle"
         },
         {
             "from": 207.68,
             "to": 212.8,
             "location": 2,
-            "content": "i'm going to use that slash at the end"
+            "content": "我使用自闭合标签, 因为我们不需要, uh..."
         },
         {
             "from": 212.8,
             "to": 216.64,
             "location": 2,
-            "content": "use like the double of them with you"
+            "content": "使用像这样的双标签来包裹东西"
         },
         {
             "from": 216.64,
             "to": 220.8,
             "location": 2,
-            "content": "one thing"
+            "content": "一个就够了"
         },
         {
             "from": 220.8,
             "to": 226.56,
             "location": 2,
-            "content": "we head back over here we see hello"
+            "content": "保存, 回到浏览器, 我们就看到了 hello world"
         },
         {
             "from": 226.56,
-            "to": 229.2,
-            "location": 2,
-            "content": "okay"
-        },
-        {
-            "from": 229.2,
             "to": 233.04,
             "location": 2,
-            "content": "still affecting"
+            "content": "okay, 我们可以看到样式依旧对这个 h1 标签起作用"
         },
         {
             "from": 233.04,
             "to": 238.4,
             "location": 2,
-            "content": "this h1 tag so that is something to be"
+            "content": "是的, 样式确实被局限在这个组件内"
         },
         {
             "from": 238.4,
-            "to": 242.72,
-            "location": 2,
-            "content": "component but then there's components"
-        },
-        {
-            "from": 242.72,
             "to": 245.6,
             "location": 2,
-            "content": "be affected"
+            "content": "但是在这个组件里的组件依旧会被样式影响到"
         },
         {
             "from": 246.72,
@@ -309,79 +279,79 @@
             "from": 251.12,
             "to": 255.36,
             "location": 2,
-            "content": "it's not hello world but just whatever"
+            "content": "我希望这个 hello world 不只是 hello world, 而是我想要的任何东西"
         },
         {
             "from": 255.36,
             "to": 259.84,
             "location": 2,
-            "content": "specific component we want to make it a"
+            "content": "我希望这不是一个特定的标题, 希望它更加通用一些"
         },
         {
             "from": 259.84,
             "to": 264.32,
             "location": 2,
-            "content": "in react i would use a property so"
+            "content": "在 react 里我会用上 property"
         },
         {
             "from": 264.32,
             "to": 267.2,
             "location": 2,
-            "content": "maybe title"
+            "content": "它用起来就像在这里写一个属性 title=..."
         },
         {
             "from": 267.2,
             "to": 273.04,
             "location": 2,
-            "content": "and then just have some text like um"
+            "content": "任何你可以传入你想传入的文本, 比如 hi there!"
         },
         {
             "from": 274.8,
             "to": 280.24,
             "location": 2,
-            "content": "now when i do this it's saying hey\n00:04:36,720 --> 00:04:41,1000\nthere's no field title on type open\n\n106"
+            "content": "当我这样做的时候, 它就会说没有叫 'title' 的 field"
         },
         {
             "from": 280.24,
             "to": 284.64,
             "location": 2,
-            "content": "close parenthesis like basically there"
+            "content": "也就是说没有设置参数来接受这个 'title'"
         },
         {
             "from": 284.64,
             "to": 288.8,
             "location": 2,
-            "content": "is well now where rest starts helping us"
+            "content": "这就是编译器对我们的帮助"
         },
         {
             "from": 288.8,
             "to": 292.08,
             "location": 2,
-            "content": "system of rust"
+            "content": "因为我们在 Rust 里有类型系统"
         },
         {
             "from": 292.08,
             "to": 297.52,
             "location": 2,
-            "content": "right now we don't have any defined so"
+            "content": "但是我们现在什么都没有定义"
         },
         {
             "from": 297.52,
             "to": 303.44,
             "location": 2,
-            "content": "some properties for us which we're going"
+            "content": "让我们回到组件来创建一些 properties, 它会被函数接收"
         },
         {
             "from": 303.44,
             "to": 308,
             "location": 2,
-            "content": "so to that we need to create a struct"
+            "content": "首先我们要定义一个 struct"
         },
         {
             "from": 308,
             "to": 314.4,
             "location": 2,
-            "content": "pub struct uh"
+            "content": "`pub struct` uh..我一般就叫它 Properties"
         },
         {
             "from": 314.4,
@@ -393,31 +363,25 @@
             "from": 316.96,
             "to": 320.24,
             "location": 2,
-            "content": "props"
+            "content": "Props"
         },
         {
             "from": 320.24,
             "to": 327.44,
             "location": 2,
-            "content": "see we want to have i think we call it"
+            "content": "我想我们就叫它...title, 一个字符串"
         },
         {
             "from": 328.32,
-            "to": 331.2,
-            "location": 2,
-            "content": "and we can then"
-        },
-        {
-            "from": 331.68,
             "to": 336.24,
             "location": 2,
-            "content": "props"
+            "content": "接收这个类型为 Props 的 props"
         },
         {
             "from": 337.52,
             "to": 341.76,
             "location": 2,
-            "content": "now you're going to yell at us because"
+            "content": "现在你得到了一个错误, 因为"
         },
         {
             "from": 341.76,
@@ -429,187 +393,175 @@
             "from": 344.64,
             "to": 349.44,
             "location": 2,
-            "content": "expected reference to a properties type"
+            "content": "期待一个 properties 类型"
         },
         {
             "from": 349.44,
             "to": 353.04,
             "location": 2,
-            "content": "to be a reference to"
+            "content": "这里还必须是引用"
         },
         {
             "from": 353.04,
             "to": 357.76,
             "location": 2,
-            "content": "be"
+            "content": "你必须为 Props 实现 yew 提供的 trait"
         },
         {
             "from": 359.68,
             "to": 364.4,
             "location": 2,
-            "content": "provided to us by you"
+            "content": "当然, 有一个宏可以帮你完成这一点"
         },
         {
             "from": 364.4,
             "to": 370.08,
             "location": 2,
-            "content": "so we can just derive"
+            "content": "于是我们直接`#[derive(Properties)]`"
         },
         {
             "from": 370.96,
             "to": 377.96,
             "location": 2,
-            "content": "now in order to derive properties it"
+            "content": "为了实现 Properties, 你还需要实现 PartialEq"
         },
         {
             "from": 380,
             "to": 385.52,
             "location": 2,
-            "content": "at that point we have no errors so"
+            "content": "没有错误了, 舒服了"
         },
         {
             "from": 385.52,
             "to": 390.64,
             "location": 2,
-            "content": "um if i leave this out and don't have"
+            "content": "um...如果我把这部分删掉,"
         },
         {
             "from": 390.64,
             "to": 395.84,
             "location": 2,
-            "content": "it's actually going to yell at us"
+            "content": "它其实会报错, 因为 MainTitle 确实需要一个参数"
         },
         {
             "from": 395.84,
             "to": 400.32,
             "location": 2,
-            "content": "if i want to make this optional i would"
+            "content": "如果我希望这个参数可选,"
         },
         {
             "from": 400.32,
             "to": 403.04,
             "location": 2,
-            "content": "option type"
+            "content": "我会在这里将参数实现为 Option 枚举"
         },
         {
             "from": 406.24,
-            "to": 411.12,
-            "location": 2,
-            "content": "at this point"
-        },
-        {
-            "from": 411.12,
             "to": 414.08,
             "location": 2,
-            "content": "title equals"
+            "content": "这样我仍旧可以选择传入 title"
         },
         {
             "from": 416.72,
             "to": 422.64,
             "location": 2,
-            "content": "and this is also perfectly fine"
+            "content": "这也没什么问题"
         },
         {
             "from": 422.64,
             "to": 427.12,
             "location": 2,
-            "content": "always want a title we always want that"
+            "content": "但是对于这个 h1 标题, 我们总是需要一个 title 内容"
         },
         {
             "from": 427.12,
             "to": 431.68,
             "location": 2,
-            "content": "option that just makes it i just need to"
+            "content": "所以我不需要这个 title 可选,"
         },
         {
             "from": 431.68,
             "to": 434.24,
             "location": 2,
-            "content": "somewhere else"
+            "content": "我不想做一个 unwarp 或者返回一个错误"
         },
         {
             "from": 434.24,
             "to": 437.68,
             "location": 2,
-            "content": "we're gonna know that we have it which"
+            "content": "现在我们确信我们会收到 title"
         },
         {
             "from": 437.68,
             "to": 440.88,
             "location": 2,
-            "content": "at this point"
+            "content": "也就是说现在, 对于这个 h1"
         },
         {
             "from": 440.88,
-            "to": 445.12,
-            "location": 2,
-            "content": "instead of"
-        },
-        {
-            "from": 445.12,
             "to": 451.76,
             "location": 2,
-            "content": "put in props dot title"
+            "content": "我要用`props.title`代替写死的字符串, 但是我不能移动 props 的所有权"
         },
         {
             "from": 451.76,
             "to": 455.04,
             "location": 2,
-            "content": "to"
+            "content": "所以我使用引用"
         },
         {
             "from": 456.16,
             "to": 461.44,
             "location": 2,
-            "content": "and that now means we have a high there"
+            "content": "现在我们就有了 Hi there!"
         },
         {
             "from": 462.24,
             "to": 467.84,
             "location": 2,
-            "content": "so in our live.rs"
+            "content": "在我们的 lib.rs"
         },
         {
             "from": 467.84,
             "to": 471.28,
             "location": 2,
-            "content": "changes to this"
+            "content": "我们可以随便修改字符串"
         },
         {
             "from": 471.28,
             "to": 476.96,
             "location": 2,
-            "content": "for this specific uh main title it'll"
+            "content": "这个特别的组件就会根据我们的修改而更新"
         },
         {
             "from": 476.96,
             "to": 482.88,
             "location": 2,
-            "content": "pass properties into child components"
+            "content": "我们就可以这样为我们的子组件传递信息"
         },
         {
             "from": 482.88,
             "to": 487.68,
             "location": 2,
-            "content": "customizable i can now use this main"
+            "content": "让他们变得可以定制"
         },
         {
             "from": 487.68,
             "to": 493.52,
             "location": 2,
-            "content": "change depending upon what that page is"
+            "content": "你现在可以在任何地方用这个 MainTitle, 它会根据页面需要而变化"
         },
         {
             "from": 493.52,
             "to": 497.6,
             "location": 2,
-            "content": "based development"
+            "content": "这是组件化开发的基础之一"
         },
         {
             "from": 497.6,
             "to": 503.32,
             "location": 2,
-            "content": "thank you for watching and i will see"
+            "content": "蟹蟹观看, yew.rs 道, 堂堂连载!"
         }
     ]
 }
