@@ -9,163 +9,139 @@
             "from": 4.4,
             "to": 8.48,
             "location": 2,
-            "content": "sometimes we want to pass in maybe"
+            "content": "有时我们想传递一些比纯文本更加复杂的参数"
         },
         {
             "from": 8.48,
             "to": 13.04,
             "location": 2,
-            "content": "plain text uh we can just pass in a"
+            "content": "我们可以传递 string 来设置颜色"
         },
         {
             "from": 13.04,
             "to": 17.36,
             "location": 2,
-            "content": "we can just set you to be like you know"
+            "content": "我们可以对子组件说:\"嘿, 我想让你变蓝\""
         },
         {
             "from": 17.36,
             "to": 21.76,
             "location": 2,
-            "content": "you know not just passing direct colors"
+            "content": "或者不是颜色, 而是"
         },
         {
             "from": 21.76,
             "to": 28.16,
             "location": 2,
-            "content": "something else like okay or warning air"
+            "content": "而是比如提示, 警告, 错误"
         },
         {
             "from": 28.16,
             "to": 32.8,
             "location": 2,
-            "content": "associated with those types that can be"
+            "content": "感觉我们标记的类型变成特定的颜色"
         },
         {
             "from": 32.8,
             "to": 37.2,
             "location": 2,
-            "content": "constantly parse the strings"
+            "content": "如果我们是用字符串来传递和设置标签的状态"
         },
         {
             "from": 37.2,
             "to": 41.28,
             "location": 2,
-            "content": "return what the class is and maybe set"
+            "content": "会显得很不合理"
         },
         {
             "from": 41.28,
             "to": 47.36,
             "location": 2,
-            "content": "let's go ahead and explore using enums"
+            "content": "现在我们来研究一下用枚举来实现它们"
         },
         {
             "from": 47.36,
             "to": 49.92,
             "location": 2,
-            "content": "again"
+            "content": "又一次"
         },
         {
             "from": 49.92,
             "to": 53.76,
             "location": 2,
-            "content": "getting from rust"
+            "content": "通过 yew 使用 Rust 的强大类型系统"
         },
         {
             "from": 53.76,
             "to": 59.2,
             "location": 2,
-            "content": "preparation i've removed that style"
+            "content": "首先我们先移除之前写的样式"
         },
         {
             "from": 59.2,
             "to": 63.04,
             "location": 2,
-            "content": "no styles applied to our main app"
+            "content": "这样可以保证没有多余的样式影响我们的App组件"
         },
         {
             "from": 63.04,
             "to": 66.8,
             "location": 2,
-            "content": "so in main title we're going to go ahead"
+            "content": "在 MainTitle 我们要创建一个样式片段"
         },
         {
             "from": 66.8,
-            "to": 70.24,
-            "location": 2,
-            "content": "does mean that we need to update this to"
-        },
-        {
-            "from": 70.24,
             "to": 73.64,
             "location": 2,
-            "content": "styled component"
+            "content": "也就是说我们要换为实现 style_componment"
         },
         {
             "from": 77.68,
             "to": 84.08,
             "location": 2,
-            "content": "and i want to set up some classes here"
+            "content": "然后我想在这里创建一些 class"
         },
         {
             "from": 84.08,
             "to": 89.68,
             "location": 2,
-            "content": "now if i want to do that and actually"
+            "content": "为了应用这个样式, 我必须先..."
         },
         {
             "from": 89.68,
             "to": 93.96,
             "location": 2,
-            "content": "have a wrapper around this"
+            "content": "我得有个包裹它的容器"
         },
         {
             "from": 130,
             "to": 135.92,
             "location": 2,
-            "content": "so i'm thinking we can choose and choose"
+            "content": "想一想我们要哪些样式"
         },
         {
             "from": 135.92,
-            "to": 140.16,
-            "location": 2,
-            "content": "if it's like normal so"
-        },
-        {
-            "from": 140.16,
-            "to": 144.72,
-            "location": 2,
-            "content": "normal"
-        },
-        {
-            "from": 144.72,
             "to": 147.04,
             "location": 2,
-            "content": "white"
+            "content": "我们给 normal 一个...一个颜色, 就白色吧"
         },
         {
             "from": 150.32,
-            "to": 155.44,
-            "location": 2,
-            "content": "if you're um"
-        },
-        {
-            "from": 155.68,
             "to": 160.16,
             "location": 2,
-            "content": "then we'll have a color of green"
+            "content": "如果是 ok 的话, 我们就设置为绿色"
         },
         {
             "from": 160.16,
             "to": 164.96,
             "location": 2,
-            "content": "air"
+            "content": "error 就设置为红色"
         },
         {
             "from": 164.96,
             "to": 169.44,
             "location": 2,
-            "content": "so a nice like three color system for us"
+            "content": "现在我们的组件就有了三种颜色的样式"
         },
         {
             "from": 169.44,
