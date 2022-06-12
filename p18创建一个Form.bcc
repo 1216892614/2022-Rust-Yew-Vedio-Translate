@@ -1,0 +1,597 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 3.52,
+            "to": 7.92,
+            "location": 2,
+            "content": "我们已经学会了如何创建回调函数"
+        },
+        {
+            "from": 7.92,
+            "to": 11.52,
+            "location": 2,
+            "content": "time to start"
+        },
+        {
+            "from": 11.52,
+            "to": 16.4,
+            "location": 2,
+            "content": "those callbacks for form elements"
+        },
+        {
+            "from": 16.4,
+            "to": 21.28,
+            "location": 2,
+            "content": "this lesson we're going to create a full"
+        },
+        {
+            "from": 21.28,
+            "to": 27.2,
+            "location": 2,
+            "content": "atomic components we need a text input"
+        },
+        {
+            "from": 27.2,
+            "to": 32.72,
+            "location": 2,
+            "content": "then a button so we can submit that form"
+        },
+        {
+            "from": 32.72,
+            "to": 36.4,
+            "location": 2,
+            "content": "i suppose we can also put the form"
+        },
+        {
+            "from": 36.4,
+            "to": 40.48,
+            "location": 2,
+            "content": "going to be an atomic component and an"
+        },
+        {
+            "from": 40.48,
+            "to": 44.96,
+            "location": 2,
+            "content": "so with that being said let's jump right"
+        },
+        {
+            "from": 44.96,
+            "to": 49.44,
+            "location": 2,
+            "content": "i'm going to come into a component uh"
+        },
+        {
+            "from": 49.44,
+            "to": 55.28,
+            "location": 2,
+            "content": "and i'm going to call this"
+        },
+        {
+            "from": 55.28,
+            "to": 60.48,
+            "location": 2,
+            "content": "a um"
+        },
+        {
+            "from": 65.52,
+            "to": 70.16,
+            "location": 2,
+            "content": "uh and before we start working on that"
+        },
+        {
+            "from": 70.16,
+            "to": 73.64,
+            "location": 2,
+            "content": "upmod this"
+        },
+        {
+            "from": 82.64,
+            "to": 85.6,
+            "location": 2,
+            "content": "i have to let rest analyzer finish"
+        },
+        {
+            "from": 85.6,
+            "to": 89.6,
+            "location": 2,
+            "content": "it doesn't know exactly what i'm doing"
+        },
+        {
+            "from": 92.08,
+            "to": 95.36,
+            "location": 2,
+            "content": "we're going to go ahead and skip styling"
+        },
+        {
+            "from": 95.36,
+            "to": 98.96,
+            "location": 2,
+            "content": "project we're making all the components"
+        },
+        {
+            "from": 98.96,
+            "to": 102.92,
+            "location": 2,
+            "content": "styling at that time"
+        },
+        {
+            "from": 132.16,
+            "to": 136.64,
+            "location": 2,
+            "content": "okay so we have input type text here"
+        },
+        {
+            "from": 136.64,
+            "to": 140.84,
+            "location": 2,
+            "content": "we are not going to set a a value on it"
+        },
+        {
+            "from": 140.84,
+            "to": 143.76,
+            "location": 2,
+            "content": "name"
+        },
+        {
+            "from": 143.76,
+            "to": 147.92,
+            "location": 2,
+            "content": "we don't necessarily know what that is"
+        },
+        {
+            "from": 147.92,
+            "to": 150.92,
+            "location": 2,
+            "content": "props"
+        },
+        {
+            "from": 209.6,
+            "to": 215.04,
+            "location": 2,
+            "content": "okay we have the"
+        },
+        {
+            "from": 224,
+            "to": 227.8,
+            "location": 2,
+            "content": "oh you need to be a statixter"
+        },
+        {
+            "from": 229.12,
+            "to": 233.84,
+            "location": 2,
+            "content": "oh a d it wants to dereference and"
+        },
+        {
+            "from": 235.76,
+            "to": 240.6,
+            "location": 2,
+            "content": "or do i can i just give you ownership"
+        },
+        {
+            "from": 242.08,
+            "to": 245.28,
+            "location": 2,
+            "content": "oh i need to clone you"
+        },
+        {
+            "from": 248.08,
+            "to": 253.04,
+            "location": 2,
+            "content": "clone the name out of properties"
+        },
+        {
+            "from": 253.04,
+            "to": 257.28,
+            "location": 2,
+            "content": "with a lot of clones but of course this"
+        },
+        {
+            "from": 257.28,
+            "to": 262.08,
+            "location": 2,
+            "content": "inside of rust it's running in"
+        },
+        {
+            "from": 262.08,
+            "to": 266.72,
+            "location": 2,
+            "content": "of clone type things happening anyways"
+        },
+        {
+            "from": 266.72,
+            "to": 271.2,
+            "location": 2,
+            "content": "writing just pure javascript so i don't"
+        },
+        {
+            "from": 271.2,
+            "to": 275.76,
+            "location": 2,
+            "content": "you're used to trying to avoid clones at"
+        },
+        {
+            "from": 275.76,
+            "to": 280.96,
+            "location": 2,
+            "content": "bit weird"
+        },
+        {
+            "from": 280.96,
+            "to": 286.88,
+            "location": 2,
+            "content": "possibly set up an id for this uh we can"
+        },
+        {
+            "from": 286.88,
+            "to": 291.44,
+            "location": 2,
+            "content": "but uh"
+        },
+        {
+            "from": 291.44,
+            "to": 296.32,
+            "location": 2,
+            "content": "to have this like input form field"
+        },
+        {
+            "from": 296.32,
+            "to": 301.12,
+            "location": 2,
+            "content": "so i'm going to create an"
+        },
+        {
+            "from": 301.12,
+            "to": 304.12,
+            "location": 2,
+            "content": "molecule"
+        },
+        {
+            "from": 310.32,
+            "to": 315.52,
+            "location": 2,
+            "content": "and we're just going to call this a form"
+        },
+        {
+            "from": 315.52,
+            "to": 318.84,
+            "location": 2,
+            "content": "custom form"
+        },
+        {
+            "from": 328.96,
+            "to": 336.76,
+            "location": 2,
+            "content": "which does mean that the mod up here"
+        },
+        {
+            "from": 341.12,
+            "to": 345.36,
+            "location": 2,
+            "content": "and now this will be able to be pulled"
+        },
+        {
+            "from": 347.6,
+            "to": 351.48,
+            "location": 2,
+            "content": "and same thing here"
+        },
+        {
+            "from": 381.36,
+            "to": 387.84,
+            "location": 2,
+            "content": "um okay so for this html"
+        },
+        {
+            "from": 387.84,
+            "to": 392.56,
+            "location": 2,
+            "content": "that other form"
+        },
+        {
+            "from": 392.56,
+            "to": 395.52,
+            "location": 2,
+            "content": "just gonna go create so it starts from"
+        },
+        {
+            "from": 395.52,
+            "to": 396.96,
+            "location": 2,
+            "content": "and"
+        },
+        {
+            "from": 396.96,
+            "to": 402.64,
+            "location": 2,
+            "content": "[Music]"
+        },
+        {
+            "from": 402.64,
+            "to": 405.44,
+            "location": 2,
+            "content": "text input"
+        },
+        {
+            "from": 405.84,
+            "to": 409.16,
+            "location": 2,
+            "content": "text input"
+        },
+        {
+            "from": 419.6,
+            "to": 424.16,
+            "location": 2,
+            "content": "now we do remember we"
+        },
+        {
+            "from": 424.16,
+            "to": 429.68,
+            "location": 2,
+            "content": "going to be we'll just"
+        },
+        {
+            "from": 432.56,
+            "to": 437.92,
+            "location": 2,
+            "content": "save view now we have this molecules for"
+        },
+        {
+            "from": 437.92,
+            "to": 441.52,
+            "location": 2,
+            "content": "let's um"
+        },
+        {
+            "from": 441.52,
+            "to": 446.08,
+            "location": 2,
+            "content": "contrived because we are uh we're just"
+        },
+        {
+            "from": 446.08,
+            "to": 450,
+            "location": 2,
+            "content": "for it right now uh so this is going to"
+        },
+        {
+            "from": 450,
+            "to": 454.24,
+            "location": 2,
+            "content": "later on you might want to create like a"
+        },
+        {
+            "from": 454.24,
+            "to": 460.72,
+            "location": 2,
+            "content": "specific like it's like a user a user"
+        },
+        {
+            "from": 461.44,
+            "to": 466,
+            "location": 2,
+            "content": "and over here so we have our main title"
+        },
+        {
+            "from": 466,
+            "to": 469.64,
+            "location": 2,
+            "content": "our custom form"
+        },
+        {
+            "from": 484.8,
+            "to": 487.6,
+            "location": 2,
+            "content": "and you don't need anything"
+        },
+        {
+            "from": 487.6,
+            "to": 493.84,
+            "location": 2,
+            "content": "there you are just loading in our custom"
+        },
+        {
+            "from": 496.16,
+            "to": 499.76,
+            "location": 2,
+            "content": "there is our form field that we can put"
+        },
+        {
+            "from": 499.76,
+            "to": 506.88,
+            "location": 2,
+            "content": "okay great um next part to this is any"
+        },
+        {
+            "from": 506.88,
+            "to": 510.96,
+            "location": 2,
+            "content": "so let's create a button component"
+        },
+        {
+            "from": 511.12,
+            "to": 515.28,
+            "location": 2,
+            "content": "so let's do like a"
+        },
+        {
+            "from": 515.28,
+            "to": 518.28,
+            "location": 2,
+            "content": "button"
+        },
+        {
+            "from": 544.96,
+            "to": 550.4,
+            "location": 2,
+            "content": "now this one we probably would want to"
+        },
+        {
+            "from": 550.4,
+            "to": 554.32,
+            "location": 2,
+            "content": "specifically for"
+        },
+        {
+            "from": 554.32,
+            "to": 560.28,
+            "location": 2,
+            "content": "specifically for"
+        },
+        {
+            "from": 582.4,
+            "to": 588.48,
+            "location": 2,
+            "content": "so"
+        },
+        {
+            "from": 589.28,
+            "to": 594.72,
+            "location": 2,
+            "content": "um and we don't necessarily need"
+        },
+        {
+            "from": 595.84,
+            "to": 602.12,
+            "location": 2,
+            "content": "okay uh you're gonna be a custom"
+        },
+        {
+            "from": 619.44,
+            "to": 622.96,
+            "location": 2,
+            "content": "and in this case"
+        },
+        {
+            "from": 622.96,
+            "to": 626.24,
+            "location": 2,
+            "content": "button element"
+        },
+        {
+            "from": 626.24,
+            "to": 632.4,
+            "location": 2,
+            "content": "inside of it now here we put in our"
+        },
+        {
+            "from": 632.4,
+            "to": 636.4,
+            "location": 2,
+            "content": "our props dot label"
+        },
+        {
+            "from": 639.6,
+            "to": 643.36,
+            "location": 2,
+            "content": "and now we can use our custom button"
+        },
+        {
+            "from": 643.36,
+            "to": 646.36,
+            "location": 2,
+            "content": "there"
+        },
+        {
+            "from": 669.6,
+            "to": 674.28,
+            "location": 2,
+            "content": "uh and we'll just call this submit"
+        },
+        {
+            "from": 681.04,
+            "to": 685.6,
+            "location": 2,
+            "content": "oh your private field so for these"
+        },
+        {
+            "from": 685.6,
+            "to": 690.16,
+            "location": 2,
+            "content": "they're public here"
+        },
+        {
+            "from": 690.16,
+            "to": 694.56,
+            "location": 2,
+            "content": "add in the uh"
+        },
+        {
+            "from": 694.56,
+            "to": 699.2,
+            "location": 2,
+            "content": "properties okay so"
+        },
+        {
+            "from": 699.2,
+            "to": 703.84,
+            "location": 2,
+            "content": "field we have a submit button now to"
+        },
+        {
+            "from": 703.84,
+            "to": 708.96,
+            "location": 2,
+            "content": "replace this div"
+        },
+        {
+            "from": 709.52,
+            "to": 714,
+            "location": 2,
+            "content": "so now now it actually is going to be a"
+        },
+        {
+            "from": 714,
+            "to": 718.64,
+            "location": 2,
+            "content": "that we can then have basically submit"
+        },
+        {
+            "from": 718.64,
+            "to": 723.92,
+            "location": 2,
+            "content": "going to be coming up in"
+        },
+        {
+            "from": 723.92,
+            "to": 729.28,
+            "location": 2,
+            "content": "if i try to hit submit it does refresh"
+        },
+        {
+            "from": 729.28,
+            "to": 732.88,
+            "location": 2,
+            "content": "that question mark username it try to"
+        },
+        {
+            "from": 732.88,
+            "to": 737.92,
+            "location": 2,
+            "content": "right back to this same"
+        },
+        {
+            "from": 737.92,
+            "to": 740.8,
+            "location": 2,
+            "content": "the future"
+        },
+        {
+            "from": 740.8,
+            "to": 744.88,
+            "location": 2,
+            "content": "be going for so with that"
+        },
+        {
+            "from": 744.88,
+            "to": 749.56,
+            "location": 2,
+            "content": "will see you in the next video bye"
+        }
+    ]
+}

@@ -1,0 +1,321 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 4.16,
+            "to": 13.50,
+            "location": 2,
+            "content": "回调函数是从子组件向父组件传递数据最吼的方法之一"
+        },
+        {
+            "from": 13.50,
+            "to": 19.04,
+            "location": 2,
+            "content": "这允许数据通过你创建的链式调用移动"
+        },
+        {
+            "from": 19.04,
+            "to": 22.24,
+            "location": 2,
+            "content": "最后父组件会接收到消息"
+        },
+        {
+            "from": 22.24,
+            "to": 26.56,
+            "location": 2,
+            "content": "这样, 即便你的组件结构很复杂"
+        },
+        {
+            "from": 26.56,
+            "to": 32.08,
+            "location": 2,
+            "content": "你也可以集中在一个地方管理"
+        },
+        {
+            "from": 32.08,
+            "to": 37.68,
+            "location": 2,
+            "content": "so, 我们来创建一个回调"
+        },
+        {
+            "from": 37.68,
+            "to": 42.32,
+            "location": 2,
+            "content": "创建在 lib.rs"
+        },
+        {
+            "from": 42.32,
+            "to": 47.04,
+            "location": 2,
+            "content": "yew::prelude 下为我们提供了一个回调结构体"
+        },
+        {
+            "from": 47.04,
+            "to": 51.44,
+            "location": 2,
+            "content": "我们的回调要发生在加载时"
+        },
+        {
+            "from": 51.44,
+            "to": 56.48,
+            "location": 2,
+            "content": "当 Title 加载的时候就会对 App 说"
+        },
+        {
+            "from": 56.48,
+            "to": 62.96,
+            "location": 2,
+            "content": "\"Hey, 我加载了\""
+        },
+        {
+            "from": 62.96,
+            "to": 67.44,
+            "location": 2,
+            "content": "少女 Coding 中..."
+        },
+        {
+            "from": 68.32,
+            "to": 71.6,
+            "location": 2,
+            "content": "有很多 Callback, 注意我们想要的不是 gloo 的 Callback"
+        },
+        {
+            "from": 71.6,
+            "to": 76.56,
+            "location": 2,
+            "content": "我们要的是已经被引入作用域的 Callback"
+        },
+        {
+            "from": 76.56,
+            "to": 83.44,
+            "location": 2,
+            "content": "我们用 from 创建,"
+        },
+        {
+            "from": 83.68,
+            "to": 86.56,
+            "location": 2,
+            "content": "uh, 他接收一个函数(闭包吧"
+        },
+        {
+            "from": 86.56,
+            "to": 90.64,
+            "location": 2,
+            "content": "现在的问题是我们要传入什么"
+        },
+        {
+            "from": 90.64,
+            "to": 93.52,
+            "location": 2,
+            "content": "现在来说我们要创建的闭包"
+        },
+        {
+            "from": 93.52,
+            "to": 97.92,
+            "location": 2,
+            "content": "它最好可以传回些字符串. 如果这是一个事件回调"
+        },
+        {
+            "from": 97.92,
+            "to": 102.4,
+            "location": 2,
+            "content": "我们就会返回些事件, "
+        },
+        {
+            "from": 103.52,
+            "to": 108.08,
+            "location": 2,
+            "content": "这里传入一个字符串,"
+        },
+        {
+            "from": 108.08,
+            "to": 113.12,
+            "location": 2,
+            "content": "既然它会被输出, 就叫这孩子 message 吧"
+        },
+        {
+            "from": 113.12,
+            "to": 119.04,
+            "location": 2,
+            "content": "um, 我们还会用 `gloo:log!()`"
+        },
+        {
+            "from": 119.04,
+            "to": 124.32,
+            "location": 2,
+            "content": "来输出这个 message"
+        },
+        {
+            "from": 127.36,
+            "to": 131.28,
+            "location": 2,
+            "content": "yew 说要有类型, 于是便出现了 String"
+        },
+        {
+            "from": 131.28,
+            "to": 135.92,
+            "location": 2,
+            "content": "我们回到 main_title.rs"
+        },
+        {
+            "from": 135.92,
+            "to": 140,
+            "location": 2,
+            "content": "设置好我们的 props"
+        },
+        {
+            "from": 140,
+            "to": 145.76,
+            "location": 2,
+            "content": "当组件加载好的时候我们就会输出 message"
+        },
+        {
+            "from": 145.76,
+            "to": 152.56,
+            "location": 2,
+            "content": "so, 所以我们先把回调加入 props"
+        },
+        {
+            "from": 152.56,
+            "to": 156.16,
+            "location": 2,
+            "content": "属性加上 Callback, 就和你想的一样"
+        },
+        {
+            "from": 156.16,
+            "to": 160.88,
+            "location": 2,
+            "content": "我们传入的类型是 String"
+        },
+        {
+            "from": 160.88,
+            "to": 165.28,
+            "location": 2,
+            "content": "这里解决了, 回到我们的组件"
+        },
+        {
+            "from": 165.28,
+            "to": 170.4,
+            "location": 2,
+            "content": "我们看到样式片段声明和 html! 之间, 我要写在这里"
+        },
+        {
+            "from": 172.88,
+            "to": 178,
+            "location": 2,
+            "content": "`props.on_load()`, 我并不能直接调用这个"
+        },
+        {
+            "from": 178,
+            "to": 182.72,
+            "location": 2,
+            "content": "这并不是一个真正的回调"
+        },
+        {
+            "from": 182.72,
+            "to": 186.16,
+            "location": 2,
+            "content": "这是一个对回调的封装"
+        },
+        {
+            "from": 186.16,
+            "to": 191.6,
+            "location": 2,
+            "content": "所以我们要对他使用`emit()`, 然后顺便传点什么"
+        },
+        {
+            "from": 191.6,
+            "to": 196.76,
+            "location": 2,
+            "content": "我就传个\"I loaded\"罢"
+        },
+        {
+            "from": 204,
+            "to": 210.8,
+            "location": 2,
+            "content": "你的 yew 又双叒叕报错了, 因为我们没有传入 on_loaded"
+        },
+        {
+            "from": 216.64,
+            "to": 220.8,
+            "location": 2,
+            "content": "没有错误了, 让我们看看..."
+        },
+        {
+            "from": 221.6,
+            "to": 227.6,
+            "location": 2,
+            "content": "oh, I loaded 已经在这里了"
+        },
+        {
+            "from": 227.6,
+            "to": 230.72,
+            "location": 2,
+            "content": "我们回到 main_title.rs, 对传入值进行一个改造"
+        },
+        {
+            "from": 230.72,
+            "to": 236.56,
+            "location": 2,
+            "content": "进行一个究极的强调"
+        },
+        {
+            "from": 237.44,
+            "to": 242,
+            "location": 2,
+            "content": "组件加载完成, 我们看到了这个输出"
+        },
+        {
+            "from": 242,
+            "to": 245.92,
+            "location": 2,
+            "content": "这是一个很棒的方法来, 额..."
+        },
+        {
+            "from": 245.92,
+            "to": 249.04,
+            "location": 2,
+            "content": "反向传输数据"
+        },
+        {
+            "from": 249.04,
+            "to": 252.64,
+            "location": 2,
+            "content": "通过 props 传入数据到子组件"
+        },
+        {
+            "from": 252.64,
+            "to": 257.68,
+            "location": 2,
+            "content": "通过传入回调函数反向获取数据到父组件"
+        },
+        {
+            "from": 257.68,
+            "to": 262.32,
+            "location": 2,
+            "content": "只要你需要,"
+        },
+        {
+            "from": 262.32,
+            "to": 266.88,
+            "location": 2,
+            "content": "你可以把回调函数逐层传递深入"
+        },
+        {
+            "from": 266.88,
+            "to": 269.84,
+            "location": 2,
+            "content": "穿过一堆组件来获取调用"
+        },
+        {
+            "from": 269.84,
+            "to": 273.6,
+            "location": 2,
+            "content": "希望对你有用, 蟹蟹观看, yew.rs 道, 堂堂连载!"
+        }
+    ]
+}

@@ -147,235 +147,223 @@
             "from": 169.44,
             "to": 173.44,
             "location": 2,
-            "content": "grow this now this is gonna be part of"
+            "content": "对于这些不同的样式片段部分"
         },
         {
             "from": 173.44,
             "to": 176.72,
             "location": 2,
-            "content": "we're gonna create and maybe like this"
+            "content": "我们会为他们创建对应的枚举"
         },
         {
             "from": 176.72,
             "to": 182.16,
             "location": 2,
-            "content": "style sheet text could be shared around"
+            "content": "这样样式片段就可以被公用,"
         },
         {
             "from": 182.16,
             "to": 187.52,
             "location": 2,
-            "content": "multiple components could then color"
+            "content": "并帮助复合组件着色"
         },
         {
             "from": 187.92,
             "to": 193,
             "location": 2,
-            "content": "okay so we're going to apply the style"
+            "content": "okay, 现在我们来应用这些样式"
         },
         {
             "from": 202.64,
             "to": 207.36,
             "location": 2,
-            "content": "and if we want to go verify that this is"
+            "content": "它们应该已经如我们所料的应用在这里"
         },
         {
             "from": 207.36,
             "to": 211.52,
             "location": 2,
-            "content": "see that high there still but we can't"
+            "content": "我们可以看到它确实在这里, 但是只有当我们到控制台"
         },
         {
             "from": 211.52,
             "to": 214.56,
             "location": 2,
-            "content": "expect it"
+            "content": "我们才可以看到我们设置样式"
         },
         {
             "from": 214.56,
             "to": 218.48,
             "location": 2,
-            "content": "the style sheet let me make this bigger"
+            "content": "放大一点"
         },
         {
             "from": 224.72,
             "to": 229.2,
             "location": 2,
-            "content": "there's our normal our okay and our"
+            "content": "这里就是我们的normal, error 和 ok"
         },
         {
             "from": 229.2,
             "to": 232.88,
             "location": 2,
-            "content": "and of course the reason why it's not"
+            "content": "至于我们没有能看见样式被应用的原因是"
         },
         {
             "from": 232.88,
             "to": 236.96,
             "location": 2,
-            "content": "while we have this class"
+            "content": "尽管我们确实有这些 class"
         },
         {
             "from": 236.96,
             "to": 241.04,
             "location": 2,
-            "content": "associated with it so we would need to"
+            "content": "但是 h1 标签却没有和其中的任何一个关联,"
         },
         {
             "from": 241.04,
             "to": 247.52,
             "location": 2,
-            "content": "programmatically add in a class"
+            "content": "我们手动的把`class = \"ok\"`编写进去"
         },
         {
             "from": 248.72,
             "to": 252.76,
             "location": 2,
-            "content": "oh you're not going to let me do that"
+            "content": "oh, 似乎不能这么做"
         },
         {
             "from": 255.92,
             "to": 260.16,
             "location": 2,
-            "content": "oh i guess i guess firefox won't let me"
+            "content": "oh, 我想火狐浏览器不允许我这么做"
         },
         {
             "from": 260.16,
             "to": 263.92,
             "location": 2,
-            "content": "need to add an attribute"
+            "content": "我想我需要增加一个属性"
         },
         {
             "from": 264.96,
             "to": 269.6,
             "location": 2,
-            "content": "class equals okay"
+            "content": "`class = \"ok\"`, 现在变绿了"
         },
         {
             "from": 269.6,
             "to": 273.76,
             "location": 2,
-            "content": "that's exactly what we want to do but we"
+            "content": "我们想要达成这样的效果,"
         },
         {
             "from": 273.76,
             "to": 278.32,
             "location": 2,
-            "content": "know exactly what to set that as"
+            "content": "但是我们想知道如何通过传输 props 来达成这个效果"
         },
         {
             "from": 278.32,
             "to": 284.24,
             "location": 2,
-            "content": "what we can do is"
+            "content": "我们在 Props 里增加 color 属性"
         },
         {
             "from": 284.24,
             "to": 288,
             "location": 2,
-            "content": "and this needs to be"
+            "content": "这里应该是一个类型, 比如枚举"
         },
         {
             "from": 288,
-            "to": 291.44,
-            "location": 2,
-            "content": "kind of like enum maybe we're going to"
-        },
-        {
-            "from": 291.44,
             "to": 294.64,
             "location": 2,
-            "content": "a color enum"
+            "content": "也许我们要把它设置为 Color 枚举"
         },
         {
             "from": 294.96,
             "to": 298.32,
             "location": 2,
-            "content": "which means we actually have to create"
+            "content": "我们来创建一个"
         },
         {
             "from": 298.32,
             "to": 303.04,
             "location": 2,
-            "content": "we're going to do a pub enum color"
+            "content": "我们来创建一个公共 Color 枚举"
         },
         {
             "from": 303.84,
             "to": 309.52,
             "location": 2,
-            "content": "now because this is partial equal this"
+            "content": "因为 Props 要实现 PartialEq trait,"
         },
         {
             "from": 309.52,
             "to": 312.16,
             "location": 2,
-            "content": "partial equal"
+            "content": "所以这个枚举也必须实现同样的 trait"
         },
         {
             "from": 314.72,
             "to": 320.88,
             "location": 2,
-            "content": "and we're going to want"
+            "content": "Color 要包含 Normal, Ok 和 Error 三个枚举项"
         },
         {
             "from": 320.88,
             "to": 324.88,
             "location": 2,
-            "content": "maybe you might want to say like normal"
+            "content": "也许你想在样式为 Normal 的时候什么都不需要写"
         },
         {
             "from": 324.88,
             "to": 328.96,
             "location": 2,
-            "content": "option"
+            "content": "你可以把它封装成 Option"
         },
         {
             "from": 328.96,
             "to": 333.84,
             "location": 2,
-            "content": "you're gonna auto choose that one"
+            "content": "当你什么都不写的时候可以自动选择 Normal"
         },
         {
             "from": 333.84,
             "to": 338.64,
             "location": 2,
-            "content": "make that a choice here so we're gonna"
-        },
-        {
-            "from": 338.64,
-            "to": 342.56,
-            "location": 2,
-            "content": "okay"
+            "content": "为了演示简单一些, 我强制要求组件的使用者声明选择"
         },
         {
             "from": 348.32,
             "to": 352.8,
             "location": 2,
-            "content": "now here in library it's yelling at us"
+            "content": "lib.rs 抛出了一个错误,"
         },
         {
             "from": 352.8,
             "to": 355.76,
             "location": 2,
-            "content": "possible properties"
+            "content": "我们没有传入所有的 props"
         },
         {
             "from": 355.76,
             "to": 360.48,
             "location": 2,
-            "content": "there's a bit of a um"
+            "content": "不幸的是, 这里有点..."
         },
         {
             "from": 360.48,
             "to": 365.04,
             "location": 2,
-            "content": "isn't the best so this is telling us no"
+            "content": "报错信息不是很明显, 报错信息上说结构体没有 title 这个属性"
         },
         {
             "from": 365.04,
             "to": 370.88,
             "location": 2,
-            "content": "unfortunately what the real error is is"
+            "content": "但其实真正的错误是我们忽视了 color 属性"
         },
         {
             "from": 370.88,
@@ -387,295 +375,271 @@
             "from": 373.76,
             "to": 377.84,
             "location": 2,
-            "content": "brackets for this because we're passing"
+            "content": "因为我们写的是 Rust 代码, 所以我们用了花括号"
         },
         {
             "from": 377.84,
             "to": 382.16,
             "location": 2,
-            "content": "pass in maybe one of these let's go for"
+            "content": "我们挑一个传入组件"
         },
         {
             "from": 382.16,
             "to": 387.36,
             "location": 2,
-            "content": "so we want a color"
+            "content": "我们声明 Color"
         },
         {
             "from": 387.36,
             "to": 391.92,
             "location": 2,
-            "content": "pull that in so we also need to"
-        },
-        {
-            "from": 391.92,
-            "to": 395.84,
-            "location": 2,
-            "content": "and"
+            "content": "但是我们还没有引入"
         },
         {
             "from": 397.2,
             "to": 402.24,
             "location": 2,
-            "content": "so now when i pull in color it"
+            "content": "so, 引入了 Color, 我们就可以使用 Normal 了"
         },
         {
             "from": 402.24,
             "to": 405.68,
             "location": 2,
-            "content": "gets a little bit funny"
+            "content": "自动补全有点小问题"
         },
         {
             "from": 405.68,
             "to": 411.04,
             "location": 2,
-            "content": "mainly because rust analyzer and macros"
+            "content": "因为 rust-analyzer 和宏有点小不配合"
         },
         {
             "from": 411.04,
             "to": 416.16,
             "location": 2,
-            "content": "is sometimes doesn't play well together"
+            "content": "合作精神堪比秦爽"
         },
         {
             "from": 416.16,
             "to": 420.4,
             "location": 2,
-            "content": "when it comes to autocomplete"
+            "content": "所以自动补全的时候看起来有点怪\n(目前的rust-analyzer宏编程支持基本上就是依靠宏语法推导,"
         },
         {
             "from": 420.4,
             "to": 426.96,
             "location": 2,
-            "content": "too complex that we can't just you know"
+            "content": "还好宏不是很复杂, 我们可以直接复制粘贴"
         },
         {
             "from": 426.96,
             "to": 429.6,
             "location": 2,
-            "content": "okay so we're going to start with normal"
+            "content": "okay, 先从 Normal 开始"
         },
         {
             "from": 429.6,
             "to": 437.36,
             "location": 2,
-            "content": "which means i want to now on this h1"
+            "content": "也就是说我们要为 h1 标签设置一下 class"
         },
         {
             "from": 437.36,
             "to": 440.56,
             "location": 2,
-            "content": "basically i want it to be a"
+            "content": "class 会应用 Normal, Ok 还是 Error"
         },
         {
             "from": 440.56,
             "to": 445.76,
             "location": 2,
-            "content": "normal okay or error which matches what"
+            "content": "会根据我们传入的枚举来匹配决定"
         },
         {
             "from": 445.76,
             "to": 449.52,
             "location": 2,
-            "content": "however unfortunately it's not going to"
+            "content": "但是实现这一点并不简单"
         },
         {
             "from": 449.52,
             "to": 453.28,
             "location": 2,
-            "content": "code here to sort of like detect what we"
+            "content": "我们可以在这里写点代码, 然后查看我们要用的颜色"
         },
         {
             "from": 453.28,
             "to": 456.8,
             "location": 2,
-            "content": "but i think it'll be easier to put a"
+            "content": "但是我觉得为 Color 实现一个方法会更好"
         },
         {
             "from": 456.8,
             "to": 459.92,
             "location": 2,
-            "content": "impol"
+            "content": "声明实现"
         },
         {
             "from": 459.92,
             "to": 466.88,
             "location": 2,
-            "content": "and we're going to have a pub function"
+            "content": "然后创建一个方法 to_str"
         },
         {
             "from": 468,
             "to": 472.08,
             "location": 2,
-            "content": "um i think a two star will be fine uh"
+            "content": "um...我觉得 to_str 应该就够了, to_string 的话..."
         },
         {
             "from": 472.08,
             "to": 475.52,
             "location": 2,
-            "content": "okay"
+            "content": "okay,"
         },
         {
             "from": 475.52,
             "to": 478.92,
             "location": 2,
-            "content": "might be better"
+            "content": "还是 to_string 更好"
         },
         {
             "from": 481.6,
             "to": 485.52,
             "location": 2,
-            "content": "this is going to take in a"
+            "content": "它会接受一个`&self`"
         },
         {
             "from": 485.52,
             "to": 491.52,
             "location": 2,
-            "content": "and we're going to return a string"
+            "content": "返回一个 String"
         },
         {
             "from": 491.52,
             "to": 495.04,
             "location": 2,
-            "content": "self"
+            "content": "我们对 self 进行一个匹的配"
         },
         {
             "from": 495.04,
             "to": 497.76,
             "location": 2,
-            "content": "arms"
+            "content": "由 rust-analyzer 补全分支"
         },
         {
             "from": 497.76,
             "to": 504.16,
             "location": 2,
-            "content": "we want to do when normal is here well"
+            "content": "我们可以看到, 当是 Ok 我们干什么, 当是 Normal 我们干什么..."
         },
         {
             "from": 504.56,
             "to": 509.36,
             "location": 2,
-            "content": "normal"
+            "content": "返回 \"normal\" 的字符串"
         },
         {
             "from": 509.36,
             "to": 513.52,
             "location": 2,
-            "content": "want the same thing for"
+            "content": "还有 ok, 也一样"
         },
         {
             "from": 515.36,
             "to": 519.64,
             "location": 2,
-            "content": "and finally air"
+            "content": "最后是 error"
         },
         {
             "from": 522.16,
-            "to": 524.88,
-            "location": 2,
-            "content": "and what this means is that we can now"
-        },
-        {
-            "from": 524.88,
-            "to": 528.16,
-            "location": 2,
-            "content": "this property"
-        },
-        {
-            "from": 528.16,
             "to": 531.52,
             "location": 2,
-            "content": "for ourselves down here so we can say"
+            "content": "这样我们就可以通过 props 传来的参数通过 to_string 方法获取字符串了"
         },
         {
             "from": 531.52,
             "to": 536.48,
             "location": 2,
-            "content": "dot"
+            "content": "少女 Coding 中..."
         },
         {
             "from": 541.04,
             "to": 544.56,
             "location": 2,
-            "content": "if we head back over here we now have"
+            "content": "回到浏览器, 我们的文本就变白了"
         },
         {
             "from": 544.56,
             "to": 549.84,
             "location": 2,
-            "content": "let's uh"
+            "content": "缩小一下"
         },
         {
             "from": 550.16,
             "to": 553.04,
             "location": 2,
-            "content": "and we're going to go ahead and update"
+            "content": "我们回到这边,"
         },
         {
             "from": 553.04,
             "to": 555.52,
             "location": 2,
-            "content": "to be an"
+            "content": "把 color 变成 Ok"
         },
         {
             "from": 560.84,
             "to": 566.8,
             "location": 2,
-            "content": "okay and that updates it to to green so"
+            "content": "又变绿了"
         },
         {
             "from": 566.8,
             "to": 571.28,
             "location": 2,
-            "content": "enum or we could use structs here too it"
+            "content": "这就是说我们可以在 props 里使用枚举, 当然, 结构体也行"
         },
         {
             "from": 571.28,
-            "to": 575.2,
-            "location": 2,
-            "content": "the sky is the limit for what we can"
-        },
-        {
-            "from": 575.2,
             "to": 578.88,
             "location": 2,
-            "content": "to strings"
+            "content": "并没有限制我们必须传的是字符串什么的"
         },
         {
             "from": 578.88,
             "to": 584.08,
             "location": 2,
-            "content": "logic add some functions into these uh"
+            "content": "通过对枚举的实现, 耦合上方法和逻辑"
         },
         {
             "from": 584.08,
             "to": 588.8,
             "location": 2,
-            "content": "makes a little bit simpler when we're"
+            "content": "我们可以让它在应用到 Html 的时候简化一些"
         },
         {
             "from": 588.8,
             "to": 591.76,
             "location": 2,
-            "content": "way we can customize what the colors are"
+            "content": "通过这种方法我们可以定制我们想要的颜色"
         },
         {
             "from": 591.76,
             "to": 595.76,
             "location": 2,
-            "content": "uh in this case"
+            "content": "在这个例子中为我们省了不少力"
         },
         {
             "from": 595.76,
             "to": 599.68,
             "location": 2,
-            "content": "anyways hopefully this has been helpful"
+            "content": "总而言之, 希望对你有用, 蟹蟹观看,"
         },
         {
             "from": 599.68,
             "to": 603.88,
             "location": 2,
-            "content": "see you in the next video bye"
+            "content": "yew.rs 道, 堂堂连载!"
         }
     ]
 }
