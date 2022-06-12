@@ -15,235 +15,229 @@
             "from": 7.92,
             "to": 11.52,
             "location": 2,
-            "content": "time to start"
+            "content": "现在是时间来"
         },
         {
             "from": 11.52,
             "to": 16.4,
             "location": 2,
-            "content": "those callbacks for form elements"
+            "content": "为表单元素创建回调, 但是我们目前还没有表单"
         },
         {
             "from": 16.4,
             "to": 21.28,
             "location": 2,
-            "content": "this lesson we're going to create a full"
+            "content": "在这节课里我们会学习一些表单"
         },
         {
             "from": 21.28,
             "to": 27.2,
             "location": 2,
-            "content": "atomic components we need a text input"
+            "content": "这包含了两个独立组件(放在 atoms 文件夹的那种),\n一个是文本输入框, 类似用户名输入那种"
         },
         {
             "from": 27.2,
             "to": 32.72,
             "location": 2,
-            "content": "then a button so we can submit that form"
+            "content": "还有按钮, 来让我们提交表单"
         },
         {
             "from": 32.72,
             "to": 36.4,
             "location": 2,
-            "content": "i suppose we can also put the form"
+            "content": "我想我们可以把所有这些表单都放到表单标签下"
         },
         {
             "from": 36.4,
             "to": 40.48,
             "location": 2,
-            "content": "going to be an atomic component and an"
+            "content": "可以把这些独立组件组织的条理清晰一些"
         },
         {
             "from": 40.48,
             "to": 44.96,
             "location": 2,
-            "content": "so with that being said let's jump right"
+            "content": "介绍结束, 我们直接打开文件夹"
         },
         {
             "from": 44.96,
             "to": 49.44,
             "location": 2,
-            "content": "i'm going to come into a component uh"
+            "content": "到 components 下创建一个新的独立组件(atom)"
         },
         {
             "from": 49.44,
             "to": 55.28,
             "location": 2,
-            "content": "and i'm going to call this"
+            "content": "叫它什么好呢"
         },
         {
             "from": 55.28,
             "to": 60.48,
             "location": 2,
-            "content": "a um"
+            "content": "um...就叫你 text_input 吧"
         },
         {
             "from": 65.52,
             "to": 70.16,
             "location": 2,
-            "content": "uh and before we start working on that"
-        },
-        {
-            "from": 70.16,
-            "to": 73.64,
-            "location": 2,
-            "content": "upmod this"
+            "content": "开始工作前我们还需要声明它为 mod"
         },
         {
             "from": 82.64,
             "to": 85.6,
             "location": 2,
-            "content": "i have to let rest analyzer finish"
+            "content": "对  rust-analyzer 进行一个待的等"
         },
         {
             "from": 85.6,
             "to": 89.6,
             "location": 2,
-            "content": "it doesn't know exactly what i'm doing"
+            "content": "它还不知道我在干啥"
         },
         {
             "from": 92.08,
             "to": 95.36,
             "location": 2,
-            "content": "we're going to go ahead and skip styling"
+            "content": "我们先暂时跳过样式的编写"
         },
         {
             "from": 95.36,
             "to": 98.96,
             "location": 2,
-            "content": "project we're making all the components"
+            "content": "总有一天, 我要让这里所有的组件都完成变成项目"
         },
         {
             "from": 98.96,
             "to": 102.92,
             "location": 2,
-            "content": "styling at that time"
+            "content": "到那时我们再做样式叭"
+        },
+        {
+            "from": 102.92,
+            "to": 132.16,
+            "location": 2,
+            "content": "少女 coding 中..."
         },
         {
             "from": 132.16,
             "to": 136.64,
             "location": 2,
-            "content": "okay so we have input type text here"
+            "content": "okay, 我们在这里创建了一个输入框, "
         },
         {
             "from": 136.64,
             "to": 140.84,
             "location": 2,
-            "content": "we are not going to set a a value on it"
-        },
-        {
-            "from": 140.84,
-            "to": 143.76,
-            "location": 2,
-            "content": "name"
+            "content": "我们可能要设置点什么, 我们要设置一个 name"
         },
         {
             "from": 143.76,
-            "to": 147.92,
-            "location": 2,
-            "content": "we don't necessarily know what that is"
-        },
-        {
-            "from": 147.92,
             "to": 150.92,
             "location": 2,
-            "content": "props"
+            "content": "我们现在还不知道值是什么, 我们要先创建一个 props"
+        },
+        {
+            "from": 150.92,
+            "to": 209.6,
+            "location": 2,
+            "content": "少女 coding 中..."
         },
         {
             "from": 209.6,
             "to": 215.04,
             "location": 2,
-            "content": "okay we have the"
+            "content": "okay...我们...发生甚么事了?"
+        },
+        {
+            "from": 215.04,
+            "to": 224,
+            "location": 2,
+            "content": "少女 debugging 中..."
         },
         {
             "from": 224,
             "to": 227.8,
             "location": 2,
-            "content": "oh you need to be a statixter"
+            "content": "oh, 这里要一个 'static str \n(给我clone()啊, 三遍啊三遍"
         },
         {
             "from": 229.12,
             "to": 233.84,
             "location": 2,
-            "content": "oh a d it wants to dereference and"
+            "content": "oh, 这里要解引用这个引用 \n(原地解引用什么操作?"
         },
         {
             "from": 235.76,
             "to": 240.6,
             "location": 2,
-            "content": "or do i can i just give you ownership"
+            "content": "额, 我可以直接获得所有权吗?\n(不能(无慈悲)"
         },
         {
             "from": 242.08,
             "to": 245.28,
             "location": 2,
-            "content": "oh i need to clone you"
+            "content": "oh, 我需要 clone 变量\n(脑子掉线写代码的时候是这样的"
         },
         {
             "from": 248.08,
             "to": 253.04,
             "location": 2,
-            "content": "clone the name out of properties"
+            "content": "吧 name 从 prop 里 clone() 出来, 不幸的是"
         },
         {
             "from": 253.04,
             "to": 257.28,
             "location": 2,
-            "content": "with a lot of clones but of course this"
+            "content": "在 yew.rs 里你会进行成吨的 clone()"
         },
         {
             "from": 257.28,
             "to": 262.08,
             "location": 2,
-            "content": "inside of rust it's running in"
+            "content": "当然, 这里的变量并不是在 rust 里直接用, 而是会被传入 JS\n(WASM 目前不支持直接操作 DOM"
         },
         {
             "from": 262.08,
             "to": 266.72,
             "location": 2,
-            "content": "of clone type things happening anyways"
+            "content": "所以无论如何, 哪怕你就纯写JS"
         },
         {
             "from": 266.72,
             "to": 271.2,
             "location": 2,
-            "content": "writing just pure javascript so i don't"
+            "content": "都得发生很多 clone(), 所以这应该不会导致什么大问题"
         },
         {
             "from": 271.2,
             "to": 275.76,
             "location": 2,
-            "content": "you're used to trying to avoid clones at"
+            "content": "但是你要是尽可能避免 clone() 的那种人,"
         },
         {
             "from": 275.76,
             "to": 280.96,
             "location": 2,
-            "content": "bit weird"
+            "content": "这种写法确实挺诡异的 (雀实), ok, 我们现在有了 name 和 type"
         },
         {
             "from": 280.96,
             "to": 286.88,
             "location": 2,
-            "content": "possibly set up an id for this uh we can"
+            "content": "我们可以为它设置一个 id, 我们还可以设置其他的一堆东西"
         },
         {
             "from": 286.88,
             "to": 291.44,
             "location": 2,
-            "content": "but uh"
-        },
-        {
-            "from": 291.44,
-            "to": 296.32,
-            "location": 2,
-            "content": "to have this like input form field"
+            "content": "但是我觉得现在的输入框就挺小而美的"
         },
         {
             "from": 296.32,
             "to": 301.12,
             "location": 2,
-            "content": "so i'm going to create an"
+            "content": "然后我现在要创建一个 molecule(分子组件"
         },
         {
             "from": 301.12,
@@ -255,7 +249,7 @@
             "from": 310.32,
             "to": 315.52,
             "location": 2,
-            "content": "and we're just going to call this a form"
+            "content": "我们就叫它 from, 或者叫 custom_from?(自定义_表单"
         },
         {
             "from": 315.52,
