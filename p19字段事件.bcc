@@ -1,0 +1,843 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 4.16,
+            "to": 9.44,
+            "location": 2,
+            "content": "now that we have a text input field it's"
+        },
+        {
+            "from": 9.44,
+            "to": 12.64,
+            "location": 2,
+            "content": "specifically"
+        },
+        {
+            "from": 12.64,
+            "to": 16.24,
+            "location": 2,
+            "content": "able to store that"
+        },
+        {
+            "from": 16.24,
+            "to": 20.08,
+            "location": 2,
+            "content": "turn into an internal state we're going"
+        },
+        {
+            "from": 20.08,
+            "to": 23.84,
+            "location": 2,
+            "content": "later but for right now we want to"
+        },
+        {
+            "from": 23.84,
+            "to": 30.56,
+            "location": 2,
+            "content": "data and um and then"
+        },
+        {
+            "from": 30.56,
+            "to": 35.2,
+            "location": 2,
+            "content": "like normal javascript land uh i would"
+        },
+        {
+            "from": 35.2,
+            "to": 38.56,
+            "location": 2,
+            "content": "something like"
+        },
+        {
+            "from": 38.56,
+            "to": 43.2,
+            "location": 2,
+            "content": "equals and then it would be like the"
+        },
+        {
+            "from": 43.2,
+            "to": 49.2,
+            "location": 2,
+            "content": "then take in an event uh we get the"
+        },
+        {
+            "from": 49.2,
+            "to": 52.8,
+            "location": 2,
+            "content": "um"
+        },
+        {
+            "from": 52.8,
+            "to": 57.12,
+            "location": 2,
+            "content": "that out we can"
+        },
+        {
+            "from": 57.12,
+            "to": 61.92,
+            "location": 2,
+            "content": "but it's not gonna fully work but uh"
+        },
+        {
+            "from": 61.92,
+            "to": 65.2,
+            "location": 2,
+            "content": "there before we have to figure out what"
+        },
+        {
+            "from": 65.2,
+            "to": 68.88,
+            "location": 2,
+            "content": "let's start by creating a callback"
+        },
+        {
+            "from": 68.88,
+            "to": 73.84,
+            "location": 2,
+            "content": "so this is gonna be let on change equals"
+        },
+        {
+            "from": 73.84,
+            "to": 76.08,
+            "location": 2,
+            "content": "from"
+        },
+        {
+            "from": 76.08,
+            "to": 81.44,
+            "location": 2,
+            "content": "uh we're going to take in the event"
+        },
+        {
+            "from": 81.44,
+            "to": 89.28,
+            "location": 2,
+            "content": "normal event well how do i know that"
+        },
+        {
+            "from": 89.36,
+            "to": 93.28,
+            "location": 2,
+            "content": "concepts"
+        },
+        {
+            "from": 93.28,
+            "to": 98,
+            "location": 2,
+            "content": "and events here now this might change in"
+        },
+        {
+            "from": 98,
+            "to": 104.32,
+            "location": 2,
+            "content": "be aware i'm on version 0.19 0.19"
+        },
+        {
+            "from": 104.32,
+            "to": 109.68,
+            "location": 2,
+            "content": "of all the events that we're interested"
+        },
+        {
+            "from": 109.68,
+            "to": 112.88,
+            "location": 2,
+            "content": "on change event which tells me that it's"
+        },
+        {
+            "from": 112.88,
+            "to": 119.44,
+            "location": 2,
+            "content": "event if i want to do something like"
+        },
+        {
+            "from": 119.44,
+            "to": 125.28,
+            "location": 2,
+            "content": "okay so i want this to be an event that"
+        },
+        {
+            "from": 127.2,
+            "to": 132.08,
+            "location": 2,
+            "content": "uh then when this event happens"
+        },
+        {
+            "from": 132.08,
+            "to": 138.56,
+            "location": 2,
+            "content": "so that"
+        },
+        {
+            "from": 138.56,
+            "to": 141.84,
+            "location": 2,
+            "content": "okay"
+        },
+        {
+            "from": 141.84,
+            "to": 145.84,
+            "location": 2,
+            "content": "target now"
+        },
+        {
+            "from": 145.84,
+            "to": 151.36,
+            "location": 2,
+            "content": "every time that there's an on change on"
+        },
+        {
+            "from": 151.36,
+            "to": 155.52,
+            "location": 2,
+            "content": "going to have something there"
+        },
+        {
+            "from": 155.52,
+            "to": 158.32,
+            "location": 2,
+            "content": "element"
+        },
+        {
+            "from": 158.32,
+            "to": 164.88,
+            "location": 2,
+            "content": "i feel pretty safe with an unwrap here"
+        },
+        {
+            "from": 164.88,
+            "to": 169.88,
+            "location": 2,
+            "content": "ahead and console log this out"
+        },
+        {
+            "from": 170.96,
+            "to": 174.48,
+            "location": 2,
+            "content": "and see what work what we are working"
+        },
+        {
+            "from": 174.48,
+            "to": 178.4,
+            "location": 2,
+            "content": "so we're going to set u"
+        },
+        {
+            "from": 178.4,
+            "to": 182.2,
+            "location": 2,
+            "content": "to be the unchanged"
+        },
+        {
+            "from": 188.16,
+            "to": 192.48,
+            "location": 2,
+            "content": "when i click off which is when the"
+        },
+        {
+            "from": 192.48,
+            "to": 196.8,
+            "location": 2,
+            "content": "input element logged out so that's"
+        },
+        {
+            "from": 196.8,
+            "to": 200.24,
+            "location": 2,
+            "content": "event when we get the target"
+        },
+        {
+            "from": 202.4,
+            "to": 207.44,
+            "location": 2,
+            "content": "actually need"
+        },
+        {
+            "from": 207.44,
+            "to": 212.72,
+            "location": 2,
+            "content": "try as i want i can't really just get i"
+        },
+        {
+            "from": 212.72,
+            "to": 215.92,
+            "location": 2,
+            "content": "and if i try to use this"
+        },
+        {
+            "from": 219.76,
+            "to": 224.88,
+            "location": 2,
+            "content": "it's the exact same thing that's not"
+        },
+        {
+            "from": 224.88,
+            "to": 232.24,
+            "location": 2,
+            "content": "actual html input element"
+        },
+        {
+            "from": 232.24,
+            "to": 237.68,
+            "location": 2,
+            "content": "we'll notice that it says that these are"
+        },
+        {
+            "from": 237.68,
+            "to": 243.52,
+            "location": 2,
+            "content": "so we want to go find"
+        },
+        {
+            "from": 243.52,
+            "to": 249.36,
+            "location": 2,
+            "content": "websys event here so here we are in the"
+        },
+        {
+            "from": 249.36,
+            "to": 253.92,
+            "location": 2,
+            "content": "that's great but we also need to be able"
+        },
+        {
+            "from": 253.92,
+            "to": 257.52,
+            "location": 2,
+            "content": "into a"
+        },
+        {
+            "from": 257.52,
+            "to": 263.52,
+            "location": 2,
+            "content": "we want like the actual html input"
+        },
+        {
+            "from": 263.52,
+            "to": 268.48,
+            "location": 2,
+            "content": "well let's let's continue looking at the"
+        },
+        {
+            "from": 268.48,
+            "to": 271.84,
+            "location": 2,
+            "content": "section of this website that we haven't"
+        },
+        {
+            "from": 271.84,
+            "to": 274.64,
+            "location": 2,
+            "content": "which is just down"
+        },
+        {
+            "from": 275.36,
+            "to": 279.6,
+            "location": 2,
+            "content": "so down here it actually shows how to"
+        },
+        {
+            "from": 279.6,
+            "to": 282.8,
+            "location": 2,
+            "content": "the html"
+        },
+        {
+            "from": 282.8,
+            "to": 290.96,
+            "location": 2,
+            "content": "into an specific element specifically"
+        },
+        {
+            "from": 294.32,
+            "to": 299.68,
+            "location": 2,
+            "content": "now this is a cla this is more of like a"
+        },
+        {
+            "from": 299.68,
+            "to": 303.52,
+            "location": 2,
+            "content": "paying attention to"
+        },
+        {
+            "from": 303.52,
+            "to": 306.56,
+            "location": 2,
+            "content": "specifically looking for where we get"
+        },
+        {
+            "from": 306.56,
+            "to": 312.48,
+            "location": 2,
+            "content": "and then how to convert that in"
+        },
+        {
+            "from": 312.48,
+            "to": 318.16,
+            "location": 2,
+            "content": "an uncautious change so basically it's a"
+        },
+        {
+            "from": 318.16,
+            "to": 321.36,
+            "location": 2,
+            "content": "that there's a problem and not"
+        },
+        {
+            "from": 321.36,
+            "to": 325.04,
+            "location": 2,
+            "content": "um we're going to live dangerously i'm"
+        },
+        {
+            "from": 325.04,
+            "to": 330.32,
+            "location": 2,
+            "content": "dangerous change so we can see that i"
+        },
+        {
+            "from": 330.32,
+            "to": 334.96,
+            "location": 2,
+            "content": "that's a event target"
+        },
+        {
+            "from": 334.96,
+            "to": 339.2,
+            "location": 2,
+            "content": "did the event"
+        },
+        {
+            "from": 339.2,
+            "to": 343.76,
+            "location": 2,
+            "content": "we did an unwrap they're doing an expect"
+        },
+        {
+            "from": 343.76,
+            "to": 347.44,
+            "location": 2,
+            "content": "and then they're doing this"
+        },
+        {
+            "from": 347.44,
+            "to": 351.36,
+            "location": 2,
+            "content": "and then html input element okay so"
+        },
+        {
+            "from": 351.36,
+            "to": 354.48,
+            "location": 2,
+            "content": "see what we can get for that so"
+        },
+        {
+            "from": 354.48,
+            "to": 357.28,
+            "location": 2,
+            "content": "into"
+        },
+        {
+            "from": 357.28,
+            "to": 360.32,
+            "location": 2,
+            "content": "come back to my code"
+        },
+        {
+            "from": 361.28,
+            "to": 366.48,
+            "location": 2,
+            "content": "let's do let um this is going to be a"
+        },
+        {
+            "from": 366.48,
+            "to": 369.12,
+            "location": 2,
+            "content": "equals"
+        },
+        {
+            "from": 369.12,
+            "to": 373.76,
+            "location": 2,
+            "content": "unchecked into but i only have an f64"
+        },
+        {
+            "from": 373.76,
+            "to": 377.6,
+            "location": 2,
+            "content": "so let's come back here and try to like"
+        },
+        {
+            "from": 377.6,
+            "to": 382.96,
+            "location": 2,
+            "content": "actually have a section here we need"
+        },
+        {
+            "from": 382.96,
+            "to": 389.52,
+            "location": 2,
+            "content": "jscast required to use the unchecked"
+        },
+        {
+            "from": 389.52,
+            "to": 395.84,
+            "location": 2,
+            "content": "wasmbindgen"
+        },
+        {
+            "from": 410.64,
+            "to": 415.44,
+            "location": 2,
+            "content": "and we're going to let rust analyzer"
+        },
+        {
+            "from": 416.08,
+            "to": 420.4,
+            "location": 2,
+            "content": "now at the same time we can go find this"
+        },
+        {
+            "from": 420.4,
+            "to": 425.2,
+            "location": 2,
+            "content": "that it comes from web sys here so"
+        },
+        {
+            "from": 426.88,
+            "to": 430.8,
+            "location": 2,
+            "content": "input"
+        },
+        {
+            "from": 430.8,
+            "to": 435.2,
+            "location": 2,
+            "content": "and when i click into that"
+        },
+        {
+            "from": 435.2,
+            "to": 438.48,
+            "location": 2,
+            "content": "incredibly important for us to well not"
+        },
+        {
+            "from": 438.48,
+            "to": 442.4,
+            "location": 2,
+            "content": "which is"
+        },
+        {
+            "from": 442.4,
+            "to": 447.04,
+            "location": 2,
+            "content": "to be activated html input element"
+        },
+        {
+            "from": 447.52,
+            "to": 454.4,
+            "location": 2,
+            "content": "right away we cannot anymore use"
+        },
+        {
+            "from": 454.4,
+            "to": 459.28,
+            "location": 2,
+            "content": "because they're not activating this"
+        },
+        {
+            "from": 459.28,
+            "to": 464.8,
+            "location": 2,
+            "content": "that ourselves so we're going to go"
+        },
+        {
+            "from": 464.8,
+            "to": 468.88,
+            "location": 2,
+            "content": "and we're going to use this same style"
+        },
+        {
+            "from": 468.88,
+            "to": 472.92,
+            "location": 2,
+            "content": "activate the freight feature"
+        },
+        {
+            "from": 480.64,
+            "to": 488.12,
+            "location": 2,
+            "content": "not the wise and bind gen we want"
+        },
+        {
+            "from": 497.04,
+            "to": 501.2,
+            "location": 2,
+            "content": "okay we're going to let rest analyzer"
+        },
+        {
+            "from": 501.2,
+            "to": 505.6,
+            "location": 2,
+            "content": "and we should have everything we need to"
+        },
+        {
+            "from": 505.6,
+            "to": 510.48,
+            "location": 2,
+            "content": "unchecked into so we're going to do an"
+        },
+        {
+            "from": 514.08,
+            "to": 516.96,
+            "location": 2,
+            "content": "have to have to make sure that it sort"
+        },
+        {
+            "from": 516.96,
+            "to": 521.24,
+            "location": 2,
+            "content": "here"
+        },
+        {
+            "from": 521.92,
+            "to": 526.24,
+            "location": 2,
+            "content": "there it is unchecked into"
+        },
+        {
+            "from": 526.24,
+            "to": 530.96,
+            "location": 2,
+            "content": "going to use a little bit of a turbofast"
+        },
+        {
+            "from": 530.96,
+            "to": 536.4,
+            "location": 2,
+            "content": "input element"
+        },
+        {
+            "from": 539.28,
+            "to": 542.88,
+            "location": 2,
+            "content": "now this doesn't have an unwrapped"
+        },
+        {
+            "from": 542.88,
+            "to": 548.16,
+            "location": 2,
+            "content": "it's going to crash now if it's not"
+        },
+        {
+            "from": 548.16,
+            "to": 552.24,
+            "location": 2,
+            "content": "we know that this is there is no way"
+        },
+        {
+            "from": 552.24,
+            "to": 556.88,
+            "location": 2,
+            "content": "element because we're not running this"
+        },
+        {
+            "from": 556.88,
+            "to": 560.44,
+            "location": 2,
+            "content": "an input element"
+        },
+        {
+            "from": 564.48,
+            "to": 569.28,
+            "location": 2,
+            "content": "uh now that i have this we're going to"
+        },
+        {
+            "from": 569.68,
+            "to": 573.92,
+            "location": 2,
+            "content": "and we're going to get the value"
+        },
+        {
+            "from": 574.24,
+            "to": 578.96,
+            "location": 2,
+            "content": "now it's just a straight up method for"
+        },
+        {
+            "from": 578.96,
+            "to": 583.76,
+            "location": 2,
+            "content": "i'm gonna head back over to our our"
+        },
+        {
+            "from": 583.76,
+            "to": 588.8,
+            "location": 2,
+            "content": "write testing click away and we get"
+        },
+        {
+            "from": 588.8,
+            "to": 592.96,
+            "location": 2,
+            "content": "let's go over this really quickly again"
+        },
+        {
+            "from": 592.96,
+            "to": 597.6,
+            "location": 2,
+            "content": "uh look up the documentation for hand"
+        },
+        {
+            "from": 597.6,
+            "to": 602.88,
+            "location": 2,
+            "content": "of event was going to come in we learned"
+        },
+        {
+            "from": 602.88,
+            "to": 607.52,
+            "location": 2,
+            "content": "event"
+        },
+        {
+            "from": 607.52,
+            "to": 611.28,
+            "location": 2,
+            "content": "is just an event target it's not really"
+        },
+        {
+            "from": 611.28,
+            "to": 617.04,
+            "location": 2,
+            "content": "so we have to then convert that into a"
+        },
+        {
+            "from": 617.04,
+            "to": 622.96,
+            "location": 2,
+            "content": "going to get which in this case is an"
+        },
+        {
+            "from": 622.96,
+            "to": 628.32,
+            "location": 2,
+            "content": "we're not going to be able to create"
+        },
+        {
+            "from": 628.32,
+            "to": 632.48,
+            "location": 2,
+            "content": "like call back functions that can handle"
+        },
+        {
+            "from": 632.48,
+            "to": 635.68,
+            "location": 2,
+            "content": "to have to cast them into the correct"
+        },
+        {
+            "from": 635.68,
+            "to": 642.08,
+            "location": 2,
+            "content": "but that should be fine still"
+        },
+        {
+            "from": 642.08,
+            "to": 647.12,
+            "location": 2,
+            "content": "could then get the value of it and then"
+        },
+        {
+            "from": 647.12,
+            "to": 651.44,
+            "location": 2,
+            "content": "one go like can i just say"
+        },
+        {
+            "from": 651.44,
+            "to": 656.8,
+            "location": 2,
+            "content": "event.target.unwrap"
+        },
+        {
+            "from": 656.8,
+            "to": 661.44,
+            "location": 2,
+            "content": "dot checked unchecked into"
+        },
+        {
+            "from": 667.28,
+            "to": 670.6,
+            "location": 2,
+            "content": "that value"
+        },
+        {
+            "from": 675.52,
+            "to": 678.24,
+            "location": 2,
+            "content": "let's find out"
+        },
+        {
+            "from": 685.36,
+            "to": 689.84,
+            "location": 2,
+            "content": "and i got that so there is a way to keep"
+        },
+        {
+            "from": 689.84,
+            "to": 695.2,
+            "location": 2,
+            "content": "we um it is a multi-line here so it's"
+        },
+        {
+            "from": 695.2,
+            "to": 700,
+            "location": 2,
+            "content": "like set of of code but i don't have to"
+        },
+        {
+            "from": 700,
+            "to": 704.96,
+            "location": 2,
+            "content": "once again we get our event we get the"
+        },
+        {
+            "from": 704.96,
+            "to": 709.44,
+            "location": 2,
+            "content": "option"
+        },
+        {
+            "from": 709.44,
+            "to": 713.84,
+            "location": 2,
+            "content": "html input element and then we get the"
+        },
+        {
+            "from": 713.84,
+            "to": 718.8,
+            "location": 2,
+            "content": "then we can do whatever we want to stand"
+        },
+        {
+            "from": 718.8,
+            "to": 724.32,
+            "location": 2,
+            "content": "whatever we need anyways um hopefully"
+        },
+        {
+            "from": 724.32,
+            "to": 729.12,
+            "location": 2,
+            "content": "handling events in u.r.s"
+        }
+    ]
+}
