@@ -9,385 +9,355 @@
             "from": 4.16,
             "to": 9.44,
             "location": 2,
-            "content": "now that we have a text input field it's"
+            "content": "现在我们有了文本输入框, 现在我们要着手处理它和它产生的事件了"
         },
         {
             "from": 9.44,
             "to": 12.64,
             "location": 2,
-            "content": "specifically"
+            "content": "尤其是当内容发生改变的时候"
         },
         {
             "from": 12.64,
             "to": 16.24,
             "location": 2,
-            "content": "able to store that"
+            "content": "我们想获取它"
         },
         {
             "from": 16.24,
             "to": 20.08,
             "location": 2,
-            "content": "turn into an internal state we're going"
+            "content": "然后对它持久化, 不过我们晚点再做这个"
         },
         {
             "from": 20.08,
             "to": 23.84,
             "location": 2,
-            "content": "later but for right now we want to"
+            "content": "不过现在我想接受这个数据"
         },
         {
             "from": 23.84,
             "to": 30.56,
             "location": 2,
-            "content": "data and um and then"
+            "content": "然后打印出来"
         },
         {
             "from": 30.56,
             "to": 35.2,
             "location": 2,
-            "content": "like normal javascript land uh i would"
+            "content": "这个过程就像一般的 JS 一样, 我会设置事件的接收器"
         },
         {
             "from": 35.2,
             "to": 38.56,
             "location": 2,
-            "content": "something like"
+            "content": "比如 onchang"
         },
         {
             "from": 38.56,
             "to": 43.2,
             "location": 2,
-            "content": "equals and then it would be like the"
+            "content": "= 后面就会有函数的名称, (函数? 闭包吧"
         },
         {
             "from": 43.2,
             "to": 49.2,
             "location": 2,
-            "content": "then take in an event uh we get the"
+            "content": "函数(闭包)会接受这个事件调用"
         },
         {
             "from": 49.2,
             "to": 52.8,
             "location": 2,
-            "content": "um"
+            "content": "um... 然后就把值输出了"
         },
         {
             "from": 52.8,
             "to": 57.12,
             "location": 2,
-            "content": "that out we can"
+            "content": "我们可以基本上完成这个"
         },
         {
             "from": 57.12,
             "to": 61.92,
             "location": 2,
-            "content": "but it's not gonna fully work but uh"
+            "content": "但是它还不会是最佳实践, 在需要进行到下一步之前"
         },
         {
             "from": 61.92,
             "to": 65.2,
             "location": 2,
-            "content": "there before we have to figure out what"
+            "content": "我们会先完成一部分"
         },
         {
             "from": 65.2,
             "to": 68.88,
             "location": 2,
-            "content": "let's start by creating a callback"
+            "content": "首先我们先创建一个回调函数"
         },
         {
             "from": 68.88,
-            "to": 73.84,
-            "location": 2,
-            "content": "so this is gonna be let on change equals"
-        },
-        {
-            "from": 73.84,
             "to": 76.08,
             "location": 2,
-            "content": "from"
+            "content": "少女 coding 中..."
         },
         {
             "from": 76.08,
             "to": 81.44,
             "location": 2,
-            "content": "uh we're going to take in the event"
+            "content": "uh 我们要接受一个事件, 类型就是 Event"
         },
         {
             "from": 81.44,
             "to": 89.28,
             "location": 2,
-            "content": "normal event well how do i know that"
+            "content": "我是怎么知道这些的? 如果我们到 yew.rs 官网"
         },
         {
             "from": 89.36,
             "to": 93.28,
             "location": 2,
-            "content": "concepts"
+            "content": "Concepts > HTML > Event"
         },
         {
             "from": 93.28,
             "to": 98,
             "location": 2,
-            "content": "and events here now this might change in"
+            "content": "这可能会在以后的版本发生变更"
         },
         {
             "from": 98,
             "to": 104.32,
             "location": 2,
-            "content": "be aware i'm on version 0.19 0.19"
+            "content": "确保你的 yew.rs 版本是 0.19, 向下滚动页面"
         },
         {
             "from": 104.32,
             "to": 109.68,
             "location": 2,
-            "content": "of all the events that we're interested"
+            "content": "这里是所有的事件列表, 我用到的是这个 Onchange"
         },
         {
             "from": 109.68,
             "to": 112.88,
             "location": 2,
-            "content": "on change event which tells me that it's"
+            "content": "这里就告诉了它的类型-> Event"
         },
         {
             "from": 112.88,
             "to": 119.44,
             "location": 2,
-            "content": "event if i want to do something like"
+            "content": "如果我要用像 Click(点击鼠标)这样的事件的话, 我就得用 MouseEvent"
         },
         {
             "from": 119.44,
             "to": 125.28,
             "location": 2,
-            "content": "okay so i want this to be an event that"
+            "content": "okay, 所以这里是 Event, 这是从 yew::prelude::* 引入的"
         },
         {
             "from": 127.2,
             "to": 132.08,
             "location": 2,
-            "content": "uh then when this event happens"
-        },
-        {
-            "from": 132.08,
-            "to": 138.56,
-            "location": 2,
-            "content": "so that"
+            "content": "uh, 当事件(event)被触发了之后我希望得到目标(target)"
         },
         {
             "from": 138.56,
             "to": 141.84,
             "location": 2,
-            "content": "okay"
-        },
-        {
-            "from": 141.84,
-            "to": 145.84,
-            "location": 2,
-            "content": "target now"
+            "content": "okay, target()返回我们了一个 Option"
         },
         {
             "from": 145.84,
             "to": 151.36,
             "location": 2,
-            "content": "every time that there's an on change on"
+            "content": "我们在每次触发 Onchange 的时候接收这个 Option"
         },
         {
             "from": 151.36,
             "to": 155.52,
             "location": 2,
-            "content": "going to have something there"
+            "content": "理论上应该一直都不为空"
         },
         {
             "from": 155.52,
             "to": 158.32,
             "location": 2,
-            "content": "element"
+            "content": "输入框总是存在的"
         },
         {
             "from": 158.32,
             "to": 164.88,
             "location": 2,
-            "content": "i feel pretty safe with an unwrap here"
+            "content": "我觉得直接在这里 unwarp() 也没啥危险"
         },
         {
             "from": 164.88,
             "to": 169.88,
             "location": 2,
-            "content": "ahead and console log this out"
+            "content": "继续, 我们输出这个 target"
         },
         {
             "from": 170.96,
-            "to": 174.48,
-            "location": 2,
-            "content": "and see what work what we are working"
-        },
-        {
-            "from": 174.48,
             "to": 178.4,
             "location": 2,
-            "content": "so we're going to set u"
-        },
-        {
-            "from": 178.4,
-            "to": 182.2,
-            "location": 2,
-            "content": "to be the unchanged"
+            "content": "然后看看运行效果"
         },
         {
             "from": 188.16,
             "to": 192.48,
             "location": 2,
-            "content": "when i click off which is when the"
+            "content": "当我们离开文本框, 也就是 Onchange 事件响应的时候"
         },
         {
             "from": 192.48,
             "to": 196.8,
             "location": 2,
-            "content": "input element logged out so that's"
+            "content": "可以看到这个文本框标签整个输出了"
         },
         {
             "from": 196.8,
             "to": 200.24,
             "location": 2,
-            "content": "event when we get the target"
+            "content": "这就是我们从 event 获得的 target,\n但是我并不能从这里直接获得值"
         },
         {
             "from": 202.4,
             "to": 207.44,
             "location": 2,
-            "content": "actually need"
+            "content": "我需要标签自己去完成它"
         },
         {
             "from": 207.44,
             "to": 212.72,
             "location": 2,
-            "content": "try as i want i can't really just get i"
+            "content": "因为试图获取这个...我并不能直接获得值"
         },
         {
             "from": 212.72,
             "to": 215.92,
             "location": 2,
-            "content": "and if i try to use this"
+            "content": "当我这么做"
         },
         {
             "from": 219.76,
             "to": 224.88,
             "location": 2,
-            "content": "it's the exact same thing that's not"
+            "content": "结果还是一样的, 完全没用"
         },
         {
             "from": 224.88,
             "to": 232.24,
             "location": 2,
-            "content": "actual html input element"
+            "content": "我需要获取真正的 HTML input 的 DOM 节点, 所以当我们看回列表"
         },
         {
             "from": 232.24,
             "to": 237.68,
             "location": 2,
-            "content": "we'll notice that it says that these are"
+            "content": "你可以看到这个是 web_sys 事件"
         },
         {
             "from": 237.68,
             "to": 243.52,
             "location": 2,
-            "content": "so we want to go find"
+            "content": "那我们就看看 web_sys 事件"
         },
         {
             "from": 243.52,
             "to": 249.36,
             "location": 2,
-            "content": "websys event here so here we are in the"
+            "content": "这里就是 web_sys 事件下的 Event 事件类型"
         },
         {
             "from": 249.36,
             "to": 253.92,
             "location": 2,
-            "content": "that's great but we also need to be able"
+            "content": "这些事件都很棒, 但是我们依旧需要转换他们"
         },
         {
             "from": 253.92,
             "to": 257.52,
             "location": 2,
-            "content": "into a"
+            "content": "把他们变成真正的 HTML 事件"
         },
         {
             "from": 257.52,
             "to": 263.52,
             "location": 2,
-            "content": "we want like the actual html input"
+            "content": "因为我们要的是 Input 标签里面的东西"
         },
         {
             "from": 263.52,
             "to": 268.48,
             "location": 2,
-            "content": "well let's let's continue looking at the"
+            "content": "我们继续回到 yew 官网指南"
         },
         {
             "from": 268.48,
             "to": 271.84,
             "location": 2,
-            "content": "section of this website that we haven't"
+            "content": "因为还有一部分重要的东西我们还没有看到"
         },
         {
             "from": 271.84,
             "to": 274.64,
             "location": 2,
-            "content": "which is just down"
+            "content": "就在页面下面"
         },
         {
             "from": 275.36,
             "to": 279.6,
             "location": 2,
-            "content": "so down here it actually shows how to"
+            "content": "我们可以看到"
         },
         {
             "from": 279.6,
             "to": 282.8,
             "location": 2,
-            "content": "the html"
+            "content": "如何把 target"
         },
         {
             "from": 282.8,
             "to": 290.96,
             "location": 2,
-            "content": "into an specific element specifically"
+            "content": "变成我们在 html 里看的标签"
         },
         {
             "from": 294.32,
             "to": 299.68,
             "location": 2,
-            "content": "now this is a cla this is more of like a"
+            "content": "这很像一个 class 风格的代码"
         },
         {
             "from": 299.68,
             "to": 303.52,
             "location": 2,
-            "content": "paying attention to"
+            "content": "所以你不需要处处注意它们"
         },
         {
             "from": 303.52,
             "to": 306.56,
             "location": 2,
-            "content": "specifically looking for where we get"
+            "content": "我们只需要注意那些有 target 的位置"
         },
         {
             "from": 306.56,
             "to": 312.48,
             "location": 2,
-            "content": "and then how to convert that in"
+            "content": "以及如何转换它, 注意到这里"
         },
         {
             "from": 312.48,
             "to": 318.16,
             "location": 2,
-            "content": "an uncautious change so basically it's a"
+            "content": "这个 on_cautious_change, 简单来说就是捕获这里的错误, 以防万一"
         },
         {
             "from": 318.16,
             "to": 321.36,
             "location": 2,
-            "content": "that there's a problem and not"
+            "content": "这样遇到问题了也不会崩溃"
         },
         {
             "from": 321.36,
