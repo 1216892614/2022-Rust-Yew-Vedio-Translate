@@ -1,0 +1,723 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 3.36,
+            "to": 9.2,
+            "location": 2,
+            "content": "sometimes we want to store multiple"
+        },
+        {
+            "from": 9.2,
+            "to": 13.84,
+            "location": 2,
+            "content": "other components that we have now in"
+        },
+        {
+            "from": 13.84,
+            "to": 19.28,
+            "location": 2,
+            "content": "is storing our username"
+        },
+        {
+            "from": 19.28,
+            "to": 23.36,
+            "location": 2,
+            "content": "button here now right now this is a\n00:00:21,600 --> 00:00:25,1000\nsubmit button but\n\n9"
+        },
+        {
+            "from": 23.36,
+            "to": 27.84,
+            "location": 2,
+            "content": "who's to say we can't repurpose it for"
+        },
+        {
+            "from": 27.84,
+            "to": 33.12,
+            "location": 2,
+            "content": "for this example what i want to do is"
+        },
+        {
+            "from": 33.12,
+            "to": 37.2,
+            "location": 2,
+            "content": "time we click it it just increments"
+        },
+        {
+            "from": 37.2,
+            "to": 42.96,
+            "location": 2,
+            "content": "here as well"
+        },
+        {
+            "from": 42.96,
+            "to": 47.2,
+            "location": 2,
+            "content": "in this username we're going to show one"
+        },
+        {
+            "from": 47.2,
+            "to": 50.24,
+            "location": 2,
+            "content": "with use state"
+        },
+        {
+            "from": 50.56,
+            "to": 56,
+            "location": 2,
+            "content": "so let's come back over to our our"
+        },
+        {
+            "from": 56,
+            "to": 61.2,
+            "location": 2,
+            "content": "and first of all we need to make sure"
+        },
+        {
+            "from": 61.2,
+            "to": 63.04,
+            "location": 2,
+            "content": "uh"
+        },
+        {
+            "from": 63.04,
+            "to": 67.36,
+            "location": 2,
+            "content": "can can track and like emit out when it"
+        },
+        {
+            "from": 67.36,
+            "to": 70.64,
+            "location": 2,
+            "content": "callback for properties so this is going"
+        },
+        {
+            "from": 70.64,
+            "to": 73.84,
+            "location": 2,
+            "content": "uh on click"
+        },
+        {
+            "from": 74,
+            "to": 79.6,
+            "location": 2,
+            "content": "you're going to be a callback"
+        },
+        {
+            "from": 79.6,
+            "to": 83.52,
+            "location": 2,
+            "content": "pass in anything so i'm just going to"
+        },
+        {
+            "from": 83.52,
+            "to": 87.12,
+            "location": 2,
+            "content": "anything"
+        },
+        {
+            "from": 87.12,
+            "to": 94,
+            "location": 2,
+            "content": "we get that callback"
+        },
+        {
+            "from": 98.8,
+            "to": 104.64,
+            "location": 2,
+            "content": "on click um i don't necessarily like"
+        },
+        {
+            "from": 104.64,
+            "to": 109.04,
+            "location": 2,
+            "content": "so i'm just going to emit this straight"
+        },
+        {
+            "from": 109.04,
+            "to": 114.6,
+            "location": 2,
+            "content": "equals props dot on click"
+        },
+        {
+            "from": 115.2,
+            "to": 119.28,
+            "location": 2,
+            "content": "now you're going to yell at me because"
+        },
+        {
+            "from": 119.28,
+            "to": 121.6,
+            "location": 2,
+            "content": "a"
+        },
+        {
+            "from": 122,
+            "to": 126.28,
+            "location": 2,
+            "content": "function found a u-callback"
+        },
+        {
+            "from": 133.84,
+            "to": 139.2,
+            "location": 2,
+            "content": "oh we need we do need to handle um"
+        },
+        {
+            "from": 139.2,
+            "to": 143.76,
+            "location": 2,
+            "content": "it wants this thing well we can't just"
+        },
+        {
+            "from": 143.76,
+            "to": 149.36,
+            "location": 2,
+            "content": "our own callback now so let's do the um"
+        },
+        {
+            "from": 149.52,
+            "to": 152.72,
+            "location": 2,
+            "content": "this is going to be the"
+        },
+        {
+            "from": 152.72,
+            "to": 156.04,
+            "location": 2,
+            "content": "on click"
+        },
+        {
+            "from": 159.84,
+            "to": 163.84,
+            "location": 2,
+            "content": "now we're going to take in the event but\n00:02:41,840 --> 00:02:45,1000\ni really don't care about this so in\n\n58"
+        },
+        {
+            "from": 163.84,
+            "to": 167.12,
+            "location": 2,
+            "content": "this case i'm just going to say i don't"
+        },
+        {
+            "from": 167.12,
+            "to": 172.8,
+            "location": 2,
+            "content": "now when this happens i want to just"
+        },
+        {
+            "from": 172.8,
+            "to": 176.4,
+            "location": 2,
+            "content": "up here this the properties so that does"
+        },
+        {
+            "from": 176.4,
+            "to": 183.4,
+            "location": 2,
+            "content": "we have to do a move"
+        },
+        {
+            "from": 193.44,
+            "to": 195.84,
+            "location": 2,
+            "content": "then here we're going to use our on"
+        },
+        {
+            "from": 195.84,
+            "to": 203.04,
+            "location": 2,
+            "content": "and we're going to emit"
+        },
+        {
+            "from": 203.52,
+            "to": 208.88,
+            "location": 2,
+            "content": "and then our handling our handler here"
+        },
+        {
+            "from": 208.88,
+            "to": 214.16,
+            "location": 2,
+            "content": "button on click"
+        },
+        {
+            "from": 214.16,
+            "to": 220.32,
+            "location": 2,
+            "content": "let's also make this um"
+        },
+        {
+            "from": 220.32,
+            "to": 226.24,
+            "location": 2,
+            "content": "we'll go to our molecules"
+        },
+        {
+            "from": 226.24,
+            "to": 229.44,
+            "location": 2,
+            "content": "we now need our"
+        },
+        {
+            "from": 229.68,
+            "to": 233.6,
+            "location": 2,
+            "content": "this is going to be button changed"
+        },
+        {
+            "from": 239.2,
+            "to": 242.48,
+            "location": 2,
+            "content": "create a callback for this"
+        },
+        {
+            "from": 243.76,
+            "to": 247.84,
+            "location": 2,
+            "content": "this isn't taking anything in"
+        },
+        {
+            "from": 250.64,
+            "to": 252.88,
+            "location": 2,
+            "content": "uh"
+        },
+        {
+            "from": 252.96,
+            "to": 257.6,
+            "location": 2,
+            "content": "and right now we can just log out"
+        },
+        {
+            "from": 258.48,
+            "to": 261.6,
+            "location": 2,
+            "content": "that the button was clicked"
+        },
+        {
+            "from": 265.52,
+            "to": 271.2,
+            "location": 2,
+            "content": "here's our custom button and we're going"
+        },
+        {
+            "from": 274.24,
+            "to": 278.24,
+            "location": 2,
+            "content": "button changed i"
+        },
+        {
+            "from": 278.24,
+            "to": 282.2,
+            "location": 2,
+            "content": "change that to button clicked"
+        },
+        {
+            "from": 287.04,
+            "to": 292.8,
+            "location": 2,
+            "content": "looking down here we have no errors if"
+        },
+        {
+            "from": 292.8,
+            "to": 297.44,
+            "location": 2,
+            "content": "oh we are"
+        },
+        {
+            "from": 297.44,
+            "to": 302.16,
+            "location": 2,
+            "content": "probably because"
+        },
+        {
+            "from": 302.16,
+            "to": 306.8,
+            "location": 2,
+            "content": "that we have right here so"
+        },
+        {
+            "from": 306.8,
+            "to": 311.16,
+            "location": 2,
+            "content": "from a form to a div again"
+        },
+        {
+            "from": 311.52,
+            "to": 317.76,
+            "location": 2,
+            "content": "mainly because we're going to be working"
+        },
+        {
+            "from": 317.76,
+            "to": 321.2,
+            "location": 2,
+            "content": "and for this example"
+        },
+        {
+            "from": 321.2,
+            "to": 324.48,
+            "location": 2,
+            "content": "so now when i click this it doesn't"
+        },
+        {
+            "from": 324.48,
+            "to": 329.36,
+            "location": 2,
+            "content": "clicked and every time i press it again"
+        },
+        {
+            "from": 329.36,
+            "to": 332.8,
+            "location": 2,
+            "content": "great but i would love to see the count"
+        },
+        {
+            "from": 332.8,
+            "to": 339.28,
+            "location": 2,
+            "content": "in the html down here"
+        },
+        {
+            "from": 339.28,
+            "to": 343.28,
+            "location": 2,
+            "content": "the first way of doing states here"
+        },
+        {
+            "from": 343.28,
+            "to": 348.56,
+            "location": 2,
+            "content": "create multiple state variables that's"
+        },
+        {
+            "from": 348.56,
+            "to": 352.88,
+            "location": 2,
+            "content": "now we have this username state that's"
+        },
+        {
+            "from": 352.88,
+            "to": 356.88,
+            "location": 2,
+            "content": "another one"
+        },
+        {
+            "from": 356.88,
+            "to": 359.28,
+            "location": 2,
+            "content": "button"
+        },
+        {
+            "from": 359.28,
+            "to": 361.6,
+            "location": 2,
+            "content": "state"
+        },
+        {
+            "from": 361.68,
+            "to": 368.64,
+            "location": 2,
+            "content": "and this is also going to be a use state"
+        },
+        {
+            "from": 368.64,
+            "to": 372.4,
+            "location": 2,
+            "content": "going to set it to be a zero"
+        },
+        {
+            "from": 375.6,
+            "to": 381.44,
+            "location": 2,
+            "content": "by default the number is going to be an"
+        },
+        {
+            "from": 381.44,
+            "to": 386.4,
+            "location": 2,
+            "content": "this to be like a a u32"
+        },
+        {
+            "from": 386.4,
+            "to": 390.96,
+            "location": 2,
+            "content": "to go to negatives"
+        },
+        {
+            "from": 390.96,
+            "to": 394.96,
+            "location": 2,
+            "content": "when"
+        },
+        {
+            "from": 394.96,
+            "to": 399.2,
+            "location": 2,
+            "content": "this printed out first so let's do"
+        },
+        {
+            "from": 399.2,
+            "to": 405.64,
+            "location": 2,
+            "content": "so"
+        },
+        {
+            "from": 410.16,
+            "to": 415.28,
+            "location": 2,
+            "content": "uh we'll want to use this"
+        },
+        {
+            "from": 415.28,
+            "to": 419.84,
+            "location": 2,
+            "content": "now in this case we can just plain the"
+        },
+        {
+            "from": 419.84,
+            "to": 423.84,
+            "location": 2,
+            "content": "well"
+        },
+        {
+            "from": 423.84,
+            "to": 426.24,
+            "location": 2,
+            "content": "times"
+        },
+        {
+            "from": 427.76,
+            "to": 430.64,
+            "location": 2,
+            "content": "so let's save this make sure there's no"
+        },
+        {
+            "from": 430.64,
+            "to": 433.52,
+            "location": 2,
+            "content": "and"
+        },
+        {
+            "from": 433.52,
+            "to": 436.48,
+            "location": 2,
+            "content": "times now of course that's not working"
+        },
+        {
+            "from": 436.48,
+            "to": 440.72,
+            "location": 2,
+            "content": "we're not setting anything inside of"
+        },
+        {
+            "from": 440.72,
+            "to": 445.68,
+            "location": 2,
+            "content": "that real quickly"
+        },
+        {
+            "from": 445.68,
+            "to": 448.32,
+            "location": 2,
+            "content": "count state"
+        },
+        {
+            "from": 448.48,
+            "to": 453.92,
+            "location": 2,
+            "content": "and then do a move with that so let"
+        },
+        {
+            "from": 453.92,
+            "to": 455.84,
+            "location": 2,
+            "content": "button"
+        },
+        {
+            "from": 455.84,
+            "to": 458.84,
+            "location": 2,
+            "content": "state"
+        },
+        {
+            "from": 464.48,
+            "to": 469.36,
+            "location": 2,
+            "content": "we're going to move it"
+        },
+        {
+            "from": 469.36,
+            "to": 473.12,
+            "location": 2,
+            "content": "log"
+        },
+        {
+            "from": 473.12,
+            "to": 477.68,
+            "location": 2,
+            "content": "increment this so i can have access to"
+        },
+        {
+            "from": 477.68,
+            "to": 483.04,
+            "location": 2,
+            "content": "that by just dereferencing it"
+        },
+        {
+            "from": 483.04,
+            "to": 488.48,
+            "location": 2,
+            "content": "maybe our count is equal to a"
+        },
+        {
+            "from": 488.48,
+            "to": 492.48,
+            "location": 2,
+            "content": "button"
+        },
+        {
+            "from": 492.48,
+            "to": 497.12,
+            "location": 2,
+            "content": "count state"
+        },
+        {
+            "from": 497.12,
+            "to": 502,
+            "location": 2,
+            "content": "want to set this so i want to do a"
+        },
+        {
+            "from": 502,
+            "to": 508.8,
+            "location": 2,
+            "content": "dot set"
+        },
+        {
+            "from": 512.24,
+            "to": 517.68,
+            "location": 2,
+            "content": "and now if we come over here and i click"
+        },
+        {
+            "from": 517.68,
+            "to": 521.2,
+            "location": 2,
+            "content": "how many times our button has been"
+        },
+        {
+            "from": 521.2,
+            "to": 526.08,
+            "location": 2,
+            "content": "this is one way of sort of handling"
+        },
+        {
+            "from": 526.08,
+            "to": 529.36,
+            "location": 2,
+            "content": "see"
+        },
+        {
+            "from": 529.36,
+            "to": 533.12,
+            "location": 2,
+            "content": "complexity by throwing these into"
+        },
+        {
+            "from": 533.12,
+            "to": 538.96,
+            "location": 2,
+            "content": "state changes"
+        },
+        {
+            "from": 538.96,
+            "to": 545.04,
+            "location": 2,
+            "content": "every single state we need to clone it"
+        },
+        {
+            "from": 545.04,
+            "to": 549.76,
+            "location": 2,
+            "content": "callback function and as we can see here"
+        },
+        {
+            "from": 549.76,
+            "to": 555.92,
+            "location": 2,
+            "content": "well it we need one clone per um"
+        },
+        {
+            "from": 555.92,
+            "to": 558.8,
+            "location": 2,
+            "content": "really callback function with a closure"
+        },
+        {
+            "from": 558.8,
+            "to": 562.56,
+            "location": 2,
+            "content": "but"
+        },
+        {
+            "from": 562.56,
+            "to": 565.6,
+            "location": 2,
+            "content": "the names are getting a little bit messy"
+        },
+        {
+            "from": 565.6,
+            "to": 568.8,
+            "location": 2,
+            "content": "read"
+        },
+        {
+            "from": 568.8,
+            "to": 573.2,
+            "location": 2,
+            "content": "but it's not really solving the problem"
+        },
+        {
+            "from": 573.2,
+            "to": 576.56,
+            "location": 2,
+            "content": "so"
+        },
+        {
+            "from": 576.56,
+            "to": 582.48,
+            "location": 2,
+            "content": "potentially a different way of using a"
+        },
+        {
+            "from": 582.48,
+            "to": 586.32,
+            "location": 2,
+            "content": "problem it will really depend upon which"
+        },
+        {
+            "from": 586.32,
+            "to": 590.32,
+            "location": 2,
+            "content": "uh but"
+        },
+        {
+            "from": 590.32,
+            "to": 593.76,
+            "location": 2,
+            "content": "been helpful and"
+        },
+        {
+            "from": 593.76,
+            "to": 597.8,
+            "location": 2,
+            "content": "see you next time bye"
+        }
+    ]
+}
