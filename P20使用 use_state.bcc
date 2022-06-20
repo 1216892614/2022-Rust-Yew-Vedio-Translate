@@ -1,0 +1,699 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 5.12,
+            "to": 12,
+            "location": 2,
+            "content": "我们现在已经获得了我们输入的文本"
+        },
+        {
+            "from": 12,
+            "to": 17.2,
+            "location": 2,
+            "content": "现在我们来尝试在文本修改时保存修改后的文本,"
+        },
+        {
+            "from": 17.2,
+            "to": 20.56,
+            "location": 2,
+            "content": "以保证我们可以输出和使用它们"
+        },
+        {
+            "from": 20.56,
+            "to": 24.88,
+            "location": 2,
+            "content": "即便是对于函数式编程, `use_state()`在这时也显得很有用"
+        },
+        {
+            "from": 24.88,
+            "to": 28.64,
+            "location": 2,
+            "content": "我们并不是种在把数据传来传去"
+        },
+        {
+            "from": 28.64,
+            "to": 33.2,
+            "location": 2,
+            "content": "一般情况, 我们会保存数据,"
+        },
+        {
+            "from": 33.2,
+            "to": 37.6,
+            "location": 2,
+            "content": "然后适时在前后端直接传输"
+        },
+        {
+            "from": 37.6,
+            "to": 39.68,
+            "location": 2,
+            "content": "So, 为了完成目标"
+        },
+        {
+            "from": 39.68,
+            "to": 43.2,
+            "location": 2,
+            "content": "我们要先准备一些"
+        },
+        {
+            "from": 43.2,
+            "to": 47.68,
+            "location": 2,
+            "content": "我们需要在这个文本框信息被修改时保存它"
+        },
+        {
+            "from": 47.68,
+            "to": 51.68,
+            "location": 2,
+            "content": "先回到代码里"
+        },
+        {
+            "from": 51.68,
+            "to": 55.68,
+            "location": 2,
+            "content": "它没有使用任何回调来传输状态(就是把状态传给父组件"
+        },
+        {
+            "from": 55.68,
+            "to": 61.44,
+            "location": 2,
+            "content": "以便于, 比如, 发送数据. 我们从这里开始"
+        },
+        {
+            "from": 61.44,
+            "to": 65.12,
+            "location": 2,
+            "content": "首先..."
+        },
+        {
+            "from": 65.12,
+            "to": 69.28,
+            "location": 2,
+            "content": "少女 coding 中..."
+        },
+        {
+            "from": 69.68,
+            "to": 74.4,
+            "location": 2,
+            "content": "这要是一个回调, 要传入一个字符串"
+        },
+        {
+            "from": 74.4,
+            "to": 79.84,
+            "location": 2,
+            "content": "现在我只是想在这里"
+        },
+        {
+            "from": 79.84,
+            "to": 82.88,
+            "location": 2,
+            "content": "从 props 用 handle_onchange"
+        },
+        {
+            "from": 82.88,
+            "to": 86.32,
+            "location": 2,
+            "content": "但是这是一个回调"
+        },
+        {
+            "from": 86.32,
+            "to": 89.68,
+            "location": 2,
+            "content": "这意味着我们必须转移所有权到其中"
+        },
+        {
+            "from": 89.68,
+            "to": 95.36,
+            "location": 2,
+            "content": "但是我并不希望把我们手上唯一的一份转移走了,\n所以我们先得 clone"
+        },
+        {
+            "from": 95.36,
+            "to": 98.4,
+            "location": 2,
+            "content": "我们首先..."
+        },
+        {
+            "from": 98.4,
+            "to": 112.96,
+            "location": 2,
+            "content": "少女 coding 中..."
+        },
+        {
+            "from": 112.96,
+            "to": 116.56,
+            "location": 2,
+            "content": "因为我们已经转移了一份进来, 所以我们可以直接用"
+        },
+        {
+            "from": 124,
+            "to": 127.52,
+            "location": 2,
+            "content": "emit 然后传入值"
+        },
+        {
+            "from": 127.52,
+            "to": 132.24,
+            "location": 2,
+            "content": "差不多我们能在这个文件里干的就是这些"
+        },
+        {
+            "from": 132.24,
+            "to": 136.56,
+            "location": 2,
+            "content": "我们可以回到 molecule(分子组件) 到 custom_form"
+        },
+        {
+            "from": 136.56,
+            "to": 140.56,
+            "location": 2,
+            "content": "这个 TextInput 组件报错"
+        },
+        {
+            "from": 140.56,
+            "to": 145.92,
+            "location": 2,
+            "content": "因为我们没有处理 handle_onchange, 所以我们来创建一个..."
+        },
+        {
+            "from": 145.92,
+            "to": 153.72,
+            "location": 2,
+            "content": "创建一个我们可以在这里用的 on_change 回调"
+        },
+        {
+            "from": 170.4,
+            "to": 176.36,
+            "location": 2,
+            "content": "我们先从输出到控制台开始"
+        },
+        {
+            "from": 189.28,
+            "to": 194.92,
+            "location": 2,
+            "content": "在这个 TextInput 我们要在这里处理"
+        },
+        {
+            "from": 208.48,
+            "to": 213.4,
+            "location": 2,
+            "content": "oh 我之前, 它叫 handle_onchange"
+        },
+        {
+            "from": 218.16,
+            "to": 220.8,
+            "location": 2,
+            "content": "okay"
+        },
+        {
+            "from": 220.8,
+            "to": 226.88,
+            "location": 2,
+            "content": "我们来对它进行一个快速的检查, 顺便敲点什么"
+        },
+        {
+            "from": 226.88,
+            "to": 232.96,
+            "location": 2,
+            "content": "我们可以看到 username change in custom, 还有这个 hello"
+        },
+        {
+            "from": 232.96,
+            "to": 238.24,
+            "location": 2,
+            "content": "现在我们的 organism(有机组件) 也可以接受数据了"
+        },
+        {
+            "from": 238.24,
+            "to": 243.2,
+            "location": 2,
+            "content": "下一步我想要创建 state, 在 yew.rs 里"
+        },
+        {
+            "from": 243.2,
+            "to": 246.8,
+            "location": 2,
+            "content": "有两种方法处理 state"
+        },
+        {
+            "from": 246.8,
+            "to": 252.4,
+            "location": 2,
+            "content": "计入外部实现是三种, 但是用 yew.rs 里现成的, 我们就两种选择"
+        },
+        {
+            "from": 252.4,
+            "to": 255.84,
+            "location": 2,
+            "content": "的一种是使用函数组件(Hooks), 这也是我们常用的"
+        },
+        {
+            "from": 255.84,
+            "to": 259.52,
+            "location": 2,
+            "content": "而另一种"
+        },
+        {
+            "from": 259.52,
+            "to": 263.04,
+            "location": 2,
+            "content": "则是结构体组件, 如果你是 React 用户"
+        },
+        {
+            "from": 263.04,
+            "to": 266.96,
+            "location": 2,
+            "content": "你会觉得这玩意就是 class 风格组件. 因为我们是用函数组件"
+        },
+        {
+            "from": 266.96,
+            "to": 272.48,
+            "location": 2,
+            "content": "所以我们会用 use_state Hook"
+        },
+        {
+            "from": 272.48,
+            "to": 279.04,
+            "location": 2,
+            "content": "你可以在 Concepts > Function Components > Pre-defined Hooks"
+        },
+        {
+            "from": 279.04,
+            "to": 283.92,
+            "location": 2,
+            "content": "找到 use_state Hook 的相关文档"
+        },
+        {
+            "from": 283.92,
+            "to": 287.6,
+            "location": 2,
+            "content": "你可以在下面知道如何创建属于你自己的 Hooks"
+        },
+        {
+            "from": 287.6,
+            "to": 292.56,
+            "location": 2,
+            "content": "但是这堂课我们不会提到它们"
+        },
+        {
+            "from": 292.56,
+            "to": 296.56,
+            "location": 2,
+            "content": "开头第一个就是 use_state"
+        },
+        {
+            "from": 296.56,
+            "to": 300.32,
+            "location": 2,
+            "content": "它也是最有用的"
+        },
+        {
+            "from": 300.32,
+            "to": 304.96,
+            "location": 2,
+            "content": "这是 yew 提供给我们可以直接用的"
+        },
+        {
+            "from": 304.96,
+            "to": 309.6,
+            "location": 2,
+            "content": "有点像 CallBack, 自带的 set 方法可以设置值"
+        },
+        {
+            "from": 309.6,
+            "to": 313.6,
+            "location": 2,
+            "content": "我们必须对他进行初始化"
+        },
+        {
+            "from": 315.92,
+            "to": 320.64,
+            "location": 2,
+            "content": "这里就有初始化"
+        },
+        {
+            "from": 320.64,
+            "to": 325.6,
+            "location": 2,
+            "content": "将它的初始值设为 0 了, 通过 set 可以把它修改成新的值"
+        },
+        {
+            "from": 325.6,
+            "to": 332.24,
+            "location": 2,
+            "content": "你可以通过解引用来获取值"
+        },
+        {
+            "from": 335.04,
+            "to": 339.68,
+            "location": 2,
+            "content": "So, 这就是我们下面要做的"
+        },
+        {
+            "from": 339.68,
+            "to": 341.84,
+            "location": 2,
+            "content": "我们的会有一点点不一样,"
+        },
+        {
+            "from": 341.84,
+            "to": 346.8,
+            "location": 2,
+            "content": "因为我们的值是字符串"
+        },
+        {
+            "from": 346.8,
+            "to": 350.56,
+            "location": 2,
+            "content": "你不能直接这样把字符串打印在 Html 里"
+        },
+        {
+            "from": 350.56,
+            "to": 354.24,
+            "location": 2,
+            "content": "我们会进行一些修改"
+        },
+        {
+            "from": 354.24,
+            "to": 361.28,
+            "location": 2,
+            "content": "我们先从给我们的 username 设置初始化开始"
+        },
+        {
+            "from": 363.36,
+            "to": 367.44,
+            "location": 2,
+            "content": "所以我们在下面, 算了, 直接写到顶部吧"
+        },
+        {
+            "from": 367.44,
+            "to": 371.36,
+            "location": 2,
+            "content": "我们得..."
+        },
+        {
+            "from": 371.36,
+            "to": 379.12,
+            "location": 2,
+            "content": "coding..."
+        },
+        {
+            "from": 379.12,
+            "to": 384.88,
+            "location": 2,
+            "content": "一个没有接受任何东西的初始化函数(闭包), 我要, 我打算..."
+        },
+        {
+            "from": 385.6,
+            "to": 390.44,
+            "location": 2,
+            "content": "我打算在里面写上 \"no username set\""
+        },
+        {
+            "from": 397.52,
+            "to": 402,
+            "location": 2,
+            "content": "现在我要打印它, 设置它在按钮下面吧"
+        },
+        {
+            "from": 402,
+            "to": 405.8,
+            "location": 2,
+            "content": "我们来..."
+        },
+        {
+            "from": 411.12,
+            "to": 417.44,
+            "location": 2,
+            "content": "um, 直接在这里输出 username state 罢"
+        },
+        {
+            "from": 420.32,
+            "to": 425.28,
+            "location": 2,
+            "content": "然后如果我们直接怎么写, 就会报错, 上面说"
+        },
+        {
+            "from": 425.52,
+            "to": 429.92,
+            "location": 2,
+            "content": "我们不能把 UseStateHandle 丢在这里,"
+        },
+        {
+            "from": 429.92,
+            "to": 433.28,
+            "location": 2,
+            "content": "它没有实现 Display trait"
+        },
+        {
+            "from": 433.28,
+            "to": 439.52,
+            "location": 2,
+            "content": "如果我们解引用它, 依旧报错"
+        },
+        {
+            "from": 439.52,
+            "to": 443.44,
+            "location": 2,
+            "content": "我们不能这么做因为它没有实现 Copy trait"
+        },
+        {
+            "from": 443.44,
+            "to": 448.08,
+            "location": 2,
+            "content": "好吧, 那我们可以引用这个解引用吗?"
+        },
+        {
+            "from": 448.08,
+            "to": 454.16,
+            "location": 2,
+            "content": "正常了, 这个引用解引用看起来很怪"
+        },
+        {
+            "from": 454.16,
+            "to": 459.04,
+            "location": 2,
+            "content": "原本的值是 UseStateHandle, 解引用后变成了 String"
+        },
+        {
+            "from": 459.04,
+            "to": 463.12,
+            "location": 2,
+            "content": "再次引用后反而变成了&str, 这个就可以被接受"
+        },
+        {
+            "from": 463.12,
+            "to": 465.84,
+            "location": 2,
+            "content": "因为 &str 实现了 Display trait"
+        },
+        {
+            "from": 466.4,
+            "to": 469.52,
+            "location": 2,
+            "content": "okay"
+        },
+        {
+            "from": 469.52,
+            "to": 471.76,
+            "location": 2,
+            "content": "我们来看看效果如何"
+        },
+        {
+            "from": 471.84,
+            "to": 474.96,
+            "location": 2,
+            "content": "这看起来好像没有效果"
+        },
+        {
+            "from": 474.96,
+            "to": 480.08,
+            "location": 2,
+            "content": "但是, 它其实出现在这里"
+        },
+        {
+            "from": 480.08,
+            "to": 484.8,
+            "location": 2,
+            "content": "我忘记了在浏览器里"
+        },
+        {
+            "from": 484.8,
+            "to": 490.08,
+            "location": 2,
+            "content": "文本默认为黑色, 而我们的背景也是黑色的"
+        },
+        {
+            "from": 490.08,
+            "to": 494.72,
+            "location": 2,
+            "content": "回到代码我们来急速解决一下这个问题"
+        },
+        {
+            "from": 494.72,
+            "to": 499.44,
+            "location": 2,
+            "content": "处理一下 index.html, 我们设置了默认的背景是黑色"
+        },
+        {
+            "from": 499.44,
+            "to": 506.64,
+            "location": 2,
+            "content": "我们也设置一下默认的颜色为白色"
+        },
+        {
+            "from": 506.64,
+            "to": 513.04,
+            "location": 2,
+            "content": "然后, 每个组件都会重设文字颜色"
+        },
+        {
+            "from": 513.04,
+            "to": 518.16,
+            "location": 2,
+            "content": "下面我们希望当我们修改文本的时候,state 都会进行"
+        },
+        {
+            "from": 518.16,
+            "to": 524.4,
+            "location": 2,
+            "content": "如果我, 在这里设置我的名字为 Brooks"
+        },
+        {
+            "from": 524.4,
+            "to": 527.28,
+            "location": 2,
+            "content": "我希望这里也会被修改"
+        },
+        {
+            "from": 527.28,
+            "to": 534.56,
+            "location": 2,
+            "content": "这和我们对 TextInput 的操作很像"
+        },
+        {
+            "from": 534.56,
+            "to": 538.96,
+            "location": 2,
+            "content": "我们要接受这个 username state, clone 它"
+        },
+        {
+            "from": 538.96,
+            "to": 545.64,
+            "location": 2,
+            "content": "然后我们会把它丢到这里"
+        },
+        {
+            "from": 548.24,
+            "to": 551.28,
+            "location": 2,
+            "content": "so"
+        },
+        {
+            "from": 560.84,
+            "to": 566.4,
+            "location": 2,
+            "content": "我们要在这里设置回调函数"
+        },
+        {
+            "from": 566.4,
+            "to": 571.2,
+            "location": 2,
+            "content": "把它定义为 clone, 啊, 不对, 定义为 move"
+        },
+        {
+            "from": 571.28,
+            "to": 578.16,
+            "location": 2,
+            "content": "然后, 代替这个 log"
+        },
+        {
+            "from": 578.16,
+            "to": 581.92,
+            "location": 2,
+            "content": "我们用这个 cloned_username_state"
+        },
+        {
+            "from": 583.28,
+            "to": 589.96,
+            "location": 2,
+            "content": "我们把它设置为 username"
+        },
+        {
+            "from": 593.04,
+            "to": 596.48,
+            "location": 2,
+            "content": "应该没什么问题了, 回到浏览器"
+        },
+        {
+            "from": 596.48,
+            "to": 600.96,
+            "location": 2,
+            "content": "我把 username 设置为 Brooks"
+        },
+        {
+            "from": 600.96,
+            "to": 606.56,
+            "location": 2,
+            "content": "我在其他地方点击一下, 这里就自动更新了, 就好像我们在这里进行了绑定"
+        },
+        {
+            "from": 606.56,
+            "to": 610.64,
+            "location": 2,
+            "content": "无论这里被修改成了什么"
+        },
+        {
+            "from": 610.64,
+            "to": 615.6,
+            "location": 2,
+            "content": "这个 state 就会被触发"
+        },
+        {
+            "from": 615.6,
+            "to": 619.44,
+            "location": 2,
+            "content": "state 就会进行更新和渲染"
+        },
+        {
+            "from": 619.44,
+            "to": 623.68,
+            "location": 2,
+            "content": "这显然很强大"
+        },
+        {
+            "from": 623.68,
+            "to": 628.16,
+            "location": 2,
+            "content": "这运行我们自动修改我们的 Html"
+        },
+        {
+            "from": 628.16,
+            "to": 632.96,
+            "location": 2,
+            "content": "让元素根据 state 的修改而自动修改"
+        },
+        {
+            "from": 632.96,
+            "to": 636.32,
+            "location": 2,
+            "content": "希望这节课程对你有用"
+        },
+        {
+            "from": 636.32,
+            "to": 638.64,
+            "location": 2,
+            "content": "蟹蟹观看"
+        },
+        {
+            "from": 638.64,
+            "to": 643.08,
+            "location": 2,
+            "content": " yew.rs 道, 堂堂连载!"
+        }
+    ]
+}
