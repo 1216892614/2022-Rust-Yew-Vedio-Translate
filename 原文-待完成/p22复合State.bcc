@@ -1,0 +1,621 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 4.08,
+            "to": 8.16,
+            "location": 2,
+            "content": "看看这些, 额, 这些 states"
+        },
+        {
+            "from": 8.16,
+            "to": 12.32,
+            "location": 2,
+            "content": "他们有些太复杂了"
+        },
+        {
+            "from": 12.32,
+            "to": 17.44,
+            "location": 2,
+            "content": "想象一下, 如果我们有一个超大的表单"
+        },
+        {
+            "from": 17.44,
+            "to": 21.68,
+            "location": 2,
+            "content": "为每一个输入都设计一个单独的 state"
+        },
+        {
+            "from": 21.68,
+            "to": 28.08,
+            "location": 2,
+            "content": "写的就像喝了很烈的酒, So 有一种神奇的方法"
+        },
+        {
+            "from": 28.08,
+            "to": 32.96,
+            "location": 2,
+            "content": "只需要一个 state 就可以解决所有问题"
+        },
+        {
+            "from": 32.96,
+            "to": 37.68,
+            "location": 2,
+            "content": "现在我们分别保管它们"
+        },
+        {
+            "from": 37.68,
+            "to": 40.72,
+            "location": 2,
+            "content": "这里一个字符串, 那边一个数字"
+        },
+        {
+            "from": 40.72,
+            "to": 44.96,
+            "location": 2,
+            "content": "如果我们保存的是一个结构体或者枚举"
+        },
+        {
+            "from": 44.96,
+            "to": 50.32,
+            "location": 2,
+            "content": "用它们来保存所有这些东西, 来试试吧"
+        },
+        {
+            "from": 50.32,
+            "to": 53.76,
+            "location": 2,
+            "content": "创建一个结构体"
+        },
+        {
+            "from": 53.76,
+            "to": 57.28,
+            "location": 2,
+            "content": "把它叫做, 额..."
+        },
+        {
+            "from": 57.28,
+            "to": 61.04,
+            "location": 2,
+            "content": "就叫你 Data 吧"
+        },
+        {
+            "from": 61.04,
+            "to": 65.12,
+            "location": 2,
+            "content": "其实这个例子称不上好,"
+        },
+        {
+            "from": 65.12,
+            "to": 69.84,
+            "location": 2,
+            "content": "因为我们的 username 和 count 其实没啥联系"
+        },
+        {
+            "from": 69.84,
+            "to": 73.92,
+            "location": 2,
+            "content": "正常情况下你的组合体应该是有些联系的, 结构的名字也会有些道理"
+        },
+        {
+            "from": 73.92,
+            "to": 80.08,
+            "location": 2,
+            "content": "比如对于 用户名, 密码, 年龄什么的就可以叫账户信息"
+        },
+        {
+            "from": 80.08,
+            "to": 83.76,
+            "location": 2,
+            "content": "所以在这里我们会..."
+        },
+        {
+            "from": 83.76,
+            "to": 95.36,
+            "location": 2,
+            "content": "coding..."
+        },
+        {
+            "from": 97.04,
+            "to": 101.68,
+            "location": 2,
+            "content": "So, 当我们创建了这些"
+        },
+        {
+            "from": 101.68,
+            "to": 106.24,
+            "location": 2,
+            "content": "我就打算叫这个 State"
+        },
+        {
+            "from": 106.48,
+            "to": 110.48,
+            "location": 2,
+            "content": "okay so use state 初始化函数"
+        },
+        {
+            "from": 110.48,
+            "to": 114.96,
+            "location": 2,
+            "content": "我们为它们创建默认值"
+        },
+        {
+            "from": 114.96,
+            "to": 119.92,
+            "location": 2,
+            "content": "derive default"
+        },
+        {
+            "from": 119.92,
+            "to": 123.68,
+            "location": 2,
+            "content": "然后我可以要求你返回"
+        },
+        {
+            "from": 123.68,
+            "to": 127.68,
+            "location": 2,
+            "content": "一个 Data::default()"
+        },
+        {
+            "from": 127.68,
+            "to": 133.36,
+            "location": 2,
+            "content": "这里的 username 是一个空字符串, 而 count 是一个 0"
+        },
+        {
+            "from": 133.36,
+            "to": 138.72,
+            "location": 2,
+            "content": "okay, 这就是我们要的 state 了"
+        },
+        {
+            "from": 138.72,
+            "to": 141.72,
+            "location": 2,
+            "content": "我们再也不需要这里的 button_count_state 了"
+        },
+        {
+            "from": 142.72,
+            "to": 148.24,
+            "location": 2,
+            "content": "um okay, 现在我们需要 clone() 这个 state"
+        },
+        {
+            "from": 148.24,
+            "to": 155.92,
+            "location": 2,
+            "content": "coding..."
+        },
+        {
+            "from": 155.92,
+            "to": 159.76,
+            "location": 2,
+            "content": "我们要把它移动到 username_change, 它并不能改变"
+        },
+        {
+            "from": 159.76,
+            "to": 164,
+            "location": 2,
+            "content": "我们依旧需要为每一个改变的发生创建回调函数"
+        },
+        {
+            "from": 164,
+            "to": 168,
+            "location": 2,
+            "content": "我们要接受一个 username, 我们也不能像这样设置它"
+        },
+        {
+            "from": 168,
+            "to": 178.24,
+            "location": 2,
+            "content": "我们首先要拿到整个 Data, 然后再设置 username"
+        },
+        {
+            "from": 179.68,
+            "to": 183.6,
+            "location": 2,
+            "content": "我们可以封装一些函数"
+        },
+        {
+            "from": 183.6,
+            "to": 187.28,
+            "location": 2,
+            "content": "但是第一次我们就先丢在里面"
+        },
+        {
+            "from": 187.28,
+            "to": 193.68,
+            "location": 2,
+            "content": "coding..."
+        },
+        {
+            "from": 194.16,
+            "to": 198.92,
+            "location": 2,
+            "content": "我要解引用它"
+        },
+        {
+            "from": 199.04,
+            "to": 204.88,
+            "location": 2,
+            "content": "这样我们就有了 Data, 我希望它是可变的"
+        },
+        {
+            "from": 206.08,
+            "to": 209.28,
+            "location": 2,
+            "content": "现在我们可以更新它了, "
+        },
+        {
+            "from": 209.28,
+            "to": 228.4,
+            "location": 2,
+            "content": "coding..."
+        },
+        {
+            "from": 229.44,
+            "to": 234.8,
+            "location": 2,
+            "content": "这也不是特别糟糕, 我们复制了 Data"
+        },
+        {
+            "from": 234.8,
+            "to": 239.36,
+            "location": 2,
+            "content": "我们给他设置了 username, 然后进行一个 set()"
+        },
+        {
+            "from": 239.36,
+            "to": 244.56,
+            "location": 2,
+            "content": "这样就成功了, 然后, 对于 clone_button_state"
+        },
+        {
+            "from": 244.56,
+            "to": 248.8,
+            "location": 2,
+            "content": "在这里我们可以做差不多的事情, 因为我们可以重复使用"
+        },
+        {
+            "from": 248.8,
+            "to": 251.92,
+            "location": 2,
+            "content": "之前的 cloned_state 名字, 并 shadow 原来的变量, 因为原来的变量已经用过了"
+        },
+        {
+            "from": 251.92,
+            "to": 256.96,
+            "location": 2,
+            "content": "让我们再来一遍"
+        },
+        {
+            "from": 256.96,
+            "to": 309.72,
+            "location": 2,
+            "content": "扣顶..."
+        },
+        {
+            "from": 310.48,
+            "to": 315.6,
+            "location": 2,
+            "content": "Okay, 下面就是展示它们"
+        },
+        {
+            "from": 315.6,
+            "to": 319.76,
+            "location": 2,
+            "content": "这里是 username, 那就得"
+        },
+        {
+            "from": 319.76,
+            "to": 325,
+            "location": 2,
+            "content": "口丁..."
+        },
+        {
+            "from": 326.56,
+            "to": 330.72,
+            "location": 2,
+            "content": "uh, 我应该不需要在这里解引用,"
+        },
+        {
+            "from": 330.72,
+            "to": 335.84,
+            "location": 2,
+            "content": "因为当我访问里面的东西的时候应该就会自动解引用"
+        },
+        {
+            "from": 335.84,
+            "to": 341.44,
+            "location": 2,
+            "content": "因为默认如此"
+        },
+        {
+            "from": 341.44,
+            "to": 347.44,
+            "location": 2,
+            "content": "在这里我可以直接访问 count"
+        },
+        {
+            "from": 347.44,
+            "to": 351.12,
+            "location": 2,
+            "content": "没啥别的要做, 等一下, 这里的代码好像有什么不满意的"
+        },
+        {
+            "from": 351.12,
+            "to": 360.88,
+            "location": 2,
+            "content": "你不能直接在移动后解引用, 因为它没有实现 copy trait"
+        },
+        {
+            "from": 360.88,
+            "to": 365.24,
+            "location": 2,
+            "content": "那我们直接来实现 Copy 和 Clone (给字符串实现 Copy???"
+        },
+        {
+            "from": 367.6,
+            "to": 372.32,
+            "location": 2,
+            "content": "不幸的是, 无法实现 Copy, 我可以 Clone() 它"
+        },
+        {
+            "from": 372.32,
+            "to": 375.92,
+            "location": 2,
+            "content": "但是不能 Copy"
+        },
+        {
+            "from": 375.92,
+            "to": 380.8,
+            "location": 2,
+            "content": "只有所有的属性都实现了 Copy 我才能对他进行 Copy"
+        },
+        {
+            "from": 380.8,
+            "to": 389.64,
+            "location": 2,
+            "content": "但不幸的是你不能 Copy 一个 state, 这意味着我们必须 clone() 它\n(错误的, 不能 实现 Copy 的原因是 String 没有实现 Copy\n(和 state 八竿子打不着"
+        },
+        {
+            "from": 396.32,
+            "to": 400,
+            "location": 2,
+            "content": "(这家伙一套操作看的我气血上头, 不需要看我解释的建议跳到 8:38..."
+        },
+        {
+            "from": 400,
+            "to": 519.84,
+            "location": 2,
+            "content": "(解释:\n(1 Data 不能实现 Copy trait 的原因是这个结构体里有 String\n(2 这里报错是因为 UseStateHandle 被看作原 state 的引用,\n(拿引用又不是所有权, 直接解引用可不是报错了吗?\n(3 解决方案是, Clone 前解引用, 借用检测器会特许这种情况, 因为实际上不可能再对原内容修改了"
+        },
+        {
+            "from": 519.84,
+            "to": 523.68,
+            "location": 2,
+            "content": "这里, 我们需要保证我们"
+        },
+        {
+            "from": 523.68,
+            "to": 529.92,
+            "location": 2,
+            "content": "在进行 clone() 前这个时间点进行解引用, 不然就会 clone() 错东西"
+        },
+        {
+            "from": 529.92,
+            "to": 535.76,
+            "location": 2,
+            "content": "下面这里也做一样的修改, 不在这里解引用"
+        },
+        {
+            "from": 535.76,
+            "to": 539.36,
+            "location": 2,
+            "content": "而是在这里解引用"
+        },
+        {
+            "from": 542.64,
+            "to": 549.84,
+            "location": 2,
+            "content": "在满足了编译器的胃口后, 我们回到浏览器去"
+        },
+        {
+            "from": 553.76,
+            "to": 558.16,
+            "location": 2,
+            "content": "一切都运转正常"
+        },
+        {
+            "from": 558.16,
+            "to": 562.96,
+            "location": 2,
+            "content": "我们来回顾一些我们都干了什么, 我们创建了一个结构体"
+        },
+        {
+            "from": 562.96,
+            "to": 567.84,
+            "location": 2,
+            "content": "用这个 Data 结构体创建我们的 state"
+        },
+        {
+            "from": 567.84,
+            "to": 571.44,
+            "location": 2,
+            "content": "通过我们实现的 default 来初始化结构体"
+        },
+        {
+            "from": 571.44,
+            "to": 576.64,
+            "location": 2,
+            "content": "在每个回调, 我们通过解引用来获取值,"
+        },
+        {
+            "from": 576.64,
+            "to": 582.72,
+            "location": 2,
+            "content": "然后我们 clone(), 再修改, 再设置回去"
+        },
+        {
+            "from": 582.72,
+            "to": 586.64,
+            "location": 2,
+            "content": "这和你在 ***(没听清) 里做的东西很像"
+        },
+        {
+            "from": 586.64,
+            "to": 593.84,
+            "location": 2,
+            "content": "我们复制一个东西, 修改它, 然后重新放回去"
+        },
+        {
+            "from": 595.36,
+            "to": 598.56,
+            "location": 2,
+            "content": "我们还可以再优化它一下"
+        },
+        {
+            "from": 598.56,
+            "to": 602.48,
+            "location": 2,
+            "content": "可以给 Data 做一些实现,"
+        },
+        {
+            "from": 602.48,
+            "to": 607.68,
+            "location": 2,
+            "content": "添加一些方法可以直接把这些东西清掉"
+        },
+        {
+            "from": 607.68,
+            "to": 611.76,
+            "location": 2,
+            "content": "比方说...额"
+        },
+        {
+            "from": 611.76,
+            "to": 614.48,
+            "location": 2,
+            "content": "比方说我们传个 use_state_handle, 传个修改目标"
+        },
+        {
+            "from": 614.48,
+            "to": 618.64,
+            "location": 2,
+            "content": "什么 clone(), set()啊"
+        },
+        {
+            "from": 618.64,
+            "to": 622.08,
+            "location": 2,
+            "content": "之类的事情直接帮我们包办"
+        },
+        {
+            "from": 622.08,
+            "to": 626.8,
+            "location": 2,
+            "content": "这里有很多的所有权转移"
+        },
+        {
+            "from": 626.8,
+            "to": 631.92,
+            "location": 2,
+            "content": "我们可以给它一个引用, 直接帮我们进行一个解引用的 clone()"
+        },
+        {
+            "from": 631.92,
+            "to": 636,
+            "location": 2,
+            "content": "然后我们再修改内容"
+        },
+        {
+            "from": 636,
+            "to": 640.72,
+            "location": 2,
+            "content": "即便是就是处理所有权转移"
+        },
+        {
+            "from": 640.72,
+            "to": 644.96,
+            "location": 2,
+            "content": "如果可以增加可读性的化, 这就不算坏事"
+        },
+        {
+            "from": 644.96,
+            "to": 648.32,
+            "location": 2,
+            "content": "但我会把这些任务交给你"
+        },
+        {
+            "from": 648.32,
+            "to": 653.2,
+            "location": 2,
+            "content": "你自己来决定如何写出你最能理解的代码"
+        },
+        {
+            "from": 653.2,
+            "to": 658,
+            "location": 2,
+            "content": "以及, 我们当然也可以,"
+        },
+        {
+            "from": 658,
+            "to": 664.56,
+            "location": 2,
+            "content": "直接解引用接受 props. 这就是第二种方法"
+        },
+        {
+            "from": 664.56,
+            "to": 669.36,
+            "location": 2,
+            "content": "来创建使用多个 state"
+        },
+        {
+            "from": 669.36,
+            "to": 672.4,
+            "location": 2,
+            "content": "我会选择我更喜欢的方案"
+        },
+        {
+            "from": 672.4,
+            "to": 676.72,
+            "location": 2,
+            "content": "当有三, 四, 甚至以上 state 的时候"
+        },
+        {
+            "from": 676.72,
+            "to": 681.68,
+            "location": 2,
+            "content": "比如视图组件或者 organism (有机) 组件"
+        },
+        {
+            "from": 681.68,
+            "to": 686.56,
+            "location": 2,
+            "content": "我几乎一定会用结构体来关联它们"
+        },
+        {
+            "from": 686.56,
+            "to": 690.24,
+            "location": 2,
+            "content": "但是如果只是一两个, 而且它们关联性不强的时候, 我也许会用单独的 state"
+        },
+        {
+            "from": 690.24,
+            "to": 694.32,
+            "location": 2,
+            "content": "总之, 蟹蟹观看"
+        },
+        {
+            "from": 694.32,
+            "to": 699.64,
+            "location": 2,
+            "content": "下个视频我们再见, yew.rs 道, 堂堂连载!"
+        }
+    ]
+}
