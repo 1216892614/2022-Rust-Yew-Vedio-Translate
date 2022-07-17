@@ -1,0 +1,225 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 5.12,
+            "to": 10.24,
+            "location": 2,
+            "content": "All Right, 在上一个视频里,"
+        },
+        {
+            "from": 10.24,
+            "to": 14.96,
+            "location": 2,
+            "content": "我们通过组合成结构体简化了多个 state"
+        },
+        {
+            "from": 18.08,
+            "to": 22.16,
+            "location": 2,
+            "content": "被简化的 state 示例化有两个字段 (field),\n我们可以快速的看一下代码"
+        },
+        {
+            "from": 22.16,
+            "to": 29.12,
+            "location": 2,
+            "content": "so, 这里的 Data 结构体有 username 和 count 属性"
+        },
+        {
+            "from": 29.12,
+            "to": 34.88,
+            "location": 2,
+            "content": "然后为了修改它, 我们对它的 handle 进行了 clone()"
+        },
+        {
+            "from": 34.88,
+            "to": 40.32,
+            "location": 2,
+            "content": "然后再获取内容, 更新状态. "
+        },
+        {
+            "from": 40.32,
+            "to": 43.04,
+            "location": 2,
+            "content": "但是, 我们要重构这里."
+        },
+        {
+            "from": 43.04,
+            "to": 49.92,
+            "location": 2,
+            "content": "但是, 如果一个用户, 抱歉, 如果我表达的很糟糕的话,"
+        },
+        {
+            "from": 49.92,
+            "to": 54.24,
+            "location": 2,
+            "content": "这是我直接把他们丢进 Google 翻译得到的,"
+        },
+        {
+            "from": 54.24,
+            "to": 57.2,
+            "location": 2,
+            "content": "但是 Steve Klabnik 建议\n(Steve Klabnik: 俄籍程序员, The Book 作者之一, 知名宝可梦训练师"
+        },
+        {
+            "from": 57.2,
+            "to": 64.32,
+            "location": 2,
+            "content": "相比起访问修改或者重新构建字段实例化"
+        },
+        {
+            "from": 64.32,
+            "to": 71.28,
+            "location": 2,
+            "content": "来自 rust 的新特性结构体更新语法 (struct update syntax)"
+        },
+        {
+            "from": 71.28,
+            "to": 75.6,
+            "location": 2,
+            "content": "允许我们在更新的时候只修改我们需要的部分"
+        },
+        {
+            "from": 75.6,
+            "to": 81.28,
+            "location": 2,
+            "content": "如果你以前用过 JavaScript 的话"
+        },
+        {
+            "from": 81.28,
+            "to": 85.28,
+            "location": 2,
+            "content": "你会发现这很像 JS 的展开语法 (Spread syntax)"
+        },
+        {
+            "from": 85.28,
+            "to": 90.32,
+            "location": 2,
+            "content": "回到代码, 我们来写一下它, 看看怎么样"
+        },
+        {
+            "from": 90.32,
+            "to": 97.44,
+            "location": 2,
+            "content": "我们需要更新一下 username, 我们现在可以在一行内解决它"
+        },
+        {
+            "from": 97.44,
+            "to": 101.12,
+            "location": 2,
+            "content": "基本来说, 我们要从我们的 clone_state 开始"
+        },
+        {
+            "from": 101.12,
+            "to": 105.04,
+            "location": 2,
+            "content": "然后进行 .set(),"
+        },
+        {
+            "from": 105.04,
+            "to": 110.24,
+            "location": 2,
+            "content": "要 set() 的是一个 Data, 所以我们要创建一个新的 Data"
+        },
+        {
+            "from": 110.24,
+            "to": 115.28,
+            "location": 2,
+            "content": "在 Data 里我们需要一个 username, 而我们正好有一个"
+        },
+        {
+            "from": 115.28,
+            "to": 122,
+            "location": 2,
+            "content": "它们拼写一致, 所以缩写为单个 username"
+        },
+        {
+            "from": 122,
+            "to": 125.68,
+            "location": 2,
+            "content": "这样就很好的简化了它, 如果你还记得的话"
+        },
+        {
+            "from": 125.68,
+            "to": 136.32,
+            "location": 2,
+            "content": "在 rust 里, 字段名如果和变量名一样的话"
+        },
+        {
+            "from": 136.32,
+            "to": 142.72,
+            "location": 2,
+            "content": "这样的写法就等价于 username: username, 这就允许我们.."
+        },
+        {
+            "from": 142.72,
+            "to": 146.96,
+            "location": 2,
+            "content": "然后我们放上之前的值"
+        },
+        {
+            "from": 146.96,
+            "to": 152.16,
+            "location": 2,
+            "content": "就会变成类似之前值的 clone(), 所以"
+        },
+        {
+            "from": 152.16,
+            "to": 156.72,
+            "location": 2,
+            "content": "我们的 .deref().clone() 就跑到了这里"
+        },
+        {
+            "from": 156.72,
+            "to": 162.08,
+            "location": 2,
+            "content": "coding..."
+        },
+        {
+            "from": 164.32,
+            "to": 171.6,
+            "location": 2,
+            "content": "解决, 这就是我们一行解决问题的方法"
+        },
+        {
+            "from": 171.6,
+            "to": 176.48,
+            "location": 2,
+            "content": "再把它们封装成两个方法, 什么是 clean code 啊\n(战术后仰"
+        },
+        {
+            "from": 176.48,
+            "to": 181.2,
+            "location": 2,
+            "content": "感谢各位的厚爱"
+        },
+        {
+            "from": 181.2,
+            "to": 184.88,
+            "location": 2,
+            "content": "回到我们的视图, 确认一下跑不跑地通"
+        },
+        {
+            "from": 184.88,
+            "to": 187.68,
+            "location": 2,
+            "content": "用户名填 brooks"
+        },
+        {
+            "from": 187.68,
+            "to": 192.4,
+            "location": 2,
+            "content": "state 正常更新,"
+        },
+        {
+            "from": 192.4,
+            "to": 195.68,
+            "location": 2,
+            "content": "蟹蟹你们和 Klabnik 的建议,\n下个视频我们再见, yew.rs 道, 堂堂连载!"
+        }
+    ]
+}
