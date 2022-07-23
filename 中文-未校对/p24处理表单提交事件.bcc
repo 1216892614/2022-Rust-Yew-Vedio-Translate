@@ -57,1063 +57,901 @@
             "from": 42.72,
             "to": 46.8,
             "location": 2,
-            "content": "going to take this custom form and we're"
+            "content": "我们要处理这个 \"自定义表单\", 打算把它变成"
         },
         {
             "from": 46.8,
             "to": 50.64,
             "location": 2,
-            "content": "well a form so"
+            "content": "额, 一个真正的表单, So, 这个 <div>"
         },
         {
             "from": 50.64,
             "to": 54.56,
             "location": 2,
-            "content": "we're going to make you back into a form"
+            "content": "我们重新把它改回 <form>"
         },
         {
             "from": 55.2,
             "to": 59.12,
             "location": 2,
-            "content": "so we have our text input"
+            "content": "So, 我们有了我们的文本框, 也就是 username,"
         },
         {
             "from": 59.12,
             "to": 66,
             "location": 2,
-            "content": "going to have the username changed here"
+            "content": "我要修改 username 这里, 我打算多加一个文本框"
         },
         {
             "from": 66,
-            "to": 71.52,
-            "location": 2,
-            "content": "and we're going to make this"
-        },
-        {
-            "from": 71.52,
             "to": 73.84,
             "location": 2,
-            "content": "language"
+            "content": "就让它叫...就让它叫 favorite_language (首选语言)"
         },
         {
             "from": 78.16,
             "to": 83.84,
             "location": 2,
-            "content": "uh let's see handle on change uh we're"
+            "content": "uh, 看到 handle_onchange, 我们也要修改这里"
         },
         {
             "from": 83.84,
             "to": 90.24,
             "location": 2,
-            "content": "let's do"
+            "content": "我们来...进行一个Crtl的c"
         },
         {
             "from": 92.32,
             "to": 96.48,
             "location": 2,
-            "content": "so instead of username changed i now"
+            "content": "so, 相比起 username_changed, 我更希望它叫"
         },
         {
             "from": 96.48,
-            "to": 100.48,
-            "location": 2,
-            "content": "uh"
-        },
-        {
-            "from": 100.48,
             "to": 104.4,
             "location": 2,
-            "content": "language"
+            "content": "uh...叫他 language_changed"
         },
         {
             "from": 104.4,
             "to": 108.96,
             "location": 2,
-            "content": "okay we have our callback from"
+            "content": "okay 我们已经有 Callback::from() 了"
         },
         {
             "from": 108.96,
             "to": 114.16,
             "location": 2,
-            "content": "language"
+            "content": "language, 这也是一个字符串"
         },
         {
             "from": 114.16,
             "to": 120.96,
             "location": 2,
-            "content": "we get our data from our clone state we"
+            "content": "我们从 clone_state 获得 Data, 我们解引用再 clone() 来保证安全"
         },
         {
             "from": 121.28,
             "to": 124.56,
             "location": 2,
-            "content": "we want to update this because we're not"
-        },
-        {
-            "from": 124.56,
-            "to": 127.6,
-            "location": 2,
-            "content": "really"
+            "content": "我们要修改这里, 因为我不打算用 count 了\ncount 现在完全没有意义"
         },
         {
             "from": 127.6,
-            "to": 131.6,
-            "location": 2,
-            "content": "so we're gonna have username and we're"
-        },
-        {
-            "from": 131.6,
             "to": 135.04,
             "location": 2,
-            "content": "favorite"
+            "content": "so, 我们有 username, 我们还需要 favorite_language"
         },
         {
             "from": 135.04,
             "to": 138.88,
             "location": 2,
-            "content": "and this is gonna be a string"
+            "content": "标记这为一个字符串"
         },
         {
             "from": 140.96,
             "to": 144.4,
             "location": 2,
-            "content": "um okay so we have"
+            "content": "额, okay so, 我们有, 额"
         },
         {
             "from": 144.4,
-            "to": 148.32,
-            "location": 2,
-            "content": "okay so"
-        },
-        {
-            "from": 148.32,
             "to": 150.8,
             "location": 2,
-            "content": "be"
+            "content": "okay so, 我们希望这里变成 favorite_language"
         },
         {
             "from": 150.8,
             "to": 154.56,
             "location": 2,
-            "content": "equals"
+            "content": "= language"
         },
         {
             "from": 154.64,
             "to": 161.28,
             "location": 2,
-            "content": "language uh and then we set that"
+            "content": "uh, 然后我们 set() 它, 我不需要 button_clicked"
         },
         {
             "from": 161.28,
             "to": 165.24,
             "location": 2,
-            "content": "um and removing that that's gonna cause"
+            "content": "um, 移除了这部分会导致一些问题"
         },
         {
             "from": 165.24,
             "to": 171.2,
             "location": 2,
-            "content": "because it kind of needs this on click"
+            "content": "因为这里需要 onclick"
         },
         {
             "from": 171.2,
             "to": 176.16,
             "location": 2,
-            "content": "to exist for our button"
+            "content": "其实我们不需要 button 上有这个, 我也不需要这个 button_clicked"
         },
         {
             "from": 176.16,
             "to": 181.52,
             "location": 2,
-            "content": "clicked i don't even need that username"
+            "content": "我甚至不需要 username, 只需要表单"
         },
         {
             "from": 181.52,
             "to": 186.48,
             "location": 2,
-            "content": "alright well the button's a little bit"
+            "content": "button 看起来有什么不满意的, 我们找到我们的 CustomButton"
         },
         {
             "from": 186.48,
             "to": 191.2,
             "location": 2,
-            "content": "and remove the requirement for an on"
+            "content": "然后移除这些 props 需求"
         },
         {
             "from": 191.36,
             "to": 197.96,
             "location": 2,
-            "content": "and we can remove"
+            "content": "我们还可以移除, 这里的回调"
         },
         {
             "from": 200.32,
             "to": 204,
             "location": 2,
-            "content": "and an on click handler"
+            "content": "还有这个 onclick_handler"
         },
         {
             "from": 204.72,
             "to": 208.8,
             "location": 2,
-            "content": "it's not necessary for what we're"
+            "content": "这对于我们接下来要做的事情其实并不必要"
         },
         {
             "from": 208.8,
             "to": 211.2,
             "location": 2,
-            "content": "which in this case this is going to be a"
+            "content": "这这种情况下它可以变成表单按钮"
         },
         {
             "from": 211.2,
             "to": 216.64,
             "location": 2,
-            "content": "uh it'll unchange oh this is now"
+            "content": "uh, onchange, Oh, 这里是 language_changed"
         },
         {
             "from": 218.88,
             "to": 224,
             "location": 2,
-            "content": "okay so you should be happy"
+            "content": "okay so, 你们应该没什么问题了,\n这里是我们可爱的表单"
         },
         {
             "from": 224,
             "to": 228.48,
             "location": 2,
-            "content": "um"
+            "content": "um, 它们都还没有标注"
         },
         {
             "from": 228.48,
             "to": 233.92,
             "location": 2,
-            "content": "which could be nice to have we have"
+            "content": "要是有了可能会好一些, 这样它们会有个名字"
         },
         {
             "from": 233.92,
             "to": 237.44,
             "location": 2,
-            "content": "uh adding that in there let's do that"
+            "content": "uh, 我想我知道要在哪里改, 我们来快速的改一下"
         },
         {
             "from": 237.44,
             "to": 242.56,
             "location": 2,
-            "content": "uh make it a little bit"
+            "content": "uh, 方便后面搞清楚我们干了什么"
         },
         {
             "from": 242.56,
             "to": 246.9,
             "location": 2,
-            "content": "so we have this name coming in"
+            "content": "so, 我们在这里有一个 name"
         },
         {
             "from": 246.9,
             "to": 251.28,
             "location": 2,
-            "content": "[Applause]"
+            "content": "然后我们..."
         },
         {
             "from": 251.28,
             "to": 255.84,
             "location": 2,
-            "content": "i always forget what it's called there's"
+            "content": "我经常忘记它叫什么, oh, placeholder"
         },
         {
             "from": 257.76,
             "to": 264.2,
             "location": 2,
-            "content": "which we can then use as"
+            "content": "也就意味着我们可以用..."
         },
         {
             "from": 271.68,
             "to": 275.25,
             "location": 2,
-            "content": "did that work oh that did not work um"
+            "content": "可以了吗? 不行."
         },
         {
             "from": 276.96,
             "to": 282.36,
             "location": 2,
-            "content": "we have"
+            "content": "props 定义了, name 也定义了"
         },
         {
             "from": 285.44,
             "to": 288.16,
             "location": 2,
-            "content": "oh unity"
+            "content": "oh, 你需要..."
         },
         {
             "from": 288.4,
             "to": 291.96,
             "location": 2,
-            "content": "you need to be cloned"
+            "content": "你需要 clone()"
         },
         {
             "from": 298.24,
             "to": 302.16,
             "location": 2,
-            "content": "that's what it is okay so now we can see"
+            "content": "没问题了, 现在我们可以在这里看见"
         },
         {
             "from": 302.16,
             "to": 306.4,
             "location": 2,
-            "content": "in here"
+            "content": "username 和 favorite_language,"
         },
         {
             "from": 306.4,
             "to": 309.68,
             "location": 2,
-            "content": "brooks"
+            "content": "我们可以直接填写 Brooks, Rust"
         },
         {
             "from": 309.68,
             "to": 314.8,
             "location": 2,
-            "content": "i want to hit submit and then i want the"
+            "content": "我想要点击 submit, 然后"
         },
         {
             "from": 314.8,
             "to": 319.84,
             "location": 2,
-            "content": "be displayed out here or logged in some"
+            "content": "这些信息就可以被展示或者输出"
         },
         {
             "from": 321.44,
             "to": 325.84,
             "location": 2,
-            "content": "okay well"
+            "content": "Okay Well, 在 custom_form 里"
         },
         {
             "from": 325.84,
             "to": 328.64,
             "location": 2,
-            "content": "data individually so"
+            "content": "我们可以分别获取信息, So"
         },
         {
             "from": 328.64,
             "to": 334.24,
             "location": 2,
-            "content": "each of these things are updated we are"
+            "content": "每当它们中有所更新时, 我们就把他们更新到 Data 里"
         },
         {
             "from": 334.24,
             "to": 340.24,
             "location": 2,
-            "content": "that's great"
+            "content": "多么美妙的开局! 但是,"
         },
         {
             "from": 340.24,
             "to": 345.28,
             "location": 2,
-            "content": "submit so that's going to be another"
+            "content": "我们依旧需要处理 submit 按钮事件,\n这会变成另一个要处理的"
         },
         {
             "from": 345.28,
-            "to": 349.68,
-            "location": 2,
-            "content": "so we're going to do let uh"
-        },
-        {
-            "from": 349.68,
             "to": 353,
             "location": 2,
-            "content": "on submit"
+            "content": "然后我们继续 coding..."
         },
         {
             "from": 359.44,
-            "to": 363.44,
-            "location": 2,
-            "content": "now we're gonna have the event happen"
-        },
-        {
-            "from": 363.44,
             "to": 368.64,
             "location": 2,
-            "content": "about that"
+            "content": "现在在这里我们有一个事件要处理, 但是我不确定我该如何处理它"
         },
         {
             "from": 368.64,
             "to": 373.68,
             "location": 2,
-            "content": "to have happen is"
+            "content": "我们需要触发的是另一个来自 props 的回调函数"
         },
         {
             "from": 373.68,
             "to": 378.96,
             "location": 2,
-            "content": "and we're going to emit that up as soon"
+            "content": "我们会在提交发生时触发它"
         },
         {
             "from": 378.96,
             "to": 382.32,
             "location": 2,
-            "content": "maybe do and this is not going to be"
+            "content": "所以我们也许可以...这不是 Data"
         },
         {
             "from": 382.32,
             "to": 385.28,
             "location": 2,
-            "content": "we need properties"
+            "content": "我们需要先完成 props"
         },
         {
             "from": 388,
             "to": 391.8,
             "location": 2,
-            "content": "and you need to be public"
+            "content": "这个要 Pub"
         },
         {
             "from": 396.16,
-            "to": 401.28,
-            "location": 2,
-            "content": "um for these properties"
-        },
-        {
-            "from": 401.28,
             "to": 404.4,
             "location": 2,
-            "content": "data"
+            "content": "um, 对于这个 props, 我希望是真正的表单数据"
         },
         {
             "from": 404.4,
             "to": 409.84,
             "location": 2,
-            "content": "form data is gonna be an instance of"
+            "content": "form_data 会代替原本的 Data"
         },
         {
             "from": 411.2,
             "to": 414.48,
             "location": 2,
-            "content": "and then we're going to want"
+            "content": "然后, 额, 其实我们不需要 form_data"
         },
         {
             "from": 414.48,
             "to": 421.04,
             "location": 2,
-            "content": "properties we want on submit"
+            "content": "我们需要的是 onsubmit"
         },
         {
             "from": 421.04,
             "to": 426.4,
             "location": 2,
-            "content": "that it's is going to be data is what"
+            "content": "它会是一个回调函数, 传送一个 Data"
         },
         {
             "from": 426.88,
-            "to": 430.16,
-            "location": 2,
-            "content": "we are going to derive"
-        },
-        {
-            "from": 430.4,
             "to": 434.8,
             "location": 2,
-            "content": "properties"
+            "content": "我们要实现 Properties 和 PartialEq"
         },
         {
             "from": 437.04,
             "to": 440,
             "location": 2,
-            "content": "its properties here"
+            "content": "这容许我们在这里把它作为 Props"
         },
         {
             "from": 449.12,
             "to": 454.4,
             "location": 2,
-            "content": "okay so um you're upset oh because i"
+            "content": "okay so um, 这里报错? oh, 因为缺少分号"
         },
         {
             "from": 454.4,
             "to": 457.2,
             "location": 2,
-            "content": "um"
+            "content": "um, 我们会得到这个 onsubmit"
         },
         {
             "from": 457.2,
             "to": 461.92,
             "location": 2,
-            "content": "don't necessarily well now we kind of"
+            "content": "我们不是必须...well, 现在我们知道我们要干什么了"
         },
         {
             "from": 461.92,
             "to": 468.48,
             "location": 2,
-            "content": "we want to take this on submit callback"
+            "content": "我们需要在提交发生时拿到这个 onsubmit,"
         },
         {
             "from": 468.48,
-            "to": 471.44,
-            "location": 2,
-            "content": "that we have here"
-        },
-        {
-            "from": 473.52,
             "to": 476.88,
             "location": 2,
-            "content": "when the submit happens"
+            "content": "获取 Data, 就是这里的"
         },
         {
             "from": 477.12,
             "to": 484.32,
             "location": 2,
-            "content": "okay so we know what we need to do"
+            "content": "okay, 现在我们知道我们需要干什么了,\n我们要 clone() 这个"
         },
         {
             "from": 484.32,
             "to": 488.16,
             "location": 2,
-            "content": "this is going to be our on submit"
+            "content": "这里应该会是 onsubmit"
         },
         {
             "from": 488.16,
-            "to": 490.32,
-            "location": 2,
-            "content": "form"
-        },
-        {
-            "from": 490.32,
             "to": 495.2,
             "location": 2,
-            "content": "submit"
+            "content": "coding..."
         },
         {
             "from": 500.24,
-            "to": 505.44,
-            "location": 2,
-            "content": "then inside of here oh we"
-        },
-        {
-            "from": 505.44,
             "to": 509.36,
             "location": 2,
-            "content": "with"
+            "content": "然后是这里, oh, 我们通过..."
         },
         {
             "from": 509.76,
             "to": 514.32,
             "location": 2,
-            "content": "let's see where are we storing that"
+            "content": "我们在保存的? oh, 这里的 use_state 保存的"
         },
         {
             "from": 514.32,
             "to": 519.24,
             "location": 2,
-            "content": "so we need to use state also available"
+            "content": "所以我们也需要拿到 use_state"
         },
         {
             "from": 527.36,
             "to": 534.16,
             "location": 2,
-            "content": "so we'll be able to get that out now"
+            "content": "so, 我们要对他进行一个输的出"
         },
         {
             "from": 534.16,
             "to": 538.24,
             "location": 2,
-            "content": "let's first start by getting out the"
+            "content": "先从获取 Data 入手"
         },
         {
             "from": 547.68,
             "to": 551.28,
             "location": 2,
-            "content": "i dereference it that gives us the data"
+            "content": "简单的解个引用, Data 到手"
         },
         {
             "from": 551.28,
             "to": 553.6,
             "location": 2,
-            "content": "great"
+            "content": "完美"
         },
         {
             "from": 554.08,
             "to": 560.24,
             "location": 2,
-            "content": "uh type annotation needed we need to"
+            "content": "uh, 需要类型标注, 可是我们不知道这个 event 的类型"
         },
         {
             "from": 560.24,
             "to": 565.84,
             "location": 2,
-            "content": "uh let's head over to u.r.s uh which"
-        },
-        {
-            "from": 565.84,
-            "to": 568.88,
-            "location": 2,
-            "content": "with a"
+            "content": "uh, 回到官方文档, 它会告诉我们答案"
         },
         {
             "from": 568.88,
-            "to": 574.16,
-            "location": 2,
-            "content": "this can be in concepts"
-        },
-        {
-            "from": 574.16,
             "to": 577.84,
             "location": 2,
-            "content": "html events"
+            "content": "转到 Concepts > Html > Events"
         },
         {
             "from": 587.76,
             "to": 592.24,
             "location": 2,
-            "content": "onsubmit is a focus event"
+            "content": "onsubmit 是一个 FocusEvent"
         },
         {
             "from": 597.84,
             "to": 603.52,
             "location": 2,
-            "content": "okay so now annoying says focus event"
+            "content": "okay so, 现在我们标记它为 FocusEvent"
         },
         {
             "from": 603.52,
             "to": 607.44,
             "location": 2,
-            "content": "you know something else we need to do"
+            "content": "你们知道我们还要干什么吗? 我在一开始的时候也经常忘记这件事"
         },
         {
             "from": 607.44,
             "to": 610.56,
             "location": 2,
-            "content": "i'm just remembering it right now before"
+            "content": "我现在记住了要先做这件事情"
         },
         {
             "from": 610.56,
             "to": 615.2,
             "location": 2,
-            "content": "the default action when you submit event"
+            "content": "submit event 的默认行为是获取它本身"
         },
         {
             "from": 615.2,
             "to": 621.6,
             "location": 2,
-            "content": "unless we set something like a method um"
+            "content": "除非我们为它设置方法"
         },
         {
             "from": 621.6,
             "to": 624.96,
             "location": 2,
-            "content": "don't want it to do that we want to"
+            "content": "但是我们不打算这样做, 我们得阻止默认方法"
         },
         {
             "from": 624.96,
             "to": 629.76,
             "location": 2,
-            "content": "action so we're going to that's the"
+            "content": "所以我们要干的第一件事情是 prevent_default"
         },
         {
             "from": 629.76,
             "to": 634.8,
             "location": 2,
-            "content": "default which is exactly the same thing"
+            "content": "这和我们在 JavaScript 里做的事情一样"
         },
         {
             "from": 634.8,
             "to": 640.56,
             "location": 2,
-            "content": "event there is a prevent default method"
+            "content": "在 Servant (不知道是什么东西) 里有一个默认提供的方法\n确保你调用了它"
         },
         {
             "from": 640.56,
             "to": 645.12,
             "location": 2,
-            "content": "now it won't try to auto"
+            "content": "现在它就不会在某些时间尝试默认提交"
         },
         {
             "from": 645.12,
             "to": 649.44,
             "location": 2,
-            "content": "clicked or when enter is is clicked now"
+            "content": "比如按钮被点击或者敲击 enter 的时候,"
         },
         {
             "from": 649.44,
             "to": 653.04,
             "location": 2,
-            "content": "to do which is"
+            "content": "而是做我们希望它做的"
         },
         {
             "from": 653.04,
             "to": 658,
             "location": 2,
-            "content": "from the data from the state"
+            "content": "比如从 use_state 提取 data, 然后发送"
         },
         {
             "from": 658,
-            "to": 661.84,
-            "location": 2,
-            "content": "going to do form on submit"
-        },
-        {
-            "from": 663.6,
             "to": 667.76,
             "location": 2,
-            "content": "and we're going to emit"
+            "content": "coding..."
         },
         {
             "from": 671.28,
             "to": 674.56,
             "location": 2,
-            "content": "okay"
+            "content": "okay, 我们干了不少工作"
         },
         {
             "from": 674.56,
             "to": 678.16,
             "location": 2,
-            "content": "up and running but"
+            "content": "为了拿到这些表单然后发送, 但是有一个报错"
         },
         {
             "from": 678.16,
             "to": 682.32,
             "location": 2,
-            "content": "see one down here"
+            "content": "在下面这里, 跳转进入这里"
         },
         {
             "from": 682.32,
             "to": 688.08,
             "location": 2,
-            "content": "our main library is incorrectly using"
+            "content": "我们的 main_library 错误的使用了 CustomForm"
         },
         {
             "from": 688.08,
             "to": 693.28,
             "location": 2,
-            "content": "in and on submit callback to handle this"
+            "content": "因为我们需要传入一个 onsubmit 回调来处理它"
         },
         {
             "from": 693.36,
             "to": 698.16,
             "location": 2,
-            "content": "uh let's go ahead and do that now"
+            "content": "uh, 让我们继续解决它"
         },
         {
             "from": 698.16,
-            "to": 700.8,
-            "location": 2,
-            "content": "uh"
-        },
-        {
-            "from": 700.8,
-            "to": 704.96,
-            "location": 2,
-            "content": "let's do like custom"
-        },
-        {
-            "from": 704.96,
-            "to": 707.44,
-            "location": 2,
-            "content": "submit"
-        },
-        {
-            "from": 708.08,
             "to": 711.44,
             "location": 2,
-            "content": "we're going to create a new callback"
+            "content": "少女 coding 中..."
         },
         {
             "from": 713.52,
             "to": 716.8,
             "location": 2,
-            "content": "now we're going to get"
+            "content": "now, 现在我们从这里拿到 data"
         },
         {
             "from": 716.8,
             "to": 719.92,
             "location": 2,
-            "content": "and we might need to tell it what the"
+            "content": "我们也许需要标注 data 类型, 也许可以自动推导"
         },
         {
             "from": 719.92,
             "to": 725.6,
             "location": 2,
-            "content": "it out too uh rest analyzer is a little"
+            "content": "uh, 在存在宏的时候,"
         },
         {
             "from": 725.6,
             "to": 731.28,
             "location": 2,
-            "content": "macros"
+            "content": "rust-analyzer 可能失灵"
         },
         {
             "from": 731.28,
             "to": 735.36,
             "location": 2,
-            "content": "and what we can do"
+            "content": "我们可以做的是,"
         },
         {
             "from": 735.36,
             "to": 740.4,
             "location": 2,
-            "content": "store each component into state we can"
+            "content": "比如把每个组件的状态存储在 state 里"
         },
         {
             "from": 740.4,
             "to": 745.44,
             "location": 2,
-            "content": "or we could potentially just log out"
+            "content": "或者只是直接输出每段视图"
         },
         {
             "from": 746.8,
             "to": 751.84,
             "location": 2,
-            "content": "going to be two parts we're going to"
+            "content": "我们继续吧, 简单分成两部分, username 和 favorite_language"
         },
         {
             "from": 751.84,
             "to": 757.2,
             "location": 2,
-            "content": "here"
+            "content": "这里, username 和 favorite_language"
         },
         {
             "from": 757.2,
-            "to": 762.64,
-            "location": 2,
-            "content": "so let's do"
-        },
-        {
-            "from": 763.92,
-            "to": 767.28,
-            "location": 2,
-            "content": "username is"
-        },
-        {
-            "from": 768.28,
             "to": 771.52,
             "location": 2,
-            "content": "data.username"
+            "content": "coding..."
         },
         {
             "from": 771.52,
             "to": 778,
             "location": 2,
-            "content": "exactly what that is i see an unknown"
+            "content": "和我想得有点不一样, 这里有一个 unknown, \n让我们标记一下它的类型"
         },
         {
             "from": 779.28,
             "to": 786.24,
             "location": 2,
-            "content": "uh oh and you don't know what that is"
+            "content": "uh oh, 它不知道这是什么东西,\n我需要把这里声明为 pub"
         },
         {
             "from": 786.24,
             "to": 789.68,
             "location": 2,
-            "content": "library can grab this"
+            "content": "这样 lib 可以捕获它"
         },
         {
             "from": 796.16,
             "to": 800.72,
             "location": 2,
-            "content": "okay so now it knows exactly what this"
+            "content": "okay, 现在我们知道了问题大概是什么"
         },
         {
             "from": 800.72,
-            "to": 805.36,
-            "location": 2,
-            "content": "or data.username i'm going to do another"
-        },
-        {
-            "from": 805.36,
-            "to": 808.16,
-            "location": 2,
-            "content": "favorite"
-        },
-        {
-            "from": 808.72,
             "to": 813.08,
             "location": 2,
-            "content": "language"
+            "content": "少女 coding 中..."
         },
         {
             "from": 815.12,
             "to": 819.52,
             "location": 2,
-            "content": "all right so this should happen on"
+            "content": "all right, 它们会在提交的时候输出"
         },
         {
             "from": 819.52,
             "to": 822.32,
             "location": 2,
-            "content": "a"
-        },
-        {
-            "from": 822.32,
-            "to": 825.32,
-            "location": 2,
-            "content": "submit"
+            "content": "coding..."
         },
         {
             "from": 830.64,
-            "to": 835.52,
-            "location": 2,
-            "content": "um up its private field we do need to"
-        },
-        {
-            "from": 835.52,
             "to": 838,
             "location": 2,
-            "content": "public"
+            "content": "um, 在上面这里还是私有作用域, 我们需要 pub"
         },
         {
             "from": 841.68,
             "to": 846.64,
             "location": 2,
-            "content": "um let's see i can't oh i can't do the"
+            "content": "um, 让我康康, oh, 我不能移动所有权后解引用"
         },
         {
             "from": 846.64,
             "to": 851.76,
             "location": 2,
-            "content": "don't really want to so i actually want"
+            "content": "所以我需要先 clone() 它"
         },
         {
             "from": 854.32,
             "to": 858.96,
             "location": 2,
-            "content": "but of course i'm cloning the state"
+            "content": "但是, 当然, 我们 clone() 的是 handle"
         },
         {
             "from": 858.96,
             "to": 861.92,
             "location": 2,
-            "content": "need to first"
+            "content": "所以我们要先解引用"
         },
         {
             "from": 861.92,
             "to": 865.52,
             "location": 2,
-            "content": "to get"
+            "content": "来在这里获得 Data"
         },
         {
             "from": 865.52,
-            "to": 870.4,
-            "location": 2,
-            "content": "clone that so"
-        },
-        {
-            "from": 870.4,
             "to": 876.64,
             "location": 2,
-            "content": "uh and now"
+            "content": "然后再 clone(), 检查一下..."
         },
         {
             "from": 878.48,
             "to": 881.52,
             "location": 2,
-            "content": "this on submit is"
+            "content": "这个 onsubmit..."
         },
         {
             "from": 881.52,
             "to": 886.64,
             "location": 2,
-            "content": "uh not running not being not set up yet"
+            "content": "uh, 没有正常设置, 所以在 <form> 这里, 我们..."
         },
         {
             "from": 886.64,
-            "to": 890.24,
-            "location": 2,
-            "content": "i'm going to do an onsubmit"
-        },
-        {
-            "from": 890.24,
             "to": 892.96,
             "location": 2,
-            "content": "on submit"
+            "content": "coding..."
         },
         {
             "from": 894.4,
             "to": 899.48,
             "location": 2,
-            "content": "we have no errors let's go ahead and see"
+            "content": "错误已经消失, 我们来看看是不是正常了"
         },
         {
             "from": 903.12,
             "to": 908.56,
             "location": 2,
-            "content": "do brooks and rust"
+            "content": "Brooks 最喜欢 Rust 辣! 发送!"
         },
         {
             "from": 908.56,
             "to": 913.12,
             "location": 2,
-            "content": "hey i got username as brooks favorite"
+            "content": "现在连浏览器也知道 Brooks 对 Rust 的心意了"
         },
         {
             "from": 913.12,
             "to": 917.84,
             "location": 2,
-            "content": "another benefit of using something like"
+            "content": "还有一个好消息!"
         },
         {
             "from": 917.84,
             "to": 920.88,
             "location": 2,
-            "content": "on click for the button"
+            "content": "你不光可以点击 button 来发送"
         },
         {
             "from": 920.88,
             "to": 923.84,
             "location": 2,
-            "content": "enter at uh"
+            "content": "轻轻敲击沉睡的 Enter,"
         },
         {
             "from": 923.84,
             "to": 928.48,
             "location": 2,
-            "content": "and i get the same thing"
+            "content": "效果一样的,\n挑一个你喜欢的方法告诉大家你对 Ferris(Rust 小螃蟹) 的爱吧!"
         },
         {
             "from": 928.48,
             "to": 932.56,
             "location": 2,
-            "content": "a little bit nicer for keyboard users so"
+            "content": "这对键盘用户更加友好"
         },
         {
             "from": 932.56,
             "to": 938,
             "location": 2,
-            "content": "fill it out hit return and it just"
+            "content": "填写表单, Enter, 然后发送"
         },
         {
             "from": 938,
             "to": 942.32,
             "location": 2,
-            "content": "which is like i gotta say it's my"
+            "content": "这是我更喜欢的实现方法"
         },
         {
             "from": 942.32,
             "to": 947.52,
             "location": 2,
-            "content": "would try to always handle this"
+            "content": "当我要填写表单的时候, 我都尽可能这样实现"
         },
         {
             "from": 947.52,
             "to": 954.72,
             "location": 2,
-            "content": "anyways uh we have now successfully set"
+            "content": "总而言之, 我们成功设置了表单,"
         },
         {
             "from": 954.72,
-            "to": 958.48,
-            "location": 2,
-            "content": "capturing that data and it's available"
-        },
-        {
-            "from": 958.48,
             "to": 962.48,
             "location": 2,
-            "content": "wherever we want to use it"
+            "content": "我们捕获了数据, 让它可为我们程序所用"
         },
         {
             "from": 962.48,
             "to": 965.68,
             "location": 2,
-            "content": "been helpful for you thank you so much"
+            "content": "总之, 蟹蟹观看"
         },
         {
             "from": 965.68,
             "to": 969.56,
             "location": 2,
-            "content": "next video bye"
+            "content": "下个视频我们再见, yew.rs 道, 堂堂连载!"
         }
     ]
 }
