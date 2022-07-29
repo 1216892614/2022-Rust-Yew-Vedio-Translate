@@ -1,0 +1,783 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 5.04,
+            "to": 10.16,
+            "location": 2,
+            "content": "there is a there's another hook that can"
+        },
+        {
+            "from": 10.16,
+            "to": 14.16,
+            "location": 2,
+            "content": "is the use effect hook"
+        },
+        {
+            "from": 14.16,
+            "to": 20.24,
+            "location": 2,
+            "content": "documentation on it before i show you"
+        },
+        {
+            "from": 22.24,
+            "to": 26.88,
+            "location": 2,
+            "content": "so in it's where all the other hooks are"
+        },
+        {
+            "from": 26.88,
+            "to": 31.92,
+            "location": 2,
+            "content": "concepts function components"
+        },
+        {
+            "from": 31.92,
+            "to": 36.24,
+            "location": 2,
+            "content": "and"
+        },
+        {
+            "from": 36.24,
+            "to": 41.52,
+            "location": 2,
+            "content": "use effect is pretty much exactly the"
+        },
+        {
+            "from": 44.16,
+            "to": 47.6,
+            "location": 2,
+            "content": "you're not familiar with react but a"
+        },
+        {
+            "from": 47.6,
+            "to": 53.04,
+            "location": 2,
+            "content": "framework then it's a way for us to hook"
+        },
+        {
+            "from": 53.04,
+            "to": 58.16,
+            "location": 2,
+            "content": "you wanted something to let you know hey"
+        },
+        {
+            "from": 58.16,
+            "to": 62.88,
+            "location": 2,
+            "content": "and a re-render is happening"
+        },
+        {
+            "from": 62.88,
+            "to": 66.64,
+            "location": 2,
+            "content": "well this is how so use effect basically"
+        },
+        {
+            "from": 66.64,
+            "to": 70.72,
+            "location": 2,
+            "content": "it's um"
+        },
+        {
+            "from": 70.72,
+            "to": 75.68,
+            "location": 2,
+            "content": "after an update happens\n00:01:13,920 --> 00:01:17,1000\nuh so you hand it to them and they use\n\n30"
+        },
+        {
+            "from": 75.68,
+            "to": 81.76,
+            "location": 2,
+            "content": "it uh okay so"
+        },
+        {
+            "from": 81.76,
+            "to": 84.84,
+            "location": 2,
+            "content": "let's um"
+        },
+        {
+            "from": 84.84,
+            "to": 91.92,
+            "location": 2,
+            "content": "example uh basically they have a state"
+        },
+        {
+            "from": 91.92,
+            "to": 96.8,
+            "location": 2,
+            "content": "they can you know every time that the"
+        },
+        {
+            "from": 96.8,
+            "to": 103.52,
+            "location": 2,
+            "content": "then is going to cause a re-render"
+        },
+        {
+            "from": 103.52,
+            "to": 107.68,
+            "location": 2,
+            "content": "they're going to"
+        },
+        {
+            "from": 107.68,
+            "to": 113.2,
+            "location": 2,
+            "content": "they're going to set the title to be"
+        },
+        {
+            "from": 113.2,
+            "to": 117.68,
+            "location": 2,
+            "content": "that's great now there's this closure at"
+        },
+        {
+            "from": 117.68,
+            "to": 120.24,
+            "location": 2,
+            "content": "bit easy to sort of like"
+        },
+        {
+            "from": 120.24,
+            "to": 128.08,
+            "location": 2,
+            "content": "uh this is a function a closure a um"
+        },
+        {
+            "from": 128.08,
+            "to": 135.04,
+            "location": 2,
+            "content": "use effect this is what's going to be"
+        },
+        {
+            "from": 135.04,
+            "to": 139.12,
+            "location": 2,
+            "content": "the component so when this is cleaned up"
+        },
+        {
+            "from": 139.12,
+            "to": 145.68,
+            "location": 2,
+            "content": "this code runs first"
+        },
+        {
+            "from": 145.68,
+            "to": 150.32,
+            "location": 2,
+            "content": "don't i don't usually have too many"
+        },
+        {
+            "from": 150.32,
+            "to": 155.44,
+            "location": 2,
+            "content": "clean up things"
+        },
+        {
+            "from": 155.44,
+            "to": 159.52,
+            "location": 2,
+            "content": "uh so"
+        },
+        {
+            "from": 159.52,
+            "to": 166,
+            "location": 2,
+            "content": "we might end up using this uh here i am"
+        },
+        {
+            "from": 166,
+            "to": 170.56,
+            "location": 2,
+            "content": "state uh in here"
+        },
+        {
+            "from": 170.56,
+            "to": 175.6,
+            "location": 2,
+            "content": "a"
+        },
+        {
+            "from": 175.6,
+            "to": 179.6,
+            "location": 2,
+            "content": "uh"
+        },
+        {
+            "from": 179.6,
+            "to": 185.84,
+            "location": 2,
+            "content": "we have our user states let's just"
+        },
+        {
+            "from": 185.84,
+            "to": 190.48,
+            "location": 2,
+            "content": "effect"
+        },
+        {
+            "from": 190.48,
+            "to": 193.92,
+            "location": 2,
+            "content": "anything passed into us because this is"
+        },
+        {
+            "from": 193.92,
+            "to": 197.04,
+            "location": 2,
+            "content": "now"
+        },
+        {
+            "from": 197.04,
+            "to": 201.28,
+            "location": 2,
+            "content": "uh this code"
+        },
+        {
+            "from": 201.28,
+            "to": 203.52,
+            "location": 2,
+            "content": "on"
+        },
+        {
+            "from": 204.56,
+            "to": 208.08,
+            "location": 2,
+            "content": "so"
+        },
+        {
+            "from": 209.92,
+            "to": 212.96,
+            "location": 2,
+            "content": "all"
+        },
+        {
+            "from": 212.96,
+            "to": 215.36,
+            "location": 2,
+            "content": "so if you have something you want to"
+        },
+        {
+            "from": 215.36,
+            "to": 220.08,
+            "location": 2,
+            "content": "do every time that something re-renders"
+        },
+        {
+            "from": 220.08,
+            "to": 224.08,
+            "location": 2,
+            "content": "but the first render is kind of"
+        },
+        {
+            "from": 224.08,
+            "to": 227.36,
+            "location": 2,
+            "content": "sometimes we want uh we want things to"
+        },
+        {
+            "from": 227.36,
+            "to": 232,
+            "location": 2,
+            "content": "and we don't necessarily have them yet"
+        },
+        {
+            "from": 232,
+            "to": 239.04,
+            "location": 2,
+            "content": "uh when the component truly loads which"
+        },
+        {
+            "from": 239.04,
+            "to": 245.76,
+            "location": 2,
+            "content": "so um we actually uh we actually ran"
+        },
+        {
+            "from": 245.76,
+            "to": 250.24,
+            "location": 2,
+            "content": "coming back from the future in order to"
+        },
+        {
+            "from": 250.24,
+            "to": 255.84,
+            "location": 2,
+            "content": "how we might use use effect to the"
+        },
+        {
+            "from": 256,
+            "to": 261.44,
+            "location": 2,
+            "content": "okay so imagine if you will"
+        },
+        {
+            "from": 261.44,
+            "to": 265.92,
+            "location": 2,
+            "content": "that hold a bunch of like tasks and to"
+        },
+        {
+            "from": 265.92,
+            "to": 268.4,
+            "location": 2,
+            "content": "but"
+        },
+        {
+            "from": 268.4,
+            "to": 273.28,
+            "location": 2,
+            "content": "the first time that the component"
+        },
+        {
+            "from": 273.28,
+            "to": 277.04,
+            "location": 2,
+            "content": "of time before we get it so it's"
+        },
+        {
+            "from": 277.04,
+            "to": 280.08,
+            "location": 2,
+            "content": "none"
+        },
+        {
+            "from": 280.08,
+            "to": 284.48,
+            "location": 2,
+            "content": "knows when it's going to be a something\n00:04:43,040 --> 00:04:47,1000\nthat's a problem\n\n117"
+        },
+        {
+            "from": 284.48,
+            "to": 290.56,
+            "location": 2,
+            "content": "so we need to now know that it exists so"
+        },
+        {
+            "from": 290.56,
+            "to": 294.08,
+            "location": 2,
+            "content": "check"
+        },
+        {
+            "from": 294.08,
+            "to": 299.12,
+            "location": 2,
+            "content": "in our case it's a like authentication"
+        },
+        {
+            "from": 299.12,
+            "to": 306.72,
+            "location": 2,
+            "content": "authentication token so if um"
+        },
+        {
+            "from": 306.72,
+            "to": 311.84,
+            "location": 2,
+            "content": "auth token is true or exists"
+        },
+        {
+            "from": 315.04,
+            "to": 323.16,
+            "location": 2,
+            "content": "then we're going to want to"
+        },
+        {
+            "from": 328.72,
+            "to": 335.6,
+            "location": 2,
+            "content": "um of course if the user doesn't have a"
+        },
+        {
+            "from": 335.6,
+            "to": 341.44,
+            "location": 2,
+            "content": "and so it's just a plain simple if"
+        },
+        {
+            "from": 341.44,
+            "to": 345.6,
+            "location": 2,
+            "content": "enough"
+        },
+        {
+            "from": 345.6,
+            "to": 349.04,
+            "location": 2,
+            "content": "yelling at us because"
+        },
+        {
+            "from": 349.28,
+            "to": 354.24,
+            "location": 2,
+            "content": "we have to return"
+        },
+        {
+            "from": 354.24,
+            "to": 356.48,
+            "location": 2,
+            "content": "that"
+        },
+        {
+            "from": 358.24,
+            "to": 361.92,
+            "location": 2,
+            "content": "this is like a basic closure that's not"
+        },
+        {
+            "from": 361.92,
+            "to": 367.28,
+            "location": 2,
+            "content": "essentially a no op closure"
+        },
+        {
+            "from": 367.28,
+            "to": 371.04,
+            "location": 2,
+            "content": "now"
+        },
+        {
+            "from": 371.04,
+            "to": 379.2,
+            "location": 2,
+            "content": "if um we get the token and it exists now"
+        },
+        {
+            "from": 379.2,
+            "to": 384.16,
+            "location": 2,
+            "content": "get all the tasks"
+        },
+        {
+            "from": 384.16,
+            "to": 388.56,
+            "location": 2,
+            "content": "with those tasks which causes a"
+        },
+        {
+            "from": 388.56,
+            "to": 393.36,
+            "location": 2,
+            "content": "use effect again which hey we have a"
+        },
+        {
+            "from": 393.36,
+            "to": 399.28,
+            "location": 2,
+            "content": "another api request and then"
+        },
+        {
+            "from": 399.28,
+            "to": 404.08,
+            "location": 2,
+            "content": "causes a re-render because even though\n00:06:41,680 --> 00:06:45,1000\nit's the same exact tasks and the shape\n\n156"
+        },
+        {
+            "from": 404.08,
+            "to": 408.4,
+            "location": 2,
+            "content": "of the objects are different"
+        },
+        {
+            "from": 408.4,
+            "to": 411.04,
+            "location": 2,
+            "content": "now"
+        },
+        {
+            "from": 411.04,
+            "to": 415.12,
+            "location": 2,
+            "content": "just constantly hitting the server and"
+        },
+        {
+            "from": 415.12,
+            "to": 419.92,
+            "location": 2,
+            "content": "eventually we just crash a browser"
+        },
+        {
+            "from": 419.92,
+            "to": 424.56,
+            "location": 2,
+            "content": "to do is"
+        },
+        {
+            "from": 424.56,
+            "to": 429.76,
+            "location": 2,
+            "content": "and if it's our first"
+        },
+        {
+            "from": 429.76,
+            "to": 432.64,
+            "location": 2,
+            "content": "so"
+        },
+        {
+            "from": 432.64,
+            "to": 436.8,
+            "location": 2,
+            "content": "recommend we use a"
+        },
+        {
+            "from": 436.8,
+            "to": 441.6,
+            "location": 2,
+            "content": "to check to see if it's our first render"
+        },
+        {
+            "from": 441.6,
+            "to": 444.4,
+            "location": 2,
+            "content": "state"
+        },
+        {
+            "from": 444.4,
+            "to": 451.84,
+            "location": 2,
+            "content": "boolean flag so let uh we'll just do"
+        },
+        {
+            "from": 451.92,
+            "to": 457.04,
+            "location": 2,
+            "content": "uh it's gonna be our use state"
+        },
+        {
+            "from": 457.04,
+            "to": 462.64,
+            "location": 2,
+            "content": "this is um actually first load is true"
+        },
+        {
+            "from": 463.6,
+            "to": 467.12,
+            "location": 2,
+            "content": "okay"
+        },
+        {
+            "from": 467.12,
+            "to": 469.92,
+            "location": 2,
+            "content": "need to move"
+        },
+        {
+            "from": 470.96,
+            "to": 477.2,
+            "location": 2,
+            "content": "move the first load in"
+        },
+        {
+            "from": 477.2,
+            "to": 482.32,
+            "location": 2,
+            "content": "can exist and it's our first render well"
+        },
+        {
+            "from": 482.32,
+            "to": 485.76,
+            "location": 2,
+            "content": "if"
+        },
+        {
+            "from": 485.76,
+            "to": 488.4,
+            "location": 2,
+            "content": "first load"
+        },
+        {
+            "from": 491.12,
+            "to": 497.28,
+            "location": 2,
+            "content": "now this is um only run well this is"
+        },
+        {
+            "from": 497.28,
+            "to": 501.76,
+            "location": 2,
+            "content": "when the component"
+        },
+        {
+            "from": 501.76,
+            "to": 506.12,
+            "location": 2,
+            "content": "for the first time"
+        },
+        {
+            "from": 506.48,
+            "to": 509.36,
+            "location": 2,
+            "content": "this shouldn't run"
+        },
+        {
+            "from": 509.6,
+            "to": 515.84,
+            "location": 2,
+            "content": "every time we refresh"
+        },
+        {
+            "from": 515.84,
+            "to": 518.56,
+            "location": 2,
+            "content": "and we render"
+        },
+        {
+            "from": 519.12,
+            "to": 525.04,
+            "location": 2,
+            "content": "uh however as it is written right this"
+        },
+        {
+            "from": 525.04,
+            "to": 528.96,
+            "location": 2,
+            "content": "because"
+        },
+        {
+            "from": 528.96,
+            "to": 532.48,
+            "location": 2,
+            "content": "so at the end here maybe like if it's"
+        },
+        {
+            "from": 532.48,
+            "to": 538.56,
+            "location": 2,
+            "content": "so now do whatever"
+        },
+        {
+            "from": 538.56,
+            "to": 542,
+            "location": 2,
+            "content": "need to do"
+        },
+        {
+            "from": 542,
+            "to": 545.36,
+            "location": 2,
+            "content": "uh"
+        },
+        {
+            "from": 545.36,
+            "to": 548.72,
+            "location": 2,
+            "content": "first load"
+        },
+        {
+            "from": 548.72,
+            "to": 551.68,
+            "location": 2,
+            "content": "now you're false"
+        },
+        {
+            "from": 554.96,
+            "to": 559.68,
+            "location": 2,
+            "content": "now if we want to"
+        },
+        {
+            "from": 559.68,
+            "to": 564.64,
+            "location": 2,
+            "content": "again when this component is completely"
+        },
+        {
+            "from": 564.64,
+            "to": 568.8,
+            "location": 2,
+            "content": "main library component if this component"
+        },
+        {
+            "from": 568.8,
+            "to": 574.16,
+            "location": 2,
+            "content": "then it's uh it's over like there"
+        },
+        {
+            "from": 574.16,
+            "to": 577.68,
+            "location": 2,
+            "content": "reloaded in which case it's going to be"
+        },
+        {
+            "from": 577.68,
+            "to": 581.84,
+            "location": 2,
+            "content": "necessarily necessary for what we're"
+        },
+        {
+            "from": 581.84,
+            "to": 586.24,
+            "location": 2,
+            "content": "however if it's something that you're"
+        },
+        {
+            "from": 586.24,
+            "to": 590.88,
+            "location": 2,
+            "content": "and you want it state like you have a"
+        },
+        {
+            "from": 590.88,
+            "to": 595.12,
+            "location": 2,
+            "content": "able to delete that timer so it just"
+        },
+        {
+            "from": 595.12,
+            "to": 599.48,
+            "location": 2,
+            "content": "you would remove that"
+        },
+        {
+            "from": 599.48,
+            "to": 604.56,
+            "location": 2,
+            "content": "initialization of all the data for an"
+        },
+        {
+            "from": 604.56,
+            "to": 608.64,
+            "location": 2,
+            "content": "like some centralized store or a context"
+        },
+        {
+            "from": 608.64,
+            "to": 613.2,
+            "location": 2,
+            "content": "this is an excellent pattern"
+        },
+        {
+            "from": 613.2,
+            "to": 618.4,
+            "location": 2,
+            "content": "you can use use effect"
+        },
+        {
+            "from": 618.4,
+            "to": 624.48,
+            "location": 2,
+            "content": "um and then uh be able to also not get"
+        },
+        {
+            "from": 624.48,
+            "to": 628.56,
+            "location": 2,
+            "content": "all right thank you so much for watching"
+        },
+        {
+            "from": 628.56,
+            "to": 631.56,
+            "location": 2,
+            "content": "bye"
+        }
+    ]
+}
