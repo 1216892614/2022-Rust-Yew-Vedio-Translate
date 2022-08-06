@@ -1,0 +1,381 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 4.32,
+            "to": 8.56,
+            "location": 2,
+            "content": "a big part about having a front end"
+        },
+        {
+            "from": 8.56,
+            "to": 14.08,
+            "location": 2,
+            "content": "a tags anymore if we want to link"
+        },
+        {
+            "from": 14.08,
+            "to": 20.72,
+            "location": 2,
+            "content": "a a screen refresh uh we're gonna want"
+        },
+        {
+            "from": 20.72,
+            "to": 23.28,
+            "location": 2,
+            "content": "by"
+        },
+        {
+            "from": 23.28,
+            "to": 29.28,
+            "location": 2,
+            "content": "now in the end it's gonna compile into a"
+        },
+        {
+            "from": 29.28,
+            "to": 33.36,
+            "location": 2,
+            "content": "actually just execution in the browser"
+        },
+        {
+            "from": 33.36,
+            "to": 38,
+            "location": 2,
+            "content": "uh we need you know this this special"
+        },
+        {
+            "from": 38,
+            "to": 42.32,
+            "location": 2,
+            "content": "the browser okay if this is part of the"
+        },
+        {
+            "from": 42.32,
+            "to": 47.92,
+            "location": 2,
+            "content": "don't trigger a refresh"
+        },
+        {
+            "from": 47.92,
+            "to": 52.64,
+            "location": 2,
+            "content": "so i'm still here on this page uh part"
+        },
+        {
+            "from": 52.64,
+            "to": 57.36,
+            "location": 2,
+            "content": "to find link so link is part of the um"
+        },
+        {
+            "from": 57.36,
+            "to": 62.64,
+            "location": 2,
+            "content": "that and we can use it"
+        },
+        {
+            "from": 62.64,
+            "to": 65.36,
+            "location": 2,
+            "content": "this set up i want to create a link from"
+        },
+        {
+            "from": 65.36,
+            "to": 70.96,
+            "location": 2,
+            "content": "to hello we're going to use something"
+        },
+        {
+            "from": 70.96,
+            "to": 75.2,
+            "location": 2,
+            "content": "uh so let's start by coming over here"
+        },
+        {
+            "from": 75.2,
+            "to": 78.88,
+            "location": 2,
+            "content": "our page"
+        },
+        {
+            "from": 78.88,
+            "to": 83.68,
+            "location": 2,
+            "content": "um and we're gonna want that uh"
+        },
+        {
+            "from": 83.68,
+            "to": 88.8,
+            "location": 2,
+            "content": "which means we need the u-router prelude"
+        },
+        {
+            "from": 99.36,
+            "to": 102.48,
+            "location": 2,
+            "content": "okay"
+        },
+        {
+            "from": 102.48,
+            "to": 107.6,
+            "location": 2,
+            "content": "use this link now i do notice we also"
+        },
+        {
+            "from": 107.6,
+            "to": 109.84,
+            "location": 2,
+            "content": "too"
+        },
+        {
+            "from": 112.64,
+            "to": 119.04,
+            "location": 2,
+            "content": "so this is part of router"
+        },
+        {
+            "from": 120.4,
+            "to": 125.52,
+            "location": 2,
+            "content": "um okay so route home that's gonna be"
+        },
+        {
+            "from": 125.52,
+            "to": 131.28,
+            "location": 2,
+            "content": "so i'm gonna go ahead and copy this"
+        },
+        {
+            "from": 131.28,
+            "to": 134.72,
+            "location": 2,
+            "content": "single tag as part of the root of an"
+        },
+        {
+            "from": 134.72,
+            "to": 140.28,
+            "location": 2,
+            "content": "any kind of component so we're going to"
+        },
+        {
+            "from": 143.84,
+            "to": 149.6,
+            "location": 2,
+            "content": "i'll leave that as the top one and we"
+        },
+        {
+            "from": 149.6,
+            "to": 153.12,
+            "location": 2,
+            "content": "um"
+        },
+        {
+            "from": 153.12,
+            "to": 158.08,
+            "location": 2,
+            "content": "on the next line down"
+        },
+        {
+            "from": 158.08,
+            "to": 161.12,
+            "location": 2,
+            "content": "in here"
+        },
+        {
+            "from": 161.12,
+            "to": 168.08,
+            "location": 2,
+            "content": "these nice and indented"
+        },
+        {
+            "from": 168.08,
+            "to": 173.28,
+            "location": 2,
+            "content": "let's go ahead and save you first"
+        },
+        {
+            "from": 173.28,
+            "to": 179.2,
+            "location": 2,
+            "content": "uh pass in the route type that enum"
+        },
+        {
+            "from": 179.2,
+            "to": 184.32,
+            "location": 2,
+            "content": "go to home well we're at home so i need"
+        },
+        {
+            "from": 184.32,
+            "to": 187.36,
+            "location": 2,
+            "content": "uh"
+        },
+        {
+            "from": 187.36,
+            "to": 192.8,
+            "location": 2,
+            "content": "what's going to state here so i just"
+        },
+        {
+            "from": 194.08,
+            "to": 196.64,
+            "location": 2,
+            "content": "to"
+        },
+        {
+            "from": 196.64,
+            "to": 201.6,
+            "location": 2,
+            "content": "and then close the link tag which also"
+        },
+        {
+            "from": 201.6,
+            "to": 207.44,
+            "location": 2,
+            "content": "what that is"
+        },
+        {
+            "from": 207.44,
+            "to": 211.76,
+            "location": 2,
+            "content": "can now see"
+        },
+        {
+            "from": 211.76,
+            "to": 215.68,
+            "location": 2,
+            "content": "um"
+        },
+        {
+            "from": 215.68,
+            "to": 219.76,
+            "location": 2,
+            "content": "we've already clicked it link color it's"
+        },
+        {
+            "from": 219.76,
+            "to": 223.92,
+            "location": 2,
+            "content": "actually see that if we open up the"
+        },
+        {
+            "from": 223.92,
+            "to": 229.04,
+            "location": 2,
+            "content": "and inspect this it's just a normal a"
+        },
+        {
+            "from": 229.04,
+            "to": 233.76,
+            "location": 2,
+            "content": "easy enough"
+        },
+        {
+            "from": 233.76,
+            "to": 239.2,
+            "location": 2,
+            "content": "we instantaneously change"
+        },
+        {
+            "from": 239.2,
+            "to": 244.96,
+            "location": 2,
+            "content": "hello route um no refresh happened to"
+        },
+        {
+            "from": 245.2,
+            "to": 251.44,
+            "location": 2,
+            "content": "we can go into our console and just type"
+        },
+        {
+            "from": 251.44,
+            "to": 256.32,
+            "location": 2,
+            "content": "the preserved logs on"
+        },
+        {
+            "from": 256.32,
+            "to": 258.56,
+            "location": 2,
+            "content": "away"
+        },
+        {
+            "from": 258.88,
+            "to": 261.28,
+            "location": 2,
+            "content": "that's it"
+        },
+        {
+            "from": 261.6,
+            "to": 264.48,
+            "location": 2,
+            "content": "that is a filter"
+        },
+        {
+            "from": 264.72,
+            "to": 270.32,
+            "location": 2,
+            "content": "there i want this to stay on here i"
+        },
+        {
+            "from": 270.32,
+            "to": 275.6,
+            "location": 2,
+            "content": "and we're on hello with no page refresh"
+        },
+        {
+            "from": 275.6,
+            "to": 278.8,
+            "location": 2,
+            "content": "that is how we're going to create simple"
+        },
+        {
+            "from": 278.8,
+            "to": 282.8,
+            "location": 2,
+            "content": "basically a tags"
+        },
+        {
+            "from": 282.8,
+            "to": 286.24,
+            "location": 2,
+            "content": "wherever we want the nice thing is"
+        },
+        {
+            "from": 286.24,
+            "to": 292,
+            "location": 2,
+            "content": "styled as such um so just things to be"
+        },
+        {
+            "from": 292,
+            "to": 296.6,
+            "location": 2,
+            "content": "the component you can use stylus to uh"
+        },
+        {
+            "from": 296.6,
+            "to": 301.2,
+            "location": 2,
+            "content": "[Music]"
+        },
+        {
+            "from": 301.2,
+            "to": 306.56,
+            "location": 2,
+            "content": "they will be a tags in the end so you"
+        },
+        {
+            "from": 306.56,
+            "to": 312.92,
+            "location": 2,
+            "content": "anyways thank you so much for watching"
+        }
+    ]
+}
