@@ -1,0 +1,1995 @@
+{
+    "font_size": 0.4,
+    "font_color": "#FFFFFF",
+    "background_alpha": 0.5,
+    "background_color": "#9C27B0",
+    "Stroke": "none",
+    "body": [
+        {
+            "from": 7.6,
+            "to": 14.56,
+            "location": 2,
+            "content": "我们可以用组合 State,"
+        },
+        {
+            "from": 14.56,
+            "to": 18.96,
+            "location": 2,
+            "content": "和在 React 里一样, 我们还有 Context State"
+        },
+        {
+            "from": 18.96,
+            "to": 23.52,
+            "location": 2,
+            "content": "然而还有一种很受欢迎的 state 我们还没讲过"
+        },
+        {
+            "from": 23.52,
+            "to": 29.12,
+            "location": 2,
+            "content": "它在前端框架里也很常见, 就是消息总线"
+        },
+        {
+            "from": 29.12,
+            "to": 34.32,
+            "location": 2,
+            "content": "其中一种知名的实现就是 Redux (React-Redux)"
+        },
+        {
+            "from": 34.32,
+            "to": 38.48,
+            "location": 2,
+            "content": "虽然鲜有人把它用在应用里"
+        },
+        {
+            "from": 38.48,
+            "to": 43.2,
+            "location": 2,
+            "content": "下面我来看一下在 yew 里消息总线的几种选项"
+        },
+        {
+            "from": 43.2,
+            "to": 49.36,
+            "location": 2,
+            "content": "第一种选项是 Yewdux"
+        },
+        {
+            "from": 49.36,
+            "to": 55.76,
+            "location": 2,
+            "content": "这是一个极力接近 Redux 的扩展"
+        },
+        {
+            "from": 55.76,
+            "to": 61.2,
+            "location": 2,
+            "content": "这点你可以从名字看出. 首先的一方面"
+        },
+        {
+            "from": 61.2,
+            "to": 66.24,
+            "location": 2,
+            "content": "它不会强迫你去用一些..."
+        },
+        {
+            "from": 66.24,
+            "to": 71.52,
+            "location": 2,
+            "content": "和 redux 那样诡异的工作,\n所以设置它应该会简单一些"
+        },
+        {
+            "from": 71.52,
+            "to": 77.12,
+            "location": 2,
+            "content": "但是如果出现了报错, 你就很难明白发生了什么"
+        },
+        {
+            "from": 77.12,
+            "to": 80.4,
+            "location": 2,
+            "content": "所以我们会深入编写一个简例"
+        },
+        {
+            "from": 80.4,
+            "to": 83.36,
+            "location": 2,
+            "content": "然后..."
+        },
+        {
+            "from": 83.36,
+            "to": 86.96,
+            "location": 2,
+            "content": "然后我会给你展示一种调试它的方法."
+        },
+        {
+            "from": 86.96,
+            "to": 91.68,
+            "location": 2,
+            "content": "我们如何找到它?\n在 crates.io 里搜索 yewdux"
+        },
+        {
+            "from": 91.68,
+            "to": 94.56,
+            "location": 2,
+            "content": "这样你就来到了 yewdux 这里"
+        },
+        {
+            "from": 94.56,
+            "to": 102.24,
+            "location": 2,
+            "content": "目前, yewdux 需要一个 struct 风格组件"
+        },
+        {
+            "from": 102.24,
+            "to": 108.4,
+            "location": 2,
+            "content": "所以我们回到我们的应用, 这里有我们的所有东西"
+        },
+        {
+            "from": 108.4,
+            "to": 111.84,
+            "location": 2,
+            "content": "我打算从简例开始"
+        },
+        {
+            "from": 111.84,
+            "to": 117.04,
+            "location": 2,
+            "content": "main 在报错, 因为我们的 lib 里没东西"
+        },
+        {
+            "from": 117.04,
+            "to": 121.76,
+            "location": 2,
+            "content": "we're gonna go ahead and bring in you"
+        },
+        {
+            "from": 126.8,
+            "to": 132.48,
+            "location": 2,
+            "content": "let's see you the prelude star and then"
+        },
+        {
+            "from": 132.48,
+            "to": 138.8,
+            "location": 2,
+            "content": "to go to our cargo tunnel i've already"
+        },
+        {
+            "from": 138.8,
+            "to": 145.28,
+            "location": 2,
+            "content": "and now that's going to be available to"
+        },
+        {
+            "from": 152.64,
+            "to": 157.04,
+            "location": 2,
+            "content": "all right let's uh let's create our our"
+        },
+        {
+            "from": 157.04,
+            "to": 161.52,
+            "location": 2,
+            "content": "and do a pub struct"
+        },
+        {
+            "from": 161.52,
+            "to": 165.52,
+            "location": 2,
+            "content": "um i am"
+        },
+        {
+            "from": 165.52,
+            "to": 170.16,
+            "location": 2,
+            "content": "let's go ahead and not store anything in"
+        },
+        {
+            "from": 170.16,
+            "to": 173.04,
+            "location": 2,
+            "content": "updating this so it's going to be a very"
+        },
+        {
+            "from": 173.04,
+            "to": 177.76,
+            "location": 2,
+            "content": "build and then refactor sort of uh"
+        },
+        {
+            "from": 177.76,
+            "to": 181.92,
+            "location": 2,
+            "content": "bringing in uduks and then all the"
+        },
+        {
+            "from": 181.92,
+            "to": 186.24,
+            "location": 2,
+            "content": "we sort of like bring it in slowly so"
+        },
+        {
+            "from": 186.24,
+            "to": 190.48,
+            "location": 2,
+            "content": "again"
+        },
+        {
+            "from": 190.48,
+            "to": 195.68,
+            "location": 2,
+            "content": "that uses uh udex as its state"
+        },
+        {
+            "from": 195.68,
+            "to": 200.96,
+            "location": 2,
+            "content": "impul"
+        },
+        {
+            "from": 201.2,
+            "to": 203.92,
+            "location": 2,
+            "content": "uh"
+        },
+        {
+            "from": 203.92,
+            "to": 208.64,
+            "location": 2,
+            "content": "we don't need one our properties"
+        },
+        {
+            "from": 208.64,
+            "to": 211.36,
+            "location": 2,
+            "content": "um"
+        },
+        {
+            "from": 211.36,
+            "to": 214.24,
+            "location": 2,
+            "content": "return"
+        },
+        {
+            "from": 214.24,
+            "to": 221.08,
+            "location": 2,
+            "content": "and for this view"
+        },
+        {
+            "from": 233.6,
+            "to": 236.48,
+            "location": 2,
+            "content": "we'll just uh we'll just say that it's"
+        },
+        {
+            "from": 236.48,
+            "to": 241.2,
+            "location": 2,
+            "content": "let's give it the title"
+        },
+        {
+            "from": 241.2,
+            "to": 244.96,
+            "location": 2,
+            "content": "happy and everything should be working"
+        },
+        {
+            "from": 244.96,
+            "to": 248.48,
+            "location": 2,
+            "content": "behind the scenes"
+        },
+        {
+            "from": 248.48,
+            "to": 252.64,
+            "location": 2,
+            "content": "app okay so great first steps"
+        },
+        {
+            "from": 252.64,
+            "to": 256.16,
+            "location": 2,
+            "content": "i want to bring in i want to create the"
+        },
+        {
+            "from": 256.16,
+            "to": 260.72,
+            "location": 2,
+            "content": "with"
+        },
+        {
+            "from": 261.12,
+            "to": 265.68,
+            "location": 2,
+            "content": "that's going to be a counter component"
+        },
+        {
+            "from": 265.68,
+            "to": 271.28,
+            "location": 2,
+            "content": "counter dot rs"
+        },
+        {
+            "from": 276.4,
+            "to": 280.4,
+            "location": 2,
+            "content": "and this also needs to be a struct"
+        },
+        {
+            "from": 280.4,
+            "to": 286.44,
+            "location": 2,
+            "content": "mutating"
+        },
+        {
+            "from": 313.92,
+            "to": 317.44,
+            "location": 2,
+            "content": "all right so for the same thing we're"
+        },
+        {
+            "from": 317.44,
+            "to": 321.52,
+            "location": 2,
+            "content": "to nothing right now"
+        },
+        {
+            "from": 321.52,
+            "to": 324.48,
+            "location": 2,
+            "content": "just going to set this for nothing right"
+        },
+        {
+            "from": 324.48,
+            "to": 327.84,
+            "location": 2,
+            "content": "shortly"
+        },
+        {
+            "from": 327.84,
+            "to": 331.2,
+            "location": 2,
+            "content": "sort of like just show the skeleton of"
+        },
+        {
+            "from": 332.56,
+            "to": 336.08,
+            "location": 2,
+            "content": "for create we're just going to return"
+        },
+        {
+            "from": 336.08,
+            "to": 339.28,
+            "location": 2,
+            "content": "um"
+        },
+        {
+            "from": 339.28,
+            "to": 342.96,
+            "location": 2,
+            "content": "things here so we're going to have our"
+        },
+        {
+            "from": 344.48,
+            "to": 346.72,
+            "location": 2,
+            "content": "div"
+        },
+        {
+            "from": 348.32,
+            "to": 352.32,
+            "location": 2,
+            "content": "i'm inside of that i'm thinking an h1"
+        },
+        {
+            "from": 352.32,
+            "to": 354.72,
+            "location": 2,
+            "content": "counter"
+        },
+        {
+            "from": 360.96,
+            "to": 367.84,
+            "location": 2,
+            "content": "then i'm going to want a like a p tag"
+        },
+        {
+            "from": 368.08,
+            "to": 372.32,
+            "location": 2,
+            "content": "uh we're going to use a format for this"
+        },
+        {
+            "from": 375.92,
+            "to": 379.04,
+            "location": 2,
+            "content": "and i'm using a format because it's"
+        },
+        {
+            "from": 379.04,
+            "to": 384,
+            "location": 2,
+            "content": "add in a variables uh worth of stuff"
+        },
+        {
+            "from": 384,
+            "to": 388.16,
+            "location": 2,
+            "content": "we'll just have a um"
+        },
+        {
+            "from": 388.16,
+            "to": 394,
+            "location": 2,
+            "content": "this is a useless format for now"
+        },
+        {
+            "from": 394,
+            "to": 397.68,
+            "location": 2,
+            "content": "has been oppressed"
+        },
+        {
+            "from": 397.68,
+            "to": 402.56,
+            "location": 2,
+            "content": "whatever times so i'm gonna say like"
+        },
+        {
+            "from": 403.6,
+            "to": 408.32,
+            "location": 2,
+            "content": "zero times let's say"
+        },
+        {
+            "from": 408.32,
+            "to": 413.76,
+            "location": 2,
+            "content": "and we're gonna close the p tag and then"
+        },
+        {
+            "from": 413.76,
+            "to": 418.56,
+            "location": 2,
+            "content": "we're not going to put it on click on it"
+        },
+        {
+            "from": 418.56,
+            "to": 423.84,
+            "location": 2,
+            "content": "we're gonna state that you are"
+        },
+        {
+            "from": 427.68,
+            "to": 432.48,
+            "location": 2,
+            "content": "so now"
+        },
+        {
+            "from": 432.48,
+            "to": 435.92,
+            "location": 2,
+            "content": "right here"
+        },
+        {
+            "from": 435.92,
+            "to": 438.32,
+            "location": 2,
+            "content": "counter"
+        },
+        {
+            "from": 447.6,
+            "to": 451.76,
+            "location": 2,
+            "content": "and if we take a look at our app now we"
+        },
+        {
+            "from": 451.76,
+            "to": 454.64,
+            "location": 2,
+            "content": "have our counter"
+        },
+        {
+            "from": 454.64,
+            "to": 459.12,
+            "location": 2,
+            "content": "times the button doesn't do anything but"
+        },
+        {
+            "from": 459.12,
+            "to": 463.6,
+            "location": 2,
+            "content": "okay now we're ready to set up udoc so"
+        },
+        {
+            "from": 463.6,
+            "to": 467.28,
+            "location": 2,
+            "content": "to"
+        },
+        {
+            "from": 467.28,
+            "to": 469.28,
+            "location": 2,
+            "content": "store"
+        },
+        {
+            "from": 469.28,
+            "to": 473.44,
+            "location": 2,
+            "content": "rs file here"
+        },
+        {
+            "from": 473.44,
+            "to": 478.4,
+            "location": 2,
+            "content": "you can put the store in the same file"
+        },
+        {
+            "from": 478.4,
+            "to": 481.76,
+            "location": 2,
+            "content": "little bit separate just to make it a"
+        },
+        {
+            "from": 481.76,
+            "to": 486.4,
+            "location": 2,
+            "content": "like see what's going on these files can"
+        },
+        {
+            "from": 486.4,
+            "to": 493.28,
+            "location": 2,
+            "content": "like having them just be their own thing"
+        },
+        {
+            "from": 493.28,
+            "to": 497.28,
+            "location": 2,
+            "content": "all right so first of all we need to\n00:08:14,720 --> 00:08:19,1000\ncreate a struct for this so we're going\n\n177"
+        },
+        {
+            "from": 497.28,
+            "to": 502.4,
+            "location": 2,
+            "content": "to have a pub struct this is going to be"
+        },
+        {
+            "from": 502.4,
+            "to": 504.8,
+            "location": 2,
+            "content": "store"
+        },
+        {
+            "from": 505.44,
+            "to": 510,
+            "location": 2,
+            "content": "um and let's put in the count uh it does"
+        },
+        {
+            "from": 510,
+            "to": 513.12,
+            "location": 2,
+            "content": "updated by something that well it's not"
+        },
+        {
+            "from": 513.12,
+            "to": 518.96,
+            "location": 2,
+            "content": "so count and you're going to be au 32"
+        },
+        {
+            "from": 518.96,
+            "to": 522.56,
+            "location": 2,
+            "content": "clicked"
+        },
+        {
+            "from": 522.56,
+            "to": 526.96,
+            "location": 2,
+            "content": "now we're going to have an init for this"
+        },
+        {
+            "from": 528.8,
+            "to": 534,
+            "location": 2,
+            "content": "this init function is going to take in"
+        },
+        {
+            "from": 534,
+            "to": 539.92,
+            "location": 2,
+            "content": "dispatch um an instance of dispatch"
+        },
+        {
+            "from": 539.92,
+            "to": 544.16,
+            "location": 2,
+            "content": "mutate this udex store"
+        },
+        {
+            "from": 544.16,
+            "to": 547.76,
+            "location": 2,
+            "content": "uh"
+        },
+        {
+            "from": 547.76,
+            "to": 555.28,
+            "location": 2,
+            "content": "be using a basic store that's provided"
+        },
+        {
+            "from": 555.28,
+            "to": 558.56,
+            "location": 2,
+            "content": "run all this i forgot to bring in the"
+        },
+        {
+            "from": 558.56,
+            "to": 563.12,
+            "location": 2,
+            "content": "rust analyzer is helping me out"
+        },
+        {
+            "from": 563.12,
+            "to": 567.12,
+            "location": 2,
+            "content": "inside of that"
+        },
+        {
+            "from": 567.12,
+            "to": 572.56,
+            "location": 2,
+            "content": "of a complicated type here"
+        },
+        {
+            "from": 572.56,
+            "to": 575.52,
+            "location": 2,
+            "content": "now we're going to actually do the thing"
+        },
+        {
+            "from": 575.52,
+            "to": 579.84,
+            "location": 2,
+            "content": "we give it a type so basic store"
+        },
+        {
+            "from": 579.84,
+            "to": 582.56,
+            "location": 2,
+            "content": "e-deck store"
+        },
+        {
+            "from": 583.36,
+            "to": 586.32,
+            "location": 2,
+            "content": "close you"
+        },
+        {
+            "from": 586.32,
+            "to": 591.44,
+            "location": 2,
+            "content": "and that's it so this"
+        },
+        {
+            "from": 591.44,
+            "to": 596,
+            "location": 2,
+            "content": "at me hey this store isn't correct you"
+        },
+        {
+            "from": 596,
+            "to": 599.28,
+            "location": 2,
+            "content": "so let's go ahead and drive that"
+        },
+        {
+            "from": 603.44,
+            "to": 607.6,
+            "location": 2,
+            "content": "all right let's hit save and see what"
+        },
+        {
+            "from": 607.6,
+            "to": 612.64,
+            "location": 2,
+            "content": "when it creates this it's going to use"
+        },
+        {
+            "from": 612.64,
+            "to": 616.56,
+            "location": 2,
+            "content": "implement default ourselves and then set"
+        },
+        {
+            "from": 616.56,
+            "to": 621.6,
+            "location": 2,
+            "content": "or we can let the default values be"
+        },
+        {
+            "from": 621.6,
+            "to": 625.52,
+            "location": 2,
+            "content": "account a u32 default is going to be"
+        },
+        {
+            "from": 625.52,
+            "to": 630.8,
+            "location": 2,
+            "content": "that's gonna be fine for me"
+        },
+        {
+            "from": 630.8,
+            "to": 634.72,
+            "location": 2,
+            "content": "this that init is not being used let's"
+        },
+        {
+            "from": 634.72,
+            "to": 639.84,
+            "location": 2,
+            "content": "we're going to initialize the init and i"
+        },
+        {
+            "from": 639.84,
+            "to": 646.32,
+            "location": 2,
+            "content": "know that this is coming let's go ahead"
+        },
+        {
+            "from": 646.32,
+            "to": 653.12,
+            "location": 2,
+            "content": "inside of here"
+        },
+        {
+            "from": 653.12,
+            "to": 655.84,
+            "location": 2,
+            "content": "basic store"
+        },
+        {
+            "from": 657.76,
+            "to": 661.64,
+            "location": 2,
+            "content": "the udoc store"
+        },
+        {
+            "from": 664.16,
+            "to": 667.36,
+            "location": 2,
+            "content": "okay so let"
+        },
+        {
+            "from": 667.6,
+            "to": 673.68,
+            "location": 2,
+            "content": "dispatch is going to be equal to"
+        },
+        {
+            "from": 673.68,
+            "to": 677.2,
+            "location": 2,
+            "content": "and now in self"
+        },
+        {
+            "from": 677.2,
+            "to": 680.48,
+            "location": 2,
+            "content": "store away dispatch"
+        },
+        {
+            "from": 681.12,
+            "to": 683.76,
+            "location": 2,
+            "content": "all right"
+        },
+        {
+            "from": 683.76,
+            "to": 687.52,
+            "location": 2,
+            "content": "however the button still isn't working"
+        },
+        {
+            "from": 687.52,
+            "to": 693.2,
+            "location": 2,
+            "content": "okay so what's next"
+        },
+        {
+            "from": 693.2,
+            "to": 699.92,
+            "location": 2,
+            "content": "need to hook up the counter to use"
+        },
+        {
+            "from": 700.84,
+            "to": 706.4,
+            "location": 2,
+            "content": "um we are going to use a um"
+        },
+        {
+            "from": 709.12,
+            "to": 713.6,
+            "location": 2,
+            "content": "that goes as as part of a tag here so"
+        },
+        {
+            "from": 713.6,
+            "to": 719.2,
+            "location": 2,
+            "content": "create this new"
+        },
+        {
+            "from": 719.2,
+            "to": 721.92,
+            "location": 2,
+            "content": "dispatch"
+        },
+        {
+            "from": 721.92,
+            "to": 726.84,
+            "location": 2,
+            "content": "which is going to be this"
+        },
+        {
+            "from": 730,
+            "to": 736.72,
+            "location": 2,
+            "content": "and you're yelling at me that"
+        },
+        {
+            "from": 736.72,
+            "to": 741.76,
+            "location": 2,
+            "content": "okay so we need to have"
+        },
+        {
+            "from": 741.76,
+            "to": 744.96,
+            "location": 2,
+            "content": "properties to use this okay so let's"
+        },
+        {
+            "from": 744.96,
+            "to": 748.4,
+            "location": 2,
+            "content": "so"
+        },
+        {
+            "from": 748.4,
+            "to": 752.32,
+            "location": 2,
+            "content": "dispatch props"
+        },
+        {
+            "from": 752.32,
+            "to": 757.56,
+            "location": 2,
+            "content": "store"
+        },
+        {
+            "from": 758.4,
+            "to": 763.76,
+            "location": 2,
+            "content": "uh let's see"
+        },
+        {
+            "from": 763.76,
+            "to": 768.72,
+            "location": 2,
+            "content": "now the component needs to implement"
+        },
+        {
+            "from": 768.72,
+            "to": 775.36,
+            "location": 2,
+            "content": "our properties are"
+        },
+        {
+            "from": 776.08,
+            "to": 780.4,
+            "location": 2,
+            "content": "basic store"
+        },
+        {
+            "from": 780.48,
+            "to": 786.8,
+            "location": 2,
+            "content": "that makes this error go away and now"
+        },
+        {
+            "from": 786.8,
+            "to": 789.76,
+            "location": 2,
+            "content": "now"
+        },
+        {
+            "from": 789.76,
+            "to": 793.44,
+            "location": 2,
+            "content": "let's update"
+        },
+        {
+            "from": 793.44,
+            "to": 798.4,
+            "location": 2,
+            "content": "value from the store so i'm going to go"
+        },
+        {
+            "from": 798.4,
+            "to": 801.84,
+            "location": 2,
+            "content": "count is going to be equal to and now"
+        },
+        {
+            "from": 801.84,
+            "to": 807.2,
+            "location": 2,
+            "content": "context in the properties because we've"
+        },
+        {
+            "from": 807.2,
+            "to": 811.28,
+            "location": 2,
+            "content": "essentially available to us in here so"
+        },
+        {
+            "from": 811.28,
+            "to": 815.92,
+            "location": 2,
+            "content": "ctx"
+        },
+        {
+            "from": 815.92,
+            "to": 821.12,
+            "location": 2,
+            "content": "and now this is the object that we have"
+        },
+        {
+            "from": 821.12,
+            "to": 825.36,
+            "location": 2,
+            "content": "so now i can do"
+        },
+        {
+            "from": 825.36,
+            "to": 832.96,
+            "location": 2,
+            "content": "that gives me a u32 i can now use this"
+        },
+        {
+            "from": 835.2,
+            "to": 839.12,
+            "location": 2,
+            "content": "now unfortunately it's still showing a"
+        },
+        {
+            "from": 839.12,
+            "to": 842,
+            "location": 2,
+            "content": "u32 is"
+        },
+        {
+            "from": 842,
+            "to": 846.16,
+            "location": 2,
+            "content": "hooked up to the store correctly by"
+        },
+        {
+            "from": 846.16,
+            "to": 850.96,
+            "location": 2,
+            "content": "and then we can set it to be a"
+        },
+        {
+            "from": 851.52,
+            "to": 857.84,
+            "location": 2,
+            "content": "so we're going to do impul default for"
+        },
+        {
+            "from": 857.84,
+            "to": 862.24,
+            "location": 2,
+            "content": "um right now"
+        },
+        {
+            "from": 862.24,
+            "to": 864.64,
+            "location": 2,
+            "content": "let's say"
+        },
+        {
+            "from": 866.4,
+            "to": 871.36,
+            "location": 2,
+            "content": "and now we see it auto updates to five"
+        },
+        {
+            "from": 871.36,
+            "to": 873.92,
+            "location": 2,
+            "content": "point in time"
+        },
+        {
+            "from": 874.96,
+            "to": 879.68,
+            "location": 2,
+            "content": "okay great but now how are we going to"
+        },
+        {
+            "from": 879.68,
+            "to": 882.72,
+            "location": 2,
+            "content": "so"
+        },
+        {
+            "from": 882.72,
+            "to": 887.6,
+            "location": 2,
+            "content": "on click handler for this"
+        },
+        {
+            "from": 887.6,
+            "to": 891.92,
+            "location": 2,
+            "content": "this is going to be on click"
+        },
+        {
+            "from": 891.92,
+            "to": 898.04,
+            "location": 2,
+            "content": "we're going to do a context"
+        },
+        {
+            "from": 899.44,
+            "to": 904,
+            "location": 2,
+            "content": "um if we do a dispatch that actually"
+        },
+        {
+            "from": 904,
+            "to": 907.2,
+            "location": 2,
+            "content": "to the dispatch"
+        },
+        {
+            "from": 907.2,
+            "to": 910.8,
+            "location": 2,
+            "content": "basically"
+        },
+        {
+            "from": 910.8,
+            "to": 915.04,
+            "location": 2,
+            "content": "so in this case we want to create a"
+        },
+        {
+            "from": 915.04,
+            "to": 921.04,
+            "location": 2,
+            "content": "here if we just do reduce i can create a"
+        },
+        {
+            "from": 921.04,
+            "to": 924.72,
+            "location": 2,
+            "content": "and allows me to change anything so for"
+        },
+        {
+            "from": 924.72,
+            "to": 929.84,
+            "location": 2,
+            "content": "i can do a"
+        },
+        {
+            "from": 929.84,
+            "to": 934.48,
+            "location": 2,
+            "content": "plus equals to 1."
+        },
+        {
+            "from": 934.48,
+            "to": 937.76,
+            "location": 2,
+            "content": "return anything we don't have an on"
+        },
+        {
+            "from": 937.76,
+            "to": 942.32,
+            "location": 2,
+            "content": "event handler here so that's not really"
+        },
+        {
+            "from": 942.32,
+            "to": 948,
+            "location": 2,
+            "content": "other ones here so instead of reduce we"
+        },
+        {
+            "from": 948,
+            "to": 951.6,
+            "location": 2,
+            "content": "callback with"
+        },
+        {
+            "from": 951.6,
+            "to": 956.8,
+            "location": 2,
+            "content": "gives us the exact same thing here"
+        },
+        {
+            "from": 956.8,
+            "to": 961.2,
+            "location": 2,
+            "content": "type of callback that is used"
+        },
+        {
+            "from": 961.2,
+            "to": 964.16,
+            "location": 2,
+            "content": "say"
+        },
+        {
+            "from": 964.16,
+            "to": 968.84,
+            "location": 2,
+            "content": "equals"
+        },
+        {
+            "from": 970,
+            "to": 974.24,
+            "location": 2,
+            "content": "and now it knows that it's in a mouse"
+        },
+        {
+            "from": 974.24,
+            "to": 978.72,
+            "location": 2,
+            "content": "this should work for us and there's a"
+        },
+        {
+            "from": 978.72,
+            "to": 985.76,
+            "location": 2,
+            "content": "which is a reduce callback with"
+        },
+        {
+            "from": 985.76,
+            "to": 990.48,
+            "location": 2,
+            "content": "second uh"
+        },
+        {
+            "from": 990.48,
+            "to": 994.64,
+            "location": 2,
+            "content": "example if we wanted to handle the event"
+        },
+        {
+            "from": 994.64,
+            "to": 999.36,
+            "location": 2,
+            "content": "we would then br you know have this be"
+        },
+        {
+            "from": 999.36,
+            "to": 1002.32,
+            "location": 2,
+            "content": "as we see"
+        },
+        {
+            "from": 1002.32,
+            "to": 1006.72,
+            "location": 2,
+            "content": "is now available to us so that's just in"
+        },
+        {
+            "from": 1006.72,
+            "to": 1012.32,
+            "location": 2,
+            "content": "from a input field we want to then"
+        },
+        {
+            "from": 1012.32,
+            "to": 1017.44,
+            "location": 2,
+            "content": "then and then store that into the store"
+        },
+        {
+            "from": 1017.44,
+            "to": 1022.76,
+            "location": 2,
+            "content": "it's just a click i don't actually care"
+        },
+        {
+            "from": 1027.6,
+            "to": 1031.6,
+            "location": 2,
+            "content": "okay so"
+        },
+        {
+            "from": 1031.6,
+            "to": 1035.92,
+            "location": 2,
+            "content": "by plus one every time we hit the button"
+        },
+        {
+            "from": 1035.92,
+            "to": 1041.28,
+            "location": 2,
+            "content": "hey it does okay awesome so now"
+        },
+        {
+            "from": 1041.28,
+            "to": 1045.76,
+            "location": 2,
+            "content": "incrementing this value and we're"
+        },
+        {
+            "from": 1045.76,
+            "to": 1050.32,
+            "location": 2,
+            "content": "that's great uh let's create another"
+        },
+        {
+            "from": 1050.32,
+            "to": 1053.6,
+            "location": 2,
+            "content": "counter so it's separate so it's two"
+        },
+        {
+            "from": 1053.6,
+            "to": 1057.92,
+            "location": 2,
+            "content": "all reading together"
+        },
+        {
+            "from": 1057.92,
+            "to": 1062.6,
+            "location": 2,
+            "content": "call this display letter s"
+        },
+        {
+            "from": 1068.8,
+            "to": 1073.64,
+            "location": 2,
+            "content": "and once again this has to be a struct"
+        },
+        {
+            "from": 1085.76,
+            "to": 1089.68,
+            "location": 2,
+            "content": "okay so we brought in you we brought a"
+        },
+        {
+            "from": 1089.68,
+            "to": 1092.68,
+            "location": 2,
+            "content": "itself"
+        },
+        {
+            "from": 1095.28,
+            "to": 1098.72,
+            "location": 2,
+            "content": "um i'm gonna"
+        },
+        {
+            "from": 1098.72,
+            "to": 1105.24,
+            "location": 2,
+            "content": "because i don't want it to get confused"
+        },
+        {
+            "from": 1114.64,
+            "to": 1118.72,
+            "location": 2,
+            "content": "all right"
+        },
+        {
+            "from": 1118.72,
+            "to": 1122.64,
+            "location": 2,
+            "content": "um the properties we do care so this is"
+        },
+        {
+            "from": 1122.64,
+            "to": 1127.2,
+            "location": 2,
+            "content": "dispatch props"
+        },
+        {
+            "from": 1127.2,
+            "to": 1131.6,
+            "location": 2,
+            "content": "and"
+        },
+        {
+            "from": 1131.6,
+            "to": 1135.68,
+            "location": 2,
+            "content": "for create it's going to be simple we're"
+        },
+        {
+            "from": 1135.68,
+            "to": 1138.88,
+            "location": 2,
+            "content": "and for the view here"
+        },
+        {
+            "from": 1140.72,
+            "to": 1146.88,
+            "location": 2,
+            "content": "we want to get the count out of the"
+        },
+        {
+            "from": 1146.88,
+            "to": 1150.8,
+            "location": 2,
+            "content": "props"
+        },
+        {
+            "from": 1150.8,
+            "to": 1156.06,
+            "location": 2,
+            "content": "and now we can return this html so"
+        },
+        {
+            "from": 1156.06,
+            "to": 1159.92,
+            "location": 2,
+            "content": "[Music]"
+        },
+        {
+            "from": 1159.92,
+            "to": 1162.92,
+            "location": 2,
+            "content": "too"
+        },
+        {
+            "from": 1173.6,
+            "to": 1178.8,
+            "location": 2,
+            "content": "okay so this will be our display count"
+        },
+        {
+            "from": 1178.8,
+            "to": 1185.28,
+            "location": 2,
+            "content": "and then we'll do a p tag with"
+        },
+        {
+            "from": 1185.28,
+            "to": 1187.6,
+            "location": 2,
+            "content": "again"
+        },
+        {
+            "from": 1188.8,
+            "to": 1192.8,
+            "location": 2,
+            "content": "the button was"
+        },
+        {
+            "from": 1192.8,
+            "to": 1196.88,
+            "location": 2,
+            "content": "let's do it"
+        },
+        {
+            "from": 1196.88,
+            "to": 1201.36,
+            "location": 2,
+            "content": "that"
+        },
+        {
+            "from": 1203.52,
+            "to": 1209.44,
+            "location": 2,
+            "content": "okay so um we've created this we have to"
+        },
+        {
+            "from": 1209.44,
+            "to": 1212.96,
+            "location": 2,
+            "content": "another with dispatch here"
+        },
+        {
+            "from": 1214.64,
+            "to": 1220.4,
+            "location": 2,
+            "content": "and we have to pull in that uh"
+        },
+        {
+            "from": 1220.4,
+            "to": 1225.04,
+            "location": 2,
+            "content": "be display"
+        },
+        {
+            "from": 1226.32,
+            "to": 1229.2,
+            "location": 2,
+            "content": "that we put in here"
+        },
+        {
+            "from": 1231.52,
+            "to": 1236.24,
+            "location": 2,
+            "content": "all right we shouldn't have any errors"
+        },
+        {
+            "from": 1236.24,
+            "to": 1241.12,
+            "location": 2,
+            "content": "it's set to five and now as we press"
+        },
+        {
+            "from": 1241.12,
+            "to": 1244,
+            "location": 2,
+            "content": "together"
+        },
+        {
+            "from": 1244,
+            "to": 1248.72,
+            "location": 2,
+            "content": "um stopping here would be a mistake"
+        },
+        {
+            "from": 1248.72,
+            "to": 1252.64,
+            "location": 2,
+            "content": "complexity where this can sort of go"
+        },
+        {
+            "from": 1252.64,
+            "to": 1255.92,
+            "location": 2,
+            "content": "can be a little bit tough to sort of"
+        },
+        {
+            "from": 1255.92,
+            "to": 1260.92,
+            "location": 2,
+            "content": "so we're gonna add a router to the mix"
+        },
+        {
+            "from": 1262.64,
+            "to": 1265.68,
+            "location": 2,
+            "content": "um i have a\n00:21:04,159 --> 00:21:07,1000\nrouter sort of\n\n466"
+        },
+        {
+            "from": 1265.68,
+            "to": 1271.2,
+            "location": 2,
+            "content": "in waiting here"
+        },
+        {
+            "from": 1271.2,
+            "to": 1274.96,
+            "location": 2,
+            "content": "that at slash which is going to be fine"
+        },
+        {
+            "from": 1274.96,
+            "to": 1278.64,
+            "location": 2,
+            "content": "routing system right now"
+        },
+        {
+            "from": 1278.64,
+            "to": 1281.04,
+            "location": 2,
+            "content": "um"
+        },
+        {
+            "from": 1281.6,
+            "to": 1286.4,
+            "location": 2,
+            "content": "i actually want to pull in"
+        },
+        {
+            "from": 1286.4,
+            "to": 1289.56,
+            "location": 2,
+            "content": "the router"
+        },
+        {
+            "from": 1292.24,
+            "to": 1297.04,
+            "location": 2,
+            "content": "okay so now we want to bring in"
+        },
+        {
+            "from": 1297.04,
+            "to": 1299.44,
+            "location": 2,
+            "content": "in here"
+        },
+        {
+            "from": 1299.6,
+            "to": 1304.24,
+            "location": 2,
+            "content": "and let's say on on slash i also want to"
+        },
+        {
+            "from": 1304.24,
+            "to": 1306.64,
+            "location": 2,
+            "content": "router"
+        },
+        {
+            "from": 1307.92,
+            "to": 1314.24,
+            "location": 2,
+            "content": "we're going to want to return html"
+        },
+        {
+            "from": 1314.24,
+            "to": 1319.32,
+            "location": 2,
+            "content": "we need to do that entire with dispatch"
+        },
+        {
+            "from": 1320,
+            "to": 1325.64,
+            "location": 2,
+            "content": "and then we're gonna bring in"
+        },
+        {
+            "from": 1340.88,
+            "to": 1344.32,
+            "location": 2,
+            "content": "um okay great and then we're going to"
+        },
+        {
+            "from": 1344.32,
+            "to": 1349.76,
+            "location": 2,
+            "content": "going to load up the um"
+        },
+        {
+            "from": 1349.76,
+            "to": 1354.64,
+            "location": 2,
+            "content": "can see these are on the base route"
+        },
+        {
+            "from": 1354.64,
+            "to": 1358.08,
+            "location": 2,
+            "content": "and then down here we are gonna have a"
+        },
+        {
+            "from": 1358.08,
+            "to": 1363.92,
+            "location": 2,
+            "content": "i think it was browser router"
+        },
+        {
+            "from": 1363.92,
+            "to": 1366.64,
+            "location": 2,
+            "content": "uh"
+        },
+        {
+            "from": 1366.64,
+            "to": 1370.48,
+            "location": 2,
+            "content": "urouter prelude"
+        },
+        {
+            "from": 1371.04,
+            "to": 1375.32,
+            "location": 2,
+            "content": "so we have access to browser router"
+        },
+        {
+            "from": 1379.04,
+            "to": 1382.4,
+            "location": 2,
+            "content": "inside of that we need to use the switch"
+        },
+        {
+            "from": 1382.4,
+            "to": 1388.88,
+            "location": 2,
+            "content": "we have that with a u router but we also"
+        },
+        {
+            "from": 1388.88,
+            "to": 1392.96,
+            "location": 2,
+            "content": "so that's router"
+        },
+        {
+            "from": 1392.96,
+            "to": 1397.64,
+            "location": 2,
+            "content": "route and we need this switch"
+        },
+        {
+            "from": 1402.4,
+            "to": 1406.64,
+            "location": 2,
+            "content": "okay so we're going to use the switch"
+        },
+        {
+            "from": 1406.8,
+            "to": 1411.28,
+            "location": 2,
+            "content": "uh this is going to be for type route"
+        },
+        {
+            "from": 1412.16,
+            "to": 1417.28,
+            "location": 2,
+            "content": "um then we're going to do"
+        },
+        {
+            "from": 1417.28,
+            "to": 1422.72,
+            "location": 2,
+            "content": "i think it was render"
+        },
+        {
+            "from": 1424.96,
+            "to": 1427.84,
+            "location": 2,
+            "content": "switch"
+        },
+        {
+            "from": 1427.84,
+            "to": 1434.08,
+            "location": 2,
+            "content": "and then we call the switch we hand it"
+        },
+        {
+            "from": 1434.48,
+            "to": 1439.04,
+            "location": 2,
+            "content": "and then close that up"
+        },
+        {
+            "from": 1439.04,
+            "to": 1444.48,
+            "location": 2,
+            "content": "i did that correctly so now"
+        },
+        {
+            "from": 1444.48,
+            "to": 1448.08,
+            "location": 2,
+            "content": "components well all those components the"
+        },
+        {
+            "from": 1448.08,
+            "to": 1452.8,
+            "location": 2,
+            "content": "here because we're on slash so if we go"
+        },
+        {
+            "from": 1452.8,
+            "to": 1456.96,
+            "location": 2,
+            "content": "here twice so this counter and this"
+        },
+        {
+            "from": 1456.96,
+            "to": 1461.12,
+            "location": 2,
+            "content": "little bit smaller"
+        },
+        {
+            "from": 1461.12,
+            "to": 1465.28,
+            "location": 2,
+            "content": "the one that is in the root of the"
+        },
+        {
+            "from": 1465.28,
+            "to": 1468.96,
+            "location": 2,
+            "content": "we're on slash"
+        },
+        {
+            "from": 1468.96,
+            "to": 1474.24,
+            "location": 2,
+            "content": "click me"
+        },
+        {
+            "from": 1474.24,
+            "to": 1479.84,
+            "location": 2,
+            "content": "that this number is not incrementing the"
+        },
+        {
+            "from": 1479.84,
+            "to": 1484.48,
+            "location": 2,
+            "content": "however it also seems to be reading from"
+        },
+        {
+            "from": 1484.48,
+            "to": 1488.24,
+            "location": 2,
+            "content": "five"
+        },
+        {
+            "from": 1488.24,
+            "to": 1491.6,
+            "location": 2,
+            "content": "ones are working so it's working but not"
+        },
+        {
+            "from": 1491.6,
+            "to": 1495.68,
+            "location": 2,
+            "content": "let's take a look at what's going on"
+        },
+        {
+            "from": 1495.68,
+            "to": 1499.52,
+            "location": 2,
+            "content": "it's behind the router it's not because"
+        },
+        {
+            "from": 1499.52,
+            "to": 1504,
+            "location": 2,
+            "content": "clearly is"
+        },
+        {
+            "from": 1504,
+            "to": 1510.4,
+            "location": 2,
+            "content": "re-rendering when the state changes"
+        },
+        {
+            "from": 1510.4,
+            "to": 1515.76,
+            "location": 2,
+            "content": "uh wants to play"
+        },
+        {
+            "from": 1515.76,
+            "to": 1521.04,
+            "location": 2,
+            "content": "recognize that the state has changed so"
+        },
+        {
+            "from": 1521.04,
+            "to": 1523.44,
+            "location": 2,
+            "content": "well we're going to come back into"
+        },
+        {
+            "from": 1523.44,
+            "to": 1528.4,
+            "location": 2,
+            "content": "little bit of a change"
+        },
+        {
+            "from": 1528.4,
+            "to": 1533.92,
+            "location": 2,
+            "content": "the struct that way when state changes"
+        },
+        {
+            "from": 1533.92,
+            "to": 1539.92,
+            "location": 2,
+            "content": "but because that's in this"
+        },
+        {
+            "from": 1539.92,
+            "to": 1544.32,
+            "location": 2,
+            "content": "that's going to uh to cause it to"
+        },
+        {
+            "from": 1544.32,
+            "to": 1548.96,
+            "location": 2,
+            "content": "okay so"
+        },
+        {
+            "from": 1550.32,
+            "to": 1555.04,
+            "location": 2,
+            "content": "actually wait no uh that was that was"
+        },
+        {
+            "from": 1555.04,
+            "to": 1558.88,
+            "location": 2,
+            "content": "is to have an update here and then we'll"
+        },
+        {
+            "from": 1558.88,
+            "to": 1564.08,
+            "location": 2,
+            "content": "we'll have to run the update and then"
+        },
+        {
+            "from": 1564.08,
+            "to": 1568.24,
+            "location": 2,
+            "content": "so let's do both these so we're going to"
+        },
+        {
+            "from": 1568.24,
+            "to": 1572.8,
+            "location": 2,
+            "content": "and you're going to be a dispatch"
+        },
+        {
+            "from": 1572.8,
+            "to": 1577.28,
+            "location": 2,
+            "content": "from the dispatch props here"
+        },
+        {
+            "from": 1577.28,
+            "to": 1581.52,
+            "location": 2,
+            "content": "store"
+        },
+        {
+            "from": 1583.44,
+            "to": 1585.68,
+            "location": 2,
+            "content": "let's uh"
+        },
+        {
+            "from": 1585.68,
+            "to": 1589.84,
+            "location": 2,
+            "content": "let's create these in here"
+        },
+        {
+            "from": 1589.84,
+            "to": 1592.8,
+            "location": 2,
+            "content": "equals"
+        },
+        {
+            "from": 1592.8,
+            "to": 1596.84,
+            "location": 2,
+            "content": "these are the"
+        },
+        {
+            "from": 1596.84,
+            "to": 1601.44,
+            "location": 2,
+            "content": "props dispatch that's it"
+        },
+        {
+            "from": 1601.44,
+            "to": 1608.24,
+            "location": 2,
+            "content": "uh return in here dispatch"
+        },
+        {
+            "from": 1608.24,
+            "to": 1612.72,
+            "location": 2,
+            "content": "need to clone this"
+        },
+        {
+            "from": 1612.72,
+            "to": 1616.72,
+            "location": 2,
+            "content": "like an rc and ref cell it's it's"
+        },
+        {
+            "from": 1616.72,
+            "to": 1620.4,
+            "location": 2,
+            "content": "we're still getting the same thing"
+        },
+        {
+            "from": 1620.4,
+            "to": 1623.76,
+            "location": 2,
+            "content": "counter let's see if just doing this on"
+        },
+        {
+            "from": 1623.76,
+            "to": 1627.76,
+            "location": 2,
+            "content": "solved the problem for us"
+        },
+        {
+            "from": 1627.76,
+            "to": 1633.04,
+            "location": 2,
+            "content": "hey now everything updates as we want it"
+        },
+        {
+            "from": 1633.04,
+            "to": 1639.2,
+            "location": 2,
+            "content": "notice i'm not using the dispatch at all"
+        },
+        {
+            "from": 1639.2,
+            "to": 1644.16,
+            "location": 2,
+            "content": "make that very obvious i'm going to put"
+        },
+        {
+            "from": 1648.8,
+            "to": 1651.36,
+            "location": 2,
+            "content": "and now\n00:27:32,159 --> 00:27:37,1000\ni have a udoc store that's properly\n\n614"
+        },
+        {
+            "from": 1655.6,
+            "to": 1659.12,
+            "location": 2,
+            "content": "being um uh that's probably working"
+        },
+        {
+            "from": 1659.12,
+            "to": 1662.96,
+            "location": 2,
+            "content": "a a a"
+        },
+        {
+            "from": 1662.96,
+            "to": 1667.52,
+            "location": 2,
+            "content": "is that uh"
+        },
+        {
+            "from": 1667.52,
+            "to": 1670.72,
+            "location": 2,
+            "content": "inside of our applications to have a"
+        },
+        {
+            "from": 1670.72,
+            "to": 1674.88,
+            "location": 2,
+            "content": "right now we're just having a simple"
+        },
+        {
+            "from": 1674.88,
+            "to": 1679.12,
+            "location": 2,
+            "content": "have a struct of structs it can go all"
+        },
+        {
+            "from": 1679.12,
+            "to": 1685.2,
+            "location": 2,
+            "content": "basically as complex as you want redux"
+        },
+        {
+            "from": 1685.2,
+            "to": 1689.76,
+            "location": 2,
+            "content": "all right thank you so much for uh for"
+        },
+        {
+            "from": 1689.76,
+            "to": 1694.44,
+            "location": 2,
+            "content": "and i'll see you in the next video bye"
+        }
+    ]
+}
